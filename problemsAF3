@@ -1,0 +1,11 @@
+21 H1N1 -- geskipt (geen prot sequentie)
+42 H1N1 -- geskipt (invalid seq in AF3) 
+45 H1N1 -- geskipt (invalid seq in AF3) 
+46 H1N1 -- geskipt (invalid seq in AF3) 
+52 H1N1 -- geskipt(invalid seq in AF3)
+55 H1N1 -- geskipt(invalid seq in AF3)
+60 H1N1 -- geskipt(puttative HA (?) ) == A/Johannesburg/82/1996
+61 H1N1 -- geskipt(meerdere seq, aligneren)
+66 H1N1 -- geskipt(invalid seq) == A/Madagascar/6054/2009	
+67 H1N1 -- geskipt(invalid seq) == A/Madagascar/6081/2009
+74 H1N1 -- geskipt(invalid seq) == A/Montpellier/2051/2009
