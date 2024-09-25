@@ -1,0 +1,519 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    r25i13n07 (AVX512, FMA3, 188 GB RAM)
+Command: /usr/local/bin/iqtree2 -s refolded_fullglyco_E_AA_famsa_3ditrim35.fas -m TEST -bb 1000 -nt AUTO -pre /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35
+Seed:    904400 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 17 13:52:18 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file refolded_fullglyco_E_AA_famsa_3ditrim35.fas ... Fasta format detected
+Reading fasta file: done in 0.00337059 secs using 41.06% CPU
+Alignment most likely contains protein sequences
+Alignment has 247 sequences with 483 columns, 483 distinct patterns
+482 parsimony-informative, 1 singleton sites, 0 constant sites
+                                                                                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.34858e-05 secs using 3771% CPU
+   1  FJAF_Cnidaria_flavivirus_E_278-749_AlphaFold.pdb                                                                         4.55%    passed     12.67%
+   2  FJAF_Crangon_crangon_flavivirus_orf_1_E_310-786_AlphaFold.pdb                                                            3.31%    passed     23.00%
+   3  FJAF_Gammarus_chevreuxi_flavivirus_isolate_100_1_orf_1_E_354-838_AlphaFold.pdb                                           2.69%    passed     47.04%
+   4  FJAF_Gammarus_pulex_flavivirus_isolate_GPCM_orf_1_E_82-263_ESMFold.pdb                                                  68.32%    passed     15.08%
+   5  FJAF_Harrimaniidae_flavivirus_E_257-629_AlphaFold.pdb                                                                   24.02%    passed     12.74%
+   6  FJAF_Photeros_flavivirus_orf_1_E_386-864_AlphaFold.pdb                                                                   2.48%    passed     10.00%
+   7  FJAF_Sea_firefly_flavivirus_orf_1_E_289-775_AlphaFold.pdb                                                                2.28%    passed     50.59%
+   8  FJFL_African_cichlid_flavi_like_virus_E_278-770_AlphaFold.pdb                                                            0.83%    passed     48.53%
+   9  FJFL_Chowder_bay_tunicate_associated_flavi_like_virus_orf_1_E_336-811_AlphaFold.pdb                                      3.73%    passed      5.49%
+  10  FJFL_Cyclopterus_lumpus_virus_isolate_R170217-6L_orf_1_E_365-863_AlphaFold.pdb                                           5.59%    passed      7.70%
+  11  FJFL_Embiopteran_flavi-related_virus_isolate_OKIAV324_E_318-771_AlphaFold.pdb                                            9.73%    passed     33.68%
+  12  FJFL_Flavivirus_sp._isolate_sequence_91_orf_1_E_128-379_AlphaFold.pdb                                                   53.62%    passed      7.18%
+  13  FJFL_Salmon_flavivirus_strain_Davis_UGA_orf_1_E_279-768_AlphaFold.pdb                                                    1.24%    passed     44.60%
+  14  FJFL_Southern_pygmy_squid_flavivirus_isolate_201405_E_217-610_AlphaFold.pdb                                             25.26%    passed      6.25%
+  15  FJFL_Tamana_bat_virus_isolate_P3_Vero_E_347-780_ESMFold.pdb                                                             21.74%    passed     14.20%
+  16  FJFL_Waxsystermes_virus_E_318-774_AlphaFold.pdb                                                                          8.07%    failed      3.29%
+  17  FJFL_Wenzhou_shark_flavivirus_strain_WZSS16343_orf_1_E_429-906_AlphaFold.pdb                                             5.59%    failed      4.98%
+  18  FJIS_Aedes_flavivirus_AEFVMQ29Bogor2017_E_326-705_AlphaFold.pdb                                                         21.53%    passed     20.24%
+  19  FJIS_Aedes_flavivirus_strain_AEFV-SPFLD-MO-2011-MP6_E_326-700_AlphaFold.pdb                                             22.36%    passed     18.89%
+  20  FJIS_Aedes_flavivirus_strain_Bangkok_E_318-701_AlphaFold.pdb                                                            20.50%    passed     16.29%
+  21  FJIS_Anopheles_flavivirus_variant_1_E_277-612_AlphaFold.pdb                                                             30.64%    passed     90.26%
+  22  FJIS_Calbertado_virus_isolate_44-13_E_258-664_AlphaFold.pdb                                                             15.94%    passed     50.94%
+  23  FJIS_Calbertado_virus_isolate_CMS001_032_ALCO_E_260-587_AlphaFold.pdb                                                   32.30%    passed     32.45%
+  24  FJIS_Cell_fusing_agent_virus_E_286-670_AlphaFold.pdb                                                                    20.29%    passed     80.34%
+  25  FJIS_Cell_fusing_agent_virus_strain_2_E_331-674_AlphaFold.pdb                                                           28.78%    passed     42.27%
+  26  FJIS_Culex_Flavi-like_virus_strain_CFVLSan_Francisco_E_209-568_AlphaFold.pdb                                            25.67%    passed      7.82%
+  27  FJIS_Culex_flavivirus_E_336-676_AlphaFold.pdb                                                                           29.40%    passed     81.80%
+  28  FJIS_Culex_theileri_flavivirus_E_230-615_AlphaFold.pdb                                                                  20.08%    passed     92.51%
+  29  FJIS_Culex_theileri_flavivirus_RP-2011_E_331-699_AlphaFold.pdb                                                          23.60%    passed     79.20%
+  30  FJIS_Culiseta_flavivirus_strain_502-13_E_275-672_AlphaFold.pdb                                                          17.81%    passed     83.84%
+  31  FJIS_Hanko_virus_E_319-713_AlphaFold.pdb                                                                                18.22%    passed     60.35%
+  32  FJIS_Kamiti_River_virus_E_312-698_AlphaFold.pdb                                                                         19.88%    passed     49.56%
+  33  FJIS_Karumba_virus_isolate_KRBV_Kim1_E_263-654_AlphaFold.pdb                                                            19.05%    passed     67.06%
+  34  FJIS_Kilpisjarvi_flavivirus_isolate_FINL-201890_E_314-717_AlphaFold.pdb                                                 16.36%    passed     39.61%
+  35  FJIS_Mac_Peak_virus_isolate_McPV_150840_E_263-626_AlphaFold.pdb                                                         24.84%    passed     92.82%
+  36  FJIS_Mansonia_flavivirus_bvmq18-1_E_443-826_AlphaFold.pdb                                                               20.70%    passed     93.37%
+  37  FJIS_Menghai_flavivirus_isolate_MHAedFV1_E_338-720_AlphaFold.pdb                                                        20.70%    passed     71.57%
+  38  FJIS_Mercadeo_virus_isolate_ER-M10_E_271-643_AlphaFold.pdb                                                              22.98%    passed     77.24%
+  39  FJIS_Mosquito_flavivirus_YDFVOct2013_E_331-674_AlphaFold.pdb                                                            28.78%    passed     71.08%
+  40  FJIS_Mosquito_flavivirus_isolate_LSFlaviV-A20-09_E_331-677_AlphaFold.pdb                                                28.16%    passed     68.58%
+  41  FJIS_Nakiwogo_virus_strain_Uganda08_E_343-670_AlphaFold.pdb                                                             32.09%    passed     96.38%
+  42  FJIS_Nienokoue_virus_isolate_B51CI2004_E_315-698_AlphaFold.pdb                                                          20.50%    passed     48.75%
+  43  FJIS_Ochlerotatus_caspius_flavivirus_isolate_1608_E_319-712_AlphaFold.pdb                                               18.43%    passed     58.57%
+  44  FJIS_Ochlerotatus_scapularis_flavivirus_bvmq18-25_E_327-724_AlphaFold.pdb                                               18.22%    passed     94.32%
+  45  FJIS_Palm_Creek_virus_isolate_56_E_336-664_AlphaFold.pdb                                                                31.88%    passed     53.64%
+  46  FJIS_Parramatta_River_virus_isolate_92-B115745_E_322-715_AlphaFold.pdb                                                  18.43%    passed     69.70%
+  47  FJIS_Quang_Binh_virus_E_331-704_AlphaFold.pdb                                                                           22.57%    passed     65.80%
+  48  FJIS_Quang_Binh_virus_isolate_JM17156China2017_E_331-663_AlphaFold.pdb                                                  31.06%    passed     75.69%
+  49  FJIS_Sabethes_flavivirus_isolate_Ms42_E_278-626_AlphaFold.pdb                                                           27.95%    passed     29.20%
+  50  FJIS_Tabanus_rufidens_flavivirus_18HF18_E_287-668_AlphaFold.pdb                                                         21.74%    passed     11.77%
+  51  FJIS_Tafomo_virus_strain_TVB22-CI-2004_E_332-672_AlphaFold.pdb                                                          29.40%    passed     83.61%
+  52  FJIS_Xishuangbanna_aedes_flavivirus_E_336-729_AlphaFold.pdb                                                             18.63%    passed     24.86%
+  53  FJJI_Alongshan_virus_strain_Miass519_segment_2_orfVP1a_E_110-399_AlphaFold.pdb                                          45.13%    failed      1.77%
+  54  FJJI_Guangdong_Jingmen-like_virus_isolate_118R-174486_segment_2_orfVP1_E_127-513_AlphaFold.pdb                          24.84%    failed      0.00%
+  55  FJJI_Heilongjiang_tick_virus_isolate_HLJ41_segment_2_orfVP1_E_210-511_AlphaFold.pdb                                     40.58%    failed      0.02%
+  56  FJJI_Jingmen_Tick_Virus_isolate_SY84_segment_2_orfVP1_E_335-511_AlphaFold.pdb                                           63.77%    failed      4.03%
+  57  FJJI_Jingmen_tick_virus_isolate_JMTVPteropus_lyleiCambodia_segment_2_orfVP1_E_110-384_AlphaFold.pdb                     49.48%    passed      5.95%
+  58  FJJI_Jingmen_tick_virus_isolate_JMTVRh.microplusAm.variegatumFrench_Antilles_segment_2_orfVP1_E_325-499_AlphaFold.pdb   64.18%    failed      3.65%
+  59  FJJI_Jingmen_tick_virus_isolate_JTMV_1_segment_2_orfVP1_E_203-544_AlphaFold.pdb                                         37.47%    failed      1.22%
+  60  FJJI_Jingmen_tick_virus_isolate_JTMV_3_segment_2_orfVP1_E_203-545_AlphaFold.pdb                                         37.47%    failed      0.41%
+  61  FJJI_Jingmen_tick_virus_isolate_TTP-Pool-19_segment_2_orfVP1_E_325-499_AlphaFold.pdb                                    64.18%    failed      2.13%
+  62  FJJI_Jingmen_tick_virus_isolate_TTP-Pool-3b_segment_2_orfVP1_E_325-528_ESMFold.pdb                                      63.15%    failed      0.90%
+  63  FJJI_Jingmen_tick_virus_isolate_WS3_segment_2_orfVP1_E_121-508_AlphaFold.pdb                                            27.12%    failed      0.03%
+  64  FJJI_Jingmen_tick_virus_strain_JTVHAHH7_segment_2_orfVP1_E_217-517_ESMFold.pdb                                          40.99%    failed      0.11%
+  65  FJJI_Kindia_tick_virus_isolate_KITV20182_segment_2_orfVP1_E_203-511_AlphaFold.pdb                                       39.96%    failed      0.74%
+  66  FJJI_Mogiana_tick_virus_isolate_MGTVV411_segment_2_orfVP1_E_334-542_ESMFold.pdb                                         63.15%    passed     20.91%
+  67  FJJI_Mogiana_tick_virus_isolate_Yunnan2016_segment_2_orfVP1_E_126-512_AlphaFold.pdb                                     26.71%    failed      0.08%
+  68  FJJI_Rhipicephalus_associated_flavi-like_virus_isolate_YNTV4_segment_2_orfVP1_E_217-509_AlphaFold.pdb                   42.44%    failed      0.06%
+  69  FJJI_Takachi_virus_IM-OI110_segment_2_orfVP1a_E_114-399_AlphaFold.pdb                                                   45.96%    failed      0.09%
+  70  FJJI_Trichopteran_jingmen-related_virus_isolate_OKIAV337_segment_2_orfVP1_E_57-215_AlphaFold.pdb                        72.05%    passed      5.91%
+  71  FJJI_Yanggou_tick_virus_strain_Erzin14-T20074_segment_2_orfVP1a_E_103-400_AlphaFold.pdb                                 43.48%    failed      1.92%
+  72  FJMB_Alfuy_virus_strain_MRM3929_E_295-790_AlphaFold.pdb                                                                  0.41%    passed     94.93%
+  73  FJMB_Aripo_virus_isolate_TR9096_E_294-791_AlphaFold.pdb                                                                  0.62%    passed     70.86%
+  74  FJMB_Aroa_virus_strain_Macaray_01809_E_287-778_AlphaFold.pdb                                                             0.41%    passed     74.44%
+  75  FJMB_Bagaza_virus_strain_DakAr_B209_E_290-786_AlphaFold.pdb                                                              0.21%    passed     83.65%
+  76  FJMB_Bainyik_virus_strain_MK7979_E_287-786_AlphaFold.pdb                                                                 0.21%    passed     63.51%
+  77  FJMB_Bamaga_virus_isolate_CY4270_E_280-771_AlphaFold.pdb                                                                 0.41%    passed     15.92%
+  78  FJMB_Banzi_virus_strain_SAH_336_E_273-763_AlphaFold.pdb                                                                  0.62%    passed     60.64%
+  79  FJMB_Barkedji-like_virus_zmq17M40_E_295-795_AlphaFold.pdb                                                                0.21%    passed     85.64%
+  80  FJMB_Barkedji_virus_zmq17L31_E_293-795_AlphaFold.pdb                                                                     0.21%    passed     86.67%
+  81  FJMB_Batu_Kawa_virus_isolate_MYR-097_E_293-793_AlphaFold.pdb                                                             0.21%    passed     41.73%
+  82  FJMB_Binjari_virus_isolate_BFTA20_E_294-788_AlphaFold.pdb                                                                1.04%    passed     28.79%
+  83  FJMB_Bouboui_virus_strain_DAK_AR_B490_E_273-763_AlphaFold.pdb                                                            0.62%    passed     18.88%
+  84  FJMB_Bussuquara_virus_E_293-789_AlphaFold.pdb                                                                            0.41%    passed     89.09%
+  85  FJMB_Cacipacore_virus_E_289-787_AlphaFold.pdb                                                                            0.21%    passed     95.32%
+  86  FJMB_Chaoyang_virus_E_293-788_AlphaFold.pdb                                                                              0.21%    passed     31.26%
+  87  FJMB_Chinese_soft-shelled_turtle_flavivirus_isolate_HZ-2017_E_339-826_AlphaFold.pdb                                      1.24%    passed     80.78%
+  88  FJMB_Dengue_virus_1_E_281-775_AlphaFold.pdb                                                                              0.41%    passed     26.35%
+  89  FJMB_Dengue_virus_2_E_281-775_AlphaFold.pdb                                                                              0.41%    failed      3.92%
+  90  FJMB_Dengue_virus_3_E_281-773_AlphaFold.pdb                                                                              0.62%    passed     16.21%
+  91  FJMB_Dengue_virus_4_E_280-774_AlphaFold.pdb                                                                              0.41%    passed     54.37%
+  92  FJMB_Donggang_virus_E_303-793_AlphaFold.pdb                                                                              1.04%    passed     44.56%
+  93  FJMB_Edge_Hill_virus_strain_YMP_48_E_282-772_AlphaFold.pdb                                                               0.62%    passed     13.87%
+  94  FJMB_Entebbe_bat_virus_E_288-776_AlphaFold.pdb                                                                           0.83%    passed     80.36%
+  95  FJMB_Fitzroy_River_Virus_strain_K73884_E_283-765_AlphaFold.pdb                                                           1.04%    passed     79.44%
+  96  FJMB_Iguape_virus_strain_SPAn_71686_E_287-780_AlphaFold.pdb                                                              0.41%    passed     74.17%
+  97  FJMB_Ilheus_virus_strain_BrMS-MQ10_E_289-785_AlphaFold.pdb                                                               0.62%    passed     96.91%
+  98  FJMB_Ilomantsi_virus_isolate_M0724_E_299-792_AlphaFold.pdb                                                               0.21%    passed     94.03%
+  99  FJMB_Israel_turkey_meningoencephalomyelitis_virus_E_291-784_AlphaFold.pdb                                                1.04%    passed     86.72%
+ 100  FJMB_Japanese_encephalitis_virus_E_295-789_AlphaFold.pdb                                                                 0.62%    passed     91.80%
+ 101  FJMB_Jugra_virus_strain_P-9-314_E_272-762_AlphaFold.pdb                                                                  0.62%    passed     87.73%
+ 102  FJMB_Kampung_Karu_virus_isolate_SWK_P44_E_320-811_AlphaFold.pdb                                                          0.62%    passed     89.27%
+ 103  FJMB_Kedougou_virus_strain_DakAar_D1470_E_283-781_AlphaFold.pdb                                                          0.41%    passed     81.90%
+ 104  FJMB_Kokobera_virus_E_287-787_AlphaFold.pdb                                                                              0.21%    passed     68.56%
+ 105  FJMB_Koutango_virus_isolate_PM148_E_293-787_AlphaFold.pdb                                                                0.62%    passed     92.91%
+ 106  FJMB_Kunjin_virus_clone_FLSDX_E_291-787_AlphaFold.pdb                                                                    0.21%    passed     95.04%
+ 107  FJMB_Lammi_virus_E_292-786_AlphaFold.pdb                                                                                 0.21%    passed     48.80%
+ 108  FJMB_Long_Pine_Key_virus_strain_Sabal-12019_E_309-798_AlphaFold.pdb                                                      1.24%    passed     83.78%
+ 109  FJMB_Marisma_mosquito_virus_strain_HU452807_E_299-793_AlphaFold.pdb                                                      0.21%    passed     91.64%
+ 110  FJMB_Murray_Valley_encephalitis_virus_E_294-788_AlphaFold.pdb                                                            0.62%    passed     90.04%
+ 111  FJMB_Nanay_virus_strain_PRD316PER09_E_290-779_AlphaFold.pdb                                                              0.83%    passed     46.64%
+ 112  FJMB_Naranjal_virus_strain_25008_E_293-794_AlphaFold.pdb                                                                 0.21%    passed     91.97%
+ 113  FJMB_New_Mapoon_virus_E_287-787_AlphaFold.pdb                                                                            0.21%    passed     98.15%
+ 114  FJMB_Nhumirim_virus_strain_BrMS-MQ10_E_298-796_AlphaFold.pdb                                                             0.21%    passed     57.55%
+ 115  FJMB_Nounane_virus_E_286-790_AlphaFold.pdb                                                                               0.21%    passed     41.24%
+ 116  FJMB_Ntaya_virus_E_290-785_AlphaFold.pdb                                                                                 0.41%    passed     85.10%
+ 117  FJMB_Panmunjeom_flavivirus_strain_A12.3025ROK2012_E_299-795_AlphaFold.pdb                                                0.21%    passed     93.99%
+ 118  FJMB_Paraiso_Escondido_virus_isolate_Ecuador2012_E_309-796_AlphaFold.pdb                                                 0.41%    passed     63.62%
+ 119  FJMB_Potiskum_virus_strain_IBAN_10069_E_273-762_AlphaFold.pdb                                                            0.83%    passed     61.68%
+ 120  FJMB_Psorophora_flavivirus_bvmq18-51_E_293-792_AlphaFold.pdb                                                             0.41%    passed     68.79%
+ 121  FJMB_Rocio_virus_strain_SPH_34675_E_286-781_AlphaFold.pdb                                                                0.41%    passed     95.50%
+ 122  FJMB_Saint_Louis_encephalitis_virus_E_289-788_AlphaFold.pdb                                                              0.21%    passed     82.25%
+ 123  FJMB_Sepik_virus_E_283-770_AlphaFold.pdb                                                                                 0.83%    passed     69.06%
+ 124  FJMB_Sitiawan_virus_E_288-788_AlphaFold.pdb                                                                              0.21%    passed     79.06%
+ 125  FJMB_Sokoluk_virus_strain_LEIV-400K_E_295-777_AlphaFold.pdb                                                              2.07%    passed     78.25%
+ 126  FJMB_Spondweni_virus_E_290-793_AlphaFold.pdb                                                                             0.21%    passed     14.18%
+ 127  FJMB_St._Louis_encephalitis_virus_strain_Palenque-A770_E_321-816_AlphaFold.pdb                                           0.41%    passed     90.54%
+ 128  FJMB_Stratford_virus_isolate_22911_E_288-786_AlphaFold.pdb                                                               0.21%    passed     94.95%
+ 129  FJMB_T_Ho_virus_strain_T_Ho-Mex07_E_287-783_AlphaFold.pdb                                                                0.21%    passed     51.93%
+ 130  FJMB_Tembusu_virus_flavivirus_E_288-785_AlphaFold.pdb                                                                    0.21%    passed     71.73%
+ 131  FJMB_Torres_virus_strain_TS5273_E_288-783_AlphaFold.pdb                                                                  0.41%    passed     92.34%
+ 132  FJMB_Uganda_S_virus_E_273-761_AlphaFold.pdb                                                                              0.62%    passed     68.28%
+ 133  FJMB_Usutu_virus_E_294-789_AlphaFold.pdb                                                                                 0.41%    passed     93.85%
+ 134  FJMB_Wesselsbron_virus_strain_SAH177_E_282-770_AlphaFold.pdb                                                             0.62%    passed     69.34%
+ 135  FJMB_West_Nile_virus_lineage_1_E_291-787_AlphaFold.pdb                                                                   0.21%    passed     96.04%
+ 136  FJMB_West_Nile_virus_lineage_2_E_291-784_AlphaFold.pdb                                                                   0.21%    passed     95.92%
+ 137  FJMB_Yaounde_virus_strain_Dak_Ar_Y276_E_291-791_AlphaFold.pdb                                                            0.21%    passed     97.34%
+ 138  FJMB_Yellow_fever_virus_E_286-776_AlphaFold.pdb                                                                          0.41%    passed     95.46%
+ 139  FJMB_Yokose_virus_E_298-786_AlphaFold.pdb                                                                                0.83%    passed     77.93%
+ 140  FJMB_Zika_virus_E_291-789_AlphaFold.pdb                                                                                  0.41%    passed     87.18%
+ 141  FJNV_Apoi_virus_genome_E_271-660_AlphaFold.pdb                                                                          21.12%    passed     80.22%
+ 142  FJNV_Batu_Cave_virus_strain_P70-1459_E_274-662_AlphaFold.pdb                                                            21.12%    passed     39.00%
+ 143  FJNV_Bukalasa_bat_virus_isolate_BP111_E_267-656_AlphaFold.pdb                                                           21.12%    passed     69.67%
+ 144  FJNV_Dakar_bat_virus_isolate_BP180_E_269-749_AlphaFold.pdb                                                               2.28%    passed     99.51%
+ 145  FJNV_Jutiapa_virus_strain_JG-128_E_275-751_AlphaFold.pdb                                                                 3.11%    passed     67.28%
+ 146  FJNV_Modoc_virus_E_275-754_AlphaFold.pdb                                                                                 3.11%    passed     82.75%
+ 147  FJNV_Montana_myotis_leukoencephalitis_virus_E_272-750_AlphaFold.pdb                                                      2.69%    passed     93.49%
+ 148  FJNV_Phnom_Penh_bat_virus_strain_30834_A38_E_274-662_AlphaFold.pdb                                                      21.12%    passed     32.07%
+ 149  FJNV_Rio_Bravo_virus_strain_M64_E_269-655_AlphaFold.pdb                                                                 21.33%    passed     96.25%
+ 150  FJTB_Alkhumra_hemorrhagic_fever_virus_strain_Zaki_2_E_283-676_AlphaFold.pdb                                             21.33%    passed     76.67%
+ 151  FJTB_Gadgets_Gully_virus_E_280-676_AlphaFold.pdb                                                                        20.91%    passed     35.43%
+ 152  FJTB_Kama_virus_strain_LEIV-20776Tat_E_276-666_AlphaFold.pdb                                                            20.91%    passed     15.01%
+ 153  FJTB_Karshi_virus_strain_WJQ16209_E_280-675_AlphaFold.pdb                                                               21.12%    passed     37.00%
+ 154  FJTB_Kyasanur_forest_disease_virus_strain_P9605_E_281-676_AlphaFold.pdb                                                 21.12%    passed     79.00%
+ 155  FJTB_Langat_virus_E_280-675_AlphaFold.pdb                                                                               21.12%    passed     69.97%
+ 156  FJTB_Louping_ill_virus_isolate_IRE_IRE2_1971_E_280-675_AlphaFold.pdb                                                    21.12%    passed     69.62%
+ 157  FJTB_Meaban_virus_E_276-667_AlphaFold.pdb                                                                               20.91%    passed     72.88%
+ 158  FJTB_Omsk_hemorrhagic_fever_virus_strain_Bogolubovka1048_E_280-675_AlphaFold.pdb                                        21.12%    passed     40.71%
+ 159  FJTB_Powassan_virus_E_278-674_AlphaFold.pdb                                                                             21.12%    passed     76.04%
+ 160  FJTB_Royal_Farm_virus_from_Afghanistan_E_281-676_AlphaFold.pdb                                                          21.12%    passed     50.96%
+ 161  FJTB_Saumarez_Reef_virus_isolate_W11_2232_E_278-666_AlphaFold.pdb                                                       21.33%    passed     98.29%
+ 162  FJTB_Spanish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb                                                           21.12%    passed     66.10%
+ 163  FJTB_Tick-borne_encephalitis_virus_E_280-675_AlphaFold.pdb                                                              21.12%    passed     61.91%
+ 164  FJTB_Turkish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb                                                           21.12%    passed     66.07%
+ 165  FJTB_Tyuleniy_virus_strain_LEIV-6C_E_277-668_AlphaFold.pdb                                                              20.91%    passed     34.07%
+ 166  FJUN_Fluviflavili_virus_isolate_PF1_segment_2_orfhypothetical_E_409-698_ESMFold.pdb                                     45.34%    passed      5.80%
+ 167  FJUN_Infectious_precocity_virus_isolate_MR2018_orf_1_E_257-399_AlphaFold.pdb                                            72.26%    passed     51.60%
+ 168  FJUN_Mpulungu_flavivirus_ZT17-1078_E_265-660_AlphaFold.pdb                                                              21.12%    passed      5.65%
+ 169  FJUN_XiangYun_flavivirus_isolate_XY61577_orf_1_E_267-667_AlphaFold.pdb                                                  18.01%    passed     33.01%
+ 170  FJUN_flavi_freshwater_ORF52_SRR12063566_orf_1_E_332-718_AlphaFold.pdb                                                   20.50%    passed     13.10%
+ 171  FJUN_flavi_salt_marsh_ORF170_SRR11829261_E_276-745_AlphaFold.pdb                                                        15.53%    passed      8.26%
+ 172  FJUN_flavi_wastewater_ORF139_SRR8857871_orf_1_E_312-599_AlphaFold.pdb                                                   47.41%    passed      9.92%
+ 173  PLLG_Apis_flavivirus_isolate_RI-A_E_1343-1777_AlphaFold.pdb                                                             16.98%    failed      0.00%
+ 174  PLLG_Artemia_sinica_associated_flavi-like_virus_E_919-1383_AlphaFold.pdb                                                10.77%    failed      0.01%
+ 175  PLLG_Atrato_Flavi-like_virus_1_strain_Cx_1773-1_E_1557-1694_ESMFold.pdb                                                 76.19%    passed      8.72%
+ 176  PLLG_Beihai_barnacle_viurs_1_strain_BHGZ_E_914-1399_ESMFold.pdb                                                         12.42%    passed     13.74%
+ 177  PLLG_Bemisia_tabaci_flavi-like_virus_2_E_1148-1586_ESMFold.pdb                                                          16.36%    failed      0.02%
+ 178  PLLG_Bemisia_tabaci_pesti-like_virus_1_isolate_ZJU-Q2_E_1429-1600_ESMFold.pdb                                           65.63%    failed      0.43%
+ 179  PLLG_Bole_tick_virus_4_isolate_GSC346flaviV_E_877-1348_ESMFold.pdb                                                       9.11%    passed     15.21%
+ 180  PLLG_Bole_tick_virus_4_isolate_TIGMIC_1_E_854-1324_ESMFold.pdb                                                           9.32%    passed     16.29%
+ 181  PLLG_Bole_tick_virus_4_isolate_TIGMIC_2_E_878-1348_ESMFold.pdb                                                           9.32%    passed     13.89%
+ 182  PLLG_Bole_tick_virus_4_isolate_Thailand_tick_flavivirus_E_854-1324_ESMFold.pdb                                           9.32%    passed     14.11%
+ 183  PLLG_Bole_tick_virus_4_strain_BLP-1_E_877-1348_ESMFold.pdb                                                               9.11%    passed     23.14%
+ 184  PLLG_Bole_tick_virus_4_strain_BangaliH.truncatum2018_E_879-1349_ESMFold.pdb                                              9.32%    passed     26.99%
+ 185  PLLG_Bole_tick_virus_4_strain_IftinH.dromedarii2018_E_879-1350_ESMFold.pdb                                               9.32%    passed     15.99%
+ 186  PLLG_Bole_tick_virus_4_strain_NE-DH2_E_885-1353_ESMFold.pdb                                                              9.73%    passed     13.02%
+ 187  PLLG_Bole_tick_virus_4_strain_NE-ShL2_E_884-1355_ESMFold.pdb                                                             9.11%    passed      5.88%
+ 188  PLLG_Brachymeria_lasus_associated_flavi-like_virus_E_533-982_AlphaFold.pdb                                              14.08%    passed     55.03%
+ 189  PLLG_Camel_tick_virus_isolate_Alain_E_878-1348_ESMFold.pdb                                                               9.32%    passed      7.67%
+ 190  PLLG_Carrot_flavi-like_virus_1_isolate_744_E_1444-1927_AlphaFold.pdb                                                     8.90%    failed      0.01%
+ 191  PLLG_Coptis_teeta_flavi-like_virus_E_2181-2618_AlphaFold.pdb                                                            16.77%    failed      0.95%
+ 192  PLLG_Dermacentor_reticulatus_pestivirus-like_virus_1_isolate_CT2_E_884-1352_ESMFold.pdb                                  9.94%    passed     31.58%
+ 193  PLLG_Diaphorina_citri_flavi-like_virus_E_601-887_AlphaFold.pdb                                                          49.90%    passed     21.83%
+ 194  PLLG_Drosophila-associated_flavivirus_7_isolate_Con0316_E_2192-2451_AlphaFold.pdb                                       51.76%    failed      1.90%
+ 195  PLLG_Eriocheir_sinensis_cholera_like_virus_E_2053-2494_ESMFold.pdb                                                      18.84%    failed      3.52%
+ 196  PLLG_Flaviviridae_sp._isolate_TIGMIC_12_E_884-1354_ESMFold.pdb                                                           9.32%    passed     10.66%
+ 197  PLLG_Flaviviridae_sp._isolate_TIGMIC_13_E_884-1354_ESMFold.pdb                                                           9.32%    passed     11.17%
+ 198  PLLG_Flaviviridae_sp._isolate_TIGMIC_1_E_886-1355_ESMFold.pdb                                                            9.52%    passed     11.74%
+ 199  PLLG_Flaviviridae_sp._isolate_TIGMIC_20_E_884-1354_ESMFold.pdb                                                           9.32%    passed     16.10%
+ 200  PLLG_Flaviviridae_sp._isolate_TIGMIC_24_E_885-1354_ESMFold.pdb                                                           9.52%    passed     12.48%
+ 201  PLLG_Flaviviridae_sp._isolate_TIGMIC_25_E_884-1354_ESMFold.pdb                                                           9.32%    passed     11.26%
+ 202  PLLG_Flaviviridae_sp._isolate_TIGMIC_27_E_884-1354_ESMFold.pdb                                                           9.32%    passed     10.61%
+ 203  PLLG_Flaviviridae_sp._isolate_TIGMIC_28_E_884-1354_ESMFold.pdb                                                           9.32%    passed     11.47%
+ 204  PLLG_Flaviviridae_sp._isolate_TIGMIC_30_E_884-1355_ESMFold.pdb                                                           9.32%    passed     14.67%
+ 205  PLLG_Flaviviridae_sp._isolate_TIGMIC_32_E_888-1358_ESMFold.pdb                                                           9.32%    passed     17.68%
+ 206  PLLG_Flaviviridae_sp._isolate_TIGMIC_33_E_886-1356_ESMFold.pdb                                                           9.32%    passed     13.49%
+ 207  PLLG_Flaviviridae_sp._isolate_TIGMIC_36_E_884-1354_ESMFold.pdb                                                           9.52%    passed     12.44%
+ 208  PLLG_Flaviviridae_sp._isolate_TIGMIC_38_E_866-1337_ESMFold.pdb                                                           9.32%    passed     20.83%
+ 209  PLLG_Flaviviridae_sp._isolate_TIGMIC_39_E_865-1337_ESMFold.pdb                                                           9.11%    passed     17.93%
+ 210  PLLG_Flaviviridae_sp._isolate_TIGMIC_5_E_886-1355_ESMFold.pdb                                                            9.52%    passed     13.46%
+ 211  PLLG_Flaviviridae_sp._isolate_TIGMIC_8_E_884-1354_ESMFold.pdb                                                            9.32%    passed     11.67%
+ 212  PLLG_Flaviviridae_sp._strain_FVHAHH8_E_865-1336_ESMFold.pdb                                                              9.32%    passed     19.46%
+ 213  PLLG_Frankliniella_occidentalis_flavi-like_virus_1_E_926-1194_AlphaFold.pdb                                             53.00%    passed     69.24%
+ 214  PLLG_Fushun_acrida_cinerea_flavivirus_1_isolate_ZHJJHFS91_E_1892-2098_ESMFold.pdb                                       58.80%    passed     10.92%
+ 215  PLLG_Fushun_laodelphax_striatellus_flavivirus_1_isolate_HFSFS147_orf_1_E_2114-2370_AlphaFold.pdb                        53.62%    passed      6.44%
+ 216  PLLG_Gamboa_mosquito_virus_strain_GW_E_2423-2889_AlphaFold.pdb                                                          12.22%    failed      0.01%
+ 217  PLLG_Gecarcinus_lateralis_associated_flavi-like_virus_E_2040-2483_AlphaFold.pdb                                         16.56%    failed      0.15%
+ 218  PLLG_Hangzhou_flavivirus_1_isolate_FSFY137086_E_56-223_ESMFold.pdb                                                      69.36%    failed      0.01%
+ 219  PLLG_Hangzhou_frankliniella_intonsa_flavivirus_1_isolate_JM1FY93485_E_1674-2158_AlphaFold.pdb                           10.14%    failed      0.64%
+ 220  PLLG_Hangzhou_frankliniella_intonsa_flavivirus_2_isolate_JM1FY91827_E_552-790_AlphaFold.pdb                             57.97%    passed     37.67%
+ 221  PLLG_Hangzhou_ochthera_mantis_flavivirus_1_isolate_SYFY8_E_392-793_ESMFold.pdb                                          23.19%    failed      0.00%
+ 222  PLLG_Haseki_tick_virus_strain_Novosibirsk-2020_E_849-1319_ESMFold.pdb                                                    9.32%    passed     31.18%
+ 223  PLLG_Insect_associated_flavi-like_virus_E_1418-1557_AlphaFold.pdb                                                       74.53%    failed      0.69%
+ 224  PLLG_Lampyris_noctiluca_flavivirus_1_isolate_17FIN1_E_1105-1565_AlphaFold.pdb                                           13.46%    failed      0.74%
+ 225  PLLG_Locusta_migratoria_associated_flavi-like_virus_E_1633-2113_AlphaFold.pdb                                            8.49%    failed      0.04%
+ 226  PLLG_Macrosiphum_euphorbiae_virus_1_isolate_K01_E_1818-2099_AlphaFold.pdb                                               50.31%    failed      0.06%
+ 227  PLLG_Phenacoccus_solenopsis_associated_flavi-like_virus_E_1156-1387_AlphaFold.pdb                                       59.01%    passed     33.28%
+ 228  PLLG_Plodia_interpunctella_associated_flavi-like_virus_E_1541-1987_AlphaFold.pdb                                        14.29%    passed     17.74%
+ 229  PLLG_Rhipicephalus_sanguineus_associated_flavi-like_virus_E_856-1326_ESMFold.pdb                                         9.32%    passed     19.76%
+ 230  PLLG_Sanxia_water_strider_virus_6_strain_SYSZZ-2_E_1800-2096_AlphaFold.pdb                                              44.72%    passed      5.28%
+ 231  PLLG_Semibalanus_balanoides_associated_flavi-like_virus_E_922-1397_ESMFold.pdb                                          13.87%    failed      3.86%
+ 232  PLLG_Shayang_fly_virus_4_strain_SYCY_E_761-1241_AlphaFold.pdb                                                            9.73%    failed      0.12%
+ 233  PLLG_Shuangao_lacewing_virus_2_strain_SCL_E_770-1195_AlphaFold.pdb                                                      19.46%    failed      0.01%
+ 234  PLLG_Sitobion_miscanthi_flavi-like_virus_1_07BaA1_E_1825-2099_AlphaFold.pdb                                             51.76%    failed      0.55%
+ 235  PLLG_Sonchus_asper_flavi-like_virus_E_2250-2699_AlphaFold.pdb                                                           14.70%    passed      6.22%
+ 236  PLLG_Tacheng_tick_virus_8_strain_TCP-2_E_1414-1898_AlphaFold.pdb                                                        10.56%    passed     41.83%
+ 237  PLLG_Trinbago_virus_isolate_TTP-Pool-4_E_856-1326_ESMFold.pdb                                                            9.32%    passed     19.08%
+ 238  PLLG_Wuhan_centipede_virus_strain_WHWG-11_E_2033-2299_AlphaFold.pdb                                                     52.17%    passed     58.06%
+ 239  PLLG_Xiangshan_flavi-like_virus_1_E_514-984_AlphaFold.pdb                                                               10.77%    passed     70.53%
+ 240  PLLG_Xiangshan_flavi-like_virus_2_E_513-992_AlphaFold.pdb                                                                9.52%    passed     24.55%
+ 241  PLLG_Xinzhou_spider_virus_2_strain_XZZZ-7_E_2362-2589_AlphaFold.pdb                                                     57.14%    failed      0.85%
+ 242  PLLG_Zhangjiakou_Flavi_tick_virus_1_E_865-1337_ESMFold.pdb                                                               9.11%    passed     17.93%
+ 243  PLLG_flavi_soil_ORF358_SRR7976360_E_2301-2482_ESMFold.pdb                                                               64.18%    failed      0.19%
+ 244  PLUN_Parasteatoda_tepidariorum_associated_flavi-like_virus_E_2407-2652_AlphaFold.pdb                                    58.39%    passed      7.36%
+ 245  PLUN_Shayang_spider_virus_4_strain_SYZZ-1_E_1837-2097_ESMFold.pdb                                                       50.72%    passed      7.15%
+ 246  PLUN_Xiamen_fanray_pesti-like_virus_strain_XMTSYG10372_E_796-960_ESMFold.pdb                                            67.08%    passed     41.61%
+ 247  PLUN_Xinzhou_spider_virus_3_strain_XZZZ-3_E_1586-1774_ESMFold.pdb                                                       65.84%    failed      3.17%
+WARNING: 28 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                   18.28%  43 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: PLLG_Zhangjiakou_Flavi_tick_virus_1_E_865-1337_ESMFold.pdb is identical to PLLG_Flaviviridae_sp._isolate_TIGMIC_39_E_865-1337_ESMFold.pdb but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.120 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+6 trees examined
+Threads: 1 / Time: 19.168 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -215376
+Threads: 2 / Time: 10.866 sec / Speedup: 1.764 / Efficiency: 88% / LogL: -215376
+Threads: 3 / Time: 7.889 sec / Speedup: 2.430 / Efficiency: 81% / LogL: -215376
+Threads: 4 / Time: 6.339 sec / Speedup: 3.024 / Efficiency: 76% / LogL: -215376
+Threads: 5 / Time: 5.320 sec / Speedup: 3.603 / Efficiency: 72% / LogL: -215376
+Threads: 6 / Time: 4.705 sec / Speedup: 4.074 / Efficiency: 68% / LogL: -215376
+Threads: 7 / Time: 4.291 sec / Speedup: 4.467 / Efficiency: 64% / LogL: -215376
+Threads: 8 / Time: 4.062 sec / Speedup: 4.719 / Efficiency: 59% / LogL: -215376
+Threads: 9 / Time: 3.905 sec / Speedup: 4.909 / Efficiency: 55% / LogL: -215376
+Threads: 10 / Time: 3.728 sec / Speedup: 5.141 / Efficiency: 51% / LogL: -215376
+Threads: 11 / Time: 3.585 sec / Speedup: 5.347 / Efficiency: 49% / LogL: -215376
+BEST NUMBER OF THREADS: 10
+
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -122072.548
+Optimal log-likelihood: -122072.322
+Gamma shape alpha: 2.828
+Parameters optimization took 1 rounds (0.283 sec)
+Time for fast ML tree search: 3.340 seconds
+
+NOTE: ModelFinder requires 78 MB RAM!
+ModelFinder will test up to 112 protein models (sample size: 483 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            123622.882   491 248227.764   731371.764   250280.153
+  2  LG+G4         122072.309   492 245128.617   730240.617   247185.185
+  4  LG+F+G4       121960.025   511 244942.051   768206.051   247078.039
+  6  WAG+G4        122102.434   492 245188.868   730300.868   247245.436
+  8  WAG+F+G4      121740.959   511 244503.918   767767.918   246639.906
+ 10  JTT+G4        122889.787   492 246763.574   731875.574   248820.142
+ 12  JTT+F+G4      122691.578   511 246405.156   769669.156   248541.145
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 14  Q.pfam+G4     122112.954   492 245209.909   730321.909   247266.477
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 16  Q.pfam+F+G4   122071.914   511 245165.829   768429.829   247301.817
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 18  Q.bird+G4     125200.157   492 251384.314   736496.314   253440.882
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 20  Q.bird+F+G4   125141.421   511 251304.843   774568.843   253440.831
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 22  Q.mammal+G4   124439.103   492 249862.207   734974.207   251918.775
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 24  Q.mammal+F+G4 124296.854   511 249615.709   772879.709   251751.697
+ 26  Q.insect+G4   122543.931   492 246071.862   731183.862   248128.430
+ 28  Q.insect+F+G4 122740.609   511 246503.218   769767.218   248639.206
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 30  Q.plant+G4    123529.789   492 248043.579   733155.579   250100.147
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 32  Q.plant+F+G4  123554.829   511 248131.658   771395.658   250267.647
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 34  Q.yeast+G4    122663.097   492 246310.194   731422.194   248366.762
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 36  Q.yeast+F+G4  122725.724   511 246473.449   769737.449   248609.437
+ 38  JTTDCMut+G4   122874.560   492 246733.119   731845.119   248789.687
+ 40  JTTDCMut+F+G4 122667.827   511 246357.654   769621.654   248493.642
+ 42  DCMut+G4      123632.856   492 248249.712   733361.712   250306.280
+ 44  DCMut+F+G4    122719.197   511 246460.394   769724.394   248596.382
+ 46  VT+G4         122317.716   492 245619.431   730731.431   247675.999
+ 48  VT+F+G4       122141.688   511 245305.377   768569.377   247441.365
+ 50  PMB+G4        122525.216   492 246034.431   731146.431   248091.000
+ 52  PMB+F+G4      122248.284   511 245518.568   768782.568   247654.556
+ 54  Blosum62+G4   122537.647   492 246059.293   731171.293   248115.862
+ 56  Blosum62+F+G4 122236.145   511 245494.291   768758.291   247630.279
+ 58  Dayhoff+G4    123634.339   492 248252.678   733364.678   250309.246
+ 60  Dayhoff+F+G4  122721.927   511 246465.855   769729.855   248601.843
+ 62  mtREV+G4      127497.022   492 255978.044   741090.044   258034.612
+ 64  mtREV+F+G4    123829.102   511 248680.205   771944.205   250816.193
+ 66  mtART+G4      128967.353   492 258918.707   744030.707   260975.275
+ 68  mtART+F+G4    125588.330   511 252198.659   775462.659   254334.648
+ 70  mtZOA+G4      126454.406   492 253892.812   739004.812   255949.380
+ 72  mtZOA+F+G4    124380.581   511 249783.163   773047.163   251919.151
+ 74  mtMet+G4      127582.281   492 256148.562   741260.562   258205.130
+ 76  mtMet+F+G4    124439.027   511 249900.053   773164.053   252036.042
+ 78  mtVer+G4      128780.262   492 258544.525   743656.525   260601.093
+ 80  mtVer+F+G4    125873.369   511 252768.737   776032.737   254904.726
+ 82  mtInv+G4      128061.074   492 257106.147   742218.147   259162.715
+ 84  mtInv+F+G4    123614.839   511 248251.678   771515.678   250387.667
+ 86  mtMAM+G4      130320.297   492 261624.593   746736.593   263681.161
+ 88  mtMAM+F+G4    126377.222   511 253776.445   777040.445   255912.433
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 90  FLAVI+G4      126644.069   492 254272.138   739384.138   256328.706
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 92  FLAVI+F+G4    126312.928   511 253647.856   776911.856   255783.844
+ 94  HIVb+G4       125704.449   492 252392.898   737504.898   254449.466
+ 96  HIVb+F+G4     124995.189   511 251012.378   774276.378   253148.366
+ 98  HIVw+G4       129212.533   492 259409.065   744521.065   261465.633
+100  HIVw+F+G4     126966.712   511 254955.423   778219.423   257091.412
+102  FLU+G4        123673.678   492 248331.356   733443.356   250387.925
+104  FLU+F+G4      122960.579   511 246943.158   770207.158   249079.147
+106  rtREV+G4      123102.269   492 247188.537   732300.537   249245.105
+108  rtREV+F+G4    122415.022   511 245852.044   769116.044   247988.033
+110  cpREV+G4      123483.509   492 247951.018   733063.018   250007.586
+112  cpREV+F+G4    123144.809   511 247311.619   770575.619   249447.607
+Akaike Information Criterion:           WAG+F+G4
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         WAG+F+G4
+Best-fit model: WAG+F+G4 chosen according to BIC
+
+All model information printed to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.model.gz
+CPU time for ModelFinder: 775.221 seconds (0h:12m:55s)
+Wall-clock time for ModelFinder: 120.534 seconds (0h:2m:0s)
+Generating 1000 samples for ultrafast bootstrap (seed: 904400)...
+
+NOTE: 78 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -121778.494
+2. Current log-likelihood: -121742.801
+3. Current log-likelihood: -121741.131
+Optimal log-likelihood: -121741.002
+Gamma shape alpha: 4.320
+Parameters optimization took 3 rounds (0.834 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.368 secs using 997.6% CPU
+Computing ML distances took 1.368271 sec (of wall-clock time) 13.647836 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000713785 secs using 727.4% CPU
+Computing RapidNJ tree took 0.197929 sec (of wall-clock time) 0.809946 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -122437.161
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 11.954 second
+Computing log-likelihood of 98 initial trees ... 7.379 seconds
+Current best score: -121741.002
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -121714.594
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -121697.452
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -121681.972
+Iteration 10 / LogL: -121695.818 / Time: 0h:2m:52s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -121679.459
+Iteration 20 / LogL: -121721.481 / Time: 0h:3m:16s
+Finish initializing candidate tree set (20)
+Current best tree score: -121679.459 / CPU time: 71.931
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -121676.067
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -121675.313
+Iteration 30 / LogL: -121706.631 / Time: 0h:3m:44s (0h:5m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -121671.717
+Iteration 40 / LogL: -121687.819 / Time: 0h:4m:10s (0h:5m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -121669.462
+Iteration 50 / LogL: -121670.171 / Time: 0h:4m:32s (0h:4m:51s left)
+Log-likelihood cutoff on original alignment: -121754.443
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -121666.411
+Iteration 60 / LogL: -121667.309 / Time: 0h:4m:56s (0h:4m:55s left)
+Iteration 70 / LogL: -121671.498 / Time: 0h:5m:20s (0h:4m:18s left)
+Iteration 80 / LogL: -121671.471 / Time: 0h:5m:42s (0h:3m:41s left)
+Iteration 90 / LogL: -121669.115 / Time: 0h:6m:4s (0h:3m:8s left)
+Iteration 100 / LogL: -121670.832 / Time: 0h:6m:25s (0h:2m:37s left)
+Log-likelihood cutoff on original alignment: -121754.443
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 105: -121665.756
+Iteration 110 / LogL: -121672.284 / Time: 0h:6m:47s (0h:4m:9s left)
+Iteration 120 / LogL: -121670.547 / Time: 0h:7m:7s (0h:3m:39s left)
+Iteration 130 / LogL: -121676.089 / Time: 0h:7m:30s (0h:3m:11s left)
+Iteration 140 / LogL: -121671.940 / Time: 0h:7m:53s (0h:2m:45s left)
+Iteration 150 / LogL: -121704.422 / Time: 0h:8m:14s (0h:2m:17s left)
+Log-likelihood cutoff on original alignment: -121754.443
+Iteration 160 / LogL: -121672.297 / Time: 0h:8m:38s (0h:1m:52s left)
+Iteration 170 / LogL: -121670.539 / Time: 0h:9m:4s (0h:1m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 176: -121665.346
+Iteration 180 / LogL: -121670.803 / Time: 0h:9m:28s (0h:4m:0s left)
+Iteration 190 / LogL: -121715.854 / Time: 0h:9m:51s (0h:3m:34s left)
+Iteration 200 / LogL: -121676.178 / Time: 0h:10m:12s (0h:3m:7s left)
+Log-likelihood cutoff on original alignment: -121754.443
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 210 / LogL: -121670.054 / Time: 0h:10m:34s (0h:3m:41s left)
+Iteration 220 / LogL: -121676.583 / Time: 0h:10m:55s (0h:3m:15s left)
+Iteration 230 / LogL: -121668.817 / Time: 0h:11m:16s (0h:2m:50s left)
+Iteration 240 / LogL: -121712.134 / Time: 0h:11m:37s (0h:2m:24s left)
+Iteration 250 / LogL: -121706.291 / Time: 0h:12m:1s (0h:2m:0s left)
+Log-likelihood cutoff on original alignment: -121754.443
+Iteration 260 / LogL: -121671.235 / Time: 0h:12m:23s (0h:1m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 263: -121664.947
+Iteration 270 / LogL: -121672.097 / Time: 0h:12m:44s (0h:3m:42s left)
+Iteration 280 / LogL: -121670.225 / Time: 0h:13m:7s (0h:3m:18s left)
+Iteration 290 / LogL: -121667.876 / Time: 0h:13m:29s (0h:2m:53s left)
+Iteration 300 / LogL: -121671.764 / Time: 0h:13m:51s (0h:2m:29s left)
+Log-likelihood cutoff on original alignment: -121754.443
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 310 / LogL: -121674.911 / Time: 0h:14m:15s (0h:3m:33s left)
+Iteration 320 / LogL: -121670.812 / Time: 0h:14m:36s (0h:3m:9s left)
+Iteration 330 / LogL: -121685.298 / Time: 0h:14m:59s (0h:2m:45s left)
+Iteration 340 / LogL: -121697.243 / Time: 0h:15m:21s (0h:2m:21s left)
+Iteration 350 / LogL: -121680.773 / Time: 0h:15m:43s (0h:1m:57s left)
+Log-likelihood cutoff on original alignment: -121754.443
+Iteration 360 / LogL: -121836.318 / Time: 0h:16m:5s (0h:1m:34s left)
+TREE SEARCH COMPLETED AFTER 364 ITERATIONS / Time: 0h:16m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -121664.947
+2. Current log-likelihood: -121664.918
+Optimal log-likelihood: -121664.900
+Gamma shape alpha: 4.300
+Parameters optimization took 2 rounds (0.323 sec)
+BEST SCORE FOUND : -121664.900
+Creating bootstrap support values...
+Split supports printed to NEXUS file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.splits.nex
+Total tree length: 179.171
+
+Total number of iterations: 364
+CPU time used for tree search: 8227.447 sec (2h:17m:7s)
+Wall-clock time used for tree search: 849.111 sec (0h:14m:9s)
+Total CPU time used: 9049.793 sec (2h:30m:49s)
+Total wall-clock time used: 975.113 sec (0h:16m:15s)
+
+Computing bootstrap consensus tree...
+Reading input file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.splits.nex...
+247 taxa and 1678 splits.
+Consensus tree written to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.contree
+Reading input trees file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.contree
+Log-likelihood of consensus tree: -121666.590
+
+Analysis results written to: 
+  IQ-TREE report:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.iqtree
+  Maximum-likelihood tree:       /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.treefile
+  Likelihood distances:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.splits.nex
+  Consensus tree:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.contree
+  Screen log file:               /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa_3ditrim35.log
+
+Date and Time: Tue Sep 17 14:08:35 2024

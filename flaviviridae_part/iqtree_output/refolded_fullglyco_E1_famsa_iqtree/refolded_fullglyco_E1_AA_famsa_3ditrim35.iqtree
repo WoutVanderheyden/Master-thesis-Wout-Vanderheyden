@@ -1,0 +1,1005 @@
+IQ-TREE 2.3.6 built Aug  4 2024
+
+Input file name: refolded_fullglyco_E1_AA_famsa_3ditrim35.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 251132
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 190 sequences with 195 amino-acid sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 193
+Number of distinct site patterns: 195
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: WAG+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+WAG+F+G4         -43815.375   88424.750 +        1  404436.750 -        0   89724.131 +        1
+Q.pfam+G4        -43879.286   88514.573 - 3.13e-20  375038.573 +        1   89751.766 - 9.98e-07
+PMB+F+G4         -43881.679   88557.358 -  1.6e-29  404569.358 -        0   89856.739 -  1.6e-29
+LG+G4            -43965.409   88686.817 - 1.24e-57  375210.817 - 3.96e-38   89924.011 - 3.95e-44
+Blosum62+F+G4    -43922.816   88639.633 - 2.18e-47  404651.633 -        0   89939.014 - 2.18e-47
+LG+F+G4          -43932.381   88658.762 - 1.53e-51  404670.762 -        0   89958.143 - 1.53e-51
+PMB+G4           -43994.928   88745.857 - 1.87e-70  375269.857 - 5.99e-51   89983.050 - 5.97e-57
+VT+F+G4          -43977.337   88748.673 - 4.58e-71  404760.673 -        0   90048.054 - 4.58e-71
+Q.pfam+F+G4      -44011.796   88817.591 - 4.96e-86  404829.591 -        0   90116.972 - 4.96e-86
+WAG+G4           -44086.894   88929.787 - 2.15e-110  375453.787 - 6.88e-91   90166.981 - 6.86e-97
+Blosum62+G4      -44102.116   88960.233 - 5.26e-117  375484.233 - 1.68e-97   90197.426 - 1.68e-103
+VT+G4            -44146.690   89049.380 - 2.31e-136  375573.380 - 7.38e-117   90286.574 - 7.36e-123
+rtREV+F+G4       -44197.066   89188.132 - 1.71e-166  405200.132 -        0   90487.513 - 1.71e-166
+DCMut+F+G4       -44214.303   89222.606 - 5.59e-174  405234.606 -        0   90521.987 - 5.59e-174
+Dayhoff+F+G4     -44215.839   89225.678 - 1.2e-174  405237.678 -        0   90525.059 - 1.2e-174
+Q.yeast+F+G4     -44298.255   89390.510 - 1.94e-210  405402.510 -        0   90689.891 - 1.94e-210
+JTTDCMut+F+G4    -44302.281   89398.561 - 3.46e-212  405410.561 -        0   90697.942 - 3.46e-212
+Q.insect+F+G4    -44307.747   89409.493 - 1.46e-214  405421.493 -        0   90708.874 - 1.46e-214
+JTT+F+G4         -44311.589   89417.179 - 3.14e-216  405429.179 -        0   90716.560 - 3.14e-216
+cpREV+F+G4       -44313.773   89421.546 - 3.54e-217  405433.546 -        0   90720.927 - 3.54e-217
+FLU+F+G4         -44319.389   89432.777 - 1.29e-219  405444.777 -        0   90732.158 - 1.29e-219
+rtREV+G4         -44412.682   89581.363 - 6.99e-252  376105.363 - 2.24e-232   90818.557 - 2.23e-238
+Q.insect+G4      -44434.366   89624.732 - 2.67e-261  376148.732 - 8.55e-242   90861.925 - 8.53e-248
+JTTDCMut+G4      -44489.138   89734.275 - 4.37e-285  376258.275 - 1.4e-265   90971.469 - 1.39e-271
+cpREV+G4         -44491.484   89738.968 - 4.18e-286  376262.968 - 1.34e-266   90976.161 - 1.33e-272
+JTT+G4           -44494.091   89744.183 - 3.08e-287  376268.183 - 9.85e-268   90981.376 - 9.83e-274
+Q.yeast+G4       -44494.681   89745.363 - 1.71e-287  376269.363 - 5.46e-268   90982.556 - 5.45e-274
+mtInv+F+G4       -44592.668   89979.337 -        0  405991.336 -        0   91278.717 -        0
+Q.plant+G4       -44669.541   90095.082 -        0  376619.082 -        0   91332.276 -        0
+Q.plant+F+G4     -44720.992   90235.984 -        0  406247.984 -        0   91535.364 -        0
+DCMut+G4         -44826.947   90409.894 -        0  376933.894 -        0   91647.088 -        0
+Dayhoff+G4       -44828.449   90412.897 -        0  376936.897 -        0   91650.091 -        0
+mtZOA+F+G4       -44950.270   90694.540 -        0  406706.540 -        0   91993.921 -        0
+mtREV+F+G4       -44975.064   90744.127 -        0  406756.127 -        0   92043.508 -        0
+Q.mammal+G4      -45032.844   90821.689 -        0  377345.689 -        0   92058.883 -        0
+mtMet+F+G4       -44987.008   90768.016 -        0  406780.016 -        0   92067.397 -        0
+Q.mammal+F+G4    -44992.065   90778.130 -        0  406790.130 -        0   92077.511 -        0
+LG               -45157.736   91069.471 -        0  376081.471 - 3.45e-227   92303.392 -        0
+mtZOA+G4         -45231.676   91219.352 -        0  377743.352 -        0   92456.546 -        0
+FLU+G4           -45244.550   91245.100 -        0  377769.100 -        0   92482.294 -        0
+Q.bird+G4        -45365.160   91486.320 -        0  378010.320 -        0   92723.514 -        0
+Q.bird+F+G4      -45371.547   91537.093 -        0  407549.093 -        0   92836.474 -        0
+HIVb+F+G4        -45453.242   91700.483 -        0  407712.483 -        0   92999.864 -        0
+mtVer+F+G4       -45619.710   92033.421 -        0  408045.421 -        0   93332.802 -        0
+mtART+F+G4       -45637.400   92068.799 -        0  408080.799 -        0   93368.180 -        0
+HIVb+G4          -45759.861   92275.722 -        0  378799.722 -        0   93512.916 -        0
+FLAVI+F+G4       -46081.715   92957.431 -        0  408969.431 -        0   94256.812 -        0
+FLAVI+G4         -46151.255   93058.510 -        0  379582.510 -        0   94295.704 -        0
+mtREV+G4         -46151.668   93059.337 -        0  379583.337 -        0   94296.531 -        0
+mtMet+G4         -46163.101   93082.202 -        0  379606.202 -        0   94319.396 -        0
+mtMAM+F+G4       -46147.005   93088.010 -        0  409100.010 -        0   94387.391 -        0
+mtInv+G4         -46222.487   93200.973 -        0  379724.973 -        0   94438.167 -        0
+HIVw+F+G4        -46319.671   93433.341 -        0  409445.341 -        0   94732.722 -        0
+mtART+G4         -46477.861   93711.723 -        0  380235.723 -        0   94948.917 -        0
+mtVer+G4         -46697.282   94150.564 -        0  380674.564 -        0   95387.758 -        0
+mtMAM+G4         -47452.146   95660.292 -        0  382184.292 -        0   96897.485 -        0
+HIVw+G4          -47794.148   96344.296 -        0  382868.296 -        0   97581.490 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: WAG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0941
+  pi(R) = 0.0287
+  pi(N) = 0.0324
+  pi(D) = 0.0378
+  pi(C) = 0.0527
+  pi(Q) = 0.0223
+  pi(E) = 0.0427
+  pi(G) = 0.0781
+  pi(H) = 0.0257
+  pi(I) = 0.0548
+  pi(L) = 0.1198
+  pi(K) = 0.0200
+  pi(M) = 0.0213
+  pi(F) = 0.0422
+  pi(P) = 0.0435
+  pi(S) = 0.0597
+  pi(T) = 0.0655
+  pi(W) = 0.0318
+  pi(Y) = 0.0333
+  pi(V) = 0.0936
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.7386
+
+ Category  Relative_rate  Proportion
+  1         0.2599         0.2500
+  2         0.6240         0.2500
+  3         1.0618         0.2500
+  4         2.0543         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -43755.8440 (s.e. 1130.9494)
+Unconstrained log-likelihood (without tree): -1028.2349
+Number of free parameters (#branches + #model parameters): 397
+Akaike information criterion (AIC) score: 88305.6880
+Corrected Akaike information criterion (AICc) score: 404317.6880
+Bayesian information criterion (BIC) score: 89605.0688
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 397
+Sample size (n, alignment length): 195
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 77.3204
+Sum of internal branch lengths: 29.6338 (38.3259% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0051) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'HPHV_Bald_eagle_hepacivirus_E1_170-361_AlphaFold.pdb' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--HPHV_Bald_eagle_hepacivirus_E1_170-361_AlphaFold.pdb
+|
+|                                                                       +--HPHV_Bamboo_rat_hepacivirus_OM451124_E1_171-356_AlphaFold.pdb
+|                                                                    +--| (100)
+|                                                                    |  |     +**HPHV_Bamboo_rat_hepacivirus_OM480528_E1_171-357_AlphaFold.pdb
+|                                                                    |  |  +--| (85)
+|                                                                    |  |  |  +--HPHV_Rodent_hepacivirus_05VZ-14-118_E1_170-357_AlphaFold.pdb
+|                                                                    |  +**| (62)
+|                                                                    |     +**HPHV_Rhizomys_pruinosus_hepacivirus_E1_176-361_AlphaFold.pdb
+|                                                                 +--| (53)
+|                                                                 |  |  +--HPHV_Gerbil_hepacivirus_E1_219-405_AlphaFold.pdb
+|                                                                 |  +--| (57)
+|                                                                 |     |  +--HPHV_Rodent_hepacivirus_B349PAN2014_E1_164-351_AlphaFold.pdb
+|                                                                 |     +--| (100)
+|                                                                 |        +--HPHV_Rodent_hepacivirus_RO22799BeAn812052_E1_168-355_AlphaFold.pdb
+|                                                              +--| (93)
+|                                                              |  |              +**HPHV_Hepacivirus_F_E1_152-338_AlphaFold.pdb
+|                                                              |  |           +--| (97)
+|                                                              |  |           |  |  +**HPHV_Hepacivirus_F_isolate_MgHV3_E1_146-332_AlphaFold.pdb
+|                                                              |  |           |  +**| (97)
+|                                                              |  |           |     +**HPHV_Hepacivirus_F_isolate_MgHV4_E1_146-333_AlphaFold.pdb
+|                                                              |  |        +--| (98)
+|                                                              |  |        |  +--HPHV_Hepacivirus_F_isolate_NA_E1_180-366_AlphaFold.pdb
+|                                                              |  |     +--| (100)
+|                                                              |  |     |  +**HPHV_Hepacivirus_F_isolate_MgHV2_E1_146-333_AlphaFold.pdb
+|                                                              |  |  +--| (95)
+|                                                              |  |  |  +--HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E1_145-332_AlphaFold.pdb
+|                                                              |  +--| (92)
+|                                                              |     |  +--HPHV_Rodent_hepacivirus_E1_167-353_AlphaFold.pdb
+|                                                              |     +--| (54)
+|                                                              |        +--HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E1_168-353_AlphaFold.pdb
+|                                                           +--| (95)
+|                                                           |  +--HPHV_Rodent_hepacivirus_TZ25757TZA2011_E1_181-367_AlphaFold.pdb
+|                                                        +--| (100)
+|                                                        |  +--HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E1_174-359_AlphaFold.pdb
+|                                                     +--| (19)
+|                                                     |  |                    +**HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E1_265-459_AlphaFold.pdb
+|                                                     |  |                 +--| (100)
+|                                                     |  |                 |  +**HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E1_253-458_AlphaFold.pdb
+|                                                     |  |              +--| (100)
+|                                                     |  |              |  +**HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E1_213-405_AlphaFold.pdb
+|                                                     |  |           +--| (100)
+|                                                     |  |           |  +**HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E1_212-403_AlphaFold.pdb
+|                                                     |  |        +--| (100)
+|                                                     |  |        |  |  +--HPHV_Norway_rat_hepacivirus_1_E1_246-449_AlphaFold.pdb
+|                                                     |  |        |  +--| (100)
+|                                                     |  |        |     +**HPHV_Rodent_hepacivirus_rn-1_E1_246-450_AlphaFold.pdb
+|                                                     |  |     +--| (91)
+|                                                     |  |     |  +--HPHV_Northern_treeshrew_hepacivirus_E1_155-346_AlphaFold.pdb
+|                                                     |  |  +--| (96)
+|                                                     |  |  |  |        +--HPHV_Rodent_hepacivirus_CRT382COD2010_E1_252-436_AlphaFold.pdb
+|                                                     |  |  |  |     +--| (100)
+|                                                     |  |  |  |     |  +--HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E1_252-435_AlphaFold.pdb
+|                                                     |  |  |  |  +--| (99)
+|                                                     |  |  |  |  |  +**HPHV_Rodent_hepacivirus_TA498-CTZA2013_E1_251-435_AlphaFold.pdb
+|                                                     |  |  |  +--| (100)
+|                                                     |  |  |     +--HPHV_Rodent_hepacivirus_TA085TZA2013_E1_223-407_AlphaFold.pdb
+|                                                     |  +--| (97)
+|                                                     |     +--HPHV_Norway_rat_hepacivirus_2_E1_164-382_AlphaFold.pdb
+|                                                  +--| (61)
+|                                                  |  +--HPHV_Rodent_hepacivirus_CRT682COD2010_E1_173-368_AlphaFold.pdb
+|                                               +--| (87)
+|                                               |  |     +--HPHV_Hepacivirus_P_E1_148-338_AlphaFold.pdb
+|                                               |  |  +--| (53)
+|                                               |  |  |  +--HPHV_Hepacivirus_sp._clone_B32_E1_157-338_AlphaFold.pdb
+|                                               |  +--| (61)
+|                                               |     |  +--HPHV_Sifaka_hepacivirus_MH824541_E1_200-394_AlphaFold.pdb
+|                                               |     +--| (100)
+|                                               |        +--HPHV_Sifaka_hepacivirus_MT371438_E1_202-393_AlphaFold.pdb
+|                                            +--| (74)
+|                                            |  +--HPHV_Possum_hepacivrus_E1_166-342_AlphaFold.pdb
+|                                         +--| (97)
+|                                         |  +--HPHV_Ringtail_hepacivirus_E1_164-353_AlphaFold.pdb
+|                                      +--| (64)
+|                                      |  |     +--HPHV_Crab_eating_macaque_hepacivirus_E1_174-383_AlphaFold.pdb
+|                                      |  |  +--| (100)
+|                                      |  |  |  +--HPHV_Guereza_hepacivirus_E1_180-392_AlphaFold.pdb
+|                                      |  +--| (73)
+|                                      |     |  +**HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E1_161-344_AlphaFold.pdb
+|                                      |     +--| (100)
+|                                      |        +--HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E1_159-344_AlphaFold.pdb
+|                                   +--| (59)
+|                                   |  |        +--HPHV_Hepacivirus_I_E1_180-369_AlphaFold.pdb
+|                                   |  |     +--| (100)
+|                                   |  |     |  +--HPHV_Sigmodontinae_hepacivirus_E1_170-367_AlphaFold.pdb
+|                                   |  |  +--| (100)
+|                                   |  |  |  +--HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E1_173-367_AlphaFold.pdb
+|                                   |  +--| (72)
+|                                   |     +--HPHV_Hepatitis_GB_virus_B_E1_157-349_AlphaFold.pdb
+|                                +--| (68)
+|                                |  |  +--HPHV_Bat_hepacivirus_BK013349_E1_149-356_AlphaFold.pdb
+|                                |  +--| (91)
+|                                |     |  +--HPHV_Hepacivirus_L_E1_163-363_AlphaFold.pdb
+|                                |     +--| (100)
+|                                |        |  +--HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E1_159-357_AlphaFold.pdb
+|                                |        +--| (100)
+|                                |           +--HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E1_157-362_AlphaFold.pdb
+|                             +--| (85)
+|                             |  +--HPHV_Bat_hepacivirus_TA166TZA2013_E1_138-324_AlphaFold.pdb
+|                          +--| (100)
+|                          |  |  +--HPHV_Hepacivirus_N_E1_151-347_AlphaFold.pdb
+|                          |  +--| (100)
+|                          |     +--HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E1_148-347_AlphaFold.pdb
+|                       +--| (34)
+|                       |  |           +--HPHV_Catfish_hepacivirus_E1_355-549_AlphaFold.pdb
+|                       |  |        +--| (93)
+|                       |  |        |  |     +--HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E1_180-366_AlphaFold.pdb
+|                       |  |        |  |  +--| (100)
+|                       |  |        |  |  |  +--HPHV_Cyprichromis_hepacivirus_E1_102-279_AlphaFold.pdb
+|                       |  |        |  +--| (93)
+|                       |  |        |     |     +--HPHV_Guangxi_houndshark_hepacivirus_E1_344-537_AlphaFold.pdb
+|                       |  |        |     |  +--| (100)
+|                       |  |        |     |  |  +--HPHV_Wenling_shark_virus_E1_301-494_AlphaFold.pdb
+|                       |  |        |     +--| (100)
+|                       |  |        |        |  +--HPHV_Nanhai_ghost_shark_hepacivirus_1_E1_2-119_AlphaFold.pdb
+|                       |  |        |        +--| (100)
+|                       |  |        |           +--HPHV_Nanhai_ghost_shark_hepacivirus_2_E1_213-403_AlphaFold.pdb
+|                       |  |     +--| (99)
+|                       |  |     |  +--HPHV_White_sucker_hepacivirus_E1_381-571_AlphaFold.pdb
+|                       |  |  +--| (33)
+|                       |  |  |  |     +--HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E1_164-348_AlphaFold.pdb
+|                       |  |  |  |  +--| (100)
+|                       |  |  |  |  |  |        +--HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |  |  |     +--| (100)
+|                       |  |  |  |  |  |     |  +--HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E1_183-367_AlphaFold.pdb
+|                       |  |  |  |  |  |  +--| (100)
+|                       |  |  |  |  |  |  |  |        +--HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E1_173-356_AlphaFold.pdb
+|                       |  |  |  |  |  |  |  |     +--| (100)
+|                       |  |  |  |  |  |  |  |     |  +**HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |  |  |  |  |  +**| (99)
+|                       |  |  |  |  |  |  |  |  |  |  +--HPHV_Rodent_hepacivirus_TA100-ATZA2013_E1_173-355_AlphaFold.pdb
+|                       |  |  |  |  |  |  |  |  |  +--| (99)
+|                       |  |  |  |  |  |  |  |  |     +--HPHV_Rodent_hepacivirus_TA531-ATZA2013_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |  |  |  |  +--| (100)
+|                       |  |  |  |  |  |  |     |  +--HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |  |  |  |     +--| (100)
+|                       |  |  |  |  |  |  |        +--HPHV_Rodent_hepacivirus_TA498-ATZA2013_E1_213-395_AlphaFold.pdb
+|                       |  |  |  |  |  +--| (100)
+|                       |  |  |  |  |     +--HPHV_Rodent_hepacivirus_TA142TZA2013_E1_168-351_AlphaFold.pdb
+|                       |  |  |  +--| (100)
+|                       |  |  |     +--HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E1_220-403_AlphaFold.pdb
+|                       |  +--| (35)
+|                       |     |  +--HPHV_Xiamen_guitarfish_hepacivirus_E1_370-557_AlphaFold.pdb
+|                       |     +--| (98)
+|                       |        +--HPHV_Xiamen_sepia_Stingray_hepacivirus_E1_430-621_AlphaFold.pdb
+|                    +--| (66)
+|                    |  |     +--HPHV_Hepacivirus_sp._E1_201-379_AlphaFold.pdb
+|                    |  |  +--| (97)
+|                    |  |  |  |  +--HPPV_Goose_pegivirus_1_E1_33-220_AlphaFold.pdb
+|                    |  |  |  +--| (99)
+|                    |  |  |     |     +--HPPV_Goose_pegivirus_2_E1_29-214_AlphaFold.pdb
+|                    |  |  |     |  +--| (100)
+|                    |  |  |     |  |  +--HPPV_Montifringilla_taczanowskii_pegivirus_E1_28-222_AlphaFold.pdb
+|                    |  |  |     +--| (99)
+|                    |  |  |        |  +--HPPV_Leucosticte_brandti_pegivirus_XZN_E1_28-217_AlphaFold.pdb
+|                    |  |  |        +--| (100)
+|                    |  |  |           +--HPPV_Passer_montanus_pegivirus_GXN_E1_27-210_AlphaFold.pdb
+|                    |  +--| (92)
+|                    |     |                       +--HPPV_Bat_GB-like_virus_E1_22-217_AlphaFold.pdb
+|                    |     |                    +--| (100)
+|                    |     |                    |  +--HPPV_Bat_pegivirus_PDB-694_E1_61-256_AlphaFold.pdb
+|                    |     |                 +--| (100)
+|                    |     |                 |  +--HPPV_Bat_pegivirus_PDB-303_E1_23-220_AlphaFold.pdb
+|                    |     |              +--| (99)
+|                    |     |              |  +--HPPV_GB_virus_E1_62-249_AlphaFold.pdb
+|                    |     |           +--| (36)
+|                    |     |           |  +--HPPV_Pegivirus_I_E1_21-212_AlphaFold.pdb
+|                    |     |        +--| (95)
+|                    |     |        |  |                    +--HPPV_Bat_pegivirus_PDB-24_E1_30-214_AlphaFold.pdb
+|                    |     |        |  |                 +--| (98)
+|                    |     |        |  |                 |  +--HPPV_Bat_pegivirus_PDB-491.2_E1_104-287_AlphaFold.pdb
+|                    |     |        |  |              +--| (97)
+|                    |     |        |  |              |  +--HPPV_Bat_pegivirus_PDB-838_E1_102-284_AlphaFold.pdb
+|                    |     |        |  |           +--| (97)
+|                    |     |        |  |           |  |  +--HPPV_Bat_pegivirus_PDB-737B_E1_58-242_AlphaFold.pdb
+|                    |     |        |  |           |  +--| (100)
+|                    |     |        |  |           |     +--HPPV_Southwest_bike_trail_virus_E1_180-362_AlphaFold.pdb
+|                    |     |        |  |        +--| (96)
+|                    |     |        |  |        |  |  +--HPPV_Hepatitis_GB_virus_A_E1_98-271_AlphaFold.pdb
+|                    |     |        |  |        |  +--| (100)
+|                    |     |        |  |        |     +--HPPV_Marmoset_pegivirus_E1_22-198_AlphaFold.pdb
+|                    |     |        |  |     +--| (97)
+|                    |     |        |  |     |  |           +--HPPV_Chimpanzee_GB_virus_C_E1_21-207_AlphaFold.pdb
+|                    |     |        |  |     |  |        +--| (100)
+|                    |     |        |  |     |  |        |  +--HPPV_Nabpantry_virus_9_E1_21-205_AlphaFold.pdb
+|                    |     |        |  |     |  |     +--| (100)
+|                    |     |        |  |     |  |     |  +--HPPV_Ticpantry_virus_3_E1_102-286_AlphaFold.pdb
+|                    |     |        |  |     |  |  +--| (100)
+|                    |     |        |  |     |  |  |  |              +**HPPV_Hepatitis_G_virus_AB018667.1_E1_20-206_AlphaFold.pdb
+|                    |     |        |  |     |  |  |  |           +--| (99)
+|                    |     |        |  |     |  |  |  |           |  +--HPPV_Hepatitis_G_virus_AB021287.1_E1_20-206_AlphaFold.pdb
+|                    |     |        |  |     |  |  |  |        +--| (90)
+|                    |     |        |  |     |  |  |  |        |  +**HPPV_Hepatitis_G_virus_HGV-T55875_E1_52-237_AlphaFold.pdb
+|                    |     |        |  |     |  |  |  |     +**| (92)
+|                    |     |        |  |     |  |  |  |     |  |  +--HPPV_Hepatitis_G_virus_U94695.1_E1_53-237_AlphaFold.pdb
+|                    |     |        |  |     |  |  |  |     |  +**| (93)
+|                    |     |        |  |     |  |  |  |     |     +--HPPV_Pegivirus_A_56330218_E1_20-206_AlphaFold.pdb
+|                    |     |        |  |     |  |  |  |  +**| (98)
+|                    |     |        |  |     |  |  |  |  |  +**HPPV_Hepatitis_G_virus_isolate_765_E1_88-274_AlphaFold.pdb
+|                    |     |        |  |     |  |  |  +--| (100)
+|                    |     |        |  |     |  |  |     +**HPPV_Pegivirus_A_89859249_E1_65-251_AlphaFold.pdb
+|                    |     |        |  |     |  +--| (100)
+|                    |     |        |  |     |     |  +--HPPV_Simian_pegivirus_SPgVkrc_RC08_E1_21-207_AlphaFold.pdb
+|                    |     |        |  |     |     +--| (100)
+|                    |     |        |  |     |        |  +--HPPV_Simian_pegivirus_VGA00020_E1_21-207_AlphaFold.pdb
+|                    |     |        |  |     |        +--| (98)
+|                    |     |        |  |     |           +--HPPV_Simian_pegivirus_myb_M77_E1_21-207_AlphaFold.pdb
+|                    |     |        |  |  +--| (96)
+|                    |     |        |  |  |  +--HPPV_Pegivirus_K_E1_20-208_AlphaFold.pdb
+|                    |     |        |  +--| (13)
+|                    |     |        |     +---HPPV_Dolphin_pegivirus_E1_33-218_AlphaFold.pdb
+|                    |     |     +--| (93)
+|                    |     |     |  |  +---HPPV_Equine_Pegivirus_E1_55-232_AlphaFold.pdb
+|                    |     |     |  +--| (70)
+|                    |     |     |     |  +--HPPV_Feline_pegivirus_E1_31-210_AlphaFold.pdb
+|                    |     |     |     +--| (99)
+|                    |     |     |        +--HPPV_Pegivirus_D_E1_22-206_AlphaFold.pdb
+|                    |     |  +--| (90)
+|                    |     |  |  |           +--HPPV_Bat_pegivirus_PDB-1734_E1_162-347_AlphaFold.pdb
+|                    |     |  |  |        +--| (99)
+|                    |     |  |  |        |  +--HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E1_197-379_AlphaFold.pdb
+|                    |     |  |  |     +--| (98)
+|                    |     |  |  |     |  |        +--HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E1_212-398_AlphaFold.pdb
+|                    |     |  |  |     |  |     +--| (93)
+|                    |     |  |  |     |  |     |  |        +--HPPV_Longquan_Niviventer_fulvescens_pegivirus_E1_225-423_AlphaFold.pdb
+|                    |     |  |  |     |  |     |  |     +--| (99)
+|                    |     |  |  |     |  |     |  |     |  +**HPPV_Longquan_Niviventer_niviventer_pegivirus_E1_233-416_AlphaFold.pdb
+|                    |     |  |  |     |  |     |  |  +--| (100)
+|                    |     |  |  |     |  |     |  |  |  +**HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E1_223-415_AlphaFold.pdb
+|                    |     |  |  |     |  |     |  +--| (99)
+|                    |     |  |  |     |  |     |     |     +--HPPV_Rodent_pegivirus_05VZ-14-Rat070_E1_233-413_AlphaFold.pdb
+|                    |     |  |  |     |  |     |     |  +--| (100)
+|                    |     |  |  |     |  |     |     |  |  +**HPPV_Rodent_pegivirus_RPgV-IND079_E1_231-413_AlphaFold.pdb
+|                    |     |  |  |     |  |     |     +--| (99)
+|                    |     |  |  |     |  |     |        |  +--HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E1_207-398_AlphaFold.pdb
+|                    |     |  |  |     |  |     |        +--| (100)
+|                    |     |  |  |     |  |     |           +**HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E1_225-408_AlphaFold.pdb
+|                    |     |  |  |     |  |  +--| (94)
+|                    |     |  |  |     |  |  |  |  +--HPPV_Phaiomys_leucurus_pegivirus_E1_247-430_AlphaFold.pdb
+|                    |     |  |  |     |  |  |  +--| (100)
+|                    |     |  |  |     |  |  |     +--HPPV_Rodent_pegivirus_isolate_CC61_E1_226-411_AlphaFold.pdb
+|                    |     |  |  |     |  +--| (95)
+|                    |     |  |  |     |     |  +--HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E1_167-351_AlphaFold.pdb
+|                    |     |  |  |     |     +--| (100)
+|                    |     |  |  |     |        +--HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E1_167-348_AlphaFold.pdb
+|                    |     |  |  |  +--| (96)
+|                    |     |  |  |  |  |  +---HPPV_Human_hepegivirus_E1_111-315_AlphaFold.pdb
+|                    |     |  |  |  |  +--| (98)
+|                    |     |  |  |  |     +--HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E1_67-245_AlphaFold.pdb
+|                    |     |  |  +--| (100)
+|                    |     |  |     |     +--HPPV_Bat_pegivirus_PDB-34.1_E1_289-471_AlphaFold.pdb
+|                    |     |  |     |  +--| (100)
+|                    |     |  |     |  |  +--HPPV_Pegivirus_G_E1_285-477_AlphaFold.pdb
+|                    |     |  |     +--| (99)
+|                    |     |  |        +--HPPV_Tree_shrew_pegivirus_E1_161-347_AlphaFold.pdb
+|                    |     +--| (87)
+|                    |        |                       +--PLPV_Atypical_porcine_pestivirus_E1_502-700_AlphaFold.pdb
+|                    |        |                    +--| (100)
+|                    |        |                    |  |  +--PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E1_503-701_AlphaFold.pdb
+|                    |        |                    |  +--| (100)
+|                    |        |                    |     +--PLPV_Zikole_virus_E1_503-702_AlphaFold.pdb
+|                    |        |                 +--| (92)
+|                    |        |                 |  +----PLPV_Frog_pestivirus_E1_897-1094_AlphaFold.pdb
+|                    |        |              +--| (89)
+|                    |        |              |  |     +--PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E1_638-834_AlphaFold.pdb
+|                    |        |              |  |  +--| (100)
+|                    |        |              |  |  |  +--PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E1_635-832_AlphaFold.pdb
+|                    |        |              |  +--| (100)
+|                    |        |              |     +--PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E1_624-819_AlphaFold.pdb
+|                    |        |           +--| (83)
+|                    |        |           |  +--PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E1_329-526_AlphaFold.pdb
+|                    |        |        +--| (83)
+|                    |        |        |  |        +--PLPV_Linda_virus_strain_Austria1_E1_508-702_AlphaFold.pdb
+|                    |        |        |  |     +--| (98)
+|                    |        |        |  |     |  +--PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E1_502-698_AlphaFold.pdb
+|                    |        |        |  |  +--| (100)
+|                    |        |        |  |  |  +--PLPV_Porcine_pestivirus_isolate_Bungowannah_E1_498-694_AlphaFold.pdb
+|                    |        |        |  +--| (99)
+|                    |        |        |     +--PLPV_Phocoena_pestivirus_isolate_NS170386_E1_339-536_AlphaFold.pdb
+|                    |        +--------| (94)
+|                    |                 |                                +--PLPV_Border_disease_virus_X818_E1_496-690_AlphaFold.pdb
+|                    |                 |                             +--| (100)
+|                    |                 |                             |  +--PLPV_Pestivirus_reindeer-1_V60-Krefeld_E1_496-690_AlphaFold.pdb
+|                    |                 |                          +--| (100)
+|                    |                 |                          |  +--PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E1_495-689_AlphaFold.pdb
+|                    |                 |                       +**| (96)
+|                    |                 |                       |  +--PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E1_495-689_AlphaFold.pdb
+|                    |                 |                    +--| (95)
+|                    |                 |                    |  +--PLPV_Classical_swine_fever_virus_E1_496-689_AlphaFold.pdb
+|                    |                 |                 +--| (99)
+|                    |                 |                 |  |  +--PLPV_Pestivirus_Burdur05-TR_E1_496-690_AlphaFold.pdb
+|                    |                 |                 |  +--| (98)
+|                    |                 |                 |     +--PLPV_Pestivirus_strain_Aydin04-TR_E1_496-690_AlphaFold.pdb
+|                    |                 |              +--| (83)
+|                    |                 |              |  |     +--PLPV_Bovine_viral_diarrhea_virus_1_E1_498-692_AlphaFold.pdb
+|                    |                 |              |  |  +--| (84)
+|                    |                 |              |  |  |  +--PLPV_Bovine_viral_diarrhea_virus_2_E1_498-692_AlphaFold.pdb
+|                    |                 |              |  +--| (84)
+|                    |                 |              |     +--PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E1_496-690_AlphaFold.pdb
+|                    |                 |           +--| (71)
+|                    |                 |           |  +--PLPV_Pestivirus_PG-2_E1_495-688_AlphaFold.pdb
+|                    |                 |        +--| (78)
+|                    |                 |        |  +--PLPV_Pestivirus_giraffe-1_H138_E1_494-688_AlphaFold.pdb
+|                    |                 |     +--| (76)
+|                    |                 |     |  +--PLPV_Pronghorn_antelope_pestivirus_E1_493-687_AlphaFold.pdb
+|                    |                 |  +**| (51)
+|                    |                 |  |  |                 +--PLPV_Dongyang_pangolin_virus_isolate_DYCS_E1_476-667_AlphaFold.pdb
+|                    |                 |  |  |              +--| (100)
+|                    |                 |  |  |              |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E1_476-673_AlphaFold.pdb
+|                    |                 |  |  |           +--| (100)
+|                    |                 |  |  |           |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E1_477-673_AlphaFold.pdb
+|                    |                 |  |  |        +--| (100)
+|                    |                 |  |  |        |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E1_476-674_AlphaFold.pdb
+|                    |                 |  |  |     +--| (98)
+|                    |                 |  |  |     |  |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E1_505-702_AlphaFold.pdb
+|                    |                 |  |  |     |  +--| (98)
+|                    |                 |  |  |     |     +--PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E1_508-703_AlphaFold.pdb
+|                    |                 |  |  |  +--| (98)
+|                    |                 |  |  |  |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E1_476-673_AlphaFold.pdb
+|                    |                 |  |  +--| (97)
+|                    |                 |  |     +--PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E1_501-699_AlphaFold.pdb
+|                    |                 +--| (58)
+|                    |                    +-----------------------------------------PLPV_Glass_knifefish_pestivirus_E1_1023-1197_AlphaFold.pdb
+|                 +--| (69)
+|                 |  |              +--HPHV_Equine_hepacivirus_E1_205-391_AlphaFold.pdb
+|                 |  |           +**| (44)
+|                 |  |           |  +--HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E1_205-387_AlphaFold.pdb
+|                 |  |        +**| (35)
+|                 |  |        |  +--HPHV_Non-primate_hepacivirus_NZP1_E1_205-391_AlphaFold.pdb
+|                 |  |     +--| (100)
+|                 |  |     |  +--HPHV_Hepacivirus_horseDH1HUN2013_E1_205-390_AlphaFold.pdb
+|                 |  |  +--| (100)
+|                 |  |  |  |           +--HPHV_Hepatitis_C_virus_genotype_1_E1_192-383_AlphaFold.pdb
+|                 |  |  |  |        +--| (91)
+|                 |  |  |  |        |  |  +--HPHV_Hepatitis_C_virus_genotype_4_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |        |  +--| (92)
+|                 |  |  |  |        |     |     +--HPHV_Hepatitis_C_virus_genotype_5_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |        |     |  +--| (100)
+|                 |  |  |  |        |     |  |  +--HPHV_Recombinant_Hepacivirus_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |        |     +--| (91)
+|                 |  |  |  |        |        +--HPHV_Hepatitis_C_virus_genotype_6_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |     +--| (79)
+|                 |  |  |  |     |  +--HPHV_Hepatitis_C_virus_genotype_3_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |  +--| (67)
+|                 |  |  |  |  |  |     +--HPHV_Hepatitis_C_virus_genotype_2_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |  |  |  +--| (100)
+|                 |  |  |  |  |  |  |  +**HPHV_Mutant_Hepacivirus_clone_T9cc_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |  |  +--| (100)
+|                 |  |  |  |  |     +--HPHV_Mutant_Hepacivirus_clone_S83cc_E1_193-383_AlphaFold.pdb
+|                 |  |  |  +--| (100)
+|                 |  |  |     +--HPHV_Hepatitis_C_virus_genotype_7_E1_192-383_AlphaFold.pdb
+|                 |  +--| (80)
+|                 |     |  +--HPHV_Hepacivirus_K_E1_191-383_AlphaFold.pdb
+|                 |     +--| (100)
+|                 |        +--HPHV_Hepacivirus_M_E1_191-382_AlphaFold.pdb
+|              +--| (51)
+|              |  |  +--HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E1_298-486_AlphaFold.pdb
+|              |  +--| (100)
+|              |     +--HPHV_Chinese_softshell_turtle_hepacivirus_E1_301-487_AlphaFold.pdb
+|           +--| (67)
+|           |  |           +--HPHV_Gecko_hepacivirus_E1_311-502_AlphaFold.pdb
+|           |  |        +--| (100)
+|           |  |        |  +--HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E1_672-861_AlphaFold.pdb
+|           |  |     +--| (100)
+|           |  |     |  +--HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E1_219-407_AlphaFold.pdb
+|           |  |  +--| (100)
+|           |  |  |  +--HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E1_660-850_AlphaFold.pdb
+|           |  +--| (65)
+|           |     +--HPHV_Western_African_lungfish_hepacivirus_E1_382-570_AlphaFold.pdb
+|        +--| (93)
+|        |  +-----HPUN_Wenling_moray_eel_hepacivirus_E1_286-472_AlphaFold.pdb
+|     +--| (100)
+|     |  +--HPHV_Viviparous_lizard_hepacivirus_E1_465-667_AlphaFold.pdb
+|  +--| (100)
+|  |  +--HPHV_Duck_hepacivirus_HCL-1_E1_289-481_AlphaFold.pdb
++--| (100)
+|  +--HPHV_Jogalong_virus_P1-10_E1_88-278_AlphaFold.pdb
+|
++--HPHV_Hepacivirus_Q_strain_GDZQ-15_E1_172-361_AlphaFold.pdb
+
+Tree in newick format:
+
+(HPHV_Bald_eagle_hepacivirus_E1_170-361_AlphaFold.pdb:0.2377925650,((((((((((((((((((((((((HPHV_Bamboo_rat_hepacivirus_OM451124_E1_171-356_AlphaFold.pdb:0.0080327878,((HPHV_Bamboo_rat_hepacivirus_OM480528_E1_171-357_AlphaFold.pdb:0.0047462268,HPHV_Rodent_hepacivirus_05VZ-14-118_E1_170-357_AlphaFold.pdb:0.0454122290)85:0.0076783732,HPHV_Rhizomys_pruinosus_hepacivirus_E1_176-361_AlphaFold.pdb:0.0000026661)62:0.0000020932)100:0.1364246606,(HPHV_Gerbil_hepacivirus_E1_219-405_AlphaFold.pdb:0.1060990363,(HPHV_Rodent_hepacivirus_B349PAN2014_E1_164-351_AlphaFold.pdb:0.0923984544,HPHV_Rodent_hepacivirus_RO22799BeAn812052_E1_168-355_AlphaFold.pdb:0.0620686074)100:0.1374869683)57:0.0200721951)53:0.0389164817,(((((HPHV_Hepacivirus_F_E1_152-338_AlphaFold.pdb:0.0000026133,(HPHV_Hepacivirus_F_isolate_MgHV3_E1_146-332_AlphaFold.pdb:0.0000028605,HPHV_Hepacivirus_F_isolate_MgHV4_E1_146-333_AlphaFold.pdb:0.0039858837)97:0.0039942521)97:0.0081468187,HPHV_Hepacivirus_F_isolate_NA_E1_180-366_AlphaFold.pdb:0.0080194815)98:0.0079209481,HPHV_Hepacivirus_F_isolate_MgHV2_E1_146-333_AlphaFold.pdb:0.0000026514)100:0.0774607607,HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E1_145-332_AlphaFold.pdb:0.0975399123)95:0.0372443796,(HPHV_Rodent_hepacivirus_E1_167-353_AlphaFold.pdb:0.0895191498,HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E1_168-353_AlphaFold.pdb:0.1335547114)54:0.0251520206)92:0.0475442379)93:0.0435286284,HPHV_Rodent_hepacivirus_TZ25757TZA2011_E1_181-367_AlphaFold.pdb:0.1762378779)95:0.0894804169,HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E1_174-359_AlphaFold.pdb:0.1296118296)100:0.1108776585,(((((((HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E1_265-459_AlphaFold.pdb:0.0000010000,HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E1_253-458_AlphaFold.pdb:0.0000010000)100:0.0081477518,HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E1_213-405_AlphaFold.pdb:0.0038885703)100:0.0084209154,HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E1_212-403_AlphaFold.pdb:0.0000028980)100:0.1231906700,(HPHV_Norway_rat_hepacivirus_1_E1_246-449_AlphaFold.pdb:0.0150469633,HPHV_Rodent_hepacivirus_rn-1_E1_246-450_AlphaFold.pdb:0.0000022572)100:0.1265153318)100:0.1909337253,HPHV_Northern_treeshrew_hepacivirus_E1_155-346_AlphaFold.pdb:0.1724353556)91:0.0296241465,(((HPHV_Rodent_hepacivirus_CRT382COD2010_E1_252-436_AlphaFold.pdb:0.0081994209,HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E1_252-435_AlphaFold.pdb:0.0083413448)100:0.0085746189,HPHV_Rodent_hepacivirus_TA498-CTZA2013_E1_251-435_AlphaFold.pdb:0.0038768982)99:0.0106223612,HPHV_Rodent_hepacivirus_TA085TZA2013_E1_223-407_AlphaFold.pdb:0.0233966030)100:0.1960825433)96:0.0747899743,HPHV_Norway_rat_hepacivirus_2_E1_164-382_AlphaFold.pdb:0.3540950790)97:0.0933573336)19:0.0246600319,HPHV_Rodent_hepacivirus_CRT682COD2010_E1_173-368_AlphaFold.pdb:0.2807729993)61:0.0290588871,((HPHV_Hepacivirus_P_E1_148-338_AlphaFold.pdb:0.1939379719,HPHV_Hepacivirus_sp._clone_B32_E1_157-338_AlphaFold.pdb:0.4313530991)53:0.0626939856,(HPHV_Sifaka_hepacivirus_MH824541_E1_200-394_AlphaFold.pdb:0.0691016077,HPHV_Sifaka_hepacivirus_MT371438_E1_202-393_AlphaFold.pdb:0.0724114095)100:0.3939693898)61:0.0697627487)87:0.0966973806,HPHV_Possum_hepacivrus_E1_166-342_AlphaFold.pdb:0.5054491300)74:0.0620233079,HPHV_Ringtail_hepacivirus_E1_164-353_AlphaFold.pdb:0.4493080235)97:0.0872571555,((HPHV_Crab_eating_macaque_hepacivirus_E1_174-383_AlphaFold.pdb:0.1499415006,HPHV_Guereza_hepacivirus_E1_180-392_AlphaFold.pdb:0.1698038835)100:0.5429161492,(HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E1_161-344_AlphaFold.pdb:0.0035730044,HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E1_159-344_AlphaFold.pdb:0.0236499184)100:0.7272373896)73:0.1345299892)64:0.1139075086,(((HPHV_Hepacivirus_I_E1_180-369_AlphaFold.pdb:0.2241811597,HPHV_Sigmodontinae_hepacivirus_E1_170-367_AlphaFold.pdb:0.3136284151)100:0.1208546878,HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E1_173-367_AlphaFold.pdb:0.3548302020)100:0.3284778659,HPHV_Hepatitis_GB_virus_B_E1_157-349_AlphaFold.pdb:0.4474251986)72:0.0954826939)59:0.0824965160,(HPHV_Bat_hepacivirus_BK013349_E1_149-356_AlphaFold.pdb:0.4506401949,(HPHV_Hepacivirus_L_E1_163-363_AlphaFold.pdb:0.1011943955,(HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E1_159-357_AlphaFold.pdb:0.1661268724,HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E1_157-362_AlphaFold.pdb:0.0752971923)100:0.2728437308)100:0.4385009912)91:0.1026763114)68:0.1505420224,HPHV_Bat_hepacivirus_TA166TZA2013_E1_138-324_AlphaFold.pdb:0.8118361106)85:0.1300710667,(HPHV_Hepacivirus_N_E1_151-347_AlphaFold.pdb:0.3906397448,HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E1_148-347_AlphaFold.pdb:0.1583488167)100:0.5878718932)100:0.2974894735,((((HPHV_Catfish_hepacivirus_E1_355-549_AlphaFold.pdb:0.5683972102,((HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E1_180-366_AlphaFold.pdb:0.5794736370,HPHV_Cyprichromis_hepacivirus_E1_102-279_AlphaFold.pdb:0.4095956226)100:0.2814860547,((HPHV_Guangxi_houndshark_hepacivirus_E1_344-537_AlphaFold.pdb:0.3121385475,HPHV_Wenling_shark_virus_E1_301-494_AlphaFold.pdb:0.2329359840)100:0.2166772818,(HPHV_Nanhai_ghost_shark_hepacivirus_1_E1_2-119_AlphaFold.pdb:0.2386657786,HPHV_Nanhai_ghost_shark_hepacivirus_2_E1_213-403_AlphaFold.pdb:0.3390493917)100:0.3085241914)100:0.1259003015)93:0.0936417648)93:0.0941724691,HPHV_White_sucker_hepacivirus_E1_381-571_AlphaFold.pdb:0.6565618088)99:0.1534344937,((HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E1_164-348_AlphaFold.pdb:0.1731878527,(((HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E1_183-365_AlphaFold.pdb:0.0401728747,HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E1_183-367_AlphaFold.pdb:0.0662962751)100:0.0198089876,(((HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E1_173-356_AlphaFold.pdb:0.0175438450,HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E1_183-365_AlphaFold.pdb:0.0000027144)100:0.0051657272,(HPHV_Rodent_hepacivirus_TA100-ATZA2013_E1_173-355_AlphaFold.pdb:0.0175792341,HPHV_Rodent_hepacivirus_TA531-ATZA2013_E1_183-365_AlphaFold.pdb:0.0295139291)99:0.0080492161)99:0.0049805522,(HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E1_183-365_AlphaFold.pdb:0.0292245569,HPHV_Rodent_hepacivirus_TA498-ATZA2013_E1_213-395_AlphaFold.pdb:0.0270812074)100:0.0169975158)100:0.0459056208)100:0.1526477084,HPHV_Rodent_hepacivirus_TA142TZA2013_E1_168-351_AlphaFold.pdb:0.2334518489)100:0.1084910544)100:0.2072037838,HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E1_220-403_AlphaFold.pdb:0.7621609588)100:0.5279703663)33:0.0379645096,(HPHV_Xiamen_guitarfish_hepacivirus_E1_370-557_AlphaFold.pdb:0.6706534305,HPHV_Xiamen_sepia_Stingray_hepacivirus_E1_430-621_AlphaFold.pdb:0.5384361294)98:0.3498610905)35:0.0781231315)34:0.0629568664,((HPHV_Hepacivirus_sp._E1_201-379_AlphaFold.pdb:0.7511506437,(HPPV_Goose_pegivirus_1_E1_33-220_AlphaFold.pdb:0.4032349275,((HPPV_Goose_pegivirus_2_E1_29-214_AlphaFold.pdb:0.0909128720,HPPV_Montifringilla_taczanowskii_pegivirus_E1_28-222_AlphaFold.pdb:0.0787228938)100:0.2396670234,(HPPV_Leucosticte_brandti_pegivirus_XZN_E1_28-217_AlphaFold.pdb:0.0858731602,HPPV_Passer_montanus_pegivirus_GXN_E1_27-210_AlphaFold.pdb:0.1979025612)100:0.2221102674)99:0.4000374654)99:0.2592052598)97:0.1444504256,((((((((HPPV_Bat_GB-like_virus_E1_22-217_AlphaFold.pdb:0.0250317443,HPPV_Bat_pegivirus_PDB-694_E1_61-256_AlphaFold.pdb:0.0383592946)100:0.1290547200,HPPV_Bat_pegivirus_PDB-303_E1_23-220_AlphaFold.pdb:0.0981757422)100:0.3080299502,HPPV_GB_virus_E1_62-249_AlphaFold.pdb:0.4200567840)99:0.2574155940,HPPV_Pegivirus_I_E1_21-212_AlphaFold.pdb:0.4761987782)36:0.0998995922,(((((((HPPV_Bat_pegivirus_PDB-24_E1_30-214_AlphaFold.pdb:0.1221886566,HPPV_Bat_pegivirus_PDB-491.2_E1_104-287_AlphaFold.pdb:0.2191761971)98:0.0868467901,HPPV_Bat_pegivirus_PDB-838_E1_102-284_AlphaFold.pdb:0.1478261351)97:0.0909032341,(HPPV_Bat_pegivirus_PDB-737B_E1_58-242_AlphaFold.pdb:0.1808284891,HPPV_Southwest_bike_trail_virus_E1_180-362_AlphaFold.pdb:0.3648653854)100:0.0575883350)97:0.1476159220,(HPPV_Hepatitis_GB_virus_A_E1_98-271_AlphaFold.pdb:0.1504882724,HPPV_Marmoset_pegivirus_E1_22-198_AlphaFold.pdb:0.1319146298)100:0.3585690553)96:0.0888652331,((((HPPV_Chimpanzee_GB_virus_C_E1_21-207_AlphaFold.pdb:0.0388366623,HPPV_Nabpantry_virus_9_E1_21-205_AlphaFold.pdb:0.0687007824)100:0.0473061045,HPPV_Ticpantry_virus_3_E1_102-286_AlphaFold.pdb:0.0354384105)100:0.0958210506,(((((HPPV_Hepatitis_G_virus_AB018667.1_E1_20-206_AlphaFold.pdb:0.0000022354,HPPV_Hepatitis_G_virus_AB021287.1_E1_20-206_AlphaFold.pdb:0.0134408136)99:0.0088876631,HPPV_Hepatitis_G_virus_HGV-T55875_E1_52-237_AlphaFold.pdb:0.0045476036)90:0.0088444929,(HPPV_Hepatitis_G_virus_U94695.1_E1_53-237_AlphaFold.pdb:0.0315859121,HPPV_Pegivirus_A_56330218_E1_20-206_AlphaFold.pdb:0.0134927592)93:0.0000020505)92:0.0043543496,HPPV_Hepatitis_G_virus_isolate_765_E1_88-274_AlphaFold.pdb:0.0044000405)98:0.0049396596,HPPV_Pegivirus_A_89859249_E1_65-251_AlphaFold.pdb:0.0038675797)100:0.1639695544)100:0.1284730619,(HPPV_Simian_pegivirus_SPgVkrc_RC08_E1_21-207_AlphaFold.pdb:0.0621762392,(HPPV_Simian_pegivirus_VGA00020_E1_21-207_AlphaFold.pdb:0.1487097990,HPPV_Simian_pegivirus_myb_M77_E1_21-207_AlphaFold.pdb:0.0524799346)98:0.0378287417)100:0.2487517922)100:0.1967513709)97:0.1294210976,HPPV_Pegivirus_K_E1_20-208_AlphaFold.pdb:0.5660232519)96:0.0901649951,HPPV_Dolphin_pegivirus_E1_33-218_AlphaFold.pdb:1.0915993414)13:0.0572184854)95:0.2637190745,(HPPV_Equine_Pegivirus_E1_55-232_AlphaFold.pdb:0.9679584250,(HPPV_Feline_pegivirus_E1_31-210_AlphaFold.pdb:0.6572368299,HPPV_Pegivirus_D_E1_22-206_AlphaFold.pdb:0.7403550309)99:0.2548264312)70:0.0372556956)93:0.1960163490,((((HPPV_Bat_pegivirus_PDB-1734_E1_162-347_AlphaFold.pdb:0.2787619973,HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E1_197-379_AlphaFold.pdb:0.1205194422)99:0.1189430500,(((HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E1_212-398_AlphaFold.pdb:0.2030966021,(((HPPV_Longquan_Niviventer_fulvescens_pegivirus_E1_225-423_AlphaFold.pdb:0.0087599724,HPPV_Longquan_Niviventer_niviventer_pegivirus_E1_233-416_AlphaFold.pdb:0.0000020086)99:0.0144200282,HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E1_223-415_AlphaFold.pdb:0.0034221226)100:0.1881949341,((HPPV_Rodent_pegivirus_05VZ-14-Rat070_E1_233-413_AlphaFold.pdb:0.0458317343,HPPV_Rodent_pegivirus_RPgV-IND079_E1_231-413_AlphaFold.pdb:0.0000028681)100:0.2094119961,(HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E1_207-398_AlphaFold.pdb:0.0289078970,HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E1_225-408_AlphaFold.pdb:0.0000022339)100:0.1704144269)99:0.0727398733)99:0.0467200738)93:0.0425072340,(HPPV_Phaiomys_leucurus_pegivirus_E1_247-430_AlphaFold.pdb:0.1964915797,HPPV_Rodent_pegivirus_isolate_CC61_E1_226-411_AlphaFold.pdb:0.2150993224)100:0.0917792629)94:0.0700708800,(HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E1_167-351_AlphaFold.pdb:0.0060236199,HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E1_167-348_AlphaFold.pdb:0.1293490038)100:0.3659550307)95:0.0331834136)98:0.1334031680,(HPPV_Human_hepegivirus_E1_111-315_AlphaFold.pdb:1.0378854705,HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E1_67-245_AlphaFold.pdb:0.4131042916)98:0.1644128356)96:0.0658492475,((HPPV_Bat_pegivirus_PDB-34.1_E1_289-471_AlphaFold.pdb:0.2202412037,HPPV_Pegivirus_G_E1_285-477_AlphaFold.pdb:0.3821501382)100:0.2098815514,HPPV_Tree_shrew_pegivirus_E1_161-347_AlphaFold.pdb:0.3004486142)99:0.0493205716)100:0.5164720373)90:0.1246786410,((((((PLPV_Atypical_porcine_pestivirus_E1_502-700_AlphaFold.pdb:0.1142717231,(PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E1_503-701_AlphaFold.pdb:0.0252591535,PLPV_Zikole_virus_E1_503-702_AlphaFold.pdb:0.0402106542)100:0.1578435045)100:0.5263598296,PLPV_Frog_pestivirus_E1_897-1094_AlphaFold.pdb:1.2428228662)92:0.4225212712,((PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E1_638-834_AlphaFold.pdb:0.0780108389,PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E1_635-832_AlphaFold.pdb:0.0615704846)100:0.1680098893,PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E1_624-819_AlphaFold.pdb:0.2261584430)100:0.2235049056)89:0.1237089698,PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E1_329-526_AlphaFold.pdb:0.3684153017)83:0.0553985569,(((PLPV_Linda_virus_strain_Austria1_E1_508-702_AlphaFold.pdb:0.1364729891,PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E1_502-698_AlphaFold.pdb:0.1221772408)98:0.0575187209,PLPV_Porcine_pestivirus_isolate_Bungowannah_E1_498-694_AlphaFold.pdb:0.1727067598)100:0.0867850603,PLPV_Phocoena_pestivirus_isolate_NS170386_E1_339-536_AlphaFold.pdb:0.2991753859)99:0.0989282540)83:0.0508861509,(((((((((((PLPV_Border_disease_virus_X818_E1_496-690_AlphaFold.pdb:0.0545874731,PLPV_Pestivirus_reindeer-1_V60-Krefeld_E1_496-690_AlphaFold.pdb:0.0377505126)100:0.0349029280,PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E1_495-689_AlphaFold.pdb:0.0281987521)100:0.0128153180,PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E1_495-689_AlphaFold.pdb:0.0312337929)96:0.0045256407,PLPV_Classical_swine_fever_virus_E1_496-689_AlphaFold.pdb:0.0540384726)95:0.0117604993,(PLPV_Pestivirus_Burdur05-TR_E1_496-690_AlphaFold.pdb:0.0124336128,PLPV_Pestivirus_strain_Aydin04-TR_E1_496-690_AlphaFold.pdb:0.0323159474)98:0.0163640506)99:0.0426446659,((PLPV_Bovine_viral_diarrhea_virus_1_E1_498-692_AlphaFold.pdb:0.0722000475,PLPV_Bovine_viral_diarrhea_virus_2_E1_498-692_AlphaFold.pdb:0.1087124736)84:0.0405409021,PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E1_496-690_AlphaFold.pdb:0.1272386967)84:0.0297506348)83:0.0836681946,PLPV_Pestivirus_PG-2_E1_495-688_AlphaFold.pdb:0.0175752247)71:0.0128689784,PLPV_Pestivirus_giraffe-1_H138_E1_494-688_AlphaFold.pdb:0.0351991418)78:0.2126308776,PLPV_Pronghorn_antelope_pestivirus_E1_493-687_AlphaFold.pdb:0.4079080018)76:0.1324020627,((((((PLPV_Dongyang_pangolin_virus_isolate_DYCS_E1_476-667_AlphaFold.pdb:0.2196486388,PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E1_476-673_AlphaFold.pdb:0.0747880489)100:0.0338767762,PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E1_477-673_AlphaFold.pdb:0.0416661052)100:0.0372036897,PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E1_476-674_AlphaFold.pdb:0.0592237826)100:0.0486435660,(PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E1_505-702_AlphaFold.pdb:0.0330677165,PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E1_508-703_AlphaFold.pdb:0.0485158843)98:0.0442533598)98:0.0147494385,PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E1_476-673_AlphaFold.pdb:0.0660113776)98:0.1372120238,PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E1_501-699_AlphaFold.pdb:0.1170573485)97:0.3769157799)51:0.0000023696,PLPV_Glass_knifefish_pestivirus_E1_1023-1197_AlphaFold.pdb:9.9999989799)58:0.0277954164)94:2.3298752750)87:0.0536584758)92:0.2170468155)66:0.1081191927,(((((HPHV_Equine_hepacivirus_E1_205-391_AlphaFold.pdb:0.0243239181,HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E1_205-387_AlphaFold.pdb:0.0082153607)44:0.0000025889,HPHV_Non-primate_hepacivirus_NZP1_E1_205-391_AlphaFold.pdb:0.0489797178)35:0.0000026658,HPHV_Hepacivirus_horseDH1HUN2013_E1_205-390_AlphaFold.pdb:0.0117216158)100:0.6405353204,((((HPHV_Hepatitis_C_virus_genotype_1_E1_192-383_AlphaFold.pdb:0.0971724886,(HPHV_Hepatitis_C_virus_genotype_4_E1_193-383_AlphaFold.pdb:0.1341242875,((HPHV_Hepatitis_C_virus_genotype_5_E1_193-383_AlphaFold.pdb:0.0668873845,HPHV_Recombinant_Hepacivirus_E1_193-383_AlphaFold.pdb:0.0279672544)100:0.1244749362,HPHV_Hepatitis_C_virus_genotype_6_E1_193-383_AlphaFold.pdb:0.2575203571)91:0.0392148384)92:0.0571624483)91:0.0405596404,HPHV_Hepatitis_C_virus_genotype_3_E1_193-383_AlphaFold.pdb:0.1895376983)79:0.0722757343,((HPHV_Hepatitis_C_virus_genotype_2_E1_193-383_AlphaFold.pdb:0.0346724835,HPHV_Mutant_Hepacivirus_clone_T9cc_E1_193-383_AlphaFold.pdb:0.0000023109)100:0.0676183090,HPHV_Mutant_Hepacivirus_clone_S83cc_E1_193-383_AlphaFold.pdb:0.1278324004)100:0.1754742357)67:0.0954585518,HPHV_Hepatitis_C_virus_genotype_7_E1_192-383_AlphaFold.pdb:0.1136160088)100:0.5820702363)100:0.2938533827,(HPHV_Hepacivirus_K_E1_191-383_AlphaFold.pdb:0.3421568202,HPHV_Hepacivirus_M_E1_191-382_AlphaFold.pdb:0.1802482846)100:0.4812985091)80:0.2835563773)69:0.0789165309,(HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E1_298-486_AlphaFold.pdb:0.1884854830,HPHV_Chinese_softshell_turtle_hepacivirus_E1_301-487_AlphaFold.pdb:0.1288659478)100:0.7241002818)51:0.0541922122,((((HPHV_Gecko_hepacivirus_E1_311-502_AlphaFold.pdb:0.2015861387,HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E1_672-861_AlphaFold.pdb:0.1889879781)100:0.1240962055,HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E1_219-407_AlphaFold.pdb:0.2413045372)100:0.5233199399,HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E1_660-850_AlphaFold.pdb:0.4937410697)100:0.7687350228,HPHV_Western_African_lungfish_hepacivirus_E1_382-570_AlphaFold.pdb:0.9322252482)65:0.1382371775)67:0.1195337122,HPUN_Wenling_moray_eel_hepacivirus_E1_286-472_AlphaFold.pdb:1.4717433320)93:0.2371131431,HPHV_Viviparous_lizard_hepacivirus_E1_465-667_AlphaFold.pdb:0.7868886854)100:0.4235989871,HPHV_Duck_hepacivirus_HCL-1_E1_289-481_AlphaFold.pdb:0.4378671973)100:0.2019829282,HPHV_Jogalong_virus_P1-10_E1_88-278_AlphaFold.pdb:0.3999246066)100:0.1954742221,HPHV_Hepacivirus_Q_strain_GDZQ-15_E1_172-361_AlphaFold.pdb:0.3275583272);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -43757.080754
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--HPHV_Bald_eagle_hepacivirus_E1_170-361_AlphaFold.pdb
+|
+|                                                                       +--HPHV_Bamboo_rat_hepacivirus_OM451124_E1_171-356_AlphaFold.pdb
+|                                                                    +--| (100)
+|                                                                    |  |     +--HPHV_Bamboo_rat_hepacivirus_OM480528_E1_171-357_AlphaFold.pdb
+|                                                                    |  |  +--| (85)
+|                                                                    |  |  |  +--HPHV_Rodent_hepacivirus_05VZ-14-118_E1_170-357_AlphaFold.pdb
+|                                                                    |  +--| (62)
+|                                                                    |     +--HPHV_Rhizomys_pruinosus_hepacivirus_E1_176-361_AlphaFold.pdb
+|                                                                 +--| (53)
+|                                                                 |  |  +--HPHV_Gerbil_hepacivirus_E1_219-405_AlphaFold.pdb
+|                                                                 |  +--| (57)
+|                                                                 |     |  +--HPHV_Rodent_hepacivirus_B349PAN2014_E1_164-351_AlphaFold.pdb
+|                                                                 |     +--| (100)
+|                                                                 |        +--HPHV_Rodent_hepacivirus_RO22799BeAn812052_E1_168-355_AlphaFold.pdb
+|                                                              +--| (93)
+|                                                              |  |              +--HPHV_Hepacivirus_F_E1_152-338_AlphaFold.pdb
+|                                                              |  |           +--| (97)
+|                                                              |  |           |  |  +--HPHV_Hepacivirus_F_isolate_MgHV3_E1_146-332_AlphaFold.pdb
+|                                                              |  |           |  +--| (97)
+|                                                              |  |           |     +--HPHV_Hepacivirus_F_isolate_MgHV4_E1_146-333_AlphaFold.pdb
+|                                                              |  |        +--| (98)
+|                                                              |  |        |  +--HPHV_Hepacivirus_F_isolate_NA_E1_180-366_AlphaFold.pdb
+|                                                              |  |     +--| (100)
+|                                                              |  |     |  +--HPHV_Hepacivirus_F_isolate_MgHV2_E1_146-333_AlphaFold.pdb
+|                                                              |  |  +--| (95)
+|                                                              |  |  |  +--HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E1_145-332_AlphaFold.pdb
+|                                                              |  +--| (92)
+|                                                              |     |  +--HPHV_Rodent_hepacivirus_E1_167-353_AlphaFold.pdb
+|                                                              |     +--| (54)
+|                                                              |        +--HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E1_168-353_AlphaFold.pdb
+|                                                           +--| (95)
+|                                                           |  +--HPHV_Rodent_hepacivirus_TZ25757TZA2011_E1_181-367_AlphaFold.pdb
+|                                                        +--| (100)
+|                                                        |  +--HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E1_174-359_AlphaFold.pdb
+|                                                     +--| (61)
+|                                                     |  |                       +--HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E1_265-459_AlphaFold.pdb
+|                                                     |  |                    +--| (100)
+|                                                     |  |                    |  +--HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E1_253-458_AlphaFold.pdb
+|                                                     |  |                 +--| (100)
+|                                                     |  |                 |  +--HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E1_213-405_AlphaFold.pdb
+|                                                     |  |              +--| (100)
+|                                                     |  |              |  +--HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E1_212-403_AlphaFold.pdb
+|                                                     |  |           +--| (100)
+|                                                     |  |           |  |  +--HPHV_Norway_rat_hepacivirus_1_E1_246-449_AlphaFold.pdb
+|                                                     |  |           |  +--| (100)
+|                                                     |  |           |     +--HPHV_Rodent_hepacivirus_rn-1_E1_246-450_AlphaFold.pdb
+|                                                     |  |        +--| (91)
+|                                                     |  |        |  +--HPHV_Northern_treeshrew_hepacivirus_E1_155-346_AlphaFold.pdb
+|                                                     |  |     +--| (96)
+|                                                     |  |     |  |        +--HPHV_Rodent_hepacivirus_CRT382COD2010_E1_252-436_AlphaFold.pdb
+|                                                     |  |     |  |     +--| (100)
+|                                                     |  |     |  |     |  +--HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E1_252-435_AlphaFold.pdb
+|                                                     |  |     |  |  +--| (99)
+|                                                     |  |     |  |  |  +--HPHV_Rodent_hepacivirus_TA498-CTZA2013_E1_251-435_AlphaFold.pdb
+|                                                     |  |     |  +--| (100)
+|                                                     |  |     |     +--HPHV_Rodent_hepacivirus_TA085TZA2013_E1_223-407_AlphaFold.pdb
+|                                                     |  |  +--| (97)
+|                                                     |  |  |  +--HPHV_Norway_rat_hepacivirus_2_E1_164-382_AlphaFold.pdb
+|                                                     |  +--| (50)
+|                                                     |     +--HPHV_Rodent_hepacivirus_CRT682COD2010_E1_173-368_AlphaFold.pdb
+|                                                  +--| (87)
+|                                                  |  |     +--HPHV_Hepacivirus_P_E1_148-338_AlphaFold.pdb
+|                                                  |  |  +--| (53)
+|                                                  |  |  |  +--HPHV_Hepacivirus_sp._clone_B32_E1_157-338_AlphaFold.pdb
+|                                                  |  +--| (61)
+|                                                  |     |  +--HPHV_Sifaka_hepacivirus_MH824541_E1_200-394_AlphaFold.pdb
+|                                                  |     +--| (100)
+|                                                  |        +--HPHV_Sifaka_hepacivirus_MT371438_E1_202-393_AlphaFold.pdb
+|                                               +--| (74)
+|                                               |  +--HPHV_Possum_hepacivrus_E1_166-342_AlphaFold.pdb
+|                                            +--| (97)
+|                                            |  +--HPHV_Ringtail_hepacivirus_E1_164-353_AlphaFold.pdb
+|                                         +--| (64)
+|                                         |  |     +--HPHV_Crab_eating_macaque_hepacivirus_E1_174-383_AlphaFold.pdb
+|                                         |  |  +--| (100)
+|                                         |  |  |  +--HPHV_Guereza_hepacivirus_E1_180-392_AlphaFold.pdb
+|                                         |  +--| (73)
+|                                         |     |  +--HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E1_161-344_AlphaFold.pdb
+|                                         |     +--| (100)
+|                                         |        +--HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E1_159-344_AlphaFold.pdb
+|                                      +--| (59)
+|                                      |  |        +--HPHV_Hepacivirus_I_E1_180-369_AlphaFold.pdb
+|                                      |  |     +--| (100)
+|                                      |  |     |  +--HPHV_Sigmodontinae_hepacivirus_E1_170-367_AlphaFold.pdb
+|                                      |  |  +--| (100)
+|                                      |  |  |  +--HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E1_173-367_AlphaFold.pdb
+|                                      |  +--| (72)
+|                                      |     +--HPHV_Hepatitis_GB_virus_B_E1_157-349_AlphaFold.pdb
+|                                   +--| (68)
+|                                   |  |  +--HPHV_Bat_hepacivirus_BK013349_E1_149-356_AlphaFold.pdb
+|                                   |  +--| (91)
+|                                   |     |  +--HPHV_Hepacivirus_L_E1_163-363_AlphaFold.pdb
+|                                   |     +--| (100)
+|                                   |        |  +--HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E1_159-357_AlphaFold.pdb
+|                                   |        +--| (100)
+|                                   |           +--HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E1_157-362_AlphaFold.pdb
+|                                +--| (85)
+|                                |  +--HPHV_Bat_hepacivirus_TA166TZA2013_E1_138-324_AlphaFold.pdb
+|                             +--| (100)
+|                             |  |  +--HPHV_Hepacivirus_N_E1_151-347_AlphaFold.pdb
+|                             |  +--| (100)
+|                             |     +--HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E1_148-347_AlphaFold.pdb
+|                          +--| (54)
+|                          |  |        +--HPHV_Catfish_hepacivirus_E1_355-549_AlphaFold.pdb
+|                          |  |     +--| (93)
+|                          |  |     |  |     +--HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E1_180-366_AlphaFold.pdb
+|                          |  |     |  |  +--| (100)
+|                          |  |     |  |  |  +--HPHV_Cyprichromis_hepacivirus_E1_102-279_AlphaFold.pdb
+|                          |  |     |  +--| (93)
+|                          |  |     |     |     +--HPHV_Guangxi_houndshark_hepacivirus_E1_344-537_AlphaFold.pdb
+|                          |  |     |     |  +--| (100)
+|                          |  |     |     |  |  +--HPHV_Wenling_shark_virus_E1_301-494_AlphaFold.pdb
+|                          |  |     |     +--| (100)
+|                          |  |     |        |  +--HPHV_Nanhai_ghost_shark_hepacivirus_1_E1_2-119_AlphaFold.pdb
+|                          |  |     |        +--| (100)
+|                          |  |     |           +--HPHV_Nanhai_ghost_shark_hepacivirus_2_E1_213-403_AlphaFold.pdb
+|                          |  |  +--| (99)
+|                          |  |  |  +--HPHV_White_sucker_hepacivirus_E1_381-571_AlphaFold.pdb
+|                          |  +--| (56)
+|                          |     |  +--HPHV_Xiamen_guitarfish_hepacivirus_E1_370-557_AlphaFold.pdb
+|                          |     +--| (98)
+|                          |        +--HPHV_Xiamen_sepia_Stingray_hepacivirus_E1_430-621_AlphaFold.pdb
+|                       +--| (34)
+|                       |  |     +--HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E1_164-348_AlphaFold.pdb
+|                       |  |  +--| (100)
+|                       |  |  |  |        +--HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |     +--| (100)
+|                       |  |  |  |     |  +--HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E1_183-367_AlphaFold.pdb
+|                       |  |  |  |  +--| (100)
+|                       |  |  |  |  |  |        +--HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E1_173-356_AlphaFold.pdb
+|                       |  |  |  |  |  |     +--| (100)
+|                       |  |  |  |  |  |     |  +--HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |  |  |  +--| (99)
+|                       |  |  |  |  |  |  |  |  +--HPHV_Rodent_hepacivirus_TA100-ATZA2013_E1_173-355_AlphaFold.pdb
+|                       |  |  |  |  |  |  |  +--| (99)
+|                       |  |  |  |  |  |  |     +--HPHV_Rodent_hepacivirus_TA531-ATZA2013_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |  |  +--| (100)
+|                       |  |  |  |  |     |  +--HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E1_183-365_AlphaFold.pdb
+|                       |  |  |  |  |     +--| (100)
+|                       |  |  |  |  |        +--HPHV_Rodent_hepacivirus_TA498-ATZA2013_E1_213-395_AlphaFold.pdb
+|                       |  |  |  +--| (100)
+|                       |  |  |     +--HPHV_Rodent_hepacivirus_TA142TZA2013_E1_168-351_AlphaFold.pdb
+|                       |  +--| (100)
+|                       |     +--HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E1_220-403_AlphaFold.pdb
+|                    +--| (66)
+|                    |  |     +--HPHV_Hepacivirus_sp._E1_201-379_AlphaFold.pdb
+|                    |  |  +--| (97)
+|                    |  |  |  |  +--HPPV_Goose_pegivirus_1_E1_33-220_AlphaFold.pdb
+|                    |  |  |  +--| (99)
+|                    |  |  |     |     +--HPPV_Goose_pegivirus_2_E1_29-214_AlphaFold.pdb
+|                    |  |  |     |  +--| (100)
+|                    |  |  |     |  |  +--HPPV_Montifringilla_taczanowskii_pegivirus_E1_28-222_AlphaFold.pdb
+|                    |  |  |     +--| (99)
+|                    |  |  |        |  +--HPPV_Leucosticte_brandti_pegivirus_XZN_E1_28-217_AlphaFold.pdb
+|                    |  |  |        +--| (100)
+|                    |  |  |           +--HPPV_Passer_montanus_pegivirus_GXN_E1_27-210_AlphaFold.pdb
+|                    |  +--| (92)
+|                    |     |                       +--HPPV_Bat_GB-like_virus_E1_22-217_AlphaFold.pdb
+|                    |     |                    +--| (100)
+|                    |     |                    |  +--HPPV_Bat_pegivirus_PDB-694_E1_61-256_AlphaFold.pdb
+|                    |     |                 +--| (100)
+|                    |     |                 |  +--HPPV_Bat_pegivirus_PDB-303_E1_23-220_AlphaFold.pdb
+|                    |     |              +--| (99)
+|                    |     |              |  +--HPPV_GB_virus_E1_62-249_AlphaFold.pdb
+|                    |     |           +--| (68)
+|                    |     |           |  |                    +--HPPV_Bat_pegivirus_PDB-24_E1_30-214_AlphaFold.pdb
+|                    |     |           |  |                 +--| (98)
+|                    |     |           |  |                 |  +--HPPV_Bat_pegivirus_PDB-491.2_E1_104-287_AlphaFold.pdb
+|                    |     |           |  |              +--| (97)
+|                    |     |           |  |              |  +--HPPV_Bat_pegivirus_PDB-838_E1_102-284_AlphaFold.pdb
+|                    |     |           |  |           +--| (97)
+|                    |     |           |  |           |  |  +--HPPV_Bat_pegivirus_PDB-737B_E1_58-242_AlphaFold.pdb
+|                    |     |           |  |           |  +--| (100)
+|                    |     |           |  |           |     +--HPPV_Southwest_bike_trail_virus_E1_180-362_AlphaFold.pdb
+|                    |     |           |  |        +--| (96)
+|                    |     |           |  |        |  |  +--HPPV_Hepatitis_GB_virus_A_E1_98-271_AlphaFold.pdb
+|                    |     |           |  |        |  +--| (100)
+|                    |     |           |  |        |     +--HPPV_Marmoset_pegivirus_E1_22-198_AlphaFold.pdb
+|                    |     |           |  |     +--| (97)
+|                    |     |           |  |     |  |           +--HPPV_Chimpanzee_GB_virus_C_E1_21-207_AlphaFold.pdb
+|                    |     |           |  |     |  |        +--| (100)
+|                    |     |           |  |     |  |        |  +--HPPV_Nabpantry_virus_9_E1_21-205_AlphaFold.pdb
+|                    |     |           |  |     |  |     +--| (100)
+|                    |     |           |  |     |  |     |  +--HPPV_Ticpantry_virus_3_E1_102-286_AlphaFold.pdb
+|                    |     |           |  |     |  |  +--| (100)
+|                    |     |           |  |     |  |  |  |              +--HPPV_Hepatitis_G_virus_AB018667.1_E1_20-206_AlphaFold.pdb
+|                    |     |           |  |     |  |  |  |           +--| (99)
+|                    |     |           |  |     |  |  |  |           |  +--HPPV_Hepatitis_G_virus_AB021287.1_E1_20-206_AlphaFold.pdb
+|                    |     |           |  |     |  |  |  |        +--| (90)
+|                    |     |           |  |     |  |  |  |        |  +--HPPV_Hepatitis_G_virus_HGV-T55875_E1_52-237_AlphaFold.pdb
+|                    |     |           |  |     |  |  |  |     +--| (92)
+|                    |     |           |  |     |  |  |  |     |  |  +--HPPV_Hepatitis_G_virus_U94695.1_E1_53-237_AlphaFold.pdb
+|                    |     |           |  |     |  |  |  |     |  +--| (93)
+|                    |     |           |  |     |  |  |  |     |     +--HPPV_Pegivirus_A_56330218_E1_20-206_AlphaFold.pdb
+|                    |     |           |  |     |  |  |  |  +--| (98)
+|                    |     |           |  |     |  |  |  |  |  +--HPPV_Hepatitis_G_virus_isolate_765_E1_88-274_AlphaFold.pdb
+|                    |     |           |  |     |  |  |  +--| (100)
+|                    |     |           |  |     |  |  |     +--HPPV_Pegivirus_A_89859249_E1_65-251_AlphaFold.pdb
+|                    |     |           |  |     |  +--| (100)
+|                    |     |           |  |     |     |  +--HPPV_Simian_pegivirus_SPgVkrc_RC08_E1_21-207_AlphaFold.pdb
+|                    |     |           |  |     |     +--| (100)
+|                    |     |           |  |     |        |  +--HPPV_Simian_pegivirus_VGA00020_E1_21-207_AlphaFold.pdb
+|                    |     |           |  |     |        +--| (98)
+|                    |     |           |  |     |           +--HPPV_Simian_pegivirus_myb_M77_E1_21-207_AlphaFold.pdb
+|                    |     |           |  |  +--| (96)
+|                    |     |           |  |  |  +--HPPV_Pegivirus_K_E1_20-208_AlphaFold.pdb
+|                    |     |           |  +--| (44)
+|                    |     |           |     +--HPPV_Pegivirus_I_E1_21-212_AlphaFold.pdb
+|                    |     |        +--| (95)
+|                    |     |        |  +---HPPV_Dolphin_pegivirus_E1_33-218_AlphaFold.pdb
+|                    |     |     +--| (93)
+|                    |     |     |  |  +---HPPV_Equine_Pegivirus_E1_55-232_AlphaFold.pdb
+|                    |     |     |  +--| (70)
+|                    |     |     |     |  +--HPPV_Feline_pegivirus_E1_31-210_AlphaFold.pdb
+|                    |     |     |     +--| (99)
+|                    |     |     |        +--HPPV_Pegivirus_D_E1_22-206_AlphaFold.pdb
+|                    |     |  +--| (90)
+|                    |     |  |  |           +--HPPV_Bat_pegivirus_PDB-1734_E1_162-347_AlphaFold.pdb
+|                    |     |  |  |        +--| (99)
+|                    |     |  |  |        |  +--HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E1_197-379_AlphaFold.pdb
+|                    |     |  |  |     +--| (98)
+|                    |     |  |  |     |  |        +--HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E1_212-398_AlphaFold.pdb
+|                    |     |  |  |     |  |     +--| (93)
+|                    |     |  |  |     |  |     |  |        +--HPPV_Longquan_Niviventer_fulvescens_pegivirus_E1_225-423_AlphaFold.pdb
+|                    |     |  |  |     |  |     |  |     +--| (99)
+|                    |     |  |  |     |  |     |  |     |  +--HPPV_Longquan_Niviventer_niviventer_pegivirus_E1_233-416_AlphaFold.pdb
+|                    |     |  |  |     |  |     |  |  +--| (100)
+|                    |     |  |  |     |  |     |  |  |  +--HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E1_223-415_AlphaFold.pdb
+|                    |     |  |  |     |  |     |  +--| (99)
+|                    |     |  |  |     |  |     |     |     +--HPPV_Rodent_pegivirus_05VZ-14-Rat070_E1_233-413_AlphaFold.pdb
+|                    |     |  |  |     |  |     |     |  +--| (100)
+|                    |     |  |  |     |  |     |     |  |  +--HPPV_Rodent_pegivirus_RPgV-IND079_E1_231-413_AlphaFold.pdb
+|                    |     |  |  |     |  |     |     +--| (99)
+|                    |     |  |  |     |  |     |        |  +--HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E1_207-398_AlphaFold.pdb
+|                    |     |  |  |     |  |     |        +--| (100)
+|                    |     |  |  |     |  |     |           +--HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E1_225-408_AlphaFold.pdb
+|                    |     |  |  |     |  |  +--| (94)
+|                    |     |  |  |     |  |  |  |  +--HPPV_Phaiomys_leucurus_pegivirus_E1_247-430_AlphaFold.pdb
+|                    |     |  |  |     |  |  |  +--| (100)
+|                    |     |  |  |     |  |  |     +--HPPV_Rodent_pegivirus_isolate_CC61_E1_226-411_AlphaFold.pdb
+|                    |     |  |  |     |  +--| (95)
+|                    |     |  |  |     |     |  +--HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E1_167-351_AlphaFold.pdb
+|                    |     |  |  |     |     +--| (100)
+|                    |     |  |  |     |        +--HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E1_167-348_AlphaFold.pdb
+|                    |     |  |  |  +--| (96)
+|                    |     |  |  |  |  |  +---HPPV_Human_hepegivirus_E1_111-315_AlphaFold.pdb
+|                    |     |  |  |  |  +--| (98)
+|                    |     |  |  |  |     +--HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E1_67-245_AlphaFold.pdb
+|                    |     |  |  +--| (100)
+|                    |     |  |     |     +--HPPV_Bat_pegivirus_PDB-34.1_E1_289-471_AlphaFold.pdb
+|                    |     |  |     |  +--| (100)
+|                    |     |  |     |  |  +--HPPV_Pegivirus_G_E1_285-477_AlphaFold.pdb
+|                    |     |  |     +--| (99)
+|                    |     |  |        +--HPPV_Tree_shrew_pegivirus_E1_161-347_AlphaFold.pdb
+|                    |     +--| (87)
+|                    |        |                       +--PLPV_Atypical_porcine_pestivirus_E1_502-700_AlphaFold.pdb
+|                    |        |                    +--| (100)
+|                    |        |                    |  |  +--PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E1_503-701_AlphaFold.pdb
+|                    |        |                    |  +--| (100)
+|                    |        |                    |     +--PLPV_Zikole_virus_E1_503-702_AlphaFold.pdb
+|                    |        |                 +--| (92)
+|                    |        |                 |  +----PLPV_Frog_pestivirus_E1_897-1094_AlphaFold.pdb
+|                    |        |              +--| (89)
+|                    |        |              |  |     +--PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E1_638-834_AlphaFold.pdb
+|                    |        |              |  |  +--| (100)
+|                    |        |              |  |  |  +--PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E1_635-832_AlphaFold.pdb
+|                    |        |              |  +--| (100)
+|                    |        |              |     +--PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E1_624-819_AlphaFold.pdb
+|                    |        |           +--| (83)
+|                    |        |           |  +--PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E1_329-526_AlphaFold.pdb
+|                    |        |        +--| (83)
+|                    |        |        |  |        +--PLPV_Linda_virus_strain_Austria1_E1_508-702_AlphaFold.pdb
+|                    |        |        |  |     +--| (98)
+|                    |        |        |  |     |  +--PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E1_502-698_AlphaFold.pdb
+|                    |        |        |  |  +--| (100)
+|                    |        |        |  |  |  +--PLPV_Porcine_pestivirus_isolate_Bungowannah_E1_498-694_AlphaFold.pdb
+|                    |        |        |  +--| (99)
+|                    |        |        |     +--PLPV_Phocoena_pestivirus_isolate_NS170386_E1_339-536_AlphaFold.pdb
+|                    |        +--------| (94)
+|                    |                 |                                +--PLPV_Border_disease_virus_X818_E1_496-690_AlphaFold.pdb
+|                    |                 |                             +--| (100)
+|                    |                 |                             |  +--PLPV_Pestivirus_reindeer-1_V60-Krefeld_E1_496-690_AlphaFold.pdb
+|                    |                 |                          +--| (100)
+|                    |                 |                          |  +--PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E1_495-689_AlphaFold.pdb
+|                    |                 |                       +--| (96)
+|                    |                 |                       |  +--PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E1_495-689_AlphaFold.pdb
+|                    |                 |                    +--| (95)
+|                    |                 |                    |  +--PLPV_Classical_swine_fever_virus_E1_496-689_AlphaFold.pdb
+|                    |                 |                 +--| (99)
+|                    |                 |                 |  |  +--PLPV_Pestivirus_Burdur05-TR_E1_496-690_AlphaFold.pdb
+|                    |                 |                 |  +--| (98)
+|                    |                 |                 |     +--PLPV_Pestivirus_strain_Aydin04-TR_E1_496-690_AlphaFold.pdb
+|                    |                 |              +--| (83)
+|                    |                 |              |  |     +--PLPV_Bovine_viral_diarrhea_virus_1_E1_498-692_AlphaFold.pdb
+|                    |                 |              |  |  +--| (84)
+|                    |                 |              |  |  |  +--PLPV_Bovine_viral_diarrhea_virus_2_E1_498-692_AlphaFold.pdb
+|                    |                 |              |  +--| (84)
+|                    |                 |              |     +--PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E1_496-690_AlphaFold.pdb
+|                    |                 |           +--| (71)
+|                    |                 |           |  +--PLPV_Pestivirus_PG-2_E1_495-688_AlphaFold.pdb
+|                    |                 |        +--| (78)
+|                    |                 |        |  +--PLPV_Pestivirus_giraffe-1_H138_E1_494-688_AlphaFold.pdb
+|                    |                 |     +--| (76)
+|                    |                 |     |  +--PLPV_Pronghorn_antelope_pestivirus_E1_493-687_AlphaFold.pdb
+|                    |                 |  +--| (51)
+|                    |                 |  |  |                 +--PLPV_Dongyang_pangolin_virus_isolate_DYCS_E1_476-667_AlphaFold.pdb
+|                    |                 |  |  |              +--| (100)
+|                    |                 |  |  |              |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E1_476-673_AlphaFold.pdb
+|                    |                 |  |  |           +--| (100)
+|                    |                 |  |  |           |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E1_477-673_AlphaFold.pdb
+|                    |                 |  |  |        +--| (100)
+|                    |                 |  |  |        |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E1_476-674_AlphaFold.pdb
+|                    |                 |  |  |     +--| (98)
+|                    |                 |  |  |     |  |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E1_505-702_AlphaFold.pdb
+|                    |                 |  |  |     |  +--| (98)
+|                    |                 |  |  |     |     +--PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E1_508-703_AlphaFold.pdb
+|                    |                 |  |  |  +--| (98)
+|                    |                 |  |  |  |  +--PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E1_476-673_AlphaFold.pdb
+|                    |                 |  |  +--| (97)
+|                    |                 |  |     +--PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E1_501-699_AlphaFold.pdb
+|                    |                 +--| (58)
+|                    |                    +-----------------------------------------PLPV_Glass_knifefish_pestivirus_E1_1023-1197_AlphaFold.pdb
+|                 +--| (69)
+|                 |  |           +--HPHV_Equine_hepacivirus_E1_205-391_AlphaFold.pdb
+|                 |  |        +--| (44)
+|                 |  |        |  +--HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E1_205-387_AlphaFold.pdb
+|                 |  |     +--| (100)
+|                 |  |     |  |  +--HPHV_Hepacivirus_horseDH1HUN2013_E1_205-390_AlphaFold.pdb
+|                 |  |     |  +--| (38)
+|                 |  |     |     +--HPHV_Non-primate_hepacivirus_NZP1_E1_205-391_AlphaFold.pdb
+|                 |  |  +--| (100)
+|                 |  |  |  |           +--HPHV_Hepatitis_C_virus_genotype_1_E1_192-383_AlphaFold.pdb
+|                 |  |  |  |        +--| (91)
+|                 |  |  |  |        |  |  +--HPHV_Hepatitis_C_virus_genotype_4_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |        |  +--| (92)
+|                 |  |  |  |        |     |     +--HPHV_Hepatitis_C_virus_genotype_5_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |        |     |  +--| (100)
+|                 |  |  |  |        |     |  |  +--HPHV_Recombinant_Hepacivirus_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |        |     +--| (91)
+|                 |  |  |  |        |        +--HPHV_Hepatitis_C_virus_genotype_6_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |     +--| (79)
+|                 |  |  |  |     |  +--HPHV_Hepatitis_C_virus_genotype_3_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |  +--| (67)
+|                 |  |  |  |  |  |     +--HPHV_Hepatitis_C_virus_genotype_2_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |  |  |  +--| (100)
+|                 |  |  |  |  |  |  |  +--HPHV_Mutant_Hepacivirus_clone_T9cc_E1_193-383_AlphaFold.pdb
+|                 |  |  |  |  |  +--| (100)
+|                 |  |  |  |  |     +--HPHV_Mutant_Hepacivirus_clone_S83cc_E1_193-383_AlphaFold.pdb
+|                 |  |  |  +--| (100)
+|                 |  |  |     +--HPHV_Hepatitis_C_virus_genotype_7_E1_192-383_AlphaFold.pdb
+|                 |  +--| (80)
+|                 |     |  +--HPHV_Hepacivirus_K_E1_191-383_AlphaFold.pdb
+|                 |     +--| (100)
+|                 |        +--HPHV_Hepacivirus_M_E1_191-382_AlphaFold.pdb
+|              +--| (51)
+|              |  |  +--HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E1_298-486_AlphaFold.pdb
+|              |  +--| (100)
+|              |     +--HPHV_Chinese_softshell_turtle_hepacivirus_E1_301-487_AlphaFold.pdb
+|           +--| (67)
+|           |  |           +--HPHV_Gecko_hepacivirus_E1_311-502_AlphaFold.pdb
+|           |  |        +--| (100)
+|           |  |        |  +--HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E1_672-861_AlphaFold.pdb
+|           |  |     +--| (100)
+|           |  |     |  +--HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E1_219-407_AlphaFold.pdb
+|           |  |  +--| (100)
+|           |  |  |  +--HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E1_660-850_AlphaFold.pdb
+|           |  +--| (65)
+|           |     +--HPHV_Western_African_lungfish_hepacivirus_E1_382-570_AlphaFold.pdb
+|        +--| (93)
+|        |  +-----HPUN_Wenling_moray_eel_hepacivirus_E1_286-472_AlphaFold.pdb
+|     +--| (100)
+|     |  +--HPHV_Viviparous_lizard_hepacivirus_E1_465-667_AlphaFold.pdb
+|  +--| (100)
+|  |  +--HPHV_Duck_hepacivirus_HCL-1_E1_289-481_AlphaFold.pdb
++--| (100)
+|  +--HPHV_Jogalong_virus_P1-10_E1_88-278_AlphaFold.pdb
+|
++--HPHV_Hepacivirus_Q_strain_GDZQ-15_E1_172-361_AlphaFold.pdb
+
+
+Consensus tree in newick format: 
+
+(HPHV_Bald_eagle_hepacivirus_E1_170-361_AlphaFold.pdb:0.2378511468,((((((((((((((((((((((((HPHV_Bamboo_rat_hepacivirus_OM451124_E1_171-356_AlphaFold.pdb:0.0080433923,((HPHV_Bamboo_rat_hepacivirus_OM480528_E1_171-357_AlphaFold.pdb:0.0047540036,HPHV_Rodent_hepacivirus_05VZ-14-118_E1_170-357_AlphaFold.pdb:0.0453856598)85:0.0076725989,HPHV_Rhizomys_pruinosus_hepacivirus_E1_176-361_AlphaFold.pdb:0.0000022572)62:0.0000027334)100:0.1362605750,(HPHV_Gerbil_hepacivirus_E1_219-405_AlphaFold.pdb:0.1060820457,(HPHV_Rodent_hepacivirus_B349PAN2014_E1_164-351_AlphaFold.pdb:0.0925252466,HPHV_Rodent_hepacivirus_RO22799BeAn812052_E1_168-355_AlphaFold.pdb:0.0621284285)100:0.1374711378)57:0.0201625880)53:0.0389244885,(((((HPHV_Hepacivirus_F_E1_152-338_AlphaFold.pdb:0.0000022572,(HPHV_Hepacivirus_F_isolate_MgHV3_E1_146-332_AlphaFold.pdb:0.0000022572,HPHV_Hepacivirus_F_isolate_MgHV4_E1_146-333_AlphaFold.pdb:0.0039917395)97:0.0040001154)97:0.0081590448,HPHV_Hepacivirus_F_isolate_NA_E1_180-366_AlphaFold.pdb:0.0080312052)98:0.0079327259,HPHV_Hepacivirus_F_isolate_MgHV2_E1_146-333_AlphaFold.pdb:0.0000022572)100:0.0773689166,HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E1_145-332_AlphaFold.pdb:0.0980009548)95:0.0375915461,(HPHV_Rodent_hepacivirus_E1_167-353_AlphaFold.pdb:0.0892178979,HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E1_168-353_AlphaFold.pdb:0.1340837435)54:0.0250511460)92:0.0479601634)93:0.0455017056,HPHV_Rodent_hepacivirus_TZ25757TZA2011_E1_181-367_AlphaFold.pdb:0.1749799449)95:0.0882634696,HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E1_174-359_AlphaFold.pdb:0.1314038942)100:0.1093971368,((((((((HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E1_265-459_AlphaFold.pdb:0.0000022572,HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E1_253-458_AlphaFold.pdb:0.0000022572)100:0.0081575826,HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E1_213-405_AlphaFold.pdb:0.0038903126)100:0.0084371299,HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E1_212-403_AlphaFold.pdb:0.0000022628)100:0.1235943088,(HPHV_Norway_rat_hepacivirus_1_E1_246-449_AlphaFold.pdb:0.0150678224,HPHV_Rodent_hepacivirus_rn-1_E1_246-450_AlphaFold.pdb:0.0000025759)100:0.1266113995)100:0.1898109404,HPHV_Northern_treeshrew_hepacivirus_E1_155-346_AlphaFold.pdb:0.1747555790)91:0.0298786543,(((HPHV_Rodent_hepacivirus_CRT382COD2010_E1_252-436_AlphaFold.pdb:0.0082146845,HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E1_252-435_AlphaFold.pdb:0.0083522425)100:0.0085812352,HPHV_Rodent_hepacivirus_TA498-CTZA2013_E1_251-435_AlphaFold.pdb:0.0038884463)99:0.0108969976,HPHV_Rodent_hepacivirus_TA085TZA2013_E1_223-407_AlphaFold.pdb:0.0231775241)100:0.1963829384)96:0.0715608982,HPHV_Norway_rat_hepacivirus_2_E1_164-382_AlphaFold.pdb:0.3556561759)97:0.0825555945,HPHV_Rodent_hepacivirus_CRT682COD2010_E1_173-368_AlphaFold.pdb:0.2740313319)50:0.0425056934)61:0.0329575660,((HPHV_Hepacivirus_P_E1_148-338_AlphaFold.pdb:0.1905843271,HPHV_Hepacivirus_sp._clone_B32_E1_157-338_AlphaFold.pdb:0.4329147320)53:0.0605439744,(HPHV_Sifaka_hepacivirus_MH824541_E1_200-394_AlphaFold.pdb:0.0707671241,HPHV_Sifaka_hepacivirus_MT371438_E1_202-393_AlphaFold.pdb:0.0708498811)100:0.4015064631)61:0.0665016365)87:0.1039054610,HPHV_Possum_hepacivrus_E1_166-342_AlphaFold.pdb:0.5040253467)74:0.0630591558,HPHV_Ringtail_hepacivirus_E1_164-353_AlphaFold.pdb:0.4436707042)97:0.0885488055,((HPHV_Crab_eating_macaque_hepacivirus_E1_174-383_AlphaFold.pdb:0.1455474829,HPHV_Guereza_hepacivirus_E1_180-392_AlphaFold.pdb:0.1744115529)100:0.5489975431,(HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E1_161-344_AlphaFold.pdb:0.0030903918,HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E1_159-344_AlphaFold.pdb:0.0241205945)100:0.7261789987)73:0.1385466803)64:0.1133346850,(((HPHV_Hepacivirus_I_E1_180-369_AlphaFold.pdb:0.2246848731,HPHV_Sigmodontinae_hepacivirus_E1_170-367_AlphaFold.pdb:0.3135785714)100:0.1219599142,HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E1_173-367_AlphaFold.pdb:0.3537527190)100:0.3209776056,HPHV_Hepatitis_GB_virus_B_E1_157-349_AlphaFold.pdb:0.4558036452)72:0.0946362283)59:0.0828465115,(HPHV_Bat_hepacivirus_BK013349_E1_149-356_AlphaFold.pdb:0.4487614339,(HPHV_Hepacivirus_L_E1_163-363_AlphaFold.pdb:0.0984435253,(HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E1_159-357_AlphaFold.pdb:0.1665402056,HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E1_157-362_AlphaFold.pdb:0.0754468774)100:0.2762233488)100:0.4428054802)91:0.1049980107)68:0.1463962327,HPHV_Bat_hepacivirus_TA166TZA2013_E1_138-324_AlphaFold.pdb:0.8250992706)85:0.1222989369,(HPHV_Hepacivirus_N_E1_151-347_AlphaFold.pdb:0.3900481971,HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E1_148-347_AlphaFold.pdb:0.1595827813)100:0.5978626705)100:0.2919450193,(((HPHV_Catfish_hepacivirus_E1_355-549_AlphaFold.pdb:0.5670933290,((HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E1_180-366_AlphaFold.pdb:0.5808568128,HPHV_Cyprichromis_hepacivirus_E1_102-279_AlphaFold.pdb:0.4073648289)100:0.2979782088,((HPHV_Guangxi_houndshark_hepacivirus_E1_344-537_AlphaFold.pdb:0.3049067394,HPHV_Wenling_shark_virus_E1_301-494_AlphaFold.pdb:0.2411506900)100:0.2144939369,(HPHV_Nanhai_ghost_shark_hepacivirus_1_E1_2-119_AlphaFold.pdb:0.2239448035,HPHV_Nanhai_ghost_shark_hepacivirus_2_E1_213-403_AlphaFold.pdb:0.3539283222)100:0.3028475215)100:0.1264475606)93:0.0929257245)93:0.0780199850,HPHV_White_sucker_hepacivirus_E1_381-571_AlphaFold.pdb:0.6585525296)99:0.1678196459,(HPHV_Xiamen_guitarfish_hepacivirus_E1_370-557_AlphaFold.pdb:0.6910180737,HPHV_Xiamen_sepia_Stingray_hepacivirus_E1_430-621_AlphaFold.pdb:0.5176259617)98:0.3481392165)56:0.0821166309)54:0.1245305681,((HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E1_164-348_AlphaFold.pdb:0.1793693402,(((HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E1_183-365_AlphaFold.pdb:0.0403013376,HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E1_183-367_AlphaFold.pdb:0.0663083777)100:0.0201627663,(((HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E1_173-356_AlphaFold.pdb:0.0175609386,HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E1_183-365_AlphaFold.pdb:0.0000022572)100:0.0051717887,(HPHV_Rodent_hepacivirus_TA100-ATZA2013_E1_173-355_AlphaFold.pdb:0.0175977626,HPHV_Rodent_hepacivirus_TA531-ATZA2013_E1_183-365_AlphaFold.pdb:0.0295487195)99:0.0080583455)99:0.0050094297,(HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E1_183-365_AlphaFold.pdb:0.0292592878,HPHV_Rodent_hepacivirus_TA498-ATZA2013_E1_213-395_AlphaFold.pdb:0.0271144426)100:0.0169980758)100:0.0455711586)100:0.1554120021,HPHV_Rodent_hepacivirus_TA142TZA2013_E1_168-351_AlphaFold.pdb:0.2303720340)100:0.1016521384)100:0.2342587677,HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E1_220-403_AlphaFold.pdb:0.7392645497)100:0.5290070055)34:0.0000023209,((HPHV_Hepacivirus_sp._E1_201-379_AlphaFold.pdb:0.7616984393,(HPPV_Goose_pegivirus_1_E1_33-220_AlphaFold.pdb:0.4038966657,((HPPV_Goose_pegivirus_2_E1_29-214_AlphaFold.pdb:0.0913439402,HPPV_Montifringilla_taczanowskii_pegivirus_E1_28-222_AlphaFold.pdb:0.0784999047)100:0.2419853325,(HPPV_Leucosticte_brandti_pegivirus_XZN_E1_28-217_AlphaFold.pdb:0.0866152504,HPPV_Passer_montanus_pegivirus_GXN_E1_27-210_AlphaFold.pdb:0.1974497600)100:0.2202769657)99:0.4016235187)99:0.2501934985)97:0.1427056164,((((((((HPPV_Bat_GB-like_virus_E1_22-217_AlphaFold.pdb:0.0250392637,HPPV_Bat_pegivirus_PDB-694_E1_61-256_AlphaFold.pdb:0.0384132877)100:0.1270669423,HPPV_Bat_pegivirus_PDB-303_E1_23-220_AlphaFold.pdb:0.1003837870)100:0.3231449991,HPPV_GB_virus_E1_62-249_AlphaFold.pdb:0.4013309673)99:0.2681185346,(((((((HPPV_Bat_pegivirus_PDB-24_E1_30-214_AlphaFold.pdb:0.1206667360,HPPV_Bat_pegivirus_PDB-491.2_E1_104-287_AlphaFold.pdb:0.2204274204)98:0.0859116329,HPPV_Bat_pegivirus_PDB-838_E1_102-284_AlphaFold.pdb:0.1494491033)97:0.0873220612,(HPPV_Bat_pegivirus_PDB-737B_E1_58-242_AlphaFold.pdb:0.1830100409,HPPV_Southwest_bike_trail_virus_E1_180-362_AlphaFold.pdb:0.3626346091)100:0.0626049773)97:0.1528136764,(HPPV_Hepatitis_GB_virus_A_E1_98-271_AlphaFold.pdb:0.1659766977,HPPV_Marmoset_pegivirus_E1_22-198_AlphaFold.pdb:0.1169730035)100:0.3574684462)96:0.0880428927,((((HPPV_Chimpanzee_GB_virus_C_E1_21-207_AlphaFold.pdb:0.0389368595,HPPV_Nabpantry_virus_9_E1_21-205_AlphaFold.pdb:0.0686678231)100:0.0474408945,HPPV_Ticpantry_virus_3_E1_102-286_AlphaFold.pdb:0.0353516686)100:0.0950716821,(((((HPPV_Hepatitis_G_virus_AB018667.1_E1_20-206_AlphaFold.pdb:0.0000022572,HPPV_Hepatitis_G_virus_AB021287.1_E1_20-206_AlphaFold.pdb:0.0134499964)99:0.0088928628,HPPV_Hepatitis_G_virus_HGV-T55875_E1_52-237_AlphaFold.pdb:0.0045513942)90:0.0088503663,(HPPV_Hepatitis_G_virus_U94695.1_E1_53-237_AlphaFold.pdb:0.0316050439,HPPV_Pegivirus_A_56330218_E1_20-206_AlphaFold.pdb:0.0135024552)93:0.0000020155)92:0.0043558059,HPPV_Hepatitis_G_virus_isolate_765_E1_88-274_AlphaFold.pdb:0.0044037910)98:0.0049450919,HPPV_Pegivirus_A_89859249_E1_65-251_AlphaFold.pdb:0.0038694338)100:0.1647200908)100:0.1365196719,(HPPV_Simian_pegivirus_SPgVkrc_RC08_E1_21-207_AlphaFold.pdb:0.0627770091,(HPPV_Simian_pegivirus_VGA00020_E1_21-207_AlphaFold.pdb:0.1487091288,HPPV_Simian_pegivirus_myb_M77_E1_21-207_AlphaFold.pdb:0.0525543652)98:0.0377656588)100:0.2374583495)100:0.1995200197)97:0.1329133570,HPPV_Pegivirus_K_E1_20-208_AlphaFold.pdb:0.5708878157)96:0.1418867700,HPPV_Pegivirus_I_E1_21-212_AlphaFold.pdb:0.4893634554)44:0.0562200588)68:0.1563683668,HPPV_Dolphin_pegivirus_E1_33-218_AlphaFold.pdb:1.0310018108)95:0.1862298224,(HPPV_Equine_Pegivirus_E1_55-232_AlphaFold.pdb:0.9671005016,(HPPV_Feline_pegivirus_E1_31-210_AlphaFold.pdb:0.6564080303,HPPV_Pegivirus_D_E1_22-206_AlphaFold.pdb:0.7352893253)99:0.2349865584)70:0.0410984037)93:0.1902965816,((((HPPV_Bat_pegivirus_PDB-1734_E1_162-347_AlphaFold.pdb:0.2807173896,HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E1_197-379_AlphaFold.pdb:0.1192854964)99:0.1189442311,(((HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E1_212-398_AlphaFold.pdb:0.2028738304,(((HPPV_Longquan_Niviventer_fulvescens_pegivirus_E1_225-423_AlphaFold.pdb:0.0087675105,HPPV_Longquan_Niviventer_niviventer_pegivirus_E1_233-416_AlphaFold.pdb:0.0000022628)99:0.0144226516,HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E1_223-415_AlphaFold.pdb:0.0034212482)100:0.1882726448,((HPPV_Rodent_pegivirus_05VZ-14-Rat070_E1_233-413_AlphaFold.pdb:0.0458481489,HPPV_Rodent_pegivirus_RPgV-IND079_E1_231-413_AlphaFold.pdb:0.0000022740)100:0.2094692716,(HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E1_207-398_AlphaFold.pdb:0.0289243813,HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E1_225-408_AlphaFold.pdb:0.0000022628)100:0.1705868351)99:0.0727153107)99:0.0469044560)93:0.0422402441,(HPPV_Phaiomys_leucurus_pegivirus_E1_247-430_AlphaFold.pdb:0.1966559918,HPPV_Rodent_pegivirus_isolate_CC61_E1_226-411_AlphaFold.pdb:0.2153017988)100:0.0921184518)94:0.0709996469,(HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E1_167-351_AlphaFold.pdb:0.0058342397,HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E1_167-348_AlphaFold.pdb:0.1296712416)100:0.3662413549)95:0.0340855855)98:0.1331434899,(HPPV_Human_hepegivirus_E1_111-315_AlphaFold.pdb:1.0369311135,HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E1_67-245_AlphaFold.pdb:0.4128508821)98:0.1622070380)96:0.0615218824,((HPPV_Bat_pegivirus_PDB-34.1_E1_289-471_AlphaFold.pdb:0.2211807589,HPPV_Pegivirus_G_E1_285-477_AlphaFold.pdb:0.3816071886)100:0.2086524452,HPPV_Tree_shrew_pegivirus_E1_161-347_AlphaFold.pdb:0.3011446170)99:0.0574868308)100:0.5097121169)90:0.1515247635,((((((PLPV_Atypical_porcine_pestivirus_E1_502-700_AlphaFold.pdb:0.1136938452,(PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E1_503-701_AlphaFold.pdb:0.0253461919,PLPV_Zikole_virus_E1_503-702_AlphaFold.pdb:0.0402007936)100:0.1585117548)100:0.5260591964,PLPV_Frog_pestivirus_E1_897-1094_AlphaFold.pdb:1.2467382739)92:0.4225020969,((PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E1_638-834_AlphaFold.pdb:0.0781106754,PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E1_635-832_AlphaFold.pdb:0.0616139648)100:0.1681010009,PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E1_624-819_AlphaFold.pdb:0.2263729165)100:0.2238368208)89:0.1242372428,PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E1_329-526_AlphaFold.pdb:0.3685635683)83:0.0548141115,(((PLPV_Linda_virus_strain_Austria1_E1_508-702_AlphaFold.pdb:0.1365302029,PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E1_502-698_AlphaFold.pdb:0.1223231388)98:0.0575853992,PLPV_Porcine_pestivirus_isolate_Bungowannah_E1_498-694_AlphaFold.pdb:0.1727419508)100:0.0872852090,PLPV_Phocoena_pestivirus_isolate_NS170386_E1_339-536_AlphaFold.pdb:0.2992161220)99:0.0994826209)83:0.0519947219,(((((((((((PLPV_Border_disease_virus_X818_E1_496-690_AlphaFold.pdb:0.0547073499,PLPV_Pestivirus_reindeer-1_V60-Krefeld_E1_496-690_AlphaFold.pdb:0.0377470680)100:0.0349262017,PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E1_495-689_AlphaFold.pdb:0.0282597333)100:0.0128377505,PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E1_495-689_AlphaFold.pdb:0.0313013702)96:0.0045055817,PLPV_Classical_swine_fever_virus_E1_496-689_AlphaFold.pdb:0.0540692590)95:0.0117804993,(PLPV_Pestivirus_Burdur05-TR_E1_496-690_AlphaFold.pdb:0.0124448187,PLPV_Pestivirus_strain_Aydin04-TR_E1_496-690_AlphaFold.pdb:0.0323440368)98:0.0163414592)99:0.0426580409,((PLPV_Bovine_viral_diarrhea_virus_1_E1_498-692_AlphaFold.pdb:0.0721475453,PLPV_Bovine_viral_diarrhea_virus_2_E1_498-692_AlphaFold.pdb:0.1087067551)84:0.0405524107,PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E1_496-690_AlphaFold.pdb:0.1271465528)84:0.0300516122)83:0.0837460466,PLPV_Pestivirus_PG-2_E1_495-688_AlphaFold.pdb:0.0175791378)71:0.0128398588,PLPV_Pestivirus_giraffe-1_H138_E1_494-688_AlphaFold.pdb:0.0352634987)78:0.2129831625,PLPV_Pronghorn_antelope_pestivirus_E1_493-687_AlphaFold.pdb:0.4080137006)76:0.1328619642,((((((PLPV_Dongyang_pangolin_virus_isolate_DYCS_E1_476-667_AlphaFold.pdb:0.2199583261,PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E1_476-673_AlphaFold.pdb:0.0748401272)100:0.0339175770,PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E1_477-673_AlphaFold.pdb:0.0417269560)100:0.0372457211,PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E1_476-674_AlphaFold.pdb:0.0592475892)100:0.0486876104,(PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E1_505-702_AlphaFold.pdb:0.0331178761,PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E1_508-703_AlphaFold.pdb:0.0485625276)98:0.0443172613)98:0.0147179968,PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E1_476-673_AlphaFold.pdb:0.0661612744)98:0.1371460869,PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E1_501-699_AlphaFold.pdb:0.1174625784)97:0.3769337733)51:0.0267151225,PLPV_Glass_knifefish_pestivirus_E1_1023-1197_AlphaFold.pdb:9.9999984951)58:0.0000023424)94:2.2634303449)87:0.0582824225)92:0.2313517833)66:0.0864569665,((((HPHV_Equine_hepacivirus_E1_205-391_AlphaFold.pdb:0.0243515845,HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E1_205-387_AlphaFold.pdb:0.0082254779)44:0.0000029026,(HPHV_Hepacivirus_horseDH1HUN2013_E1_205-390_AlphaFold.pdb:0.0117337254,HPHV_Non-primate_hepacivirus_NZP1_E1_205-391_AlphaFold.pdb:0.0490314766)38:0.0000022628)100:0.6435388472,((((HPHV_Hepatitis_C_virus_genotype_1_E1_192-383_AlphaFold.pdb:0.0973573865,(HPHV_Hepatitis_C_virus_genotype_4_E1_193-383_AlphaFold.pdb:0.1343207945,((HPHV_Hepatitis_C_virus_genotype_5_E1_193-383_AlphaFold.pdb:0.0669916652,HPHV_Recombinant_Hepacivirus_E1_193-383_AlphaFold.pdb:0.0279978807)100:0.1246553619,HPHV_Hepatitis_C_virus_genotype_6_E1_193-383_AlphaFold.pdb:0.2578329577)91:0.0393068607)92:0.0572255619)91:0.0405474229,HPHV_Hepatitis_C_virus_genotype_3_E1_193-383_AlphaFold.pdb:0.1899495644)79:0.0726577407,((HPHV_Hepatitis_C_virus_genotype_2_E1_193-383_AlphaFold.pdb:0.0347037929,HPHV_Mutant_Hepacivirus_clone_T9cc_E1_193-383_AlphaFold.pdb:0.0000029026)100:0.0677169310,HPHV_Mutant_Hepacivirus_clone_S83cc_E1_193-383_AlphaFold.pdb:0.1279947248)100:0.1756148773)67:0.0941516154,HPHV_Hepatitis_C_virus_genotype_7_E1_192-383_AlphaFold.pdb:0.1149082690)100:0.5845184098)100:0.2972112908,(HPHV_Hepacivirus_K_E1_191-383_AlphaFold.pdb:0.3552294978,HPHV_Hepacivirus_M_E1_191-382_AlphaFold.pdb:0.1679786714)100:0.4825601002)80:0.2592366847)69:0.0922469406,(HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E1_298-486_AlphaFold.pdb:0.1855263271,HPHV_Chinese_softshell_turtle_hepacivirus_E1_301-487_AlphaFold.pdb:0.1320671900)100:0.7261236814)51:0.0577453702,((((HPHV_Gecko_hepacivirus_E1_311-502_AlphaFold.pdb:0.2018283796,HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E1_672-861_AlphaFold.pdb:0.1892477714)100:0.1245803825,HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E1_219-407_AlphaFold.pdb:0.2412851095)100:0.5216052557,HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E1_660-850_AlphaFold.pdb:0.4980013325)100:0.7849820072,HPHV_Western_African_lungfish_hepacivirus_E1_382-570_AlphaFold.pdb:0.9312361443)65:0.1464066855)67:0.1038214607,HPUN_Wenling_moray_eel_hepacivirus_E1_286-472_AlphaFold.pdb:1.4976927250)93:0.2530033900,HPHV_Viviparous_lizard_hepacivirus_E1_465-667_AlphaFold.pdb:0.7909887579)100:0.4209857130,HPHV_Duck_hepacivirus_HCL-1_E1_289-481_AlphaFold.pdb:0.4293098145)100:0.2141058808,HPHV_Jogalong_virus_P1-10_E1_88-278_AlphaFold.pdb:0.4029577923)100:0.1930050161,HPHV_Hepacivirus_Q_strain_GDZQ-15_E1_172-361_AlphaFold.pdb:0.3281801436);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E1_famsa_iqtree/refolded_fullglyco_E1_AA_famsa_3ditrim35.treefile -m "WAG+F+G4{1.73855}" --length 195
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s refolded_fullglyco_E1_AA_famsa_3ditrim35.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s refolded_fullglyco_E1_AA_famsa_3ditrim35.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Sep 16 16:46:12 2024
+Total CPU time used: 2326.675219 seconds (0h:38m:46s)
+Total wall-clock time used: 803.8603496 seconds (0h:13m:23s)
+

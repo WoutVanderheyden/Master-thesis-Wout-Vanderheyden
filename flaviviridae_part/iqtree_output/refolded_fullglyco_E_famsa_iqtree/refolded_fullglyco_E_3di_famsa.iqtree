@@ -1,0 +1,1089 @@
+IQ-TREE 2.3.6 built Aug  4 2024
+
+Input file name: refolded_fullglyco_E_3di_famsa.fas
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 410258
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 247 sequences with 1050 amino-acid sites
+Number of constant sites: 290 (= 27.619% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 290 (= 27.619% of all sites)
+Number of parsimony informative sites: 603
+Number of distinct site patterns: 955
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 3DI
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -98551.5760 (s.e. 3322.7485)
+Unconstrained log-likelihood (without tree): -7122.2324
+Number of free parameters (#branches + #model parameters): 491
+Akaike information criterion (AIC) score: 198085.1519
+Corrected Akaike information criterion (AICc) score: 198951.0014
+Bayesian information criterion (BIC) score: 200518.8157
+
+Total tree length (sum of branch lengths): 53.0951
+Sum of internal branch lengths: 13.9280 (26.2322% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'FJAF_Cnidaria_flavivirus_E_278-749_AlphaFold.pdb' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++------FJAF_Cnidaria_flavivirus_E_278-749_AlphaFold.pdb
+|
+|           +----FJAF_Crangon_crangon_flavivirus_orf_1_E_310-786_AlphaFold.pdb
+|        +--| (98.8/100)
+|        |  |  +-----FJAF_Gammarus_chevreuxi_flavivirus_isolate_100_1_orf_1_E_354-838_AlphaFold.pdb
+|        |  +--| (89.2/100)
+|        |     |  +---FJAF_Photeros_flavivirus_orf_1_E_386-864_AlphaFold.pdb
+|        |     +--| (35.4/99)
+|        |        +--FJAF_Sea_firefly_flavivirus_orf_1_E_289-775_AlphaFold.pdb
+|     +--| (61.8/96)
+|     |  |  +---FJFL_African_cichlid_flavi_like_virus_E_278-770_AlphaFold.pdb
+|     |  +--| (99.9/100)
+|     |     +----FJFL_Salmon_flavivirus_strain_Davis_UGA_orf_1_E_279-768_AlphaFold.pdb
+|  +--| (99.7/100)
+|  |  |                                   +--FJMB_Alfuy_virus_strain_MRM3929_E_295-790_AlphaFold.pdb
+|  |  |                                +--| (99.2/90)
+|  |  |                                |  |        +--FJMB_Cacipacore_virus_E_289-787_AlphaFold.pdb
+|  |  |                                |  |     +--| (86.9/95)
+|  |  |                                |  |     |  +--FJMB_Japanese_encephalitis_virus_E_295-789_AlphaFold.pdb
+|  |  |                                |  |  +--| (34.8/28)
+|  |  |                                |  |  |  +--FJMB_Usutu_virus_E_294-789_AlphaFold.pdb
+|  |  |                                |  +--| (90.9/89)
+|  |  |                                |     |        +--FJMB_Koutango_virus_isolate_PM148_E_293-787_AlphaFold.pdb
+|  |  |                                |     |     +--| (96.4/100)
+|  |  |                                |     |     |  +--FJMB_West_Nile_virus_lineage_1_E_291-787_AlphaFold.pdb
+|  |  |                                |     |  +--| (94.2/47)
+|  |  |                                |     |  |  +--FJMB_Kunjin_virus_clone_FLSDX_E_291-787_AlphaFold.pdb
+|  |  |                                |     +--| (86.5/41)
+|  |  |                                |        +--FJMB_West_Nile_virus_lineage_2_E_291-784_AlphaFold.pdb
+|  |  |                             +--| (97.4/93)
+|  |  |                             |  |  +--FJMB_Murray_Valley_encephalitis_virus_E_294-788_AlphaFold.pdb
+|  |  |                             |  +--| (44.1/83)
+|  |  |                             |     +---FJMB_Yaounde_virus_strain_Dak_Ar_Y276_E_291-791_AlphaFold.pdb
+|  |  |                          +--| (92.7/92)
+|  |  |                          |  |  +--FJMB_Saint_Louis_encephalitis_virus_E_289-788_AlphaFold.pdb
+|  |  |                          |  +--| (99.5/100)
+|  |  |                          |     +--FJMB_St._Louis_encephalitis_virus_strain_Palenque-A770_E_321-816_AlphaFold.pdb
+|  |  |                       +--| (89.6/93)
+|  |  |                       |  |           +--FJMB_Bagaza_virus_strain_DakAr_B209_E_290-786_AlphaFold.pdb
+|  |  |                       |  |        +--| (45/97)
+|  |  |                       |  |        |  +--FJMB_Ntaya_virus_E_290-785_AlphaFold.pdb
+|  |  |                       |  |     +--| (98.5/99)
+|  |  |                       |  |     |  |  +--FJMB_Sitiawan_virus_E_288-788_AlphaFold.pdb
+|  |  |                       |  |     |  +--| (73.7/98)
+|  |  |                       |  |     |     +--FJMB_Tembusu_virus_flavivirus_E_288-785_AlphaFold.pdb
+|  |  |                       |  |  +--| (99.5/94)
+|  |  |                       |  |  |  +--FJMB_Israel_turkey_meningoencephalomyelitis_virus_E_291-784_AlphaFold.pdb
+|  |  |                       |  +--| (96.9/89)
+|  |  |                       |     |  +--FJMB_Ilheus_virus_strain_BrMS-MQ10_E_289-785_AlphaFold.pdb
+|  |  |                       |     +--| (71.9/97)
+|  |  |                       |        |  +--FJMB_Rocio_virus_strain_SPH_34675_E_286-781_AlphaFold.pdb
+|  |  |                       |        +--| (77.8/100)
+|  |  |                       |           +--FJMB_T_Ho_virus_strain_T_Ho-Mex07_E_287-783_AlphaFold.pdb
+|  |  |                    +--| (81.3/84)
+|  |  |                    |  |           +--FJMB_Bainyik_virus_strain_MK7979_E_287-786_AlphaFold.pdb
+|  |  |                    |  |        +--| (96.8/100)
+|  |  |                    |  |        |  +--FJMB_Torres_virus_strain_TS5273_E_288-783_AlphaFold.pdb
+|  |  |                    |  |     +--| (33.2/87)
+|  |  |                    |  |     |  +--FJMB_New_Mapoon_virus_E_287-787_AlphaFold.pdb
+|  |  |                    |  |  +--| (77.4/87)
+|  |  |                    |  |  |  +--FJMB_Kokobera_virus_E_287-787_AlphaFold.pdb
+|  |  |                    |  +--| (100/100)
+|  |  |                    |     +--FJMB_Stratford_virus_isolate_22911_E_288-786_AlphaFold.pdb
+|  |  |                 +--| (97.2/75)
+|  |  |                 |  |     +---FJMB_Kedougou_virus_strain_DakAar_D1470_E_283-781_AlphaFold.pdb
+|  |  |                 |  |  +--| (50/85)
+|  |  |                 |  |  |  +--FJMB_Spondweni_virus_E_290-793_AlphaFold.pdb
+|  |  |                 |  +--| (91.5/86)
+|  |  |                 |     +--FJMB_Zika_virus_E_291-789_AlphaFold.pdb
+|  |  |              +--| (94.8/83)
+|  |  |              |  |     +--FJMB_Aroa_virus_strain_Macaray_01809_E_287-778_AlphaFold.pdb
+|  |  |              |  |  +--| (100/100)
+|  |  |              |  |  |  +--FJMB_Iguape_virus_strain_SPAn_71686_E_287-780_AlphaFold.pdb
+|  |  |              |  +--| (29.2/83)
+|  |  |              |     |  +--FJMB_Bussuquara_virus_E_293-789_AlphaFold.pdb
+|  |  |              |     +--| (99.6/100)
+|  |  |              |        +--FJMB_Naranjal_virus_strain_25008_E_293-794_AlphaFold.pdb
+|  |  |           +--| (89.3/64)
+|  |  |           |  |              +--FJMB_Barkedji-like_virus_zmq17M40_E_295-795_AlphaFold.pdb
+|  |  |           |  |           +--| (99.9/100)
+|  |  |           |  |           |  +--FJMB_Barkedji_virus_zmq17L31_E_293-795_AlphaFold.pdb
+|  |  |           |  |        +--| (92.9/100)
+|  |  |           |  |        |  +--FJMB_Batu_Kawa_virus_isolate_MYR-097_E_293-793_AlphaFold.pdb
+|  |  |           |  |     +--| (48.5/58)
+|  |  |           |  |     |  +-----FJMB_Nanay_virus_strain_PRD316PER09_E_290-779_AlphaFold.pdb
+|  |  |           |  |  +--| (35.7/49)
+|  |  |           |  |  |  +--FJMB_Nhumirim_virus_strain_BrMS-MQ10_E_298-796_AlphaFold.pdb
+|  |  |           |  +--| (97.6/88)
+|  |  |           |     |  +--FJMB_Chinese_soft-shelled_turtle_flavivirus_isolate_HZ-2017_E_339-826_AlphaFold.pdb
+|  |  |           |     +--| (100/100)
+|  |  |           |        +---FJMB_Kampung_Karu_virus_isolate_SWK_P44_E_320-811_AlphaFold.pdb
+|  |  |        +--| (64.2/70)
+|  |  |        |  |     +--FJMB_Dengue_virus_1_E_281-775_AlphaFold.pdb
+|  |  |        |  |  +--| (66.8/89)
+|  |  |        |  |  |  |  +--FJMB_Dengue_virus_3_E_281-773_AlphaFold.pdb
+|  |  |        |  |  |  +--| (18.1/82)
+|  |  |        |  |  |     +--FJMB_Dengue_virus_4_E_280-774_AlphaFold.pdb
+|  |  |        |  +--| (99.9/100)
+|  |  |        |     +--FJMB_Dengue_virus_2_E_281-775_AlphaFold.pdb
+|  |  |     +--| (91.6/95)
+|  |  |     |  |           +--FJMB_Aripo_virus_isolate_TR9096_E_294-791_AlphaFold.pdb
+|  |  |     |  |        +--| (100/100)
+|  |  |     |  |        |  +--FJMB_Psorophora_flavivirus_bvmq18-51_E_293-792_AlphaFold.pdb
+|  |  |     |  |     +--| (98.4/100)
+|  |  |     |  |     |  |     +--FJMB_Chaoyang_virus_E_293-788_AlphaFold.pdb
+|  |  |     |  |     |  |  +--| (88.7/100)
+|  |  |     |  |     |  |  |  +--FJMB_Lammi_virus_E_292-786_AlphaFold.pdb
+|  |  |     |  |     |  +--| (91.6/85)
+|  |  |     |  |     |     |        +--FJMB_Donggang_virus_E_303-793_AlphaFold.pdb
+|  |  |     |  |     |     |     +--| (96.9/100)
+|  |  |     |  |     |     |     |  +--FJMB_Marisma_mosquito_virus_strain_HU452807_E_299-793_AlphaFold.pdb
+|  |  |     |  |     |     |  +--| (90.5/99)
+|  |  |     |  |     |     |  |  +---FJMB_Long_Pine_Key_virus_strain_Sabal-12019_E_309-798_AlphaFold.pdb
+|  |  |     |  |     |     +--| (90.6/85)
+|  |  |     |  |     |        |  +--FJMB_Ilomantsi_virus_isolate_M0724_E_299-792_AlphaFold.pdb
+|  |  |     |  |     |        +--| (100/100)
+|  |  |     |  |     |           +--FJMB_Panmunjeom_flavivirus_strain_A12.3025ROK2012_E_299-795_AlphaFold.pdb
+|  |  |     |  |  +--| (85.7/97)
+|  |  |     |  |  |  +---FJMB_Binjari_virus_isolate_BFTA20_E_294-788_AlphaFold.pdb
+|  |  |     |  +--| (71.1/65)
+|  |  |     |     +----FJMB_Nounane_virus_E_286-790_AlphaFold.pdb
+|  |  |  +--| (99.9/100)
+|  |  |  |  |                 +--FJMB_Bamaga_virus_isolate_CY4270_E_280-771_AlphaFold.pdb
+|  |  |  |  |              +--| (87.6/32)
+|  |  |  |  |              |  |  +--FJMB_Edge_Hill_virus_strain_YMP_48_E_282-772_AlphaFold.pdb
+|  |  |  |  |              |  +--| (96.9/41)
+|  |  |  |  |              |     |        +--FJMB_Entebbe_bat_virus_E_288-776_AlphaFold.pdb
+|  |  |  |  |              |     |     +--| (94.8/100)
+|  |  |  |  |              |     |     |  +--FJMB_Sokoluk_virus_strain_LEIV-400K_E_295-777_AlphaFold.pdb
+|  |  |  |  |              |     |  +--| (100/100)
+|  |  |  |  |              |     |  |  +--FJMB_Yokose_virus_E_298-786_AlphaFold.pdb
+|  |  |  |  |              |     +--| (87.7/40)
+|  |  |  |  |              |        |  +--FJMB_Fitzroy_River_Virus_strain_K73884_E_283-765_AlphaFold.pdb
+|  |  |  |  |              |        +--| (99.9/100)
+|  |  |  |  |              |           |  +--FJMB_Sepik_virus_E_283-770_AlphaFold.pdb
+|  |  |  |  |              |           +--| (17.4/97)
+|  |  |  |  |              |              +--FJMB_Wesselsbron_virus_strain_SAH177_E_282-770_AlphaFold.pdb
+|  |  |  |  |           +--| (93.2/33)
+|  |  |  |  |           |  |  +--FJMB_Banzi_virus_strain_SAH_336_E_273-763_AlphaFold.pdb
+|  |  |  |  |           |  +--| (77.9/98)
+|  |  |  |  |           |     |  +--FJMB_Bouboui_virus_strain_DAK_AR_B490_E_273-763_AlphaFold.pdb
+|  |  |  |  |           |     +--| (85.1/100)
+|  |  |  |  |           |        +--FJMB_Uganda_S_virus_E_273-761_AlphaFold.pdb
+|  |  |  |  |        +--| (96.4/34)
+|  |  |  |  |        |  +--FJMB_Jugra_virus_strain_P-9-314_E_272-762_AlphaFold.pdb
+|  |  |  |  |     +--| (98.4/41)
+|  |  |  |  |     |  +--FJMB_Potiskum_virus_strain_IBAN_10069_E_273-762_AlphaFold.pdb
+|  |  |  |  |  +--| (81.5/74)
+|  |  |  |  |  |  +--FJMB_Yellow_fever_virus_E_286-776_AlphaFold.pdb
+|  |  |  |  +--| (98.8/98)
+|  |  |  |     +---FJMB_Paraiso_Escondido_virus_isolate_Ecuador2012_E_309-796_AlphaFold.pdb
+|  |  +--| (95.8/99)
+|  |     |           +--FJNV_Apoi_virus_genome_E_271-660_AlphaFold.pdb
+|  |     |        +--| (44.6/78)
+|  |     |        |  +--FJNV_Rio_Bravo_virus_strain_M64_E_269-655_AlphaFold.pdb
+|  |     |     +--| (96.7/99)
+|  |     |     |  |           +--FJNV_Bukalasa_bat_virus_isolate_BP111_E_267-656_AlphaFold.pdb
+|  |     |     |  |        +--| (11.8/68)
+|  |     |     |  |        |  +--FJNV_Modoc_virus_E_275-754_AlphaFold.pdb
+|  |     |     |  |     +--| (92.7/81)
+|  |     |     |  |     |  +--FJNV_Jutiapa_virus_strain_JG-128_E_275-751_AlphaFold.pdb
+|  |     |     |  |  +--| (68.7/87)
+|  |     |     |  |  |  +--FJNV_Dakar_bat_virus_isolate_BP180_E_269-749_AlphaFold.pdb
+|  |     |     |  +--| (75.1/67)
+|  |     |     |     +--FJNV_Montana_myotis_leukoencephalitis_virus_E_272-750_AlphaFold.pdb
+|  |     |  +--| (95.5/99)
+|  |     |  |  |  +--FJNV_Batu_Cave_virus_strain_P70-1459_E_274-662_AlphaFold.pdb
+|  |     |  |  +--| (99.6/100)
+|  |     |  |     +--FJNV_Phnom_Penh_bat_virus_strain_30834_A38_E_274-662_AlphaFold.pdb
+|  |     +--| (97.5/99)
+|  |        |                       +--FJTB_Alkhumra_hemorrhagic_fever_virus_strain_Zaki_2_E_283-676_AlphaFold.pdb
+|  |        |                    +--| (69.4/95)
+|  |        |                    |  +--FJTB_Kyasanur_forest_disease_virus_strain_P9605_E_281-676_AlphaFold.pdb
+|  |        |                 +--| (56.1/83)
+|  |        |                 |  |     +--FJTB_Langat_virus_E_280-675_AlphaFold.pdb
+|  |        |                 |  |  +--| (89.6/100)
+|  |        |                 |  |  |  +--FJTB_Louping_ill_virus_isolate_IRE_IRE2_1971_E_280-675_AlphaFold.pdb
+|  |        |                 |  +--| (94.3/93)
+|  |        |                 |     |  +--FJTB_Omsk_hemorrhagic_fever_virus_strain_Bogolubovka1048_E_280-675_AlphaFold.pdb
+|  |        |                 |     +--| (99.6/100)
+|  |        |                 |        |     +--FJTB_Spanish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb
+|  |        |                 |        |  +--| (97.9/99)
+|  |        |                 |        |  |  +--FJTB_Turkish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb
+|  |        |                 |        +--| (85.4/99)
+|  |        |                 |           +--FJTB_Tick-borne_encephalitis_virus_E_280-675_AlphaFold.pdb
+|  |        |              +--| (88.2/88)
+|  |        |              |  +--FJTB_Powassan_virus_E_278-674_AlphaFold.pdb
+|  |        |           +--| (65.3/96)
+|  |        |           |  +--FJTB_Gadgets_Gully_virus_E_280-676_AlphaFold.pdb
+|  |        |        +--| (85.8/96)
+|  |        |        |  +--FJTB_Royal_Farm_virus_from_Afghanistan_E_281-676_AlphaFold.pdb
+|  |        |     +--| (99.8/100)
+|  |        |     |  +--FJTB_Karshi_virus_strain_WJQ16209_E_280-675_AlphaFold.pdb
+|  |        |  +--| (96.7/100)
+|  |        |  |  |        +--FJTB_Kama_virus_strain_LEIV-20776Tat_E_276-666_AlphaFold.pdb
+|  |        |  |  |     +--| (71.3/97)
+|  |        |  |  |     |  +--FJTB_Saumarez_Reef_virus_isolate_W11_2232_E_278-666_AlphaFold.pdb
+|  |        |  |  |  +--| (78.3/97)
+|  |        |  |  |  |  +--FJTB_Tyuleniy_virus_strain_LEIV-6C_E_277-668_AlphaFold.pdb
+|  |        |  |  +--| (69.3/99)
+|  |        |  |     +--FJTB_Meaban_virus_E_276-667_AlphaFold.pdb
+|  |        +--| (96/99)
+|  |           +-----FJUN_Mpulungu_flavivirus_ZT17-1078_E_265-660_AlphaFold.pdb
++--| (99.8/100)
+|  |                                         +----------FJAF_Gammarus_pulex_flavivirus_isolate_GPCM_orf_1_E_82-263_ESMFold.pdb
+|  |                                      +--| (83.4/77)
+|  |                                      |  +---------------FJUN_Infectious_precocity_virus_isolate_MR2018_orf_1_E_257-399_AlphaFold.pdb
+|  |                                   +--| (84.1/76)
+|  |                                   |  |  +-------PLUN_Shayang_spider_virus_4_strain_SYZZ-1_E_1837-2097_ESMFold.pdb
+|  |                                   |  +--| (93.2/91)
+|  |                                   |     +-----PLUN_Xinzhou_spider_virus_3_strain_XZZZ-3_E_1586-1774_ESMFold.pdb
+|  |                                +--| (87.1/82)
+|  |                                |  |  +----------------PLLG_Atrato_Flavi-like_virus_1_strain_Cx_1773-1_E_1557-1694_ESMFold.pdb
+|  |                                |  +--| (93.9/78)
+|  |                                |     |  +-------PLLG_Eriocheir_sinensis_cholera_like_virus_E_2053-2494_ESMFold.pdb
+|  |                                |     +--| (86.9/91)
+|  |                                |        +-----------PLLG_Hangzhou_flavivirus_1_isolate_FSFY137086_E_56-223_ESMFold.pdb
+|  |                             +--| (97/85)
+|  |                             |  |        +----------PLLG_Artemia_sinica_associated_flavi-like_virus_E_919-1383_AlphaFold.pdb
+|  |                             |  |     +--| (99.3/100)
+|  |                             |  |     |  |                        +--PLLG_Bole_tick_virus_4_isolate_GSC346flaviV_E_877-1348_ESMFold.pdb
+|  |                             |  |     |  |                     +--| (99/100)
+|  |                             |  |     |  |                     |  +--PLLG_Bole_tick_virus_4_strain_BLP-1_E_877-1348_ESMFold.pdb
+|  |                             |  |     |  |                  +--| (73.9/99)
+|  |                             |  |     |  |                  |  +----PLLG_Bole_tick_virus_4_isolate_TIGMIC_2_E_878-1348_ESMFold.pdb
+|  |                             |  |     |  |               +--| (93/100)
+|  |                             |  |     |  |               |  |     +--PLLG_Bole_tick_virus_4_strain_BangaliH.truncatum2018_E_879-1349_ESMFold.pdb
+|  |                             |  |     |  |               |  |  +--| (98.5/100)
+|  |                             |  |     |  |               |  |  |  |  +--PLLG_Rhipicephalus_sanguineus_associated_flavi-like_virus_E_856-1326_ESMFold.pdb
+|  |                             |  |     |  |               |  |  |  +--| (94.1/100)
+|  |                             |  |     |  |               |  |  |     +--PLLG_Trinbago_virus_isolate_TTP-Pool-4_E_856-1326_ESMFold.pdb
+|  |                             |  |     |  |               |  +--| (100/100)
+|  |                             |  |     |  |               |     +--PLLG_Bole_tick_virus_4_strain_IftinH.dromedarii2018_E_879-1350_ESMFold.pdb
+|  |                             |  |     |  |            +--| (24.4/85)
+|  |                             |  |     |  |            |  +---PLLG_Bole_tick_virus_4_isolate_TIGMIC_1_E_854-1324_ESMFold.pdb
+|  |                             |  |     |  |         +--| (98.9/99)
+|  |                             |  |     |  |         |  +---PLLG_Bole_tick_virus_4_isolate_Thailand_tick_flavivirus_E_854-1324_ESMFold.pdb
+|  |                             |  |     |  |      +--| (93.1/96)
+|  |                             |  |     |  |      |  |                             +--PLLG_Bole_tick_virus_4_strain_NE-DH2_E_885-1353_ESMFold.pdb
+|  |                             |  |     |  |      |  |                          +--| (97.4/76)
+|  |                             |  |     |  |      |  |                          |  |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_13_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |                          |  +--| (99.2/97)
+|  |                             |  |     |  |      |  |                          |     |     +---PLLG_Flaviviridae_sp._isolate_TIGMIC_24_E_885-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |                          |     |  +--| (26.4/69)
+|  |                             |  |     |  |      |  |                          |     |  |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_27_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |                          |     +--| (88.2/98)
+|  |                             |  |     |  |      |  |                          |        +--PLLG_Flaviviridae_sp._isolate_TIGMIC_36_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |                       +--| (83.6/72)
+|  |                             |  |     |  |      |  |                       |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_28_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |                    +--| (71.3/71)
+|  |                             |  |     |  |      |  |                    |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_20_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |                 +--| (8.7/61)
+|  |                             |  |     |  |      |  |                 |  +---PLLG_Flaviviridae_sp._isolate_TIGMIC_25_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |              +--| (95.7/98)
+|  |                             |  |     |  |      |  |              |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_12_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  |           +--| (99.9/96)
+|  |                             |  |     |  |      |  |           |  +------PLLG_Flaviviridae_sp._isolate_TIGMIC_30_E_884-1355_ESMFold.pdb
+|  |                             |  |     |  |      |  |        +--| (100/96)
+|  |                             |  |     |  |      |  |        |  |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_1_E_886-1355_ESMFold.pdb
+|  |                             |  |     |  |      |  |        |  +--| (70.5/100)
+|  |                             |  |     |  |      |  |        |     +--PLLG_Flaviviridae_sp._isolate_TIGMIC_5_E_886-1355_ESMFold.pdb
+|  |                             |  |     |  |      |  |     +--| (37.8/91)
+|  |                             |  |     |  |      |  |     |  +--PLLG_Bole_tick_virus_4_strain_NE-ShL2_E_884-1355_ESMFold.pdb
+|  |                             |  |     |  |      |  |  +--| (99.5/100)
+|  |                             |  |     |  |      |  |  |  +----PLLG_Flaviviridae_sp._isolate_TIGMIC_8_E_884-1354_ESMFold.pdb
+|  |                             |  |     |  |      |  +--| (99.2/97)
+|  |                             |  |     |  |      |     |  +----PLLG_Dermacentor_reticulatus_pestivirus-like_virus_1_isolate_CT2_E_884-1352_ESMFold.pdb
+|  |                             |  |     |  |      |     +--| (80.6/94)
+|  |                             |  |     |  |      |        |     +--PLLG_Flaviviridae_sp._isolate_TIGMIC_32_E_888-1358_ESMFold.pdb
+|  |                             |  |     |  |      |        |  +--| (77.3/97)
+|  |                             |  |     |  |      |        |  |  +-----PLLG_Flaviviridae_sp._isolate_TIGMIC_33_E_886-1356_ESMFold.pdb
+|  |                             |  |     |  |      |        +--| (84.2/96)
+|  |                             |  |     |  |      |           +--------PLLG_Haseki_tick_virus_strain_Novosibirsk-2020_E_849-1319_ESMFold.pdb
+|  |                             |  |     |  |   +--| (87/96)
+|  |                             |  |     |  |   |  |  +----PLLG_Flaviviridae_sp._isolate_TIGMIC_38_E_866-1337_ESMFold.pdb
+|  |                             |  |     |  |   |  +--| (99.5/100)
+|  |                             |  |     |  |   |     |     +**PLLG_Flaviviridae_sp._isolate_TIGMIC_39_E_865-1337_ESMFold.pdb
+|  |                             |  |     |  |   |     |  +--| (99.9/100)
+|  |                             |  |     |  |   |     |  |  +**PLLG_Zhangjiakou_Flavi_tick_virus_1_E_865-1337_ESMFold.pdb
+|  |                             |  |     |  |   |     +--| (97.4/100)
+|  |                             |  |     |  |   |        +--PLLG_Flaviviridae_sp._strain_FVHAHH8_E_865-1336_ESMFold.pdb
+|  |                             |  |     |  +---| (100/100)
+|  |                             |  |     |      +---PLLG_Camel_tick_virus_isolate_Alain_E_878-1348_ESMFold.pdb
+|  |                             |  |  +--| (55.4/87)
+|  |                             |  |  |  |          +--------PLLG_Beihai_barnacle_viurs_1_strain_BHGZ_E_914-1399_ESMFold.pdb
+|  |                             |  |  |  |  +-------| (100/100)
+|  |                             |  |  |  |  |       +------PLLG_Semibalanus_balanoides_associated_flavi-like_virus_E_922-1397_ESMFold.pdb
+|  |                             |  |  |  +--| (83.4/93)
+|  |                             |  |  |     +------------PLLG_Bemisia_tabaci_flavi-like_virus_2_E_1148-1586_ESMFold.pdb
+|  |                             |  +--| (90.9/92)
+|  |                             |     +-----------PLLG_Hangzhou_ochthera_mantis_flavivirus_1_isolate_SYFY8_E_392-793_ESMFold.pdb
+|  |                          +--| (79.4/81)
+|  |                          |  |                       +--------PLLG_Apis_flavivirus_isolate_RI-A_E_1343-1777_AlphaFold.pdb
+|  |                          |  |                    +--| (88.7/56)
+|  |                          |  |                    |  +------PLLG_Lampyris_noctiluca_flavivirus_1_isolate_17FIN1_E_1105-1565_AlphaFold.pdb
+|  |                          |  |                 +--| (92.6/56)
+|  |                          |  |                 |  +----------PLLG_Gecarcinus_lateralis_associated_flavi-like_virus_E_2040-2483_AlphaFold.pdb
+|  |                          |  |              +--| (95.7/84)
+|  |                          |  |              |  |                 +------PLLG_Brachymeria_lasus_associated_flavi-like_virus_E_533-982_AlphaFold.pdb
+|  |                          |  |              |  |              +--| (75.1/90)
+|  |                          |  |              |  |              |  +----PLLG_Shuangao_lacewing_virus_2_strain_SCL_E_770-1195_AlphaFold.pdb
+|  |                          |  |              |  |           +--| (69.2/76)
+|  |                          |  |              |  |           |  |     +--------PLLG_Fushun_laodelphax_striatellus_flavivirus_1_isolate_HFSFS147_orf_1_E_2114-2370_AlphaFold.pdb
+|  |                          |  |              |  |           |  |  +--| (37.4/86)
+|  |                          |  |              |  |           |  |  |  +---PLLG_Xiangshan_flavi-like_virus_2_E_513-992_AlphaFold.pdb
+|  |                          |  |              |  |           |  +--| (97/88)
+|  |                          |  |              |  |           |     +-----PLLG_Xiangshan_flavi-like_virus_1_E_514-984_AlphaFold.pdb
+|  |                          |  |              |  |        +--| (86.3/81)
+|  |                          |  |              |  |        |  |     +-----PLLG_Locusta_migratoria_associated_flavi-like_virus_E_1633-2113_AlphaFold.pdb
+|  |                          |  |              |  |        |  |  +--| (61.4/99)
+|  |                          |  |              |  |        |  |  |  +----PLLG_Shayang_fly_virus_4_strain_SYCY_E_761-1241_AlphaFold.pdb
+|  |                          |  |              |  |        |  +--| (86.5/96)
+|  |                          |  |              |  |        |     +------PLLG_Plodia_interpunctella_associated_flavi-like_virus_E_1541-1987_AlphaFold.pdb
+|  |                          |  |              |  |     +--| (98.9/98)
+|  |                          |  |              |  |     |  +-----PLLG_Gamboa_mosquito_virus_strain_GW_E_2423-2889_AlphaFold.pdb
+|  |                          |  |              |  |  +--| (13.9/84)
+|  |                          |  |              |  |  |  +-------------PLLG_Sanxia_water_strider_virus_6_strain_SYSZZ-2_E_1800-2096_AlphaFold.pdb
+|  |                          |  |              |  +--| (67.3/49)
+|  |                          |  |              |     +--------------PLLG_Tacheng_tick_virus_8_strain_TCP-2_E_1414-1898_AlphaFold.pdb
+|  |                          |  |           +--| (90.5/89)
+|  |                          |  |           |  |        +--------PLLG_Diaphorina_citri_flavi-like_virus_E_601-887_AlphaFold.pdb
+|  |                          |  |           |  |     +--| (90.2/99)
+|  |                          |  |           |  |     |  +-----PLLG_Frankliniella_occidentalis_flavi-like_virus_1_E_926-1194_AlphaFold.pdb
+|  |                          |  |           |  |  +--| (90.9/91)
+|  |                          |  |           |  |  |  |    +------PLLG_Hangzhou_frankliniella_intonsa_flavivirus_2_isolate_JM1FY91827_E_552-790_AlphaFold.pdb
+|  |                          |  |           |  |  |  +----| (99.8/99)
+|  |                          |  |           |  |  |       +-------PLLG_Phenacoccus_solenopsis_associated_flavi-like_virus_E_1156-1387_AlphaFold.pdb
+|  |                          |  |           |  +--| (95.1/98)
+|  |                          |  |           |     |     +---------PLLG_Drosophila-associated_flavivirus_7_isolate_Con0316_E_2192-2451_AlphaFold.pdb
+|  |                          |  |           |     |  +--| (93.5/94)
+|  |                          |  |           |     |  |  +-------PLLG_Wuhan_centipede_virus_strain_WHWG-11_E_2033-2299_AlphaFold.pdb
+|  |                          |  |           |     +--| (40.9/81)
+|  |                          |  |           |        |        +---PLLG_Macrosiphum_euphorbiae_virus_1_isolate_K01_E_1818-2099_AlphaFold.pdb
+|  |                          |  |           |        +--------| (100/100)
+|  |                          |  |           |                 +--PLLG_Sitobion_miscanthi_flavi-like_virus_1_07BaA1_E_1825-2099_AlphaFold.pdb
+|  |                          |  |        +--| (88.2/98)
+|  |                          |  |        |  +----------PLLG_Hangzhou_frankliniella_intonsa_flavivirus_1_isolate_JM1FY93485_E_1674-2158_AlphaFold.pdb
+|  |                          |  |     +--| (97.1/99)
+|  |                          |  |     |  |    +----PLLG_Carrot_flavi-like_virus_1_isolate_744_E_1444-1927_AlphaFold.pdb
+|  |                          |  |     |  +----| (100/100)
+|  |                          |  |     |       |  +------PLLG_Coptis_teeta_flavi-like_virus_E_2181-2618_AlphaFold.pdb
+|  |                          |  |     |       +--| (92.8/100)
+|  |                          |  |     |          +---PLLG_Sonchus_asper_flavi-like_virus_E_2250-2699_AlphaFold.pdb
+|  |                          |  |  +--| (59/90)
+|  |                          |  |  |  +-------PLLG_Xinzhou_spider_virus_2_strain_XZZZ-7_E_2362-2589_AlphaFold.pdb
+|  |                          |  +--| (78.5/93)
+|  |                          |     +--------PLLG_Insect_associated_flavi-like_virus_E_1418-1557_AlphaFold.pdb
+|  |                       +--| (89.2/77)
+|  |                       |  |                             +--------FJJI_Alongshan_virus_strain_Miass519_segment_2_orfVP1a_E_110-399_AlphaFold.pdb
+|  |                       |  |                          +--| (83.5/100)
+|  |                       |  |                          |  +-----FJJI_Yanggou_tick_virus_strain_Erzin14-T20074_segment_2_orfVP1a_E_103-400_AlphaFold.pdb
+|  |                       |  |                       +--| (96.4/100)
+|  |                       |  |                       |  +-------FJJI_Jingmen_tick_virus_isolate_JMTVPteropus_lyleiCambodia_segment_2_orfVP1_E_110-384_AlphaFold.pdb
+|  |                       |  |                    +--| (78/99)
+|  |                       |  |                    |  +----FJJI_Takachi_virus_IM-OI110_segment_2_orfVP1a_E_114-399_AlphaFold.pdb
+|  |                       |  |                 +--| (99.4/100)
+|  |                       |  |                 |  +-----FJJI_Guangdong_Jingmen-like_virus_isolate_118R-174486_segment_2_orfVP1_E_127-513_AlphaFold.pdb
+|  |                       |  |              +--| (99.8/100)
+|  |                       |  |              |  |  +-------FJJI_Jingmen_tick_virus_isolate_WS3_segment_2_orfVP1_E_121-508_AlphaFold.pdb
+|  |                       |  |              |  +--| (89.4/99)
+|  |                       |  |              |     +-----FJJI_Mogiana_tick_virus_isolate_Yunnan2016_segment_2_orfVP1_E_126-512_AlphaFold.pdb
+|  |                       |  |           +--| (88.7/92)
+|  |                       |  |           |  |     +--FJJI_Heilongjiang_tick_virus_isolate_HLJ41_segment_2_orfVP1_E_210-511_AlphaFold.pdb
+|  |                       |  |           |  |  +--| (66.4/98)
+|  |                       |  |           |  |  |  +------FJJI_Kindia_tick_virus_isolate_KITV20182_segment_2_orfVP1_E_203-511_AlphaFold.pdb
+|  |                       |  |           |  +--| (3.9/73)
+|  |                       |  |           |     |  +--FJJI_Jingmen_Tick_Virus_isolate_SY84_segment_2_orfVP1_E_335-511_AlphaFold.pdb
+|  |                       |  |           |     +--| (85.8/99)
+|  |                       |  |           |        |  +--FJJI_Jingmen_tick_virus_isolate_JMTVRh.microplusAm.variegatumFrench_Antilles_segment_2_orfVP1_E_325-499_AlphaFold.pdb
+|  |                       |  |           |        +--| (80.3/100)
+|  |                       |  |           |           +--FJJI_Jingmen_tick_virus_isolate_TTP-Pool-19_segment_2_orfVP1_E_325-499_AlphaFold.pdb
+|  |                       |  |        +--| (91.5/91)
+|  |                       |  |        |  |     +--------FJJI_Jingmen_tick_virus_isolate_JTMV_1_segment_2_orfVP1_E_203-544_AlphaFold.pdb
+|  |                       |  |        |  |  +--| (98.2/100)
+|  |                       |  |        |  |  |  +--------FJJI_Jingmen_tick_virus_isolate_JTMV_3_segment_2_orfVP1_E_203-545_AlphaFold.pdb
+|  |                       |  |        |  +--| (86.7/90)
+|  |                       |  |        |     +-----FJJI_Rhipicephalus_associated_flavi-like_virus_isolate_YNTV4_segment_2_orfVP1_E_217-509_AlphaFold.pdb
+|  |                       |  |   +----| (98.8/100)
+|  |                       |  |   |    |     +--FJJI_Jingmen_tick_virus_isolate_TTP-Pool-3b_segment_2_orfVP1_E_325-528_ESMFold.pdb
+|  |                       |  |   |    |  +--| (96.1/100)
+|  |                       |  |   |    |  |  +-----FJJI_Jingmen_tick_virus_strain_JTVHAHH7_segment_2_orfVP1_E_217-517_ESMFold.pdb
+|  |                       |  |   |    +--| (97.7/100)
+|  |                       |  |   |       +--FJJI_Mogiana_tick_virus_isolate_MGTVV411_segment_2_orfVP1_E_334-542_ESMFold.pdb
+|  |                       |  +---| (97.2/90)
+|  |                       |      +--------PLUN_Parasteatoda_tepidariorum_associated_flavi-like_virus_E_2407-2652_AlphaFold.pdb
+|  |                    +--| (85.9/77)
+|  |                    |  |        +---------------FJJI_Trichopteran_jingmen-related_virus_isolate_OKIAV337_segment_2_orfVP1_E_57-215_AlphaFold.pdb
+|  |                    |  |     +--| (0/43)
+|  |                    |  |     |  +----------FJUN_flavi_wastewater_ORF139_SRR8857871_orf_1_E_312-599_AlphaFold.pdb
+|  |                    |  |  +--| (37.6/71)
+|  |                    |  |  |  |  +---PLLG_Fushun_acrida_cinerea_flavivirus_1_isolate_ZHJJHFS91_E_1892-2098_ESMFold.pdb
+|  |                    |  |  |  +--| (58.3/71)
+|  |                    |  |  |     +----------PLLG_flavi_soil_ORF358_SRR7976360_E_2301-2482_ESMFold.pdb
+|  |                    |  +--| (74.2/73)
+|  |                    |     +------------PLLG_Bemisia_tabaci_pesti-like_virus_1_isolate_ZJU-Q2_E_1429-1600_ESMFold.pdb
+|  |                 +--| (72.4/80)
+|  |                 |  +----------------FJUN_Fluviflavili_virus_isolate_PF1_segment_2_orfhypothetical_E_409-698_ESMFold.pdb
+|  |              +--| (3.3/40)
+|  |              |  |    +------FJUN_flavi_salt_marsh_ORF170_SRR11829261_E_276-745_AlphaFold.pdb
+|  |              |  +----| (85.3/94)
+|  |              |       +-----------------PLUN_Xiamen_fanray_pesti-like_virus_strain_XMTSYG10372_E_796-960_ESMFold.pdb
+|  |           +--| (43.9/97)
+|  |           |  |    +----------------FJFL_Flavivirus_sp._isolate_sequence_91_orf_1_E_128-379_AlphaFold.pdb
+|  |           |  +----| (96.5/98)
+|  |           |       +--------FJFL_Tamana_bat_virus_isolate_P3_Vero_E_347-780_ESMFold.pdb
+|  |        +--| (98.4/97)
+|  |        |  |               +--FJIS_Aedes_flavivirus_AEFVMQ29Bogor2017_E_326-705_AlphaFold.pdb
+|  |        |  |            +--| (98.3/100)
+|  |        |  |            |  +--FJIS_Aedes_flavivirus_strain_AEFV-SPFLD-MO-2011-MP6_E_326-700_AlphaFold.pdb
+|  |        |  |         +--| (99.8/100)
+|  |        |  |         |  +--FJIS_Aedes_flavivirus_strain_Bangkok_E_318-701_AlphaFold.pdb
+|  |        |  |      +--| (99.9/100)
+|  |        |  |      |  |                 +--FJIS_Anopheles_flavivirus_variant_1_E_277-612_AlphaFold.pdb
+|  |        |  |      |  |              +--| (100/100)
+|  |        |  |      |  |              |  |  +--FJIS_Karumba_virus_isolate_KRBV_Kim1_E_263-654_AlphaFold.pdb
+|  |        |  |      |  |              |  +--| (87/99)
+|  |        |  |      |  |              |     +--FJIS_Mac_Peak_virus_isolate_McPV_150840_E_263-626_AlphaFold.pdb
+|  |        |  |      |  |           +--| (100/92)
+|  |        |  |      |  |           |  |              +--FJIS_Calbertado_virus_isolate_44-13_E_258-664_AlphaFold.pdb
+|  |        |  |      |  |           |  |           +--| (13/87)
+|  |        |  |      |  |           |  |           |  +---FJIS_Culex_Flavi-like_virus_strain_CFVLSan_Francisco_E_209-568_AlphaFold.pdb
+|  |        |  |      |  |           |  |        +--| (99.8/100)
+|  |        |  |      |  |           |  |        |  +--FJIS_Calbertado_virus_isolate_CMS001_032_ALCO_E_260-587_AlphaFold.pdb
+|  |        |  |      |  |           |  |     +--| (33.2/86)
+|  |        |  |      |  |           |  |     |  +----FJIS_Sabethes_flavivirus_isolate_Ms42_E_278-626_AlphaFold.pdb
+|  |        |  |      |  |           |  |  +--| (96.8/96)
+|  |        |  |      |  |           |  |  |  |  +--FJIS_Culiseta_flavivirus_strain_502-13_E_275-672_AlphaFold.pdb
+|  |        |  |      |  |           |  |  |  +--| (94.6/98)
+|  |        |  |      |  |           |  |  |     +--FJIS_Mercadeo_virus_isolate_ER-M10_E_271-643_AlphaFold.pdb
+|  |        |  |      |  |           |  +--| (36.2/90)
+|  |        |  |      |  |           |     +------FJIS_Mansonia_flavivirus_bvmq18-1_E_443-826_AlphaFold.pdb
+|  |        |  |      |  |        +--| (47.4/46)
+|  |        |  |      |  |        |  |  +---FJIS_Cell_fusing_agent_virus_E_286-670_AlphaFold.pdb
+|  |        |  |      |  |        |  +--| (86.5/100)
+|  |        |  |      |  |        |     |              +--FJIS_Cell_fusing_agent_virus_strain_2_E_331-674_AlphaFold.pdb
+|  |        |  |      |  |        |     |           +--| (85.3/100)
+|  |        |  |      |  |        |     |           |  +--FJIS_Tafomo_virus_strain_TVB22-CI-2004_E_332-672_AlphaFold.pdb
+|  |        |  |      |  |        |     |        +--| (93.7/84)
+|  |        |  |      |  |        |     |        |  +---FJIS_Nakiwogo_virus_strain_Uganda08_E_343-670_AlphaFold.pdb
+|  |        |  |      |  |        |     |     +--| (85.6/93)
+|  |        |  |      |  |        |     |     |  |              +--FJIS_Culex_flavivirus_E_336-676_AlphaFold.pdb
+|  |        |  |      |  |        |     |     |  |           +--| (44.1/86)
+|  |        |  |      |  |        |     |     |  |           |  +--FJIS_Mosquito_flavivirus_isolate_LSFlaviV-A20-09_E_331-677_AlphaFold.pdb
+|  |        |  |      |  |        |     |     |  |        +--| (39/57)
+|  |        |  |      |  |        |     |     |  |        |  +--FJIS_Mosquito_flavivirus_YDFVOct2013_E_331-674_AlphaFold.pdb
+|  |        |  |      |  |        |     |     |  |     +--| (84.2/50)
+|  |        |  |      |  |        |     |     |  |     |  |  +---FJIS_Palm_Creek_virus_isolate_56_E_336-664_AlphaFold.pdb
+|  |        |  |      |  |        |     |     |  |     |  +--| (21.9/48)
+|  |        |  |      |  |        |     |     |  |     |     +--FJIS_Quang_Binh_virus_isolate_JM17156China2017_E_331-663_AlphaFold.pdb
+|  |        |  |      |  |        |     |     |  |  +--| (96.9/88)
+|  |        |  |      |  |        |     |     |  |  |  +--FJIS_Quang_Binh_virus_E_331-704_AlphaFold.pdb
+|  |        |  |      |  |        |     |     |  +--| (64.8/88)
+|  |        |  |      |  |        |     |     |     +--FJIS_Culex_theileri_flavivirus_RP-2011_E_331-699_AlphaFold.pdb
+|  |        |  |      |  |        |     |  +--| (98.6/100)
+|  |        |  |      |  |        |     |  |  +---FJIS_Nienokoue_virus_isolate_B51CI2004_E_315-698_AlphaFold.pdb
+|  |        |  |      |  |        |     +--| (80.9/96)
+|  |        |  |      |  |        |        +--FJIS_Culex_theileri_flavivirus_E_230-615_AlphaFold.pdb
+|  |        |  |      |  |     +--| (90.5/48)
+|  |        |  |      |  |     |  |     +--FJIS_Hanko_virus_E_319-713_AlphaFold.pdb
+|  |        |  |      |  |     |  |  +--| (82.5/95)
+|  |        |  |      |  |     |  |  |  +--FJIS_Ochlerotatus_caspius_flavivirus_isolate_1608_E_319-712_AlphaFold.pdb
+|  |        |  |      |  |     |  +--| (99.5/100)
+|  |        |  |      |  |     |     +--FJIS_Parramatta_River_virus_isolate_92-B115745_E_322-715_AlphaFold.pdb
+|  |        |  |      |  |  +--| (98.4/76)
+|  |        |  |      |  |  |  |  +---FJIS_Kilpisjarvi_flavivirus_isolate_FINL-201890_E_314-717_AlphaFold.pdb
+|  |        |  |      |  |  |  +--| (88.1/99)
+|  |        |  |      |  |  |     |     +--FJIS_Menghai_flavivirus_isolate_MHAedFV1_E_338-720_AlphaFold.pdb
+|  |        |  |      |  |  |     |  +--| (4.4/61)
+|  |        |  |      |  |  |     |  |  +--FJIS_Xishuangbanna_aedes_flavivirus_E_336-729_AlphaFold.pdb
+|  |        |  |      |  |  |     +--| (88.7/100)
+|  |        |  |      |  |  |        +--FJIS_Ochlerotatus_scapularis_flavivirus_bvmq18-25_E_327-724_AlphaFold.pdb
+|  |        |  |      |  +--| (22.6/32)
+|  |        |  |      |     +-----FJIS_Kamiti_River_virus_E_312-698_AlphaFold.pdb
+|  |        |  |   +--| (95.1/92)
+|  |        |  |   |  +---------FJUN_XiangYun_flavivirus_isolate_XY61577_orf_1_E_267-667_AlphaFold.pdb
+|  |        |  +---| (99.5/100)
+|  |        |      |  +------FJIS_Tabanus_rufidens_flavivirus_18HF18_E_287-668_AlphaFold.pdb
+|  |        |      +--| (19.6/73)
+|  |        |         +--------FJUN_flavi_freshwater_ORF52_SRR12063566_orf_1_E_332-718_AlphaFold.pdb
+|  |     +--| (47.2/56)
+|  |     |  |  +---------FJFL_Embiopteran_flavi-related_virus_isolate_OKIAV324_E_318-771_AlphaFold.pdb
+|  |     |  +--| (96/99)
+|  |     |     |   +----FJFL_Waxsystermes_virus_E_318-774_AlphaFold.pdb
+|  |     |     +---| (99.9/100)
+|  |     |         +----FJFL_Wenzhou_shark_flavivirus_strain_WZSS16343_orf_1_E_429-906_AlphaFold.pdb
+|  |  +--| (81.4/68)
+|  |  |  +-----------FJFL_Southern_pygmy_squid_flavivirus_isolate_201405_E_217-610_AlphaFold.pdb
+|  +--| (89.9/72)
+|     |  +---------FJFL_Chowder_bay_tunicate_associated_flavi_like_virus_orf_1_E_336-811_AlphaFold.pdb
+|     +--| (25.4/36)
+|        +-----------FJFL_Cyclopterus_lumpus_virus_isolate_R170217-6L_orf_1_E_365-863_AlphaFold.pdb
+|
++-----FJAF_Harrimaniidae_flavivirus_E_257-629_AlphaFold.pdb
+
+Tree in newick format:
+
+(FJAF_Cnidaria_flavivirus_E_278-749_AlphaFold.pdb:0.2410962638,((((FJAF_Crangon_crangon_flavivirus_orf_1_E_310-786_AlphaFold.pdb:0.1695575521,(FJAF_Gammarus_chevreuxi_flavivirus_isolate_100_1_orf_1_E_354-838_AlphaFold.pdb:0.2286590065,(FJAF_Photeros_flavivirus_orf_1_E_386-864_AlphaFold.pdb:0.1392895035,FJAF_Sea_firefly_flavivirus_orf_1_E_289-775_AlphaFold.pdb:0.1118683802)35.4/99:0.0484490992)89.2/100:0.0607418061)98.8/100:0.0763345087,(FJFL_African_cichlid_flavi_like_virus_E_278-770_AlphaFold.pdb:0.1666535917,FJFL_Salmon_flavivirus_strain_Davis_UGA_orf_1_E_279-768_AlphaFold.pdb:0.1917618245)99.9/100:0.1253203425)61.8/96:0.0434450266,((((((((((((FJMB_Alfuy_virus_strain_MRM3929_E_295-790_AlphaFold.pdb:0.0565461167,(((FJMB_Cacipacore_virus_E_289-787_AlphaFold.pdb:0.0727750708,FJMB_Japanese_encephalitis_virus_E_295-789_AlphaFold.pdb:0.0605860510)86.9/95:0.0259424321,FJMB_Usutu_virus_E_294-789_AlphaFold.pdb:0.0752009092)34.8/28:0.0141399964,(((FJMB_Koutango_virus_isolate_PM148_E_293-787_AlphaFold.pdb:0.0499027187,FJMB_West_Nile_virus_lineage_1_E_291-787_AlphaFold.pdb:0.0264891421)96.4/100:0.0252222234,FJMB_Kunjin_virus_clone_FLSDX_E_291-787_AlphaFold.pdb:0.0427509834)94.2/47:0.0228046040,FJMB_West_Nile_virus_lineage_2_E_291-784_AlphaFold.pdb:0.0680383125)86.5/41:0.0187541527)90.9/89:0.0176196077)99.2/90:0.0309779019,(FJMB_Murray_Valley_encephalitis_virus_E_294-788_AlphaFold.pdb:0.0546436167,FJMB_Yaounde_virus_strain_Dak_Ar_Y276_E_291-791_AlphaFold.pdb:0.1616769925)44.1/83:0.0164826554)97.4/93:0.0272479951,(FJMB_Saint_Louis_encephalitis_virus_E_289-788_AlphaFold.pdb:0.0565395235,FJMB_St._Louis_encephalitis_virus_strain_Palenque-A770_E_321-816_AlphaFold.pdb:0.0533871595)99.5/100:0.0408409425)92.7/92:0.0192014454,((((FJMB_Bagaza_virus_strain_DakAr_B209_E_290-786_AlphaFold.pdb:0.0396941741,FJMB_Ntaya_virus_E_290-785_AlphaFold.pdb:0.0502778057)45/97:0.0159832344,(FJMB_Sitiawan_virus_E_288-788_AlphaFold.pdb:0.0690329464,FJMB_Tembusu_virus_flavivirus_E_288-785_AlphaFold.pdb:0.0476300890)73.7/98:0.0272676702)98.5/99:0.0470196801,FJMB_Israel_turkey_meningoencephalomyelitis_virus_E_291-784_AlphaFold.pdb:0.0610252241)99.5/94:0.0445329654,(FJMB_Ilheus_virus_strain_BrMS-MQ10_E_289-785_AlphaFold.pdb:0.0797342686,(FJMB_Rocio_virus_strain_SPH_34675_E_286-781_AlphaFold.pdb:0.0929171678,FJMB_T_Ho_virus_strain_T_Ho-Mex07_E_287-783_AlphaFold.pdb:0.0867097300)77.8/100:0.0228176996)71.9/97:0.0157079079)96.9/89:0.0239276225)89.6/93:0.0309144816,((((FJMB_Bainyik_virus_strain_MK7979_E_287-786_AlphaFold.pdb:0.0499555411,FJMB_Torres_virus_strain_TS5273_E_288-783_AlphaFold.pdb:0.0586754961)96.8/100:0.0370142277,FJMB_New_Mapoon_virus_E_287-787_AlphaFold.pdb:0.1124272252)33.2/87:0.0137841267,FJMB_Kokobera_virus_E_287-787_AlphaFold.pdb:0.0437770590)77.4/87:0.0280663030,FJMB_Stratford_virus_isolate_22911_E_288-786_AlphaFold.pdb:0.0475831577)100/100:0.0528619642)81.3/84:0.0210449411,((FJMB_Kedougou_virus_strain_DakAar_D1470_E_283-781_AlphaFold.pdb:0.1432852582,FJMB_Spondweni_virus_E_290-793_AlphaFold.pdb:0.0813627988)50/85:0.0343476524,FJMB_Zika_virus_E_291-789_AlphaFold.pdb:0.0860493761)91.5/86:0.0352348172)97.2/75:0.0296179159,((FJMB_Aroa_virus_strain_Macaray_01809_E_287-778_AlphaFold.pdb:0.0399427949,FJMB_Iguape_virus_strain_SPAn_71686_E_287-780_AlphaFold.pdb:0.0411482956)100/100:0.0926006791,(FJMB_Bussuquara_virus_E_293-789_AlphaFold.pdb:0.0564300268,FJMB_Naranjal_virus_strain_25008_E_293-794_AlphaFold.pdb:0.0768484470)99.6/100:0.0613687152)29.2/83:0.0385509018)94.8/83:0.0295554782,(((((FJMB_Barkedji-like_virus_zmq17M40_E_295-795_AlphaFold.pdb:0.0476509608,FJMB_Barkedji_virus_zmq17L31_E_293-795_AlphaFold.pdb:0.0845643917)99.9/100:0.0626638107,FJMB_Batu_Kawa_virus_isolate_MYR-097_E_293-793_AlphaFold.pdb:0.0951105846)92.9/100:0.0471261207,FJMB_Nanay_virus_strain_PRD316PER09_E_290-779_AlphaFold.pdb:0.2115457487)48.5/58:0.0251730622,FJMB_Nhumirim_virus_strain_BrMS-MQ10_E_298-796_AlphaFold.pdb:0.1129393536)35.7/49:0.0193621827,(FJMB_Chinese_soft-shelled_turtle_flavivirus_isolate_HZ-2017_E_339-826_AlphaFold.pdb:0.1051691712,FJMB_Kampung_Karu_virus_isolate_SWK_P44_E_320-811_AlphaFold.pdb:0.1362358318)100/100:0.1202402982)97.6/88:0.0384318692)89.3/64:0.0297765055,((FJMB_Dengue_virus_1_E_281-775_AlphaFold.pdb:0.0692691546,(FJMB_Dengue_virus_3_E_281-773_AlphaFold.pdb:0.1254714675,FJMB_Dengue_virus_4_E_280-774_AlphaFold.pdb:0.1227288261)18.1/82:0.0426714790)66.8/89:0.0379419767,FJMB_Dengue_virus_2_E_281-775_AlphaFold.pdb:0.1294400064)99.9/100:0.0847457676)64.2/70:0.0261774155,((((FJMB_Aripo_virus_isolate_TR9096_E_294-791_AlphaFold.pdb:0.0485785336,FJMB_Psorophora_flavivirus_bvmq18-51_E_293-792_AlphaFold.pdb:0.0346899887)100/100:0.1226817934,((FJMB_Chaoyang_virus_E_293-788_AlphaFold.pdb:0.0768530162,FJMB_Lammi_virus_E_292-786_AlphaFold.pdb:0.0764939453)88.7/100:0.0292897790,(((FJMB_Donggang_virus_E_303-793_AlphaFold.pdb:0.0892738529,FJMB_Marisma_mosquito_virus_strain_HU452807_E_299-793_AlphaFold.pdb:0.0675178917)96.9/100:0.0365236218,FJMB_Long_Pine_Key_virus_strain_Sabal-12019_E_309-798_AlphaFold.pdb:0.1421184148)90.5/99:0.0401293058,(FJMB_Ilomantsi_virus_isolate_M0724_E_299-792_AlphaFold.pdb:0.0671670652,FJMB_Panmunjeom_flavivirus_strain_A12.3025ROK2012_E_299-795_AlphaFold.pdb:0.0713634347)100/100:0.0955835956)90.6/85:0.0254539744)91.6/85:0.0301369898)98.4/100:0.0644763974,FJMB_Binjari_virus_isolate_BFTA20_E_294-788_AlphaFold.pdb:0.1646651171)85.7/97:0.0438826314,FJMB_Nounane_virus_E_286-790_AlphaFold.pdb:0.1870043519)71.1/65:0.0399133998)91.6/95:0.0292449805,((((((FJMB_Bamaga_virus_isolate_CY4270_E_280-771_AlphaFold.pdb:0.1276647488,(FJMB_Edge_Hill_virus_strain_YMP_48_E_282-772_AlphaFold.pdb:0.0634393184,(((FJMB_Entebbe_bat_virus_E_288-776_AlphaFold.pdb:0.0601971627,FJMB_Sokoluk_virus_strain_LEIV-400K_E_295-777_AlphaFold.pdb:0.0721931551)94.8/100:0.0314434341,FJMB_Yokose_virus_E_298-786_AlphaFold.pdb:0.0837445826)100/100:0.1123875685,(FJMB_Fitzroy_River_Virus_strain_K73884_E_283-765_AlphaFold.pdb:0.0395352176,(FJMB_Sepik_virus_E_283-770_AlphaFold.pdb:0.0218130563,FJMB_Wesselsbron_virus_strain_SAH177_E_282-770_AlphaFold.pdb:0.0275356915)17.4/97:0.0157840322)99.9/100:0.0652426651)87.7/40:0.0269483059)96.9/41:0.0307188259)87.6/32:0.0246872101,(FJMB_Banzi_virus_strain_SAH_336_E_273-763_AlphaFold.pdb:0.0586995785,(FJMB_Bouboui_virus_strain_DAK_AR_B490_E_273-763_AlphaFold.pdb:0.0567189309,FJMB_Uganda_S_virus_E_273-761_AlphaFold.pdb:0.0452797408)85.1/100:0.0199749544)77.9/98:0.0096287254)93.2/33:0.0296256168,FJMB_Jugra_virus_strain_P-9-314_E_272-762_AlphaFold.pdb:0.0501432023)96.4/34:0.0280641457,FJMB_Potiskum_virus_strain_IBAN_10069_E_273-762_AlphaFold.pdb:0.0511206778)98.4/41:0.0443765853,FJMB_Yellow_fever_virus_E_286-776_AlphaFold.pdb:0.1305873479)81.5/74:0.0252713000,FJMB_Paraiso_Escondido_virus_isolate_Ecuador2012_E_309-796_AlphaFold.pdb:0.1666353670)98.8/98:0.0446204365)99.9/100:0.0666517321,((((FJNV_Apoi_virus_genome_E_271-660_AlphaFold.pdb:0.1259439469,FJNV_Rio_Bravo_virus_strain_M64_E_269-655_AlphaFold.pdb:0.1046114250)44.6/78:0.0239432165,((((FJNV_Bukalasa_bat_virus_isolate_BP111_E_267-656_AlphaFold.pdb:0.0913755413,FJNV_Modoc_virus_E_275-754_AlphaFold.pdb:0.1029441223)11.8/68:0.0424905703,FJNV_Jutiapa_virus_strain_JG-128_E_275-751_AlphaFold.pdb:0.1221744863)92.7/81:0.0435950022,FJNV_Dakar_bat_virus_isolate_BP180_E_269-749_AlphaFold.pdb:0.0510510270)68.7/87:0.0462095016,FJNV_Montana_myotis_leukoencephalitis_virus_E_272-750_AlphaFold.pdb:0.0883318832)75.1/67:0.0357817121)96.7/99:0.0442481056,(FJNV_Batu_Cave_virus_strain_P70-1459_E_274-662_AlphaFold.pdb:0.0520103337,FJNV_Phnom_Penh_bat_virus_strain_30834_A38_E_274-662_AlphaFold.pdb:0.0417133500)99.6/100:0.0812020207)95.5/99:0.0640181326,((((((((FJTB_Alkhumra_hemorrhagic_fever_virus_strain_Zaki_2_E_283-676_AlphaFold.pdb:0.0494896675,FJTB_Kyasanur_forest_disease_virus_strain_P9605_E_281-676_AlphaFold.pdb:0.0340428538)69.4/95:0.0168268203,((FJTB_Langat_virus_E_280-675_AlphaFold.pdb:0.0426368895,FJTB_Louping_ill_virus_isolate_IRE_IRE2_1971_E_280-675_AlphaFold.pdb:0.0431620495)89.6/100:0.0209032276,(FJTB_Omsk_hemorrhagic_fever_virus_strain_Bogolubovka1048_E_280-675_AlphaFold.pdb:0.0439067372,((FJTB_Spanish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb:0.0253932825,FJTB_Turkish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb:0.0239711441)97.9/99:0.0236136467,FJTB_Tick-borne_encephalitis_virus_E_280-675_AlphaFold.pdb:0.0292006354)85.4/99:0.0087723242)99.6/100:0.0466970487)94.3/93:0.0250496822)56.1/83:0.0128396119,FJTB_Powassan_virus_E_278-674_AlphaFold.pdb:0.0398071725)88.2/88:0.0135745539,FJTB_Gadgets_Gully_virus_E_280-676_AlphaFold.pdb:0.0705424301)65.3/96:0.0230744866,FJTB_Royal_Farm_virus_from_Afghanistan_E_281-676_AlphaFold.pdb:0.0641164282)85.8/96:0.0343932070,FJTB_Karshi_virus_strain_WJQ16209_E_280-675_AlphaFold.pdb:0.0560358409)99.8/100:0.0772763932,(((FJTB_Kama_virus_strain_LEIV-20776Tat_E_276-666_AlphaFold.pdb:0.0597462511,FJTB_Saumarez_Reef_virus_isolate_W11_2232_E_278-666_AlphaFold.pdb:0.0840586777)71.3/97:0.0363007104,FJTB_Tyuleniy_virus_strain_LEIV-6C_E_277-668_AlphaFold.pdb:0.0943208078)78.3/97:0.0239373561,FJTB_Meaban_virus_E_276-667_AlphaFold.pdb:0.0789613112)69.3/99:0.0294913002)96.7/100:0.0411495528,FJUN_Mpulungu_flavivirus_ZT17-1078_E_265-660_AlphaFold.pdb:0.2134658781)96/99:0.0491089167)97.5/99:0.0409271701)95.8/99:0.0406784577)99.7/100:0.0960161095,((((((((((((((FJAF_Gammarus_pulex_flavivirus_isolate_GPCM_orf_1_E_82-263_ESMFold.pdb:0.3820632890,FJUN_Infectious_precocity_virus_isolate_MR2018_orf_1_E_257-399_AlphaFold.pdb:0.5647477791)83.4/77:0.1062006993,(PLUN_Shayang_spider_virus_4_strain_SYZZ-1_E_1837-2097_ESMFold.pdb:0.2970979590,PLUN_Xinzhou_spider_virus_3_strain_XZZZ-3_E_1586-1774_ESMFold.pdb:0.2148608963)93.2/91:0.0843726508)84.1/76:0.0592837009,(PLLG_Atrato_Flavi-like_virus_1_strain_Cx_1773-1_E_1557-1694_ESMFold.pdb:0.5762676186,(PLLG_Eriocheir_sinensis_cholera_like_virus_E_2053-2494_ESMFold.pdb:0.2871014678,PLLG_Hangzhou_flavivirus_1_isolate_FSFY137086_E_56-223_ESMFold.pdb:0.4246302249)86.9/91:0.0718323049)93.9/78:0.1253750507)87.1/82:0.0691739701,(((PLLG_Artemia_sinica_associated_flavi-like_virus_E_919-1383_AlphaFold.pdb:0.3973627758,((((((((PLLG_Bole_tick_virus_4_isolate_GSC346flaviV_E_877-1348_ESMFold.pdb:0.0692747192,PLLG_Bole_tick_virus_4_strain_BLP-1_E_877-1348_ESMFold.pdb:0.0341215405)99/100:0.0700412552,PLLG_Bole_tick_virus_4_isolate_TIGMIC_2_E_878-1348_ESMFold.pdb:0.2013067308)73.9/99:0.0472678458,((PLLG_Bole_tick_virus_4_strain_BangaliH.truncatum2018_E_879-1349_ESMFold.pdb:0.0963251033,(PLLG_Rhipicephalus_sanguineus_associated_flavi-like_virus_E_856-1326_ESMFold.pdb:0.1028512793,PLLG_Trinbago_virus_isolate_TTP-Pool-4_E_856-1326_ESMFold.pdb:0.0484436391)94.1/100:0.0541743120)98.5/100:0.0712142488,PLLG_Bole_tick_virus_4_strain_IftinH.dromedarii2018_E_879-1350_ESMFold.pdb:0.1061994920)100/100:0.0839148901)93/100:0.0574595493,PLLG_Bole_tick_virus_4_isolate_TIGMIC_1_E_854-1324_ESMFold.pdb:0.1427135509)24.4/85:0.0454511416,PLLG_Bole_tick_virus_4_isolate_Thailand_tick_flavivirus_E_854-1324_ESMFold.pdb:0.1383029069)98.9/99:0.0612731043,((((((((((PLLG_Bole_tick_virus_4_strain_NE-DH2_E_885-1353_ESMFold.pdb:0.1107354455,(PLLG_Flaviviridae_sp._isolate_TIGMIC_13_E_884-1354_ESMFold.pdb:0.0819127329,((PLLG_Flaviviridae_sp._isolate_TIGMIC_24_E_885-1354_ESMFold.pdb:0.1519667798,PLLG_Flaviviridae_sp._isolate_TIGMIC_27_E_884-1354_ESMFold.pdb:0.1003006299)26.4/69:0.0267776821,PLLG_Flaviviridae_sp._isolate_TIGMIC_36_E_884-1354_ESMFold.pdb:0.1245841773)88.2/98:0.0187812440)99.2/97:0.0519421272)97.4/76:0.0354179719,PLLG_Flaviviridae_sp._isolate_TIGMIC_28_E_884-1354_ESMFold.pdb:0.0695210153)83.6/72:0.0210457304,PLLG_Flaviviridae_sp._isolate_TIGMIC_20_E_884-1354_ESMFold.pdb:0.0376033689)71.3/71:0.0317642471,PLLG_Flaviviridae_sp._isolate_TIGMIC_25_E_884-1354_ESMFold.pdb:0.1563917329)8.7/61:0.0164128324,PLLG_Flaviviridae_sp._isolate_TIGMIC_12_E_884-1354_ESMFold.pdb:0.0408198114)95.7/98:0.0507695076,PLLG_Flaviviridae_sp._isolate_TIGMIC_30_E_884-1355_ESMFold.pdb:0.2561585318)99.9/96:0.0791588910,(PLLG_Flaviviridae_sp._isolate_TIGMIC_1_E_886-1355_ESMFold.pdb:0.0577976668,PLLG_Flaviviridae_sp._isolate_TIGMIC_5_E_886-1355_ESMFold.pdb:0.0824957144)70.5/100:0.0322835970)100/96:0.0928369281,PLLG_Bole_tick_virus_4_strain_NE-ShL2_E_884-1355_ESMFold.pdb:0.0841720505)37.8/91:0.0355947660,PLLG_Flaviviridae_sp._isolate_TIGMIC_8_E_884-1354_ESMFold.pdb:0.1916017824)99.5/100:0.0758373053,(PLLG_Dermacentor_reticulatus_pestivirus-like_virus_1_isolate_CT2_E_884-1352_ESMFold.pdb:0.1838002523,((PLLG_Flaviviridae_sp._isolate_TIGMIC_32_E_888-1358_ESMFold.pdb:0.0852362532,PLLG_Flaviviridae_sp._isolate_TIGMIC_33_E_886-1356_ESMFold.pdb:0.2085834241)77.3/97:0.0546782270,PLLG_Haseki_tick_virus_strain_Novosibirsk-2020_E_849-1319_ESMFold.pdb:0.3378577083)84.2/96:0.0568202431)80.6/94:0.0497436529)99.2/97:0.0800182033)93.1/96:0.0510311349,(PLLG_Flaviviridae_sp._isolate_TIGMIC_38_E_866-1337_ESMFold.pdb:0.1894087287,((PLLG_Flaviviridae_sp._isolate_TIGMIC_39_E_865-1337_ESMFold.pdb:0.0000010000,PLLG_Zhangjiakou_Flavi_tick_virus_1_E_865-1337_ESMFold.pdb:0.0000010000)99.9/100:0.0751238917,PLLG_Flaviviridae_sp._strain_FVHAHH8_E_865-1336_ESMFold.pdb:0.0909196620)97.4/100:0.0496395198)99.5/100:0.0632506652)87/96:0.0567958355,PLLG_Camel_tick_virus_isolate_Alain_E_878-1348_ESMFold.pdb:0.1415161714)100/100:0.1691903004)99.3/100:0.1216776168,((PLLG_Beihai_barnacle_viurs_1_strain_BHGZ_E_914-1399_ESMFold.pdb:0.3305468602,PLLG_Semibalanus_balanoides_associated_flavi-like_virus_E_922-1397_ESMFold.pdb:0.2559906488)100/100:0.2741219110,PLLG_Bemisia_tabaci_flavi-like_virus_2_E_1148-1586_ESMFold.pdb:0.4550704895)83.4/93:0.0737917521)55.4/87:0.0654945133,PLLG_Hangzhou_ochthera_mantis_flavivirus_1_isolate_SYFY8_E_392-793_ESMFold.pdb:0.4212175858)90.9/92:0.0704365420)97/85:0.0734023629,((((((((PLLG_Apis_flavivirus_isolate_RI-A_E_1343-1777_AlphaFold.pdb:0.3304801235,PLLG_Lampyris_noctiluca_flavivirus_1_isolate_17FIN1_E_1105-1565_AlphaFold.pdb:0.2678513782)88.7/56:0.0539074949,PLLG_Gecarcinus_lateralis_associated_flavi-like_virus_E_2040-2483_AlphaFold.pdb:0.4046486998)92.6/56:0.0589576581,((((((PLLG_Brachymeria_lasus_associated_flavi-like_virus_E_533-982_AlphaFold.pdb:0.2560662267,PLLG_Shuangao_lacewing_virus_2_strain_SCL_E_770-1195_AlphaFold.pdb:0.1933403613)75.1/90:0.0538121394,((PLLG_Fushun_laodelphax_striatellus_flavivirus_1_isolate_HFSFS147_orf_1_E_2114-2370_AlphaFold.pdb:0.3106201561,PLLG_Xiangshan_flavi-like_virus_2_E_513-992_AlphaFold.pdb:0.1409045509)37.4/86:0.0519984577,PLLG_Xiangshan_flavi-like_virus_1_E_514-984_AlphaFold.pdb:0.2270447821)97/88:0.0945945777)69.2/76:0.0461615432,((PLLG_Locusta_migratoria_associated_flavi-like_virus_E_1633-2113_AlphaFold.pdb:0.2042106562,PLLG_Shayang_fly_virus_4_strain_SYCY_E_761-1241_AlphaFold.pdb:0.1862159741)61.4/99:0.0638007158,PLLG_Plodia_interpunctella_associated_flavi-like_virus_E_1541-1987_AlphaFold.pdb:0.2542733350)86.5/96:0.0501975331)86.3/81:0.0456180010,PLLG_Gamboa_mosquito_virus_strain_GW_E_2423-2889_AlphaFold.pdb:0.2050940456)98.9/98:0.1126397328,PLLG_Sanxia_water_strider_virus_6_strain_SYSZZ-2_E_1800-2096_AlphaFold.pdb:0.5048732632)13.9/84:0.0504769461,PLLG_Tacheng_tick_virus_8_strain_TCP-2_E_1414-1898_AlphaFold.pdb:0.5123860726)67.3/49:0.0772215939)95.7/84:0.0647216028,(((PLLG_Diaphorina_citri_flavi-like_virus_E_601-887_AlphaFold.pdb:0.3301718968,PLLG_Frankliniella_occidentalis_flavi-like_virus_1_E_926-1194_AlphaFold.pdb:0.2319678394)90.2/99:0.0488173223,(PLLG_Hangzhou_frankliniella_intonsa_flavivirus_2_isolate_JM1FY91827_E_552-790_AlphaFold.pdb:0.2430345753,PLLG_Phenacoccus_solenopsis_associated_flavi-like_virus_E_1156-1387_AlphaFold.pdb:0.2945046328)99.8/99:0.1860216952)90.9/91:0.0504545217,((PLLG_Drosophila-associated_flavivirus_7_isolate_Con0316_E_2192-2451_AlphaFold.pdb:0.3578060178,PLLG_Wuhan_centipede_virus_strain_WHWG-11_E_2033-2299_AlphaFold.pdb:0.2750647259)93.5/94:0.0973785642,(PLLG_Macrosiphum_euphorbiae_virus_1_isolate_K01_E_1818-2099_AlphaFold.pdb:0.1366128424,PLLG_Sitobion_miscanthi_flavi-like_virus_1_07BaA1_E_1825-2099_AlphaFold.pdb:0.1283011660)100/100:0.3088635257)40.9/81:0.0389219800)95.1/98:0.0998602130)90.5/89:0.0560398344,PLLG_Hangzhou_frankliniella_intonsa_flavivirus_1_isolate_JM1FY93485_E_1674-2158_AlphaFold.pdb:0.3779062565)88.2/98:0.0725305558,(PLLG_Carrot_flavi-like_virus_1_isolate_744_E_1444-1927_AlphaFold.pdb:0.1757633308,(PLLG_Coptis_teeta_flavi-like_virus_E_2181-2618_AlphaFold.pdb:0.2384401499,PLLG_Sonchus_asper_flavi-like_virus_E_2250-2699_AlphaFold.pdb:0.1654807369)92.8/100:0.0651538323)100/100:0.1752802469)97.1/99:0.0716371183,PLLG_Xinzhou_spider_virus_2_strain_XZZZ-7_E_2362-2589_AlphaFold.pdb:0.2966562124)59/90:0.0581490090,PLLG_Insect_associated_flavi-like_virus_E_1418-1557_AlphaFold.pdb:0.3070369156)78.5/93:0.0428290049)79.4/81:0.0514530824,(((((((((FJJI_Alongshan_virus_strain_Miass519_segment_2_orfVP1a_E_110-399_AlphaFold.pdb:0.3135177718,FJJI_Yanggou_tick_virus_strain_Erzin14-T20074_segment_2_orfVP1a_E_103-400_AlphaFold.pdb:0.2339398283)83.5/100:0.0810197752,FJJI_Jingmen_tick_virus_isolate_JMTVPteropus_lyleiCambodia_segment_2_orfVP1_E_110-384_AlphaFold.pdb:0.2994873924)96.4/100:0.0992056830,FJJI_Takachi_virus_IM-OI110_segment_2_orfVP1a_E_114-399_AlphaFold.pdb:0.1750617681)78/99:0.0808363030,FJJI_Guangdong_Jingmen-like_virus_isolate_118R-174486_segment_2_orfVP1_E_127-513_AlphaFold.pdb:0.2314441647)99.4/100:0.1085032207,(FJJI_Jingmen_tick_virus_isolate_WS3_segment_2_orfVP1_E_121-508_AlphaFold.pdb:0.2977384286,FJJI_Mogiana_tick_virus_isolate_Yunnan2016_segment_2_orfVP1_E_126-512_AlphaFold.pdb:0.2120357724)89.4/99:0.0802689582)99.8/100:0.1317526752,((FJJI_Heilongjiang_tick_virus_isolate_HLJ41_segment_2_orfVP1_E_210-511_AlphaFold.pdb:0.1208824026,FJJI_Kindia_tick_virus_isolate_KITV20182_segment_2_orfVP1_E_203-511_AlphaFold.pdb:0.2480387451)66.4/98:0.0489814420,(FJJI_Jingmen_Tick_Virus_isolate_SY84_segment_2_orfVP1_E_335-511_AlphaFold.pdb:0.1172731566,(FJJI_Jingmen_tick_virus_isolate_JMTVRh.microplusAm.variegatumFrench_Antilles_segment_2_orfVP1_E_325-499_AlphaFold.pdb:0.0603131559,FJJI_Jingmen_tick_virus_isolate_TTP-Pool-19_segment_2_orfVP1_E_325-499_AlphaFold.pdb:0.0979933895)80.3/100:0.0293074582)85.8/99:0.0307255609)3.9/73:0.0348244088)88.7/92:0.0531568927,((FJJI_Jingmen_tick_virus_isolate_JTMV_1_segment_2_orfVP1_E_203-544_AlphaFold.pdb:0.3052862779,FJJI_Jingmen_tick_virus_isolate_JTMV_3_segment_2_orfVP1_E_203-545_AlphaFold.pdb:0.3190762362)98.2/100:0.1253648015,FJJI_Rhipicephalus_associated_flavi-like_virus_isolate_YNTV4_segment_2_orfVP1_E_217-509_AlphaFold.pdb:0.2072021847)86.7/90:0.0718338379)91.5/91:0.0587570065,((FJJI_Jingmen_tick_virus_isolate_TTP-Pool-3b_segment_2_orfVP1_E_325-528_ESMFold.pdb:0.0333074807,FJJI_Jingmen_tick_virus_strain_JTVHAHH7_segment_2_orfVP1_E_217-517_ESMFold.pdb:0.2277100126)96.1/100:0.0915924185,FJJI_Mogiana_tick_virus_isolate_MGTVV411_segment_2_orfVP1_E_334-542_ESMFold.pdb:0.0296095098)97.7/100:0.1065388311)98.8/100:0.1819349558,PLUN_Parasteatoda_tepidariorum_associated_flavi-like_virus_E_2407-2652_AlphaFold.pdb:0.3095458271)97.2/90:0.1594904019)89.2/77:0.0523109966,(((FJJI_Trichopteran_jingmen-related_virus_isolate_OKIAV337_segment_2_orfVP1_E_57-215_AlphaFold.pdb:0.5679030802,FJUN_flavi_wastewater_ORF139_SRR8857871_orf_1_E_312-599_AlphaFold.pdb:0.3996476771)0/43:0.0030923914,(PLLG_Fushun_acrida_cinerea_flavivirus_1_isolate_ZHJJHFS91_E_1892-2098_ESMFold.pdb:0.1471671220,PLLG_flavi_soil_ORF358_SRR7976360_E_2301-2482_ESMFold.pdb:0.3748451262)58.3/71:0.0611944173)37.6/71:0.0426240921,PLLG_Bemisia_tabaci_pesti-like_virus_1_isolate_ZJU-Q2_E_1429-1600_ESMFold.pdb:0.4520206679)74.2/73:0.0463467470)85.9/77:0.0484598629,FJUN_Fluviflavili_virus_isolate_PF1_segment_2_orfhypothetical_E_409-698_ESMFold.pdb:0.5913375953)72.4/80:0.0336340748,(FJUN_flavi_salt_marsh_ORF170_SRR11829261_E_276-745_AlphaFold.pdb:0.2673141485,PLUN_Xiamen_fanray_pesti-like_virus_strain_XMTSYG10372_E_796-960_ESMFold.pdb:0.6257035895)85.3/94:0.1700921255)3.3/40:0.0486532119,(FJFL_Flavivirus_sp._isolate_sequence_91_orf_1_E_128-379_AlphaFold.pdb:0.5882340084,FJFL_Tamana_bat_virus_isolate_P3_Vero_E_347-780_ESMFold.pdb:0.3088112274)96.5/98:0.1777846075)43.9/97:0.0600454788,(((((FJIS_Aedes_flavivirus_AEFVMQ29Bogor2017_E_326-705_AlphaFold.pdb:0.0508506695,FJIS_Aedes_flavivirus_strain_AEFV-SPFLD-MO-2011-MP6_E_326-700_AlphaFold.pdb:0.0668063865)98.3/100:0.0416477162,FJIS_Aedes_flavivirus_strain_Bangkok_E_318-701_AlphaFold.pdb:0.0782504273)99.8/100:0.0892132941,((((((FJIS_Anopheles_flavivirus_variant_1_E_277-612_AlphaFold.pdb:0.1250160389,(FJIS_Karumba_virus_isolate_KRBV_Kim1_E_263-654_AlphaFold.pdb:0.0463991954,FJIS_Mac_Peak_virus_isolate_McPV_150840_E_263-626_AlphaFold.pdb:0.1020551960)87/99:0.0625540737)100/100:0.1293394145,(((((FJIS_Calbertado_virus_isolate_44-13_E_258-664_AlphaFold.pdb:0.0744118946,FJIS_Culex_Flavi-like_virus_strain_CFVLSan_Francisco_E_209-568_AlphaFold.pdb:0.1393698616)13/87:0.0231545436,FJIS_Calbertado_virus_isolate_CMS001_032_ALCO_E_260-587_AlphaFold.pdb:0.0436393777)99.8/100:0.0747135798,FJIS_Sabethes_flavivirus_isolate_Ms42_E_278-626_AlphaFold.pdb:0.1874234369)33.2/86:0.0154511104,(FJIS_Culiseta_flavivirus_strain_502-13_E_275-672_AlphaFold.pdb:0.0838782889,FJIS_Mercadeo_virus_isolate_ER-M10_E_271-643_AlphaFold.pdb:0.0946319246)94.6/98:0.0417983270)96.8/96:0.0476369755,FJIS_Mansonia_flavivirus_bvmq18-1_E_443-826_AlphaFold.pdb:0.2595583267)36.2/90:0.0425166641)100/92:0.0997316364,(FJIS_Cell_fusing_agent_virus_E_286-670_AlphaFold.pdb:0.1418705577,(((((FJIS_Cell_fusing_agent_virus_strain_2_E_331-674_AlphaFold.pdb:0.0798350339,FJIS_Tafomo_virus_strain_TVB22-CI-2004_E_332-672_AlphaFold.pdb:0.0851959710)85.3/100:0.0297073533,FJIS_Nakiwogo_virus_strain_Uganda08_E_343-670_AlphaFold.pdb:0.1540720337)93.7/84:0.0358035327,(((((FJIS_Culex_flavivirus_E_336-676_AlphaFold.pdb:0.0977283967,FJIS_Mosquito_flavivirus_isolate_LSFlaviV-A20-09_E_331-677_AlphaFold.pdb:0.0343011234)44.1/86:0.0190986565,FJIS_Mosquito_flavivirus_YDFVOct2013_E_331-674_AlphaFold.pdb:0.0477672339)39/57:0.0295861531,(FJIS_Palm_Creek_virus_isolate_56_E_336-664_AlphaFold.pdb:0.1647544111,FJIS_Quang_Binh_virus_isolate_JM17156China2017_E_331-663_AlphaFold.pdb:0.0325900119)21.9/48:0.0200038605)84.2/50:0.0083140141,FJIS_Quang_Binh_virus_E_331-704_AlphaFold.pdb:0.0501217765)96.9/88:0.0246288925,FJIS_Culex_theileri_flavivirus_RP-2011_E_331-699_AlphaFold.pdb:0.0565725850)64.8/88:0.0203400079)85.6/93:0.0274076784,FJIS_Nienokoue_virus_isolate_B51CI2004_E_315-698_AlphaFold.pdb:0.1417476474)98.6/100:0.0568210020,FJIS_Culex_theileri_flavivirus_E_230-615_AlphaFold.pdb:0.0988021793)80.9/96:0.0342020504)86.5/100:0.0318352166)47.4/46:0.0258895344,((FJIS_Hanko_virus_E_319-713_AlphaFold.pdb:0.1028503244,FJIS_Ochlerotatus_caspius_flavivirus_isolate_1608_E_319-712_AlphaFold.pdb:0.0560541603)82.5/95:0.0318127369,FJIS_Parramatta_River_virus_isolate_92-B115745_E_322-715_AlphaFold.pdb:0.0968287169)99.5/100:0.0549552061)90.5/48:0.0321001846,(FJIS_Kilpisjarvi_flavivirus_isolate_FINL-201890_E_314-717_AlphaFold.pdb:0.1430216847,((FJIS_Menghai_flavivirus_isolate_MHAedFV1_E_338-720_AlphaFold.pdb:0.0966587329,FJIS_Xishuangbanna_aedes_flavivirus_E_336-729_AlphaFold.pdb:0.1191817560)4.4/61:0.0524411441,FJIS_Ochlerotatus_scapularis_flavivirus_bvmq18-25_E_327-724_AlphaFold.pdb:0.1174872378)88.7/100:0.0522010063)88.1/99:0.0407087799)98.4/76:0.0612806432,FJIS_Kamiti_River_virus_E_312-698_AlphaFold.pdb:0.2039642554)22.6/32:0.0428587933)99.9/100:0.1281233502,FJUN_XiangYun_flavivirus_isolate_XY61577_orf_1_E_267-667_AlphaFold.pdb:0.3475519604)95.1/92:0.0650890608,(FJIS_Tabanus_rufidens_flavivirus_18HF18_E_287-668_AlphaFold.pdb:0.2513510099,FJUN_flavi_freshwater_ORF52_SRR12063566_orf_1_E_332-718_AlphaFold.pdb:0.3261701136)19.6/73:0.0637829856)99.5/100:0.1555931146)98.4/97:0.0887545636,(FJFL_Embiopteran_flavi-related_virus_isolate_OKIAV324_E_318-771_AlphaFold.pdb:0.3456067623,(FJFL_Waxsystermes_virus_E_318-774_AlphaFold.pdb:0.1696558595,FJFL_Wenzhou_shark_flavivirus_strain_WZSS16343_orf_1_E_429-906_AlphaFold.pdb:0.1912870834)99.9/100:0.1435036122)96/99:0.0761420199)47.2/56:0.0318997797,FJFL_Southern_pygmy_squid_flavivirus_isolate_201405_E_217-610_AlphaFold.pdb:0.4137663482)81.4/68:0.0413298627,(FJFL_Chowder_bay_tunicate_associated_flavi_like_virus_orf_1_E_336-811_AlphaFold.pdb:0.3577430771,FJFL_Cyclopterus_lumpus_virus_isolate_R170217-6L_orf_1_E_365-863_AlphaFold.pdb:0.4079668461)25.4/36:0.0589866081)89.9/72:0.0671547760)99.8/100:0.1314255307,FJAF_Harrimaniidae_flavivirus_E_257-629_AlphaFold.pdb:0.2119755174);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -98574.755213
+Robinson-Foulds distance between ML tree and consensus tree: 20
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++------FJAF_Cnidaria_flavivirus_E_278-749_AlphaFold.pdb
+|
+|           +---FJAF_Crangon_crangon_flavivirus_orf_1_E_310-786_AlphaFold.pdb
+|        +--| (100)
+|        |  |  +-----FJAF_Gammarus_chevreuxi_flavivirus_isolate_100_1_orf_1_E_354-838_AlphaFold.pdb
+|        |  +--| (100)
+|        |     |  +---FJAF_Photeros_flavivirus_orf_1_E_386-864_AlphaFold.pdb
+|        |     +--| (99)
+|        |        +--FJAF_Sea_firefly_flavivirus_orf_1_E_289-775_AlphaFold.pdb
+|     +--| (96)
+|     |  |  +---FJFL_African_cichlid_flavi_like_virus_E_278-770_AlphaFold.pdb
+|     |  +--| (100)
+|     |     +----FJFL_Salmon_flavivirus_strain_Davis_UGA_orf_1_E_279-768_AlphaFold.pdb
+|  +--| (100)
+|  |  |                                   +--FJMB_Alfuy_virus_strain_MRM3929_E_295-790_AlphaFold.pdb
+|  |  |                                +--| (90)
+|  |  |                                |  |     +--FJMB_Cacipacore_virus_E_289-787_AlphaFold.pdb
+|  |  |                                |  |  +--| (95)
+|  |  |                                |  |  |  +--FJMB_Japanese_encephalitis_virus_E_295-789_AlphaFold.pdb
+|  |  |                                |  +--| (89)
+|  |  |                                |     |           +--FJMB_Koutango_virus_isolate_PM148_E_293-787_AlphaFold.pdb
+|  |  |                                |     |        +--| (100)
+|  |  |                                |     |        |  +--FJMB_West_Nile_virus_lineage_1_E_291-787_AlphaFold.pdb
+|  |  |                                |     |     +--| (54)
+|  |  |                                |     |     |  +--FJMB_Usutu_virus_E_294-789_AlphaFold.pdb
+|  |  |                                |     |  +--| (56)
+|  |  |                                |     |  |  +--FJMB_Kunjin_virus_clone_FLSDX_E_291-787_AlphaFold.pdb
+|  |  |                                |     +--| (67)
+|  |  |                                |        +--FJMB_West_Nile_virus_lineage_2_E_291-784_AlphaFold.pdb
+|  |  |                             +--| (93)
+|  |  |                             |  |  +--FJMB_Murray_Valley_encephalitis_virus_E_294-788_AlphaFold.pdb
+|  |  |                             |  +--| (83)
+|  |  |                             |     +---FJMB_Yaounde_virus_strain_Dak_Ar_Y276_E_291-791_AlphaFold.pdb
+|  |  |                          +--| (92)
+|  |  |                          |  |  +--FJMB_Saint_Louis_encephalitis_virus_E_289-788_AlphaFold.pdb
+|  |  |                          |  +--| (100)
+|  |  |                          |     +--FJMB_St._Louis_encephalitis_virus_strain_Palenque-A770_E_321-816_AlphaFold.pdb
+|  |  |                       +--| (93)
+|  |  |                       |  |           +--FJMB_Bagaza_virus_strain_DakAr_B209_E_290-786_AlphaFold.pdb
+|  |  |                       |  |        +--| (97)
+|  |  |                       |  |        |  +--FJMB_Ntaya_virus_E_290-785_AlphaFold.pdb
+|  |  |                       |  |     +--| (99)
+|  |  |                       |  |     |  |  +--FJMB_Sitiawan_virus_E_288-788_AlphaFold.pdb
+|  |  |                       |  |     |  +--| (98)
+|  |  |                       |  |     |     +--FJMB_Tembusu_virus_flavivirus_E_288-785_AlphaFold.pdb
+|  |  |                       |  |  +--| (94)
+|  |  |                       |  |  |  +--FJMB_Israel_turkey_meningoencephalomyelitis_virus_E_291-784_AlphaFold.pdb
+|  |  |                       |  +--| (89)
+|  |  |                       |     |  +--FJMB_Ilheus_virus_strain_BrMS-MQ10_E_289-785_AlphaFold.pdb
+|  |  |                       |     +--| (97)
+|  |  |                       |        |  +--FJMB_Rocio_virus_strain_SPH_34675_E_286-781_AlphaFold.pdb
+|  |  |                       |        +--| (100)
+|  |  |                       |           +--FJMB_T_Ho_virus_strain_T_Ho-Mex07_E_287-783_AlphaFold.pdb
+|  |  |                    +--| (84)
+|  |  |                    |  |           +--FJMB_Bainyik_virus_strain_MK7979_E_287-786_AlphaFold.pdb
+|  |  |                    |  |        +--| (100)
+|  |  |                    |  |        |  +--FJMB_Torres_virus_strain_TS5273_E_288-783_AlphaFold.pdb
+|  |  |                    |  |     +--| (87)
+|  |  |                    |  |     |  +--FJMB_New_Mapoon_virus_E_287-787_AlphaFold.pdb
+|  |  |                    |  |  +--| (87)
+|  |  |                    |  |  |  +--FJMB_Kokobera_virus_E_287-787_AlphaFold.pdb
+|  |  |                    |  +--| (100)
+|  |  |                    |     +--FJMB_Stratford_virus_isolate_22911_E_288-786_AlphaFold.pdb
+|  |  |                 +--| (75)
+|  |  |                 |  |     +---FJMB_Kedougou_virus_strain_DakAar_D1470_E_283-781_AlphaFold.pdb
+|  |  |                 |  |  +--| (85)
+|  |  |                 |  |  |  +--FJMB_Spondweni_virus_E_290-793_AlphaFold.pdb
+|  |  |                 |  +--| (86)
+|  |  |                 |     +--FJMB_Zika_virus_E_291-789_AlphaFold.pdb
+|  |  |              +--| (83)
+|  |  |              |  |     +--FJMB_Aroa_virus_strain_Macaray_01809_E_287-778_AlphaFold.pdb
+|  |  |              |  |  +--| (100)
+|  |  |              |  |  |  +--FJMB_Iguape_virus_strain_SPAn_71686_E_287-780_AlphaFold.pdb
+|  |  |              |  +--| (83)
+|  |  |              |     |  +--FJMB_Bussuquara_virus_E_293-789_AlphaFold.pdb
+|  |  |              |     +--| (100)
+|  |  |              |        +--FJMB_Naranjal_virus_strain_25008_E_293-794_AlphaFold.pdb
+|  |  |           +--| (64)
+|  |  |           |  |              +--FJMB_Barkedji-like_virus_zmq17M40_E_295-795_AlphaFold.pdb
+|  |  |           |  |           +--| (100)
+|  |  |           |  |           |  +--FJMB_Barkedji_virus_zmq17L31_E_293-795_AlphaFold.pdb
+|  |  |           |  |        +--| (100)
+|  |  |           |  |        |  +--FJMB_Batu_Kawa_virus_isolate_MYR-097_E_293-793_AlphaFold.pdb
+|  |  |           |  |     +--| (58)
+|  |  |           |  |     |  +-----FJMB_Nanay_virus_strain_PRD316PER09_E_290-779_AlphaFold.pdb
+|  |  |           |  |  +--| (49)
+|  |  |           |  |  |  +--FJMB_Nhumirim_virus_strain_BrMS-MQ10_E_298-796_AlphaFold.pdb
+|  |  |           |  +--| (88)
+|  |  |           |     |  +--FJMB_Chinese_soft-shelled_turtle_flavivirus_isolate_HZ-2017_E_339-826_AlphaFold.pdb
+|  |  |           |     +--| (100)
+|  |  |           |        +---FJMB_Kampung_Karu_virus_isolate_SWK_P44_E_320-811_AlphaFold.pdb
+|  |  |        +--| (70)
+|  |  |        |  |     +--FJMB_Dengue_virus_1_E_281-775_AlphaFold.pdb
+|  |  |        |  |  +--| (89)
+|  |  |        |  |  |  |  +--FJMB_Dengue_virus_3_E_281-773_AlphaFold.pdb
+|  |  |        |  |  |  +--| (82)
+|  |  |        |  |  |     +--FJMB_Dengue_virus_4_E_280-774_AlphaFold.pdb
+|  |  |        |  +--| (100)
+|  |  |        |     +--FJMB_Dengue_virus_2_E_281-775_AlphaFold.pdb
+|  |  |     +--| (95)
+|  |  |     |  |           +--FJMB_Aripo_virus_isolate_TR9096_E_294-791_AlphaFold.pdb
+|  |  |     |  |        +--| (100)
+|  |  |     |  |        |  +--FJMB_Psorophora_flavivirus_bvmq18-51_E_293-792_AlphaFold.pdb
+|  |  |     |  |     +--| (100)
+|  |  |     |  |     |  |     +--FJMB_Chaoyang_virus_E_293-788_AlphaFold.pdb
+|  |  |     |  |     |  |  +--| (100)
+|  |  |     |  |     |  |  |  +--FJMB_Lammi_virus_E_292-786_AlphaFold.pdb
+|  |  |     |  |     |  +--| (85)
+|  |  |     |  |     |     |        +--FJMB_Donggang_virus_E_303-793_AlphaFold.pdb
+|  |  |     |  |     |     |     +--| (100)
+|  |  |     |  |     |     |     |  +--FJMB_Marisma_mosquito_virus_strain_HU452807_E_299-793_AlphaFold.pdb
+|  |  |     |  |     |     |  +--| (99)
+|  |  |     |  |     |     |  |  +---FJMB_Long_Pine_Key_virus_strain_Sabal-12019_E_309-798_AlphaFold.pdb
+|  |  |     |  |     |     +--| (85)
+|  |  |     |  |     |        |  +--FJMB_Ilomantsi_virus_isolate_M0724_E_299-792_AlphaFold.pdb
+|  |  |     |  |     |        +--| (100)
+|  |  |     |  |     |           +--FJMB_Panmunjeom_flavivirus_strain_A12.3025ROK2012_E_299-795_AlphaFold.pdb
+|  |  |     |  |  +--| (97)
+|  |  |     |  |  |  +---FJMB_Binjari_virus_isolate_BFTA20_E_294-788_AlphaFold.pdb
+|  |  |     |  +--| (65)
+|  |  |     |     +----FJMB_Nounane_virus_E_286-790_AlphaFold.pdb
+|  |  |  +--| (100)
+|  |  |  |  |           +--FJMB_Bamaga_virus_isolate_CY4270_E_280-771_AlphaFold.pdb
+|  |  |  |  |        +--| (44)
+|  |  |  |  |        |  |        +--FJMB_Banzi_virus_strain_SAH_336_E_273-763_AlphaFold.pdb
+|  |  |  |  |        |  |     +--| (98)
+|  |  |  |  |        |  |     |  |  +--FJMB_Bouboui_virus_strain_DAK_AR_B490_E_273-763_AlphaFold.pdb
+|  |  |  |  |        |  |     |  +--| (100)
+|  |  |  |  |        |  |     |     +--FJMB_Uganda_S_virus_E_273-761_AlphaFold.pdb
+|  |  |  |  |        |  |  +--| (59)
+|  |  |  |  |        |  |  |  |  +--FJMB_Jugra_virus_strain_P-9-314_E_272-762_AlphaFold.pdb
+|  |  |  |  |        |  |  |  +--| (60)
+|  |  |  |  |        |  |  |     +--FJMB_Potiskum_virus_strain_IBAN_10069_E_273-762_AlphaFold.pdb
+|  |  |  |  |        |  +--| (44)
+|  |  |  |  |        |     |  +--FJMB_Edge_Hill_virus_strain_YMP_48_E_282-772_AlphaFold.pdb
+|  |  |  |  |        |     +--| (42)
+|  |  |  |  |        |        |  +--FJMB_Fitzroy_River_Virus_strain_K73884_E_283-765_AlphaFold.pdb
+|  |  |  |  |        |        +--| (100)
+|  |  |  |  |        |           |  +--FJMB_Sepik_virus_E_283-770_AlphaFold.pdb
+|  |  |  |  |        |           +--| (97)
+|  |  |  |  |        |              +--FJMB_Wesselsbron_virus_strain_SAH177_E_282-770_AlphaFold.pdb
+|  |  |  |  |     +--| (41)
+|  |  |  |  |     |  |     +--FJMB_Entebbe_bat_virus_E_288-776_AlphaFold.pdb
+|  |  |  |  |     |  |  +--| (100)
+|  |  |  |  |     |  |  |  +--FJMB_Sokoluk_virus_strain_LEIV-400K_E_295-777_AlphaFold.pdb
+|  |  |  |  |     |  +--| (100)
+|  |  |  |  |     |     +--FJMB_Yokose_virus_E_298-786_AlphaFold.pdb
+|  |  |  |  |  +--| (74)
+|  |  |  |  |  |  +--FJMB_Yellow_fever_virus_E_286-776_AlphaFold.pdb
+|  |  |  |  +--| (98)
+|  |  |  |     +----FJMB_Paraiso_Escondido_virus_isolate_Ecuador2012_E_309-796_AlphaFold.pdb
+|  |  +--| (99)
+|  |     |           +--FJNV_Apoi_virus_genome_E_271-660_AlphaFold.pdb
+|  |     |        +--| (78)
+|  |     |        |  +--FJNV_Rio_Bravo_virus_strain_M64_E_269-655_AlphaFold.pdb
+|  |     |     +--| (99)
+|  |     |     |  |           +--FJNV_Bukalasa_bat_virus_isolate_BP111_E_267-656_AlphaFold.pdb
+|  |     |     |  |        +--| (68)
+|  |     |     |  |        |  +--FJNV_Modoc_virus_E_275-754_AlphaFold.pdb
+|  |     |     |  |     +--| (81)
+|  |     |     |  |     |  +--FJNV_Jutiapa_virus_strain_JG-128_E_275-751_AlphaFold.pdb
+|  |     |     |  |  +--| (87)
+|  |     |     |  |  |  +--FJNV_Dakar_bat_virus_isolate_BP180_E_269-749_AlphaFold.pdb
+|  |     |     |  +--| (67)
+|  |     |     |     +--FJNV_Montana_myotis_leukoencephalitis_virus_E_272-750_AlphaFold.pdb
+|  |     |  +--| (99)
+|  |     |  |  |  +--FJNV_Batu_Cave_virus_strain_P70-1459_E_274-662_AlphaFold.pdb
+|  |     |  |  +--| (100)
+|  |     |  |     +--FJNV_Phnom_Penh_bat_virus_strain_30834_A38_E_274-662_AlphaFold.pdb
+|  |     +--| (99)
+|  |        |                       +--FJTB_Alkhumra_hemorrhagic_fever_virus_strain_Zaki_2_E_283-676_AlphaFold.pdb
+|  |        |                    +--| (95)
+|  |        |                    |  +--FJTB_Kyasanur_forest_disease_virus_strain_P9605_E_281-676_AlphaFold.pdb
+|  |        |                 +--| (83)
+|  |        |                 |  |     +--FJTB_Langat_virus_E_280-675_AlphaFold.pdb
+|  |        |                 |  |  +--| (100)
+|  |        |                 |  |  |  +--FJTB_Louping_ill_virus_isolate_IRE_IRE2_1971_E_280-675_AlphaFold.pdb
+|  |        |                 |  +--| (93)
+|  |        |                 |     |  +--FJTB_Omsk_hemorrhagic_fever_virus_strain_Bogolubovka1048_E_280-675_AlphaFold.pdb
+|  |        |                 |     +--| (100)
+|  |        |                 |        |     +--FJTB_Spanish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb
+|  |        |                 |        |  +--| (99)
+|  |        |                 |        |  |  +--FJTB_Turkish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb
+|  |        |                 |        +--| (99)
+|  |        |                 |           +--FJTB_Tick-borne_encephalitis_virus_E_280-675_AlphaFold.pdb
+|  |        |              +--| (88)
+|  |        |              |  +--FJTB_Powassan_virus_E_278-674_AlphaFold.pdb
+|  |        |           +--| (96)
+|  |        |           |  +--FJTB_Gadgets_Gully_virus_E_280-676_AlphaFold.pdb
+|  |        |        +--| (96)
+|  |        |        |  +--FJTB_Royal_Farm_virus_from_Afghanistan_E_281-676_AlphaFold.pdb
+|  |        |     +--| (100)
+|  |        |     |  +--FJTB_Karshi_virus_strain_WJQ16209_E_280-675_AlphaFold.pdb
+|  |        |  +--| (100)
+|  |        |  |  |        +--FJTB_Kama_virus_strain_LEIV-20776Tat_E_276-666_AlphaFold.pdb
+|  |        |  |  |     +--| (97)
+|  |        |  |  |     |  +--FJTB_Saumarez_Reef_virus_isolate_W11_2232_E_278-666_AlphaFold.pdb
+|  |        |  |  |  +--| (97)
+|  |        |  |  |  |  +--FJTB_Tyuleniy_virus_strain_LEIV-6C_E_277-668_AlphaFold.pdb
+|  |        |  |  +--| (99)
+|  |        |  |     +--FJTB_Meaban_virus_E_276-667_AlphaFold.pdb
+|  |        +--| (99)
+|  |           +-----FJUN_Mpulungu_flavivirus_ZT17-1078_E_265-660_AlphaFold.pdb
++--| (100)
+|  |                                      +----------FJAF_Gammarus_pulex_flavivirus_isolate_GPCM_orf_1_E_82-263_ESMFold.pdb
+|  |                                   +--| (77)
+|  |                                   |  +---------------FJUN_Infectious_precocity_virus_isolate_MR2018_orf_1_E_257-399_AlphaFold.pdb
+|  |                                +--| (76)
+|  |                                |  |  +-------PLUN_Shayang_spider_virus_4_strain_SYZZ-1_E_1837-2097_ESMFold.pdb
+|  |                                |  +--| (91)
+|  |                                |     +-----PLUN_Xinzhou_spider_virus_3_strain_XZZZ-3_E_1586-1774_ESMFold.pdb
+|  |                             +--| (82)
+|  |                             |  |  +----------------PLLG_Atrato_Flavi-like_virus_1_strain_Cx_1773-1_E_1557-1694_ESMFold.pdb
+|  |                             |  +--| (78)
+|  |                             |     |  +-------PLLG_Eriocheir_sinensis_cholera_like_virus_E_2053-2494_ESMFold.pdb
+|  |                             |     +--| (91)
+|  |                             |        +-----------PLLG_Hangzhou_flavivirus_1_isolate_FSFY137086_E_56-223_ESMFold.pdb
+|  |                          +--| (85)
+|  |                          |  |        +----------PLLG_Artemia_sinica_associated_flavi-like_virus_E_919-1383_AlphaFold.pdb
+|  |                          |  |     +--| (100)
+|  |                          |  |     |  |                         +--PLLG_Bole_tick_virus_4_isolate_GSC346flaviV_E_877-1348_ESMFold.pdb
+|  |                          |  |     |  |                      +--| (100)
+|  |                          |  |     |  |                      |  +--PLLG_Bole_tick_virus_4_strain_BLP-1_E_877-1348_ESMFold.pdb
+|  |                          |  |     |  |                   +--| (99)
+|  |                          |  |     |  |                   |  +----PLLG_Bole_tick_virus_4_isolate_TIGMIC_2_E_878-1348_ESMFold.pdb
+|  |                          |  |     |  |                +--| (100)
+|  |                          |  |     |  |                |  |     +--PLLG_Bole_tick_virus_4_strain_BangaliH.truncatum2018_E_879-1349_ESMFold.pdb
+|  |                          |  |     |  |                |  |  +--| (100)
+|  |                          |  |     |  |                |  |  |  |  +--PLLG_Rhipicephalus_sanguineus_associated_flavi-like_virus_E_856-1326_ESMFold.pdb
+|  |                          |  |     |  |                |  |  |  +--| (100)
+|  |                          |  |     |  |                |  |  |     +--PLLG_Trinbago_virus_isolate_TTP-Pool-4_E_856-1326_ESMFold.pdb
+|  |                          |  |     |  |                |  +--| (100)
+|  |                          |  |     |  |                |     +--PLLG_Bole_tick_virus_4_strain_IftinH.dromedarii2018_E_879-1350_ESMFold.pdb
+|  |                          |  |     |  |             +--| (85)
+|  |                          |  |     |  |             |  +---PLLG_Bole_tick_virus_4_isolate_TIGMIC_1_E_854-1324_ESMFold.pdb
+|  |                          |  |     |  |          +--| (99)
+|  |                          |  |     |  |          |  +---PLLG_Bole_tick_virus_4_isolate_Thailand_tick_flavivirus_E_854-1324_ESMFold.pdb
+|  |                          |  |     |  |       +--| (96)
+|  |                          |  |     |  |       |  |                             +--PLLG_Bole_tick_virus_4_strain_NE-DH2_E_885-1353_ESMFold.pdb
+|  |                          |  |     |  |       |  |                          +--| (76)
+|  |                          |  |     |  |       |  |                          |  |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_13_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |                          |  +--| (97)
+|  |                          |  |     |  |       |  |                          |     |     +---PLLG_Flaviviridae_sp._isolate_TIGMIC_24_E_885-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |                          |     |  +--| (69)
+|  |                          |  |     |  |       |  |                          |     |  |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_27_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |                          |     +--| (98)
+|  |                          |  |     |  |       |  |                          |        +--PLLG_Flaviviridae_sp._isolate_TIGMIC_36_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |                       +--| (72)
+|  |                          |  |     |  |       |  |                       |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_28_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |                    +--| (71)
+|  |                          |  |     |  |       |  |                    |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_20_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |                 +--| (61)
+|  |                          |  |     |  |       |  |                 |  +---PLLG_Flaviviridae_sp._isolate_TIGMIC_25_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |              +--| (98)
+|  |                          |  |     |  |       |  |              |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_12_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  |           +--| (96)
+|  |                          |  |     |  |       |  |           |  +------PLLG_Flaviviridae_sp._isolate_TIGMIC_30_E_884-1355_ESMFold.pdb
+|  |                          |  |     |  |       |  |        +--| (96)
+|  |                          |  |     |  |       |  |        |  |  +--PLLG_Flaviviridae_sp._isolate_TIGMIC_1_E_886-1355_ESMFold.pdb
+|  |                          |  |     |  |       |  |        |  +--| (100)
+|  |                          |  |     |  |       |  |        |     +--PLLG_Flaviviridae_sp._isolate_TIGMIC_5_E_886-1355_ESMFold.pdb
+|  |                          |  |     |  |       |  |     +--| (91)
+|  |                          |  |     |  |       |  |     |  +--PLLG_Bole_tick_virus_4_strain_NE-ShL2_E_884-1355_ESMFold.pdb
+|  |                          |  |     |  |       |  |  +--| (100)
+|  |                          |  |     |  |       |  |  |  +----PLLG_Flaviviridae_sp._isolate_TIGMIC_8_E_884-1354_ESMFold.pdb
+|  |                          |  |     |  |       |  +--| (97)
+|  |                          |  |     |  |       |     |  +----PLLG_Dermacentor_reticulatus_pestivirus-like_virus_1_isolate_CT2_E_884-1352_ESMFold.pdb
+|  |                          |  |     |  |       |     +--| (94)
+|  |                          |  |     |  |       |        |     +--PLLG_Flaviviridae_sp._isolate_TIGMIC_32_E_888-1358_ESMFold.pdb
+|  |                          |  |     |  |       |        |  +--| (97)
+|  |                          |  |     |  |       |        |  |  +-----PLLG_Flaviviridae_sp._isolate_TIGMIC_33_E_886-1356_ESMFold.pdb
+|  |                          |  |     |  |       |        +--| (96)
+|  |                          |  |     |  |       |           +---------PLLG_Haseki_tick_virus_strain_Novosibirsk-2020_E_849-1319_ESMFold.pdb
+|  |                          |  |     |  |    +--| (96)
+|  |                          |  |     |  |    |  |  +----PLLG_Flaviviridae_sp._isolate_TIGMIC_38_E_866-1337_ESMFold.pdb
+|  |                          |  |     |  |    |  +--| (100)
+|  |                          |  |     |  |    |     |     +--PLLG_Flaviviridae_sp._isolate_TIGMIC_39_E_865-1337_ESMFold.pdb
+|  |                          |  |     |  |    |     |  +--| (100)
+|  |                          |  |     |  |    |     |  |  +--PLLG_Zhangjiakou_Flavi_tick_virus_1_E_865-1337_ESMFold.pdb
+|  |                          |  |     |  |    |     +--| (100)
+|  |                          |  |     |  |    |        +--PLLG_Flaviviridae_sp._strain_FVHAHH8_E_865-1336_ESMFold.pdb
+|  |                          |  |     |  +----| (100)
+|  |                          |  |     |       +---PLLG_Camel_tick_virus_isolate_Alain_E_878-1348_ESMFold.pdb
+|  |                          |  |  +--| (87)
+|  |                          |  |  |  |          +--------PLLG_Beihai_barnacle_viurs_1_strain_BHGZ_E_914-1399_ESMFold.pdb
+|  |                          |  |  |  |  +-------| (100)
+|  |                          |  |  |  |  |       +------PLLG_Semibalanus_balanoides_associated_flavi-like_virus_E_922-1397_ESMFold.pdb
+|  |                          |  |  |  +--| (93)
+|  |                          |  |  |     +------------PLLG_Bemisia_tabaci_flavi-like_virus_2_E_1148-1586_ESMFold.pdb
+|  |                          |  +--| (92)
+|  |                          |     +-----------PLLG_Hangzhou_ochthera_mantis_flavivirus_1_isolate_SYFY8_E_392-793_ESMFold.pdb
+|  |                       +--| (81)
+|  |                       |  |                       +--------PLLG_Apis_flavivirus_isolate_RI-A_E_1343-1777_AlphaFold.pdb
+|  |                       |  |                    +--| (56)
+|  |                       |  |                    |  +------PLLG_Lampyris_noctiluca_flavivirus_1_isolate_17FIN1_E_1105-1565_AlphaFold.pdb
+|  |                       |  |                 +--| (56)
+|  |                       |  |                 |  +-----------PLLG_Gecarcinus_lateralis_associated_flavi-like_virus_E_2040-2483_AlphaFold.pdb
+|  |                       |  |              +--| (84)
+|  |                       |  |              |  |                 +------PLLG_Brachymeria_lasus_associated_flavi-like_virus_E_533-982_AlphaFold.pdb
+|  |                       |  |              |  |              +--| (90)
+|  |                       |  |              |  |              |  +----PLLG_Shuangao_lacewing_virus_2_strain_SCL_E_770-1195_AlphaFold.pdb
+|  |                       |  |              |  |           +--| (76)
+|  |                       |  |              |  |           |  |     +--------PLLG_Fushun_laodelphax_striatellus_flavivirus_1_isolate_HFSFS147_orf_1_E_2114-2370_AlphaFold.pdb
+|  |                       |  |              |  |           |  |  +--| (86)
+|  |                       |  |              |  |           |  |  |  +---PLLG_Xiangshan_flavi-like_virus_2_E_513-992_AlphaFold.pdb
+|  |                       |  |              |  |           |  +--| (88)
+|  |                       |  |              |  |           |     +-----PLLG_Xiangshan_flavi-like_virus_1_E_514-984_AlphaFold.pdb
+|  |                       |  |              |  |        +--| (81)
+|  |                       |  |              |  |        |  |     +-----PLLG_Locusta_migratoria_associated_flavi-like_virus_E_1633-2113_AlphaFold.pdb
+|  |                       |  |              |  |        |  |  +--| (99)
+|  |                       |  |              |  |        |  |  |  +----PLLG_Shayang_fly_virus_4_strain_SYCY_E_761-1241_AlphaFold.pdb
+|  |                       |  |              |  |        |  +--| (96)
+|  |                       |  |              |  |        |     +------PLLG_Plodia_interpunctella_associated_flavi-like_virus_E_1541-1987_AlphaFold.pdb
+|  |                       |  |              |  |     +--| (98)
+|  |                       |  |              |  |     |  +-----PLLG_Gamboa_mosquito_virus_strain_GW_E_2423-2889_AlphaFold.pdb
+|  |                       |  |              |  |  +--| (84)
+|  |                       |  |              |  |  |  +-------------PLLG_Sanxia_water_strider_virus_6_strain_SYSZZ-2_E_1800-2096_AlphaFold.pdb
+|  |                       |  |              |  +--| (49)
+|  |                       |  |              |     +--------------PLLG_Tacheng_tick_virus_8_strain_TCP-2_E_1414-1898_AlphaFold.pdb
+|  |                       |  |           +--| (89)
+|  |                       |  |           |  |        +--------PLLG_Diaphorina_citri_flavi-like_virus_E_601-887_AlphaFold.pdb
+|  |                       |  |           |  |     +--| (99)
+|  |                       |  |           |  |     |  +-----PLLG_Frankliniella_occidentalis_flavi-like_virus_1_E_926-1194_AlphaFold.pdb
+|  |                       |  |           |  |  +--| (91)
+|  |                       |  |           |  |  |  |    +------PLLG_Hangzhou_frankliniella_intonsa_flavivirus_2_isolate_JM1FY91827_E_552-790_AlphaFold.pdb
+|  |                       |  |           |  |  |  +----| (99)
+|  |                       |  |           |  |  |       +-------PLLG_Phenacoccus_solenopsis_associated_flavi-like_virus_E_1156-1387_AlphaFold.pdb
+|  |                       |  |           |  +--| (98)
+|  |                       |  |           |     |     +---------PLLG_Drosophila-associated_flavivirus_7_isolate_Con0316_E_2192-2451_AlphaFold.pdb
+|  |                       |  |           |     |  +--| (94)
+|  |                       |  |           |     |  |  +-------PLLG_Wuhan_centipede_virus_strain_WHWG-11_E_2033-2299_AlphaFold.pdb
+|  |                       |  |           |     +--| (81)
+|  |                       |  |           |        |        +---PLLG_Macrosiphum_euphorbiae_virus_1_isolate_K01_E_1818-2099_AlphaFold.pdb
+|  |                       |  |           |        +--------| (100)
+|  |                       |  |           |                 +--PLLG_Sitobion_miscanthi_flavi-like_virus_1_07BaA1_E_1825-2099_AlphaFold.pdb
+|  |                       |  |        +--| (98)
+|  |                       |  |        |  +----------PLLG_Hangzhou_frankliniella_intonsa_flavivirus_1_isolate_JM1FY93485_E_1674-2158_AlphaFold.pdb
+|  |                       |  |     +--| (99)
+|  |                       |  |     |  |    +----PLLG_Carrot_flavi-like_virus_1_isolate_744_E_1444-1927_AlphaFold.pdb
+|  |                       |  |     |  +----| (100)
+|  |                       |  |     |       |  +------PLLG_Coptis_teeta_flavi-like_virus_E_2181-2618_AlphaFold.pdb
+|  |                       |  |     |       +--| (100)
+|  |                       |  |     |          +---PLLG_Sonchus_asper_flavi-like_virus_E_2250-2699_AlphaFold.pdb
+|  |                       |  |  +--| (90)
+|  |                       |  |  |  +-------PLLG_Xinzhou_spider_virus_2_strain_XZZZ-7_E_2362-2589_AlphaFold.pdb
+|  |                       |  +--| (93)
+|  |                       |     +--------PLLG_Insect_associated_flavi-like_virus_E_1418-1557_AlphaFold.pdb
+|  |                    +--| (77)
+|  |                    |  |                             +--------FJJI_Alongshan_virus_strain_Miass519_segment_2_orfVP1a_E_110-399_AlphaFold.pdb
+|  |                    |  |                          +--| (100)
+|  |                    |  |                          |  +-----FJJI_Yanggou_tick_virus_strain_Erzin14-T20074_segment_2_orfVP1a_E_103-400_AlphaFold.pdb
+|  |                    |  |                       +--| (100)
+|  |                    |  |                       |  +-------FJJI_Jingmen_tick_virus_isolate_JMTVPteropus_lyleiCambodia_segment_2_orfVP1_E_110-384_AlphaFold.pdb
+|  |                    |  |                    +--| (99)
+|  |                    |  |                    |  +----FJJI_Takachi_virus_IM-OI110_segment_2_orfVP1a_E_114-399_AlphaFold.pdb
+|  |                    |  |                 +--| (100)
+|  |                    |  |                 |  +-----FJJI_Guangdong_Jingmen-like_virus_isolate_118R-174486_segment_2_orfVP1_E_127-513_AlphaFold.pdb
+|  |                    |  |              +--| (100)
+|  |                    |  |              |  |  +-------FJJI_Jingmen_tick_virus_isolate_WS3_segment_2_orfVP1_E_121-508_AlphaFold.pdb
+|  |                    |  |              |  +--| (99)
+|  |                    |  |              |     +-----FJJI_Mogiana_tick_virus_isolate_Yunnan2016_segment_2_orfVP1_E_126-512_AlphaFold.pdb
+|  |                    |  |           +--| (92)
+|  |                    |  |           |  |     +--FJJI_Heilongjiang_tick_virus_isolate_HLJ41_segment_2_orfVP1_E_210-511_AlphaFold.pdb
+|  |                    |  |           |  |  +--| (98)
+|  |                    |  |           |  |  |  +------FJJI_Kindia_tick_virus_isolate_KITV20182_segment_2_orfVP1_E_203-511_AlphaFold.pdb
+|  |                    |  |           |  +--| (73)
+|  |                    |  |           |     |  +--FJJI_Jingmen_Tick_Virus_isolate_SY84_segment_2_orfVP1_E_335-511_AlphaFold.pdb
+|  |                    |  |           |     +--| (99)
+|  |                    |  |           |        |  +--FJJI_Jingmen_tick_virus_isolate_JMTVRh.microplusAm.variegatumFrench_Antilles_segment_2_orfVP1_E_325-499_AlphaFold.pdb
+|  |                    |  |           |        +--| (100)
+|  |                    |  |           |           +--FJJI_Jingmen_tick_virus_isolate_TTP-Pool-19_segment_2_orfVP1_E_325-499_AlphaFold.pdb
+|  |                    |  |        +--| (91)
+|  |                    |  |        |  |     +--------FJJI_Jingmen_tick_virus_isolate_JTMV_1_segment_2_orfVP1_E_203-544_AlphaFold.pdb
+|  |                    |  |        |  |  +--| (100)
+|  |                    |  |        |  |  |  +--------FJJI_Jingmen_tick_virus_isolate_JTMV_3_segment_2_orfVP1_E_203-545_AlphaFold.pdb
+|  |                    |  |        |  +--| (90)
+|  |                    |  |        |     +-----FJJI_Rhipicephalus_associated_flavi-like_virus_isolate_YNTV4_segment_2_orfVP1_E_217-509_AlphaFold.pdb
+|  |                    |  |   +----| (100)
+|  |                    |  |   |    |     +--FJJI_Jingmen_tick_virus_isolate_TTP-Pool-3b_segment_2_orfVP1_E_325-528_ESMFold.pdb
+|  |                    |  |   |    |  +--| (100)
+|  |                    |  |   |    |  |  +-----FJJI_Jingmen_tick_virus_strain_JTVHAHH7_segment_2_orfVP1_E_217-517_ESMFold.pdb
+|  |                    |  |   |    +--| (100)
+|  |                    |  |   |       +--FJJI_Mogiana_tick_virus_isolate_MGTVV411_segment_2_orfVP1_E_334-542_ESMFold.pdb
+|  |                    |  +---| (90)
+|  |                    |      +--------PLUN_Parasteatoda_tepidariorum_associated_flavi-like_virus_E_2407-2652_AlphaFold.pdb
+|  |                 +--| (77)
+|  |                 |  |        +---------------FJJI_Trichopteran_jingmen-related_virus_isolate_OKIAV337_segment_2_orfVP1_E_57-215_AlphaFold.pdb
+|  |                 |  |     +--| (43)
+|  |                 |  |     |  +----------FJUN_flavi_wastewater_ORF139_SRR8857871_orf_1_E_312-599_AlphaFold.pdb
+|  |                 |  |  +--| (71)
+|  |                 |  |  |  |  +---PLLG_Fushun_acrida_cinerea_flavivirus_1_isolate_ZHJJHFS91_E_1892-2098_ESMFold.pdb
+|  |                 |  |  |  +--| (71)
+|  |                 |  |  |     +----------PLLG_flavi_soil_ORF358_SRR7976360_E_2301-2482_ESMFold.pdb
+|  |                 |  +--| (73)
+|  |                 |     +------------PLLG_Bemisia_tabaci_pesti-like_virus_1_isolate_ZJU-Q2_E_1429-1600_ESMFold.pdb
+|  |              +--| (80)
+|  |              |  +----------------FJUN_Fluviflavili_virus_isolate_PF1_segment_2_orfhypothetical_E_409-698_ESMFold.pdb
+|  |           +--| (97)
+|  |           |  |      +----------------FJFL_Flavivirus_sp._isolate_sequence_91_orf_1_E_128-379_AlphaFold.pdb
+|  |           |  |  +---| (98)
+|  |           |  |  |   +--------FJFL_Tamana_bat_virus_isolate_P3_Vero_E_347-780_ESMFold.pdb
+|  |           |  +--| (43)
+|  |           |     |   +------FJUN_flavi_salt_marsh_ORF170_SRR11829261_E_276-745_AlphaFold.pdb
+|  |           |     +---| (94)
+|  |           |         +-----------------PLUN_Xiamen_fanray_pesti-like_virus_strain_XMTSYG10372_E_796-960_ESMFold.pdb
+|  |        +--| (97)
+|  |        |  |                   +--FJIS_Aedes_flavivirus_AEFVMQ29Bogor2017_E_326-705_AlphaFold.pdb
+|  |        |  |                +--| (100)
+|  |        |  |                |  +--FJIS_Aedes_flavivirus_strain_AEFV-SPFLD-MO-2011-MP6_E_326-700_AlphaFold.pdb
+|  |        |  |             +--| (100)
+|  |        |  |             |  +--FJIS_Aedes_flavivirus_strain_Bangkok_E_318-701_AlphaFold.pdb
+|  |        |  |          +--| (68)
+|  |        |  |          |  +----FJIS_Kamiti_River_virus_E_312-698_AlphaFold.pdb
+|  |        |  |      +---| (100)
+|  |        |  |      |   |              +--FJIS_Anopheles_flavivirus_variant_1_E_277-612_AlphaFold.pdb
+|  |        |  |      |   |           +--| (100)
+|  |        |  |      |   |           |  |  +--FJIS_Karumba_virus_isolate_KRBV_Kim1_E_263-654_AlphaFold.pdb
+|  |        |  |      |   |           |  +--| (99)
+|  |        |  |      |   |           |     +--FJIS_Mac_Peak_virus_isolate_McPV_150840_E_263-626_AlphaFold.pdb
+|  |        |  |      |   |        +--| (92)
+|  |        |  |      |   |        |  |              +--FJIS_Calbertado_virus_isolate_44-13_E_258-664_AlphaFold.pdb
+|  |        |  |      |   |        |  |           +--| (87)
+|  |        |  |      |   |        |  |           |  +---FJIS_Culex_Flavi-like_virus_strain_CFVLSan_Francisco_E_209-568_AlphaFold.pdb
+|  |        |  |      |   |        |  |        +--| (100)
+|  |        |  |      |   |        |  |        |  +--FJIS_Calbertado_virus_isolate_CMS001_032_ALCO_E_260-587_AlphaFold.pdb
+|  |        |  |      |   |        |  |     +--| (86)
+|  |        |  |      |   |        |  |     |  +----FJIS_Sabethes_flavivirus_isolate_Ms42_E_278-626_AlphaFold.pdb
+|  |        |  |      |   |        |  |  +--| (96)
+|  |        |  |      |   |        |  |  |  |  +--FJIS_Culiseta_flavivirus_strain_502-13_E_275-672_AlphaFold.pdb
+|  |        |  |      |   |        |  |  |  +--| (98)
+|  |        |  |      |   |        |  |  |     +--FJIS_Mercadeo_virus_isolate_ER-M10_E_271-643_AlphaFold.pdb
+|  |        |  |      |   |        |  +--| (90)
+|  |        |  |      |   |        |     +------FJIS_Mansonia_flavivirus_bvmq18-1_E_443-826_AlphaFold.pdb
+|  |        |  |      |   |     +--| (46)
+|  |        |  |      |   |     |  |  +---FJIS_Cell_fusing_agent_virus_E_286-670_AlphaFold.pdb
+|  |        |  |      |   |     |  +--| (100)
+|  |        |  |      |   |     |     |              +--FJIS_Cell_fusing_agent_virus_strain_2_E_331-674_AlphaFold.pdb
+|  |        |  |      |   |     |     |           +--| (100)
+|  |        |  |      |   |     |     |           |  +--FJIS_Tafomo_virus_strain_TVB22-CI-2004_E_332-672_AlphaFold.pdb
+|  |        |  |      |   |     |     |        +--| (84)
+|  |        |  |      |   |     |     |        |  +---FJIS_Nakiwogo_virus_strain_Uganda08_E_343-670_AlphaFold.pdb
+|  |        |  |      |   |     |     |     +--| (93)
+|  |        |  |      |   |     |     |     |  |              +--FJIS_Culex_flavivirus_E_336-676_AlphaFold.pdb
+|  |        |  |      |   |     |     |     |  |           +--| (86)
+|  |        |  |      |   |     |     |     |  |           |  +--FJIS_Mosquito_flavivirus_isolate_LSFlaviV-A20-09_E_331-677_AlphaFold.pdb
+|  |        |  |      |   |     |     |     |  |        +--| (57)
+|  |        |  |      |   |     |     |     |  |        |  +--FJIS_Mosquito_flavivirus_YDFVOct2013_E_331-674_AlphaFold.pdb
+|  |        |  |      |   |     |     |     |  |     +--| (50)
+|  |        |  |      |   |     |     |     |  |     |  |  +---FJIS_Palm_Creek_virus_isolate_56_E_336-664_AlphaFold.pdb
+|  |        |  |      |   |     |     |     |  |     |  +--| (48)
+|  |        |  |      |   |     |     |     |  |     |     +--FJIS_Quang_Binh_virus_isolate_JM17156China2017_E_331-663_AlphaFold.pdb
+|  |        |  |      |   |     |     |     |  |  +--| (88)
+|  |        |  |      |   |     |     |     |  |  |  +--FJIS_Quang_Binh_virus_E_331-704_AlphaFold.pdb
+|  |        |  |      |   |     |     |     |  +--| (88)
+|  |        |  |      |   |     |     |     |     +--FJIS_Culex_theileri_flavivirus_RP-2011_E_331-699_AlphaFold.pdb
+|  |        |  |      |   |     |     |  +--| (100)
+|  |        |  |      |   |     |     |  |  +---FJIS_Nienokoue_virus_isolate_B51CI2004_E_315-698_AlphaFold.pdb
+|  |        |  |      |   |     |     +--| (96)
+|  |        |  |      |   |     |        +--FJIS_Culex_theileri_flavivirus_E_230-615_AlphaFold.pdb
+|  |        |  |      |   |  +--| (48)
+|  |        |  |      |   |  |  |     +--FJIS_Hanko_virus_E_319-713_AlphaFold.pdb
+|  |        |  |      |   |  |  |  +--| (95)
+|  |        |  |      |   |  |  |  |  +--FJIS_Ochlerotatus_caspius_flavivirus_isolate_1608_E_319-712_AlphaFold.pdb
+|  |        |  |      |   |  |  +--| (100)
+|  |        |  |      |   |  |     +--FJIS_Parramatta_River_virus_isolate_92-B115745_E_322-715_AlphaFold.pdb
+|  |        |  |      |   +--| (76)
+|  |        |  |      |      |  +---FJIS_Kilpisjarvi_flavivirus_isolate_FINL-201890_E_314-717_AlphaFold.pdb
+|  |        |  |      |      +--| (99)
+|  |        |  |      |         |     +--FJIS_Menghai_flavivirus_isolate_MHAedFV1_E_338-720_AlphaFold.pdb
+|  |        |  |      |         |  +--| (61)
+|  |        |  |      |         |  |  +--FJIS_Xishuangbanna_aedes_flavivirus_E_336-729_AlphaFold.pdb
+|  |        |  |      |         +--| (100)
+|  |        |  |      |            +--FJIS_Ochlerotatus_scapularis_flavivirus_bvmq18-25_E_327-724_AlphaFold.pdb
+|  |        |  |   +--| (92)
+|  |        |  |   |  +---------FJUN_XiangYun_flavivirus_isolate_XY61577_orf_1_E_267-667_AlphaFold.pdb
+|  |        |  +---| (100)
+|  |        |      |  +------FJIS_Tabanus_rufidens_flavivirus_18HF18_E_287-668_AlphaFold.pdb
+|  |        |      +--| (73)
+|  |        |         +--------FJUN_flavi_freshwater_ORF52_SRR12063566_orf_1_E_332-718_AlphaFold.pdb
+|  |     +--| (56)
+|  |     |  |  +---------FJFL_Embiopteran_flavi-related_virus_isolate_OKIAV324_E_318-771_AlphaFold.pdb
+|  |     |  +--| (99)
+|  |     |     |   +----FJFL_Waxsystermes_virus_E_318-774_AlphaFold.pdb
+|  |     |     +---| (100)
+|  |     |         +----FJFL_Wenzhou_shark_flavivirus_strain_WZSS16343_orf_1_E_429-906_AlphaFold.pdb
+|  |  +--| (68)
+|  |  |  +-----------FJFL_Southern_pygmy_squid_flavivirus_isolate_201405_E_217-610_AlphaFold.pdb
+|  +--| (72)
+|     |  +---------FJFL_Chowder_bay_tunicate_associated_flavi_like_virus_orf_1_E_336-811_AlphaFold.pdb
+|     +--| (36)
+|        +-----------FJFL_Cyclopterus_lumpus_virus_isolate_R170217-6L_orf_1_E_365-863_AlphaFold.pdb
+|
++-----FJAF_Harrimaniidae_flavivirus_E_257-629_AlphaFold.pdb
+
+
+Consensus tree in newick format: 
+
+(FJAF_Cnidaria_flavivirus_E_278-749_AlphaFold.pdb:0.2373912655,((((FJAF_Crangon_crangon_flavivirus_orf_1_E_310-786_AlphaFold.pdb:0.1674002712,(FJAF_Gammarus_chevreuxi_flavivirus_isolate_100_1_orf_1_E_354-838_AlphaFold.pdb:0.2281195406,(FJAF_Photeros_flavivirus_orf_1_E_386-864_AlphaFold.pdb:0.1390176970,FJAF_Sea_firefly_flavivirus_orf_1_E_289-775_AlphaFold.pdb:0.1118925071)99:0.0488434907)100:0.0627221692)100:0.0783243772,(FJFL_African_cichlid_flavi_like_virus_E_278-770_AlphaFold.pdb:0.1671991223,FJFL_Salmon_flavivirus_strain_Davis_UGA_orf_1_E_279-768_AlphaFold.pdb:0.1912073321)100:0.1237458701)96:0.0418588830,((((((((((((FJMB_Alfuy_virus_strain_MRM3929_E_295-790_AlphaFold.pdb:0.0608494560,((FJMB_Cacipacore_virus_E_289-787_AlphaFold.pdb:0.0688136872,FJMB_Japanese_encephalitis_virus_E_295-789_AlphaFold.pdb:0.0620570311)95:0.0286931862,((((FJMB_Koutango_virus_isolate_PM148_E_293-787_AlphaFold.pdb:0.0519508411,FJMB_West_Nile_virus_lineage_1_E_291-787_AlphaFold.pdb:0.0246113466)100:0.0184840364,FJMB_Usutu_virus_E_294-789_AlphaFold.pdb:0.0818763052)54:0.0179177750,FJMB_Kunjin_virus_clone_FLSDX_E_291-787_AlphaFold.pdb:0.0453041148)56:0.0214388478,FJMB_West_Nile_virus_lineage_2_E_291-784_AlphaFold.pdb:0.0704874310)67:0.0152494013)89:0.0190642405)90:0.0274293712,(FJMB_Murray_Valley_encephalitis_virus_E_294-788_AlphaFold.pdb:0.0558924529,FJMB_Yaounde_virus_strain_Dak_Ar_Y276_E_291-791_AlphaFold.pdb:0.1598085511)83:0.0154956163)93:0.0260289649,(FJMB_Saint_Louis_encephalitis_virus_E_289-788_AlphaFold.pdb:0.0564015715,FJMB_St._Louis_encephalitis_virus_strain_Palenque-A770_E_321-816_AlphaFold.pdb:0.0536326279)100:0.0420095554)92:0.0207230201,((((FJMB_Bagaza_virus_strain_DakAr_B209_E_290-786_AlphaFold.pdb:0.0396657338,FJMB_Ntaya_virus_E_290-785_AlphaFold.pdb:0.0502985902)97:0.0160534455,(FJMB_Sitiawan_virus_E_288-788_AlphaFold.pdb:0.0688686552,FJMB_Tembusu_virus_flavivirus_E_288-785_AlphaFold.pdb:0.0477112486)98:0.0271590754)99:0.0476838480,FJMB_Israel_turkey_meningoencephalomyelitis_virus_E_291-784_AlphaFold.pdb:0.0603573030)94:0.0442621068,(FJMB_Ilheus_virus_strain_BrMS-MQ10_E_289-785_AlphaFold.pdb:0.0789591533,(FJMB_Rocio_virus_strain_SPH_34675_E_286-781_AlphaFold.pdb:0.0936073658,FJMB_T_Ho_virus_strain_T_Ho-Mex07_E_287-783_AlphaFold.pdb:0.0860053142)100:0.0228979838)97:0.0160100034)89:0.0237416305)93:0.0304212890,((((FJMB_Bainyik_virus_strain_MK7979_E_287-786_AlphaFold.pdb:0.0500705115,FJMB_Torres_virus_strain_TS5273_E_288-783_AlphaFold.pdb:0.0586612582)100:0.0371090779,FJMB_New_Mapoon_virus_E_287-787_AlphaFold.pdb:0.1122139631)87:0.0140567876,FJMB_Kokobera_virus_E_287-787_AlphaFold.pdb:0.0433048496)87:0.0280710459,FJMB_Stratford_virus_isolate_22911_E_288-786_AlphaFold.pdb:0.0477759540)100:0.0527109996)84:0.0205234197,((FJMB_Kedougou_virus_strain_DakAar_D1470_E_283-781_AlphaFold.pdb:0.1430315085,FJMB_Spondweni_virus_E_290-793_AlphaFold.pdb:0.0815871043)85:0.0350205891,FJMB_Zika_virus_E_291-789_AlphaFold.pdb:0.0843671047)86:0.0357782597)75:0.0309110307,((FJMB_Aroa_virus_strain_Macaray_01809_E_287-778_AlphaFold.pdb:0.0402897326,FJMB_Iguape_virus_strain_SPAn_71686_E_287-780_AlphaFold.pdb:0.0409454982)100:0.0926258310,(FJMB_Bussuquara_virus_E_293-789_AlphaFold.pdb:0.0564102674,FJMB_Naranjal_virus_strain_25008_E_293-794_AlphaFold.pdb:0.0766426698)100:0.0614908375)83:0.0383899570)83:0.0309225552,(((((FJMB_Barkedji-like_virus_zmq17M40_E_295-795_AlphaFold.pdb:0.0476674821,FJMB_Barkedji_virus_zmq17L31_E_293-795_AlphaFold.pdb:0.0843511455)100:0.0616241927,FJMB_Batu_Kawa_virus_isolate_MYR-097_E_293-793_AlphaFold.pdb:0.0960969784)100:0.0461090746,FJMB_Nanay_virus_strain_PRD316PER09_E_290-779_AlphaFold.pdb:0.2114250083)58:0.0255653320,FJMB_Nhumirim_virus_strain_BrMS-MQ10_E_298-796_AlphaFold.pdb:0.1127867037)49:0.0188840027,(FJMB_Chinese_soft-shelled_turtle_flavivirus_isolate_HZ-2017_E_339-826_AlphaFold.pdb:0.1059757853,FJMB_Kampung_Karu_virus_isolate_SWK_P44_E_320-811_AlphaFold.pdb:0.1354582736)100:0.1193710063)88:0.0379860616)64:0.0273252109,((FJMB_Dengue_virus_1_E_281-775_AlphaFold.pdb:0.0714664740,(FJMB_Dengue_virus_3_E_281-773_AlphaFold.pdb:0.1255857167,FJMB_Dengue_virus_4_E_280-774_AlphaFold.pdb:0.1227012646)82:0.0407765364)89:0.0369035478,FJMB_Dengue_virus_2_E_281-775_AlphaFold.pdb:0.1294399762)100:0.0846929199)70:0.0267241037,((((FJMB_Aripo_virus_isolate_TR9096_E_294-791_AlphaFold.pdb:0.0486735571,FJMB_Psorophora_flavivirus_bvmq18-51_E_293-792_AlphaFold.pdb:0.0346664652)100:0.1236181863,((FJMB_Chaoyang_virus_E_293-788_AlphaFold.pdb:0.0774326750,FJMB_Lammi_virus_E_292-786_AlphaFold.pdb:0.0761492142)100:0.0295979132,(((FJMB_Donggang_virus_E_303-793_AlphaFold.pdb:0.0893112945,FJMB_Marisma_mosquito_virus_strain_HU452807_E_299-793_AlphaFold.pdb:0.0674961541)100:0.0365590378,FJMB_Long_Pine_Key_virus_strain_Sabal-12019_E_309-798_AlphaFold.pdb:0.1421674928)99:0.0396625622,(FJMB_Ilomantsi_virus_isolate_M0724_E_299-792_AlphaFold.pdb:0.0667702349,FJMB_Panmunjeom_flavivirus_strain_A12.3025ROK2012_E_299-795_AlphaFold.pdb:0.0716435482)100:0.0952229411)85:0.0254929618)85:0.0293530799)100:0.0660674223,FJMB_Binjari_virus_isolate_BFTA20_E_294-788_AlphaFold.pdb:0.1630305544)97:0.0416984530,FJMB_Nounane_virus_E_286-790_AlphaFold.pdb:0.1886673075)65:0.0417295288)95:0.0403652283,((((FJMB_Bamaga_virus_isolate_CY4270_E_280-771_AlphaFold.pdb:0.1126423878,(((FJMB_Banzi_virus_strain_SAH_336_E_273-763_AlphaFold.pdb:0.0623101230,(FJMB_Bouboui_virus_strain_DAK_AR_B490_E_273-763_AlphaFold.pdb:0.0579511271,FJMB_Uganda_S_virus_E_273-761_AlphaFold.pdb:0.0439715418)100:0.0186131319)98:0.0110100865,(FJMB_Jugra_virus_strain_P-9-314_E_272-762_AlphaFold.pdb:0.0486503047,FJMB_Potiskum_virus_strain_IBAN_10069_E_273-762_AlphaFold.pdb:0.0739602605)60:0.0278472181)59:0.0272592173,(FJMB_Edge_Hill_virus_strain_YMP_48_E_282-772_AlphaFold.pdb:0.0731848096,(FJMB_Fitzroy_River_Virus_strain_K73884_E_283-765_AlphaFold.pdb:0.0333245114,(FJMB_Sepik_virus_E_283-770_AlphaFold.pdb:0.0215852520,FJMB_Wesselsbron_virus_strain_SAH177_E_282-770_AlphaFold.pdb:0.0276851679)97:0.0208551191)100:0.0825063034)42:0.0187479752)44:0.0260378438)44:0.0275133740,((FJMB_Entebbe_bat_virus_E_288-776_AlphaFold.pdb:0.0603740403,FJMB_Sokoluk_virus_strain_LEIV-400K_E_295-777_AlphaFold.pdb:0.0716131462)100:0.0337692082,FJMB_Yokose_virus_E_298-786_AlphaFold.pdb:0.0830371151)100:0.1165378919)41:0.0215000910,FJMB_Yellow_fever_virus_E_286-776_AlphaFold.pdb:0.1309346474)74:0.0307857282,FJMB_Paraiso_Escondido_virus_isolate_Ecuador2012_E_309-796_AlphaFold.pdb:0.1737012792)98:0.0396087974)100:0.0582461748,((((FJNV_Apoi_virus_genome_E_271-660_AlphaFold.pdb:0.1261304292,FJNV_Rio_Bravo_virus_strain_M64_E_269-655_AlphaFold.pdb:0.1044019380)78:0.0231357885,((((FJNV_Bukalasa_bat_virus_isolate_BP111_E_267-656_AlphaFold.pdb:0.0914413696,FJNV_Modoc_virus_E_275-754_AlphaFold.pdb:0.1032330421)68:0.0426188680,FJNV_Jutiapa_virus_strain_JG-128_E_275-751_AlphaFold.pdb:0.1220967759)81:0.0435818764,FJNV_Dakar_bat_virus_isolate_BP180_E_269-749_AlphaFold.pdb:0.0512345164)87:0.0463802597,FJNV_Montana_myotis_leukoencephalitis_virus_E_272-750_AlphaFold.pdb:0.0881757484)67:0.0367287370)99:0.0477293558,(FJNV_Batu_Cave_virus_strain_P70-1459_E_274-662_AlphaFold.pdb:0.0514054515,FJNV_Phnom_Penh_bat_virus_strain_30834_A38_E_274-662_AlphaFold.pdb:0.0423416869)100:0.0779449205)99:0.0662430102,((((((((FJTB_Alkhumra_hemorrhagic_fever_virus_strain_Zaki_2_E_283-676_AlphaFold.pdb:0.0494681781,FJTB_Kyasanur_forest_disease_virus_strain_P9605_E_281-676_AlphaFold.pdb:0.0340610572)95:0.0167850530,((FJTB_Langat_virus_E_280-675_AlphaFold.pdb:0.0426370285,FJTB_Louping_ill_virus_isolate_IRE_IRE2_1971_E_280-675_AlphaFold.pdb:0.0431605698)100:0.0209272204,(FJTB_Omsk_hemorrhagic_fever_virus_strain_Bogolubovka1048_E_280-675_AlphaFold.pdb:0.0438947203,((FJTB_Spanish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb:0.0253896090,FJTB_Turkish_sheep_encephalitis_virus_E_280-675_AlphaFold.pdb:0.0239741736)99:0.0236130505,FJTB_Tick-borne_encephalitis_virus_E_280-675_AlphaFold.pdb:0.0292027622)99:0.0087825225)100:0.0466821961)93:0.0250791417)83:0.0128398513,FJTB_Powassan_virus_E_278-674_AlphaFold.pdb:0.0398006281)88:0.0135182654,FJTB_Gadgets_Gully_virus_E_280-676_AlphaFold.pdb:0.0706013656)96:0.0230988188,FJTB_Royal_Farm_virus_from_Afghanistan_E_281-676_AlphaFold.pdb:0.0641762174)96:0.0321329284,FJTB_Karshi_virus_strain_WJQ16209_E_280-675_AlphaFold.pdb:0.0584075689)100:0.0780598949,(((FJTB_Kama_virus_strain_LEIV-20776Tat_E_276-666_AlphaFold.pdb:0.0596211648,FJTB_Saumarez_Reef_virus_isolate_W11_2232_E_278-666_AlphaFold.pdb:0.0839647130)97:0.0361076849,FJTB_Tyuleniy_virus_strain_LEIV-6C_E_277-668_AlphaFold.pdb:0.0949395096)97:0.0239485991,FJTB_Meaban_virus_E_276-667_AlphaFold.pdb:0.0784507069)99:0.0313217786)100:0.0419646778,FJUN_Mpulungu_flavivirus_ZT17-1078_E_265-660_AlphaFold.pdb:0.2100676185)99:0.0491303533)99:0.0373387442)99:0.0396756611)100:0.0979270736,(((((((((((((FJAF_Gammarus_pulex_flavivirus_isolate_GPCM_orf_1_E_82-263_ESMFold.pdb:0.3821061895,FJUN_Infectious_precocity_virus_isolate_MR2018_orf_1_E_257-399_AlphaFold.pdb:0.5647368907)77:0.1060996793,(PLUN_Shayang_spider_virus_4_strain_SYZZ-1_E_1837-2097_ESMFold.pdb:0.2974781877,PLUN_Xinzhou_spider_virus_3_strain_XZZZ-3_E_1586-1774_ESMFold.pdb:0.2146385348)91:0.0837570434)76:0.0602051205,(PLLG_Atrato_Flavi-like_virus_1_strain_Cx_1773-1_E_1557-1694_ESMFold.pdb:0.5760322818,(PLLG_Eriocheir_sinensis_cholera_like_virus_E_2053-2494_ESMFold.pdb:0.2874926278,PLLG_Hangzhou_flavivirus_1_isolate_FSFY137086_E_56-223_ESMFold.pdb:0.4239767759)91:0.0720947252)78:0.1253484475)82:0.0686432841,(((PLLG_Artemia_sinica_associated_flavi-like_virus_E_919-1383_AlphaFold.pdb:0.3980456694,((((((((PLLG_Bole_tick_virus_4_isolate_GSC346flaviV_E_877-1348_ESMFold.pdb:0.0692689571,PLLG_Bole_tick_virus_4_strain_BLP-1_E_877-1348_ESMFold.pdb:0.0341276040)100:0.0700446746,PLLG_Bole_tick_virus_4_isolate_TIGMIC_2_E_878-1348_ESMFold.pdb:0.2013074377)99:0.0472724196,((PLLG_Bole_tick_virus_4_strain_BangaliH.truncatum2018_E_879-1349_ESMFold.pdb:0.0963196143,(PLLG_Rhipicephalus_sanguineus_associated_flavi-like_virus_E_856-1326_ESMFold.pdb:0.1028512950,PLLG_Trinbago_virus_isolate_TTP-Pool-4_E_856-1326_ESMFold.pdb:0.0484443691)100:0.0541797920)100:0.0712133935,PLLG_Bole_tick_virus_4_strain_IftinH.dromedarii2018_E_879-1350_ESMFold.pdb:0.1061976544)100:0.0839049676)100:0.0574746778,PLLG_Bole_tick_virus_4_isolate_TIGMIC_1_E_854-1324_ESMFold.pdb:0.1427095356)85:0.0454158868,PLLG_Bole_tick_virus_4_isolate_Thailand_tick_flavivirus_E_854-1324_ESMFold.pdb:0.1383171297)99:0.0612733688,((((((((((PLLG_Bole_tick_virus_4_strain_NE-DH2_E_885-1353_ESMFold.pdb:0.1107353166,(PLLG_Flaviviridae_sp._isolate_TIGMIC_13_E_884-1354_ESMFold.pdb:0.0819136215,((PLLG_Flaviviridae_sp._isolate_TIGMIC_24_E_885-1354_ESMFold.pdb:0.1519674052,PLLG_Flaviviridae_sp._isolate_TIGMIC_27_E_884-1354_ESMFold.pdb:0.1003001188)69:0.0267766786,PLLG_Flaviviridae_sp._isolate_TIGMIC_36_E_884-1354_ESMFold.pdb:0.1245835613)98:0.0187813126)97:0.0519422004)76:0.0354163142,PLLG_Flaviviridae_sp._isolate_TIGMIC_28_E_884-1354_ESMFold.pdb:0.0695214034)72:0.0210448575,PLLG_Flaviviridae_sp._isolate_TIGMIC_20_E_884-1354_ESMFold.pdb:0.0376032992)71:0.0317633681,PLLG_Flaviviridae_sp._isolate_TIGMIC_25_E_884-1354_ESMFold.pdb:0.1563917337)61:0.0164139498,PLLG_Flaviviridae_sp._isolate_TIGMIC_12_E_884-1354_ESMFold.pdb:0.0408203245)98:0.0507679002,PLLG_Flaviviridae_sp._isolate_TIGMIC_30_E_884-1355_ESMFold.pdb:0.2561589913)96:0.0791648267,(PLLG_Flaviviridae_sp._isolate_TIGMIC_1_E_886-1355_ESMFold.pdb:0.0577970390,PLLG_Flaviviridae_sp._isolate_TIGMIC_5_E_886-1355_ESMFold.pdb:0.0824968687)100:0.0322771449)96:0.0928454879,PLLG_Bole_tick_virus_4_strain_NE-ShL2_E_884-1355_ESMFold.pdb:0.0841604345)91:0.0355929092,PLLG_Flaviviridae_sp._isolate_TIGMIC_8_E_884-1354_ESMFold.pdb:0.1916031096)100:0.0758229791,(PLLG_Dermacentor_reticulatus_pestivirus-like_virus_1_isolate_CT2_E_884-1352_ESMFold.pdb:0.1837970688,((PLLG_Flaviviridae_sp._isolate_TIGMIC_32_E_888-1358_ESMFold.pdb:0.0852279505,PLLG_Flaviviridae_sp._isolate_TIGMIC_33_E_886-1356_ESMFold.pdb:0.2085900487)97:0.0546744914,PLLG_Haseki_tick_virus_strain_Novosibirsk-2020_E_849-1319_ESMFold.pdb:0.3378729863)96:0.0568236424)94:0.0497475814)97:0.0800510533)96:0.0510446014,(PLLG_Flaviviridae_sp._isolate_TIGMIC_38_E_866-1337_ESMFold.pdb:0.1894520732,((PLLG_Flaviviridae_sp._isolate_TIGMIC_39_E_865-1337_ESMFold.pdb:0.0000028591,PLLG_Zhangjiakou_Flavi_tick_virus_1_E_865-1337_ESMFold.pdb:0.0000028591)100:0.0751435350,PLLG_Flaviviridae_sp._strain_FVHAHH8_E_865-1336_ESMFold.pdb:0.0908990148)100:0.0496098192)100:0.0632455883)96:0.0566898623,PLLG_Camel_tick_virus_isolate_Alain_E_878-1348_ESMFold.pdb:0.1416124995)100:0.1685413646)100:0.1221856083,((PLLG_Beihai_barnacle_viurs_1_strain_BHGZ_E_914-1399_ESMFold.pdb:0.3303259981,PLLG_Semibalanus_balanoides_associated_flavi-like_virus_E_922-1397_ESMFold.pdb:0.2562563102)100:0.2737459308,PLLG_Bemisia_tabaci_flavi-like_virus_2_E_1148-1586_ESMFold.pdb:0.4548044431)93:0.0734566612)87:0.0646907347,PLLG_Hangzhou_ochthera_mantis_flavivirus_1_isolate_SYFY8_E_392-793_ESMFold.pdb:0.4223255632)92:0.0703924531)85:0.0732827174,((((((((PLLG_Apis_flavivirus_isolate_RI-A_E_1343-1777_AlphaFold.pdb:0.3304412749,PLLG_Lampyris_noctiluca_flavivirus_1_isolate_17FIN1_E_1105-1565_AlphaFold.pdb:0.2679183424)56:0.0539209480,PLLG_Gecarcinus_lateralis_associated_flavi-like_virus_E_2040-2483_AlphaFold.pdb:0.4046467181)56:0.0588048435,((((((PLLG_Brachymeria_lasus_associated_flavi-like_virus_E_533-982_AlphaFold.pdb:0.2560844564,PLLG_Shuangao_lacewing_virus_2_strain_SCL_E_770-1195_AlphaFold.pdb:0.1933338789)90:0.0538521358,((PLLG_Fushun_laodelphax_striatellus_flavivirus_1_isolate_HFSFS147_orf_1_E_2114-2370_AlphaFold.pdb:0.3106194738,PLLG_Xiangshan_flavi-like_virus_2_E_513-992_AlphaFold.pdb:0.1408873582)86:0.0520079500,PLLG_Xiangshan_flavi-like_virus_1_E_514-984_AlphaFold.pdb:0.2270583347)88:0.0945433819)76:0.0461453943,((PLLG_Locusta_migratoria_associated_flavi-like_virus_E_1633-2113_AlphaFold.pdb:0.2042100841,PLLG_Shayang_fly_virus_4_strain_SYCY_E_761-1241_AlphaFold.pdb:0.1862204718)99:0.0638090571,PLLG_Plodia_interpunctella_associated_flavi-like_virus_E_1541-1987_AlphaFold.pdb:0.2542327882)96:0.0502044833)81:0.0456102868,PLLG_Gamboa_mosquito_virus_strain_GW_E_2423-2889_AlphaFold.pdb:0.2051387921)98:0.1128325666,PLLG_Sanxia_water_strider_virus_6_strain_SYSZZ-2_E_1800-2096_AlphaFold.pdb:0.5047030643)84:0.0504922195,PLLG_Tacheng_tick_virus_8_strain_TCP-2_E_1414-1898_AlphaFold.pdb:0.5121291422)49:0.0772373223)84:0.0646425115,(((PLLG_Diaphorina_citri_flavi-like_virus_E_601-887_AlphaFold.pdb:0.3301573381,PLLG_Frankliniella_occidentalis_flavi-like_virus_1_E_926-1194_AlphaFold.pdb:0.2320079171)99:0.0488350145,(PLLG_Hangzhou_frankliniella_intonsa_flavivirus_2_isolate_JM1FY91827_E_552-790_AlphaFold.pdb:0.2430129225,PLLG_Phenacoccus_solenopsis_associated_flavi-like_virus_E_1156-1387_AlphaFold.pdb:0.2944896515)99:0.1859803687)91:0.0503152130,((PLLG_Drosophila-associated_flavivirus_7_isolate_Con0316_E_2192-2451_AlphaFold.pdb:0.3577984389,PLLG_Wuhan_centipede_virus_strain_WHWG-11_E_2033-2299_AlphaFold.pdb:0.2750923284)94:0.0973724434,(PLLG_Macrosiphum_euphorbiae_virus_1_isolate_K01_E_1818-2099_AlphaFold.pdb:0.1365814522,PLLG_Sitobion_miscanthi_flavi-like_virus_1_07BaA1_E_1825-2099_AlphaFold.pdb:0.1283190211)100:0.3088627431)81:0.0390397817)98:0.1001581209)89:0.0561323733,PLLG_Hangzhou_frankliniella_intonsa_flavivirus_1_isolate_JM1FY93485_E_1674-2158_AlphaFold.pdb:0.3775894474)98:0.0725135938,(PLLG_Carrot_flavi-like_virus_1_isolate_744_E_1444-1927_AlphaFold.pdb:0.1754313539,(PLLG_Coptis_teeta_flavi-like_virus_E_2181-2618_AlphaFold.pdb:0.2383856075,PLLG_Sonchus_asper_flavi-like_virus_E_2250-2699_AlphaFold.pdb:0.1656721729)100:0.0653054262)100:0.1756581182)99:0.0715310534,PLLG_Xinzhou_spider_virus_2_strain_XZZZ-7_E_2362-2589_AlphaFold.pdb:0.2966271474)90:0.0600687398,PLLG_Insect_associated_flavi-like_virus_E_1418-1557_AlphaFold.pdb:0.3048677298)93:0.0425054953)81:0.0527740951,(((((((((FJJI_Alongshan_virus_strain_Miass519_segment_2_orfVP1a_E_110-399_AlphaFold.pdb:0.3134821637,FJJI_Yanggou_tick_virus_strain_Erzin14-T20074_segment_2_orfVP1a_E_103-400_AlphaFold.pdb:0.2339709592)100:0.0810237322,FJJI_Jingmen_tick_virus_isolate_JMTVPteropus_lyleiCambodia_segment_2_orfVP1_E_110-384_AlphaFold.pdb:0.2994851716)100:0.0992027235,FJJI_Takachi_virus_IM-OI110_segment_2_orfVP1a_E_114-399_AlphaFold.pdb:0.1750933391)99:0.0810419695,FJJI_Guangdong_Jingmen-like_virus_isolate_118R-174486_segment_2_orfVP1_E_127-513_AlphaFold.pdb:0.2312475673)100:0.1085992282,(FJJI_Jingmen_tick_virus_isolate_WS3_segment_2_orfVP1_E_121-508_AlphaFold.pdb:0.2977158795,FJJI_Mogiana_tick_virus_isolate_Yunnan2016_segment_2_orfVP1_E_126-512_AlphaFold.pdb:0.2120502387)99:0.0800203778)100:0.1316335419,((FJJI_Heilongjiang_tick_virus_isolate_HLJ41_segment_2_orfVP1_E_210-511_AlphaFold.pdb:0.1208897991,FJJI_Kindia_tick_virus_isolate_KITV20182_segment_2_orfVP1_E_203-511_AlphaFold.pdb:0.2480891156)98:0.0490275676,(FJJI_Jingmen_Tick_Virus_isolate_SY84_segment_2_orfVP1_E_335-511_AlphaFold.pdb:0.1172786697,(FJJI_Jingmen_tick_virus_isolate_JMTVRh.microplusAm.variegatumFrench_Antilles_segment_2_orfVP1_E_325-499_AlphaFold.pdb:0.0603264445,FJJI_Jingmen_tick_virus_isolate_TTP-Pool-19_segment_2_orfVP1_E_325-499_AlphaFold.pdb:0.0979828909)100:0.0292949403)99:0.0307441083)73:0.0351104782)92:0.0529956929,((FJJI_Jingmen_tick_virus_isolate_JTMV_1_segment_2_orfVP1_E_203-544_AlphaFold.pdb:0.3055351895,FJJI_Jingmen_tick_virus_isolate_JTMV_3_segment_2_orfVP1_E_203-545_AlphaFold.pdb:0.3189387284)100:0.1257408950,FJJI_Rhipicephalus_associated_flavi-like_virus_isolate_YNTV4_segment_2_orfVP1_E_217-509_AlphaFold.pdb:0.2069951392)90:0.0716333029)91:0.0592632988,((FJJI_Jingmen_tick_virus_isolate_TTP-Pool-3b_segment_2_orfVP1_E_325-528_ESMFold.pdb:0.0332393617,FJJI_Jingmen_tick_virus_strain_JTVHAHH7_segment_2_orfVP1_E_217-517_ESMFold.pdb:0.2280330138)100:0.0916642447,FJJI_Mogiana_tick_virus_isolate_MGTVV411_segment_2_orfVP1_E_334-542_ESMFold.pdb:0.0296801973)100:0.1059976761)100:0.1822314048,PLUN_Parasteatoda_tepidariorum_associated_flavi-like_virus_E_2407-2652_AlphaFold.pdb:0.3087584617)90:0.1574224812)77:0.0517232500,(((FJJI_Trichopteran_jingmen-related_virus_isolate_OKIAV337_segment_2_orfVP1_E_57-215_AlphaFold.pdb:0.5695726207,FJUN_flavi_wastewater_ORF139_SRR8857871_orf_1_E_312-599_AlphaFold.pdb:0.3958326151)43:0.0088460028,(PLLG_Fushun_acrida_cinerea_flavivirus_1_isolate_ZHJJHFS91_E_1892-2098_ESMFold.pdb:0.1453464266,PLLG_flavi_soil_ORF358_SRR7976360_E_2301-2482_ESMFold.pdb:0.3769053411)71:0.0627271648)71:0.0394596981,PLLG_Bemisia_tabaci_pesti-like_virus_1_isolate_ZJU-Q2_E_1429-1600_ESMFold.pdb:0.4538647709)73:0.0460901912)77:0.0544329984,FJUN_Fluviflavili_virus_isolate_PF1_segment_2_orfhypothetical_E_409-698_ESMFold.pdb:0.5904131386)80:0.0427927082,((FJFL_Flavivirus_sp._isolate_sequence_91_orf_1_E_128-379_AlphaFold.pdb:0.5872969358,FJFL_Tamana_bat_virus_isolate_P3_Vero_E_347-780_ESMFold.pdb:0.3136793002)98:0.1508007679,(FJUN_flavi_salt_marsh_ORF170_SRR11829261_E_276-745_AlphaFold.pdb:0.2487422037,PLUN_Xiamen_fanray_pesti-like_virus_strain_XMTSYG10372_E_796-960_ESMFold.pdb:0.6123558053)94:0.1565371603)43:0.0534133707)97:0.0818431611,((((((FJIS_Aedes_flavivirus_AEFVMQ29Bogor2017_E_326-705_AlphaFold.pdb:0.0512597864,FJIS_Aedes_flavivirus_strain_AEFV-SPFLD-MO-2011-MP6_E_326-700_AlphaFold.pdb:0.0670270390)100:0.0492774337,FJIS_Aedes_flavivirus_strain_Bangkok_E_318-701_AlphaFold.pdb:0.0685424026)100:0.1045050524,FJIS_Kamiti_River_virus_E_312-698_AlphaFold.pdb:0.1987038049)68:0.0356765408,(((((FJIS_Anopheles_flavivirus_variant_1_E_277-612_AlphaFold.pdb:0.1249367743,(FJIS_Karumba_virus_isolate_KRBV_Kim1_E_263-654_AlphaFold.pdb:0.0464196297,FJIS_Mac_Peak_virus_isolate_McPV_150840_E_263-626_AlphaFold.pdb:0.1019771808)99:0.0625161806)100:0.1291781279,(((((FJIS_Calbertado_virus_isolate_44-13_E_258-664_AlphaFold.pdb:0.0743828685,FJIS_Culex_Flavi-like_virus_strain_CFVLSan_Francisco_E_209-568_AlphaFold.pdb:0.1393732631)87:0.0231494717,FJIS_Calbertado_virus_isolate_CMS001_032_ALCO_E_260-587_AlphaFold.pdb:0.0436285660)100:0.0744169005,FJIS_Sabethes_flavivirus_isolate_Ms42_E_278-626_AlphaFold.pdb:0.1877293653)86:0.0159043074,(FJIS_Culiseta_flavivirus_strain_502-13_E_275-672_AlphaFold.pdb:0.0837941299,FJIS_Mercadeo_virus_isolate_ER-M10_E_271-643_AlphaFold.pdb:0.0945573322)98:0.0416240935)96:0.0479344966,FJIS_Mansonia_flavivirus_bvmq18-1_E_443-826_AlphaFold.pdb:0.2591593615)90:0.0426459823)92:0.0978865566,(FJIS_Cell_fusing_agent_virus_E_286-670_AlphaFold.pdb:0.1414439336,(((((FJIS_Cell_fusing_agent_virus_strain_2_E_331-674_AlphaFold.pdb:0.0798068709,FJIS_Tafomo_virus_strain_TVB22-CI-2004_E_332-672_AlphaFold.pdb:0.0852314459)100:0.0296862748,FJIS_Nakiwogo_virus_strain_Uganda08_E_343-670_AlphaFold.pdb:0.1541184298)84:0.0357879991,(((((FJIS_Culex_flavivirus_E_336-676_AlphaFold.pdb:0.0977281188,FJIS_Mosquito_flavivirus_isolate_LSFlaviV-A20-09_E_331-677_AlphaFold.pdb:0.0343011645)86:0.0190988953,FJIS_Mosquito_flavivirus_YDFVOct2013_E_331-674_AlphaFold.pdb:0.0477674200)57:0.0295750672,(FJIS_Palm_Creek_virus_isolate_56_E_336-664_AlphaFold.pdb:0.1647534156,FJIS_Quang_Binh_virus_isolate_JM17156China2017_E_331-663_AlphaFold.pdb:0.0325913630)48:0.0200142919)50:0.0083158957,FJIS_Quang_Binh_virus_E_331-704_AlphaFold.pdb:0.0501060154)88:0.0246089409,FJIS_Culex_theileri_flavivirus_RP-2011_E_331-699_AlphaFold.pdb:0.0565927843)88:0.0203556747)93:0.0273362181,FJIS_Nienokoue_virus_isolate_B51CI2004_E_315-698_AlphaFold.pdb:0.1419558635)100:0.0566102054,FJIS_Culex_theileri_flavivirus_E_230-615_AlphaFold.pdb:0.0987456497)96:0.0349345647)100:0.0335847024)46:0.0249864544,((FJIS_Hanko_virus_E_319-713_AlphaFold.pdb:0.1037876786,FJIS_Ochlerotatus_caspius_flavivirus_isolate_1608_E_319-712_AlphaFold.pdb:0.0552626853)95:0.0339762725,FJIS_Parramatta_River_virus_isolate_92-B115745_E_322-715_AlphaFold.pdb:0.0944627262)100:0.0547729185)48:0.0374706624,(FJIS_Kilpisjarvi_flavivirus_isolate_FINL-201890_E_314-717_AlphaFold.pdb:0.1451711456,((FJIS_Menghai_flavivirus_isolate_MHAedFV1_E_338-720_AlphaFold.pdb:0.0983193086,FJIS_Xishuangbanna_aedes_flavivirus_E_336-729_AlphaFold.pdb:0.1173332738)61:0.0524335093,FJIS_Ochlerotatus_scapularis_flavivirus_bvmq18-25_E_327-724_AlphaFold.pdb:0.1182614595)100:0.0499282046)99:0.0365916105)76:0.0573836511)100:0.1353978304,FJUN_XiangYun_flavivirus_isolate_XY61577_orf_1_E_267-667_AlphaFold.pdb:0.3496364788)92:0.0628256158,(FJIS_Tabanus_rufidens_flavivirus_18HF18_E_287-668_AlphaFold.pdb:0.2457708412,FJUN_flavi_freshwater_ORF52_SRR12063566_orf_1_E_332-718_AlphaFold.pdb:0.3300002099)73:0.0646934834)100:0.1550790208)97:0.0891019510,(FJFL_Embiopteran_flavi-related_virus_isolate_OKIAV324_E_318-771_AlphaFold.pdb:0.3438288558,(FJFL_Waxsystermes_virus_E_318-774_AlphaFold.pdb:0.1707148992,FJFL_Wenzhou_shark_flavivirus_strain_WZSS16343_orf_1_E_429-906_AlphaFold.pdb:0.1901864536)100:0.1448031077)99:0.0760445231)56:0.0311993891,FJFL_Southern_pygmy_squid_flavivirus_isolate_201405_E_217-610_AlphaFold.pdb:0.4152554407)68:0.0409457247,(FJFL_Chowder_bay_tunicate_associated_flavi_like_virus_orf_1_E_336-811_AlphaFold.pdb:0.3574446281,FJFL_Cyclopterus_lumpus_virus_isolate_R170217-6L_orf_1_E_365-863_AlphaFold.pdb:0.4088615417)36:0.0581947690)72:0.0717148308)100:0.1295827650,FJAF_Harrimaniidae_flavivirus_E_257-629_AlphaFold.pdb:0.2151391291);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_3di_famsa.treefile -m "3DI" --length 1050
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s refolded_fullglyco_E_3di_famsa.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s refolded_fullglyco_E_3di_famsa.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Sep 17 13:28:16 2024
+Total CPU time used: 3254.059133 seconds (0h:54m:14s)
+Total wall-clock time used: 468.4524321 seconds (0h:7m:48s)
+

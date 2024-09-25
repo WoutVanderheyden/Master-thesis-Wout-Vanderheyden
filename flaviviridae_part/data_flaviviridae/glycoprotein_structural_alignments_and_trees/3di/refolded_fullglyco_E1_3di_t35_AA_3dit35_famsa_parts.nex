@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+	charset part1 = 1-195;
+	charset part2 = 196-390;
+	charpartition mine = 3DI+R5
+:part1, EX_EHO+FU+R7
+:part2;
+end;

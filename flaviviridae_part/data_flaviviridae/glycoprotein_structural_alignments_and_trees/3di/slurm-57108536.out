@@ -1,0 +1,1817 @@
+SLURM_JOB_ID: 57108536
+SLURM_JOB_USER: vsc35887
+SLURM_JOB_ACCOUNT: lp_phylogeo_inf_gpu
+SLURM_JOB_NAME: master_thesis
+SLURM_CLUSTER_NAME: genius
+SLURM_JOB_PARTITION: batch
+SLURM_NNODES: 1
+SLURM_NODELIST: r25i13n07
+SLURM_JOB_CPUS_PER_NODE: 16
+Date: Tue Sep 17 13:22:57 CEST 2024
+Walltime: 00-01:30:00
+========================================================================
+INFO:    Using cached SIF image
+WARNING: Could not find any nv files on this host!
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    r25i13n07 (AVX512, FMA3, 188 GB RAM)
+Command: /usr/local/bin/iqtree2 -s refolded_fullglyco_E2_3di_famsa.fas -m 3DI -bb 1000 -alrt 1000 -nt AUTO -pre /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa
+Seed:    526988 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 17 13:22:58 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file refolded_fullglyco_E2_3di_famsa.fas ... Fasta format detected
+Reading fasta file: done in 0.00476439 secs using 63.79% CPU
+Alignment most likely contains protein sequences
+Alignment has 189 sequences with 1042 columns, 946 distinct patterns
+616 parsimony-informative, 140 singleton sites, 286 constant sites
+                                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.46401e-05 secs using 267.3% CPU
+   1  HPHV_Bald_eagle_hepacivirus_E2_364-657_AlphaFold.pdb                                        71.79%    passed     62.55%
+   2  HPHV_Bamboo_rat_hepacivirus_OM451124_E2_367-619_AlphaFold.pdb                               75.72%    passed     97.89%
+   3  HPHV_Bamboo_rat_hepacivirus_OM480528_E2_358-622_AlphaFold.pdb                               74.57%    passed     52.98%
+   4  HPHV_Bat_hepacivirus_BK013349_E2_357-614_AlphaFold.pdb                                      75.24%    passed     99.71%
+   5  HPHV_Bat_hepacivirus_TA166TZA2013_E2_328-576_AlphaFold.pdb                                  76.10%    passed     98.34%
+   6  HPHV_Catfish_hepacivirus_E2_552-803_AlphaFold.pdb                                           75.82%    passed     22.57%
+   7  HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E2_475-626_AlphaFold.pdb               85.41%    passed     63.89%
+   8  HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E2_495-722_AlphaFold.pdb                  78.12%    passed     86.37%
+   9  HPHV_Chinese_softshell_turtle_hepacivirus_E2_501-725_AlphaFold.pdb                          78.41%    passed      5.93%
+  10  HPHV_Crab_eating_macaque_hepacivirus_E2_395-642_AlphaFold.pdb                               76.20%    passed     98.54%
+  11  HPHV_Cyprichromis_hepacivirus_E2_337-528_AlphaFold.pdb                                      81.57%    failed      3.30%
+  12  HPHV_Duck_hepacivirus_HCL-1_E2_483-754_AlphaFold.pdb                                        73.90%    passed     95.38%
+  13  HPHV_Equine_hepacivirus_E2_392-724_AlphaFold.pdb                                            68.04%    passed     77.55%
+  14  HPHV_Gecko_hepacivirus_E2_504-775_AlphaFold.pdb                                             73.90%    passed     37.46%
+  15  HPHV_Gerbil_hepacivirus_E2_407-679_AlphaFold.pdb                                            73.80%    passed     86.24%
+  16  HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E2_984-1226_AlphaFold.pdb                    76.68%    failed      2.46%
+  17  HPHV_Guangxi_houndshark_hepacivirus_E2_538-759_AlphaFold.pdb                                78.69%    passed      8.79%
+  18  HPHV_Guereza_hepacivirus_E2_393-653_AlphaFold.pdb                                           74.95%    passed     82.08%
+  19  HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E2_409-675_AlphaFold.pdb                   74.38%    passed     19.85%
+  20  HPHV_Hepacivirus_F_E2_340-619_AlphaFold.pdb                                                 73.13%    passed     53.18%
+  21  HPHV_Hepacivirus_F_isolate_MgHV2_E2_334-613_AlphaFold.pdb                                   73.13%    passed     61.87%
+  22  HPHV_Hepacivirus_F_isolate_MgHV3_E2_334-613_AlphaFold.pdb                                   73.13%    passed     66.13%
+  23  HPHV_Hepacivirus_F_isolate_MgHV4_E2_334-613_AlphaFold.pdb                                   73.13%    passed     63.70%
+  24  HPHV_Hepacivirus_F_isolate_NA_E2_368-647_AlphaFold.pdb                                      73.13%    passed     97.51%
+  25  HPHV_Hepacivirus_I_E2_370-623_AlphaFold.pdb                                                 75.62%    passed     92.07%
+  26  HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E2_349-698_AlphaFold.pdb           66.41%    failed      0.00%
+  27  HPHV_Hepacivirus_K_E2_384-707_AlphaFold.pdb                                                 68.91%    passed     34.72%
+  28  HPHV_Hepacivirus_L_E2_365-629_AlphaFold.pdb                                                 74.57%    passed     98.04%
+  29  HPHV_Hepacivirus_M_E2_383-702_AlphaFold.pdb                                                 69.29%    passed     65.13%
+  30  HPHV_Hepacivirus_N_E2_348-612_AlphaFold.pdb                                                 74.57%    passed     79.59%
+  31  HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E2_358-611_AlphaFold.pdb                           75.62%    passed     90.62%
+  32  HPHV_Hepacivirus_P_E2_339-606_AlphaFold.pdb                                                 74.28%    passed     29.63%
+  33  HPHV_Hepacivirus_Q_strain_GDZQ-15_E2_431-644_AlphaFold.pdb                                  79.46%    passed     75.30%
+  34  HPHV_Hepacivirus_horseDH1HUN2013_E2_403-724_AlphaFold.pdb                                   69.10%    passed     26.83%
+  35  HPHV_Hepacivirus_sp._E2_584-699_AlphaFold.pdb                                               88.87%    passed     11.45%
+  36  HPHV_Hepacivirus_sp._clone_B32_E2_340-608_AlphaFold.pdb                                     74.18%    passed     12.75%
+  37  HPHV_Hepatitis_C_virus_genotype_1_E2_384-745_AlphaFold.pdb                                  65.26%    failed      0.36%
+  38  HPHV_Hepatitis_C_virus_genotype_2_E2_384-749_AlphaFold.pdb                                  64.88%    passed     13.55%
+  39  HPHV_Hepatitis_C_virus_genotype_3_E2_384-752_AlphaFold.pdb                                  64.59%    passed      7.59%
+  40  HPHV_Hepatitis_C_virus_genotype_4_E2_384-745_AlphaFold.pdb                                  65.26%    failed      1.12%
+  41  HPHV_Hepatitis_C_virus_genotype_5_E2_384-746_AlphaFold.pdb                                  65.16%    failed      1.31%
+  42  HPHV_Hepatitis_C_virus_genotype_6_E2_388-750_AlphaFold.pdb                                  65.16%    failed      0.04%
+  43  HPHV_Hepatitis_C_virus_genotype_7_E2_384-749_AlphaFold.pdb                                  64.88%    failed      0.19%
+  44  HPHV_Hepatitis_GB_virus_B_E2_350-669_AlphaFold.pdb                                          69.29%    passed     10.84%
+  45  HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E2_363-616_AlphaFold.pdb                       75.62%    passed     99.65%
+  46  HPHV_Jogalong_virus_P1-10_E2_279-581_AlphaFold.pdb                                          70.92%    failed      0.58%
+  47  HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E2_470-733_AlphaFold.pdb                  74.66%    passed     94.90%
+  48  HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E2_462-730_AlphaFold.pdb                  74.18%    passed     24.35%
+  49  HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E2_372-633_AlphaFold.pdb                     74.86%    passed     96.56%
+  50  HPHV_Mutant_Hepacivirus_clone_S83cc_E2_385-749_AlphaFold.pdb                                64.97%    failed      4.24%
+  51  HPHV_Mutant_Hepacivirus_clone_T9cc_E2_385-749_AlphaFold.pdb                                 64.97%    failed      0.43%
+  52  HPHV_Nanhai_ghost_shark_hepacivirus_1_E2_208-359_AlphaFold.pdb                              85.41%    passed     18.02%
+  53  HPHV_Nanhai_ghost_shark_hepacivirus_2_E2_500-643_AlphaFold.pdb                              86.18%    passed     49.91%
+  54  HPHV_Non-primate_hepacivirus_NZP1_E2_402-724_AlphaFold.pdb                                  69.00%    passed     44.61%
+  55  HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E2_408-727_AlphaFold.pdb                 69.29%    passed     88.87%
+  56  HPHV_Northern_treeshrew_hepacivirus_E2_369-627_AlphaFold.pdb                                75.14%    passed     94.38%
+  57  HPHV_Norway_rat_hepacivirus_1_E2_451-719_AlphaFold.pdb                                      74.18%    passed     75.15%
+  58  HPHV_Norway_rat_hepacivirus_2_E2_383-652_AlphaFold.pdb                                      74.09%    passed      5.09%
+  59  HPHV_Possum_hepacivrus_E2_342-627_AlphaFold.pdb                                             72.55%    passed     45.27%
+  60  HPHV_Recombinant_Hepacivirus_E2_388-746_AlphaFold.pdb                                       65.55%    failed      0.00%
+  61  HPHV_Rhizomys_pruinosus_hepacivirus_E2_363-635_AlphaFold.pdb                                73.80%    passed     84.94%
+  62  HPHV_Ringtail_hepacivirus_E2_356-639_AlphaFold.pdb                                          72.74%    passed     63.09%
+  63  HPHV_Rodent_hepacivirus_05VZ-14-118_E2_358-619_AlphaFold.pdb                                74.86%    passed     67.71%
+  64  HPHV_Rodent_hepacivirus_B349PAN2014_E2_352-625_AlphaFold.pdb                                73.70%    passed     82.76%
+  65  HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E2_375-710_AlphaFold.pdb                            67.75%    failed      0.00%
+  66  HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E2_368-700_AlphaFold.pdb                            68.04%    failed      0.00%
+  67  HPHV_Rodent_hepacivirus_CRT382COD2010_E2_439-714_AlphaFold.pdb                              73.51%    passed     73.86%
+  68  HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E2_377-715_AlphaFold.pdb                            67.47%    failed      0.00%
+  69  HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E2_380-712_AlphaFold.pdb                             68.04%    failed      0.00%
+  70  HPHV_Rodent_hepacivirus_CRT682COD2010_E2_390-643_AlphaFold.pdb                              75.62%    passed     65.27%
+  71  HPHV_Rodent_hepacivirus_E2_355-633_AlphaFold.pdb                                            73.22%    passed     60.89%
+  72  HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E2_385-715_AlphaFold.pdb                            68.23%    failed      0.00%
+  73  HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E2_439-705_AlphaFold.pdb                            74.38%    passed     53.36%
+  74  HPHV_Rodent_hepacivirus_RO22799BeAn812052_E2_357-619_AlphaFold.pdb                          74.76%    passed     97.56%
+  75  HPHV_Rodent_hepacivirus_TA085TZA2013_E2_410-681_AlphaFold.pdb                               73.90%    passed     96.55%
+  76  HPHV_Rodent_hepacivirus_TA100-ATZA2013_E2_369-696_AlphaFold.pdb                             68.52%    failed      0.00%
+  77  HPHV_Rodent_hepacivirus_TA142TZA2013_E2_360-691_AlphaFold.pdb                               68.14%    failed      0.00%
+  78  HPHV_Rodent_hepacivirus_TA498-ATZA2013_E2_405-745_AlphaFold.pdb                             67.27%    failed      0.00%
+  79  HPHV_Rodent_hepacivirus_TA498-CTZA2013_E2_438-709_AlphaFold.pdb                             73.90%    passed     75.00%
+  80  HPHV_Rodent_hepacivirus_TA531-ATZA2013_E2_380-715_AlphaFold.pdb                             67.75%    failed      0.00%
+  81  HPHV_Rodent_hepacivirus_TZ25757TZA2011_E2_368-646_AlphaFold.pdb                             73.22%    passed     72.54%
+  82  HPHV_Rodent_hepacivirus_rn-1_E2_451-719_AlphaFold.pdb                                       74.18%    passed     62.81%
+  83  HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E2_409-658_AlphaFold.pdb                              76.01%    failed      0.05%
+  84  HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E2_332-607_AlphaFold.pdb                           73.51%    passed     96.53%
+  85  HPHV_Sifaka_hepacivirus_MH824541_E2_405-654_AlphaFold.pdb                                   76.01%    passed     20.14%
+  86  HPHV_Sifaka_hepacivirus_MT371438_E2_397-657_AlphaFold.pdb                                   74.95%    passed     68.83%
+  87  HPHV_Sigmodontinae_hepacivirus_E2_368-633_AlphaFold.pdb                                     74.47%    passed     70.58%
+  88  HPHV_Viviparous_lizard_hepacivirus_E2_749-966_AlphaFold.pdb                                 79.08%    passed     30.02%
+  89  HPHV_Wenling_shark_virus_E2_495-708_AlphaFold.pdb                                           79.46%    passed     15.67%
+  90  HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E2_359-599_AlphaFold.pdb                       76.87%    passed     89.41%
+  91  HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E2_359-595_AlphaFold.pdb                          77.26%    passed     73.52%
+  92  HPHV_Western_African_lungfish_hepacivirus_E2_573-809_AlphaFold.pdb                          77.26%    failed      0.00%
+  93  HPHV_White_sucker_hepacivirus_E2_670-820_AlphaFold.pdb                                      85.51%    passed     86.80%
+  94  HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E2_419-671_AlphaFold.pdb                    75.72%    passed     16.56%
+  95  HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E2_410-677_AlphaFold.pdb                    74.28%    passed     26.15%
+  96  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E2_369-639_AlphaFold.pdb                       73.99%    passed     91.58%
+  97  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E2_363-626_AlphaFold.pdb                       74.66%    passed     76.02%
+  98  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E2_357-627_AlphaFold.pdb                       73.99%    passed     99.12%
+  99  HPHV_Xiamen_guitarfish_hepacivirus_E2_623-791_AlphaFold.pdb                                 83.78%    passed     89.67%
+ 100  HPHV_Xiamen_sepia_Stingray_hepacivirus_E2_716-847_AlphaFold.pdb                             87.33%    passed     42.67%
+ 101  HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E2_865-1097_AlphaFold.pdb                   77.64%    failed      0.00%
+ 102  HPPV_Bat_GB-like_virus_E2_219-535_AlphaFold.pdb                                             69.58%    passed     29.56%
+ 103  HPPV_Bat_pegivirus_PDB-1734_E2_348-709_AlphaFold.pdb                                        65.26%    failed      1.13%
+ 104  HPPV_Bat_pegivirus_PDB-24_E2_220-583_AlphaFold.pdb                                          65.07%    passed     59.66%
+ 105  HPPV_Bat_pegivirus_PDB-303_E2_221-539_AlphaFold.pdb                                         69.39%    passed     53.10%
+ 106  HPPV_Bat_pegivirus_PDB-34.1_E2_479-813_AlphaFold.pdb                                        67.85%    passed      9.00%
+ 107  HPPV_Bat_pegivirus_PDB-491.2_E2_289-656_AlphaFold.pdb                                       64.68%    passed     24.58%
+ 108  HPPV_Bat_pegivirus_PDB-694_E2_258-574_AlphaFold.pdb                                         69.58%    passed     11.25%
+ 109  HPPV_Bat_pegivirus_PDB-737B_E2_247-610_AlphaFold.pdb                                        65.07%    passed     13.01%
+ 110  HPPV_Bat_pegivirus_PDB-838_E2_294-654_AlphaFold.pdb                                         65.36%    passed     77.08%
+ 111  HPPV_Chimpanzee_GB_virus_C_E2_211-572_AlphaFold.pdb                                         65.26%    passed     80.86%
+ 112  HPPV_Dolphin_pegivirus_E2_219-562_AlphaFold.pdb                                             66.99%    passed     94.88%
+ 113  HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E2_388-745_AlphaFold.pdb             65.64%    failed      0.71%
+ 114  HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E2_403-759_AlphaFold.pdb          65.74%    passed     11.96%
+ 115  HPPV_Equine_Pegivirus_E2_261-534_AlphaFold.pdb                                              73.70%    failed      0.00%
+ 116  HPPV_Feline_pegivirus_E2_220-528_AlphaFold.pdb                                              70.35%    passed     39.79%
+ 117  HPPV_GB_virus_E2_255-581_AlphaFold.pdb                                                      68.62%    passed     97.30%
+ 118  HPPV_Goose_pegivirus_1_E2_339-580_AlphaFold.pdb                                             76.78%    passed     33.39%
+ 119  HPPV_Goose_pegivirus_2_E2_244-554_AlphaFold.pdb                                             70.15%    passed     88.66%
+ 120  HPPV_Hepatitis_GB_virus_A_E2_276-631_AlphaFold.pdb                                          65.83%    passed     44.70%
+ 121  HPPV_Hepatitis_G_virus_AB018667.1_E2_208-572_AlphaFold.pdb                                  64.97%    passed     43.40%
+ 122  HPPV_Hepatitis_G_virus_AB021287.1_E2_208-572_AlphaFold.pdb                                  64.97%    passed     49.07%
+ 123  HPPV_Hepatitis_G_virus_HGV-T55875_E2_239-603_AlphaFold.pdb                                  64.97%    passed      9.88%
+ 124  HPPV_Hepatitis_G_virus_U94695.1_E2_239-603_AlphaFold.pdb                                    64.97%    passed     18.21%
+ 125  HPPV_Hepatitis_G_virus_isolate_765_E2_276-640_AlphaFold.pdb                                 64.97%    passed     47.90%
+ 126  HPPV_Human_hepegivirus_E2_316-669_AlphaFold.pdb                                             66.03%    passed     15.27%
+ 127  HPPV_Leucosticte_brandti_pegivirus_XZN_E2_268-572_AlphaFold.pdb                             70.73%    passed     66.90%
+ 128  HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb                      66.12%    passed      9.63%
+ 129  HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb                      66.12%    passed      9.63%
+ 130  HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E2_258-601_AlphaFold.pdb                      66.99%    passed     21.32%
+ 131  HPPV_Marmoset_pegivirus_E2_201-559_AlphaFold.pdb                                            65.55%    passed      6.67%
+ 132  HPPV_Montifringilla_taczanowskii_pegivirus_E2_238-555_AlphaFold.pdb                         69.48%    passed     77.35%
+ 133  HPPV_Nabpantry_virus_9_E2_208-571_AlphaFold.pdb                                             65.07%    passed     89.64%
+ 134  HPPV_Passer_montanus_pegivirus_GXN_E2_302-574_AlphaFold.pdb                                 73.80%    passed     91.76%
+ 135  HPPV_Pegivirus_A_56330218_E2_208-572_AlphaFold.pdb                                          64.97%    passed     15.20%
+ 136  HPPV_Pegivirus_A_89859249_E2_254-617_AlphaFold.pdb                                          65.07%    failed      2.33%
+ 137  HPPV_Pegivirus_D_E2_207-521_AlphaFold.pdb                                                   69.77%    passed     16.15%
+ 138  HPPV_Pegivirus_G_E2_478-828_AlphaFold.pdb                                                   66.31%    passed     63.52%
+ 139  HPPV_Pegivirus_I_E2_213-556_AlphaFold.pdb                                                   66.99%    passed     65.40%
+ 140  HPPV_Pegivirus_K_E2_213-557_AlphaFold.pdb                                                   66.89%    passed     67.71%
+ 141  HPPV_Phaiomys_leucurus_pegivirus_E2_436-802_AlphaFold.pdb                                   64.78%    passed      6.11%
+ 142  HPPV_Rodent_pegivirus_05VZ-14-Rat070_E2_423-773_AlphaFold.pdb                               66.31%    failed      4.92%
+ 143  HPPV_Rodent_pegivirus_RPgV-IND079_E2_428-773_AlphaFold.pdb                                  66.79%    passed     12.19%
+ 144  HPPV_Rodent_pegivirus_isolate_CC61_E2_412-781_AlphaFold.pdb                                 64.49%    passed     15.40%
+ 145  HPPV_Simian_pegivirus_SPgVkrc_RC08_E2_209-569_AlphaFold.pdb                                 65.36%    passed     30.80%
+ 146  HPPV_Simian_pegivirus_VGA00020_E2_208-566_AlphaFold.pdb                                     65.55%    passed     91.93%
+ 147  HPPV_Simian_pegivirus_myb_M77_E2_209-569_AlphaFold.pdb                                      65.36%    passed     33.65%
+ 148  HPPV_Southwest_bike_trail_virus_E2_365-727_AlphaFold.pdb                                    65.16%    passed     35.29%
+ 149  HPPV_Ticpantry_virus_3_E2_289-654_AlphaFold.pdb                                             64.88%    passed     84.33%
+ 150  HPPV_Tree_shrew_pegivirus_E2_366-706_AlphaFold.pdb                                          67.27%    failed      4.56%
+ 151  HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E2_399-752_AlphaFold.pdb                         66.03%    passed     14.06%
+ 152  HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E2_415-767_AlphaFold.pdb                           66.12%    passed      8.95%
+ 153  HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E2_353-706_AlphaFold.pdb                        66.03%    passed     23.34%
+ 154  HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E2_349-700_AlphaFold.pdb                        66.22%    failed      4.74%
+ 155  HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E2_431-770_AlphaFold.pdb                      67.37%    passed     51.34%
+ 156  HPUN_Wenling_moray_eel_hepacivirus_E2_474-688_AlphaFold.pdb                                 79.37%    passed     68.22%
+ 157  PLPV_Atypical_porcine_pestivirus_E2_705-940_AlphaFold.pdb                                   77.35%    passed      7.11%
+ 158  PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E2_724-948_AlphaFold.pdb                             78.41%    failed      0.00%
+ 159  PLPV_Border_disease_virus_X818_E2_691-1063_AlphaFold.pdb                                    64.20%    failed      0.62%
+ 160  PLPV_Bovine_viral_diarrhea_virus_1_E2_693-1065_AlphaFold.pdb                                64.20%    failed      0.43%
+ 161  PLPV_Bovine_viral_diarrhea_virus_2_E2_693-1063_AlphaFold.pdb                                64.40%    failed      0.52%
+ 162  PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E2_692-1060_AlphaFold.pdb                  64.59%    failed      0.58%
+ 163  PLPV_Classical_swine_fever_virus_E2_690-1062_AlphaFold.pdb                                  64.20%    failed      0.45%
+ 164  PLPV_Dongyang_pangolin_virus_isolate_DYCS_E2_679-1040_AlphaFold.pdb                         65.26%    failed      1.18%
+ 165  PLPV_Frog_pestivirus_E2_1517-1614_AlphaFold.pdb                                             90.60%    failed      0.91%
+ 166  PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E2_528-896_AlphaFold.pdb                  64.59%    failed      4.60%
+ 167  PLPV_Linda_virus_strain_Austria1_E2_703-1075_AlphaFold.pdb                                  64.20%    failed      0.08%
+ 168  PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E2_836-1212_AlphaFold.pdb                    63.82%    failed      0.02%
+ 169  PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E2_706-1073_AlphaFold.pdb                          64.68%    failed      3.84%
+ 170  PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E2_681-1046_AlphaFold.pdb        64.88%    failed      0.30%
+ 171  PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E2_682-1049_AlphaFold.pdb        64.68%    failed      1.47%
+ 172  PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E2_683-1048_AlphaFold.pdb        64.88%    failed      0.49%
+ 173  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E2_710-1079_AlphaFold.pdb        64.49%    failed      1.36%
+ 174  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E2_712-1078_AlphaFold.pdb        64.78%    failed      1.07%
+ 175  PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E2_682-1048_AlphaFold.pdb        64.78%    failed      0.22%
+ 176  PLPV_Pestivirus_Burdur05-TR_E2_691-1062_AlphaFold.pdb                                       64.30%    failed      0.36%
+ 177  PLPV_Pestivirus_PG-2_E2_690-1062_AlphaFold.pdb                                              64.20%    failed      0.57%
+ 178  PLPV_Pestivirus_giraffe-1_H138_E2_689-1061_AlphaFold.pdb                                    64.20%    failed      0.04%
+ 179  PLPV_Pestivirus_reindeer-1_V60-Krefeld_E2_691-1063_AlphaFold.pdb                            64.20%    failed      0.18%
+ 180  PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E2_690-1061_AlphaFold.pdb                   64.30%    failed      0.65%
+ 181  PLPV_Pestivirus_strain_Aydin04-TR_E2_691-1062_AlphaFold.pdb                                 64.30%    failed      0.04%
+ 182  PLPV_Phocoena_pestivirus_isolate_NS170386_E2_539-915_AlphaFold.pdb                          63.82%    failed      0.17%
+ 183  PLPV_Porcine_pestivirus_isolate_Bungowannah_E2_695-1070_AlphaFold.pdb                       63.92%    failed      0.02%
+ 184  PLPV_Pronghorn_antelope_pestivirus_E2_688-1058_AlphaFold.pdb                                64.40%    failed      0.05%
+ 185  PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E2_821-1193_AlphaFold.pdb                   64.20%    failed      0.08%
+ 186  PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E2_833-1209_AlphaFold.pdb                  63.82%    failed      0.75%
+ 187  PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E2_690-1062_AlphaFold.pdb        64.20%    failed      0.13%
+ 188  PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E2_700-1071_AlphaFold.pdb   64.30%    failed      0.04%
+ 189  PLPV_Zikole_virus_E2_710-948_AlphaFold.pdb                                                  77.06%    failed      0.00%
+WARNING: 189 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                       70.50%  63 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb is identical to HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.114 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 526988)...
+Reading model parameters from file 3DI
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 31 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+15 trees examined
+Threads: 1 / Time: 17.141 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -106819
+Threads: 2 / Time: 10.118 sec / Speedup: 1.694 / Efficiency: 85% / LogL: -106819
+Threads: 3 / Time: 7.717 sec / Speedup: 2.221 / Efficiency: 74% / LogL: -106819
+Threads: 4 / Time: 6.341 sec / Speedup: 2.703 / Efficiency: 68% / LogL: -106819
+Threads: 5 / Time: 5.565 sec / Speedup: 3.080 / Efficiency: 62% / LogL: -106819
+Threads: 6 / Time: 5.030 sec / Speedup: 3.408 / Efficiency: 57% / LogL: -106819
+Threads: 7 / Time: 4.550 sec / Speedup: 3.767 / Efficiency: 54% / LogL: -106819
+Threads: 8 / Time: 4.359 sec / Speedup: 3.932 / Efficiency: 49% / LogL: -106819
+BEST NUMBER OF THREADS: 7
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79335.461
+Optimal log-likelihood: -71942.405
+Parameters optimization took 1 rounds (0.184 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.165251 secs using 698.3% CPU
+Computing ML distances took 0.165575 sec (of wall-clock time) 1.154315 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000541767 secs using 314.5% CPU
+Computing RapidNJ tree took 0.090413 sec (of wall-clock time) 0.215032 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -72337.358
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 10.937 second
+Computing log-likelihood of 98 initial trees ... 4.249 seconds
+Current best score: -71942.405
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -71812.343
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -71757.818
+Iteration 10 / LogL: -71781.415 / Time: 0h:1m:25s
+Iteration 20 / LogL: -71779.138 / Time: 0h:1m:33s
+Finish initializing candidate tree set (20)
+Current best tree score: -71757.818 / CPU time: 32.218
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -71748.872
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -71739.302
+Iteration 30 / LogL: -71753.940 / Time: 0h:1m:41s (0h:5m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -71728.352
+Iteration 40 / LogL: -71811.636 / Time: 0h:1m:49s (0h:4m:25s left)
+Iteration 50 / LogL: -71741.182 / Time: 0h:1m:57s (0h:3m:23s left)
+Log-likelihood cutoff on original alignment: -71841.427
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -71712.997
+Iteration 60 / LogL: -71738.233 / Time: 0h:2m:5s (0h:3m:29s left)
+Iteration 70 / LogL: -71732.593 / Time: 0h:2m:12s (0h:2m:51s left)
+Iteration 80 / LogL: -71732.061 / Time: 0h:2m:20s (0h:2m:19s left)
+Iteration 90 / LogL: -71786.170 / Time: 0h:2m:27s (0h:1m:54s left)
+Iteration 100 / LogL: -71739.558 / Time: 0h:2m:34s (0h:1m:32s left)
+Log-likelihood cutoff on original alignment: -71835.502
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -71705.194
+Iteration 110 / LogL: -71705.194 / Time: 0h:2m:42s (0h:2m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -71704.808
+Iteration 120 / LogL: -71727.664 / Time: 0h:2m:50s (0h:2m:14s left)
+Iteration 130 / LogL: -71705.235 / Time: 0h:2m:58s (0h:1m:55s left)
+Iteration 140 / LogL: -71722.087 / Time: 0h:3m:5s (0h:1m:38s left)
+Iteration 150 / LogL: -71717.983 / Time: 0h:3m:13s (0h:1m:23s left)
+Log-likelihood cutoff on original alignment: -71835.502
+Iteration 160 / LogL: -71705.107 / Time: 0h:3m:21s (0h:1m:8s left)
+Iteration 170 / LogL: -71722.111 / Time: 0h:3m:29s (0h:0m:54s left)
+Iteration 180 / LogL: -71705.516 / Time: 0h:3m:36s (0h:0m:41s left)
+Iteration 190 / LogL: -71727.098 / Time: 0h:3m:44s (0h:0m:28s left)
+Iteration 200 / LogL: -71725.591 / Time: 0h:3m:51s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -71835.502
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -71784.030 / Time: 0h:3m:59s (0h:1m:43s left)
+Iteration 220 / LogL: -71706.371 / Time: 0h:4m:7s (0h:1m:30s left)
+Iteration 230 / LogL: -71711.963 / Time: 0h:4m:14s (0h:1m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 231: -71704.681
+Iteration 240 / LogL: -71716.912 / Time: 0h:4m:22s (0h:1m:39s left)
+Iteration 250 / LogL: -71713.387 / Time: 0h:4m:30s (0h:1m:27s left)
+Log-likelihood cutoff on original alignment: -71835.502
+Iteration 260 / LogL: -71710.335 / Time: 0h:4m:38s (0h:1m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 270: -71703.648
+Iteration 270 / LogL: -71703.648 / Time: 0h:4m:46s (0h:1m:46s left)
+Iteration 280 / LogL: -71715.526 / Time: 0h:4m:53s (0h:1m:34s left)
+Iteration 290 / LogL: -71706.390 / Time: 0h:5m:1s (0h:1m:23s left)
+Iteration 300 / LogL: -71743.039 / Time: 0h:5m:8s (0h:1m:12s left)
+Log-likelihood cutoff on original alignment: -71835.502
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 310 / LogL: -71762.460 / Time: 0h:5m:16s (0h:1m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 320: -71703.120
+Iteration 320 / LogL: -71703.120 / Time: 0h:5m:24s (0h:1m:41s left)
+Iteration 330 / LogL: -71730.099 / Time: 0h:5m:31s (0h:1m:30s left)
+Iteration 340 / LogL: -71737.426 / Time: 0h:5m:39s (0h:1m:20s left)
+Iteration 350 / LogL: -71749.975 / Time: 0h:5m:47s (0h:1m:9s left)
+Log-likelihood cutoff on original alignment: -71835.502
+Iteration 360 / LogL: -71724.090 / Time: 0h:5m:55s (0h:0m:59s left)
+Iteration 370 / LogL: -71726.118 / Time: 0h:6m:2s (0h:0m:49s left)
+Iteration 380 / LogL: -71773.181 / Time: 0h:6m:10s (0h:0m:39s left)
+Iteration 390 / LogL: -71717.214 / Time: 0h:6m:18s (0h:0m:29s left)
+Iteration 400 / LogL: -71726.526 / Time: 0h:6m:26s (0h:0m:19s left)
+Log-likelihood cutoff on original alignment: -71835.502
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 410 / LogL: -71705.882 / Time: 0h:6m:34s (0h:1m:26s left)
+Iteration 420 / LogL: -71710.926 / Time: 0h:6m:42s (0h:1m:16s left)
+TREE SEARCH COMPLETED AFTER 421 ITERATIONS / Time: 0h:6m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -71703.120
+Optimal log-likelihood: -71703.119
+Parameters optimization took 1 rounds (0.051 sec)
+BEST SCORE FOUND : -71703.119
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.613 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.splits.nex
+Total tree length: 49.637
+
+Total number of iterations: 421
+CPU time used for tree search: 2249.284 sec (0h:37m:29s)
+Wall-clock time used for tree search: 341.801 sec (0h:5m:41s)
+Total CPU time used: 2467.781 sec (0h:41m:7s)
+Total wall-clock time used: 404.567 sec (0h:6m:44s)
+
+Computing bootstrap consensus tree...
+Reading input file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.splits.nex...
+189 taxa and 1236 splits.
+Consensus tree written to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.contree
+Reading input trees file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.contree
+Log-likelihood of consensus tree: -71704.714
+
+Analysis results written to: 
+  IQ-TREE report:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.iqtree
+  Maximum-likelihood tree:       /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.treefile
+  Likelihood distances:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.splits.nex
+  Consensus tree:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.contree
+  Screen log file:               /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa.log
+
+Date and Time: Tue Sep 17 13:29:43 2024
+INFO:    Using cached SIF image
+WARNING: Could not find any nv files on this host!
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    r25i13n07 (AVX512, FMA3, 188 GB RAM)
+Command: /usr/local/bin/iqtree2 -s refolded_fullglyco_E2_3di_famsa_trim35.fas -m 3DI -bb 1000 -alrt 1000 -nt AUTO -pre /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35
+Seed:    693526 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 17 13:29:45 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file refolded_fullglyco_E2_3di_famsa_trim35.fas ... Fasta format detected
+Reading fasta file: done in 0.00302697 secs using 39.81% CPU
+Alignment most likely contains protein sequences
+Alignment has 189 sequences with 329 columns, 329 distinct patterns
+326 parsimony-informative, 3 singleton sites, 0 constant sites
+                                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00818447 secs using 1465% CPU
+   1  HPHV_Bald_eagle_hepacivirus_E2_364-657_AlphaFold.pdb                                        22.49%    passed     85.11%
+   2  HPHV_Bamboo_rat_hepacivirus_OM451124_E2_367-619_AlphaFold.pdb                               30.40%    passed     99.70%
+   3  HPHV_Bamboo_rat_hepacivirus_OM480528_E2_358-622_AlphaFold.pdb                               26.75%    passed     84.25%
+   4  HPHV_Bat_hepacivirus_BK013349_E2_357-614_AlphaFold.pdb                                      28.57%    passed     98.50%
+   5  HPHV_Bat_hepacivirus_TA166TZA2013_E2_328-576_AlphaFold.pdb                                  27.96%    passed     91.01%
+   6  HPHV_Catfish_hepacivirus_E2_552-803_AlphaFold.pdb                                           31.31%    passed     32.83%
+   7  HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E2_475-626_AlphaFold.pdb               58.66%    passed     66.90%
+   8  HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E2_495-722_AlphaFold.pdb                  32.83%    passed     91.84%
+   9  HPHV_Chinese_softshell_turtle_hepacivirus_E2_501-725_AlphaFold.pdb                          34.65%    passed     16.25%
+  10  HPHV_Crab_eating_macaque_hepacivirus_E2_395-642_AlphaFold.pdb                               31.31%    passed     93.37%
+  11  HPHV_Cyprichromis_hepacivirus_E2_337-528_AlphaFold.pdb                                      46.20%    passed     25.92%
+  12  HPHV_Duck_hepacivirus_HCL-1_E2_483-754_AlphaFold.pdb                                        24.92%    passed     98.06%
+  13  HPHV_Equine_hepacivirus_E2_392-724_AlphaFold.pdb                                            18.24%    passed     40.08%
+  14  HPHV_Gecko_hepacivirus_E2_504-775_AlphaFold.pdb                                             22.19%    passed     35.53%
+  15  HPHV_Gerbil_hepacivirus_E2_407-679_AlphaFold.pdb                                            25.53%    passed     64.06%
+  16  HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E2_984-1226_AlphaFold.pdb                    29.48%    failed      0.52%
+  17  HPHV_Guangxi_houndshark_hepacivirus_E2_538-759_AlphaFold.pdb                                37.69%    passed     27.48%
+  18  HPHV_Guereza_hepacivirus_E2_393-653_AlphaFold.pdb                                           29.18%    passed     71.41%
+  19  HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E2_409-675_AlphaFold.pdb                   25.53%    passed     43.73%
+  20  HPHV_Hepacivirus_F_E2_340-619_AlphaFold.pdb                                                 23.10%    passed     45.03%
+  21  HPHV_Hepacivirus_F_isolate_MgHV2_E2_334-613_AlphaFold.pdb                                   23.10%    passed     65.76%
+  22  HPHV_Hepacivirus_F_isolate_MgHV3_E2_334-613_AlphaFold.pdb                                   23.10%    passed     89.20%
+  23  HPHV_Hepacivirus_F_isolate_MgHV4_E2_334-613_AlphaFold.pdb                                   23.10%    passed     85.37%
+  24  HPHV_Hepacivirus_F_isolate_NA_E2_368-647_AlphaFold.pdb                                      23.10%    passed     96.09%
+  25  HPHV_Hepacivirus_I_E2_370-623_AlphaFold.pdb                                                 27.96%    passed     82.80%
+  26  HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E2_349-698_AlphaFold.pdb           24.32%    failed      0.00%
+  27  HPHV_Hepacivirus_K_E2_384-707_AlphaFold.pdb                                                 20.36%    passed     84.71%
+  28  HPHV_Hepacivirus_L_E2_365-629_AlphaFold.pdb                                                 26.14%    passed     92.75%
+  29  HPHV_Hepacivirus_M_E2_383-702_AlphaFold.pdb                                                 21.28%    passed     99.52%
+  30  HPHV_Hepacivirus_N_E2_348-612_AlphaFold.pdb                                                 26.75%    passed     83.79%
+  31  HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E2_358-611_AlphaFold.pdb                           27.96%    passed     80.32%
+  32  HPHV_Hepacivirus_P_E2_339-606_AlphaFold.pdb                                                 27.96%    passed     76.64%
+  33  HPHV_Hepacivirus_Q_strain_GDZQ-15_E2_431-644_AlphaFold.pdb                                  35.87%    passed     78.54%
+  34  HPHV_Hepacivirus_horseDH1HUN2013_E2_403-724_AlphaFold.pdb                                   18.24%    passed      7.54%
+  35  HPHV_Hepacivirus_sp._E2_584-699_AlphaFold.pdb                                               65.05%    passed     12.08%
+  36  HPHV_Hepacivirus_sp._clone_B32_E2_340-608_AlphaFold.pdb                                     27.66%    passed     61.43%
+  37  HPHV_Hepatitis_C_virus_genotype_1_E2_384-745_AlphaFold.pdb                                  17.33%    failed      0.88%
+  38  HPHV_Hepatitis_C_virus_genotype_2_E2_384-749_AlphaFold.pdb                                  17.02%    passed     16.25%
+  39  HPHV_Hepatitis_C_virus_genotype_3_E2_384-752_AlphaFold.pdb                                  16.72%    passed     21.65%
+  40  HPHV_Hepatitis_C_virus_genotype_4_E2_384-745_AlphaFold.pdb                                  17.33%    failed      2.31%
+  41  HPHV_Hepatitis_C_virus_genotype_5_E2_384-746_AlphaFold.pdb                                  17.02%    failed      0.58%
+  42  HPHV_Hepatitis_C_virus_genotype_6_E2_388-750_AlphaFold.pdb                                  17.02%    failed      0.27%
+  43  HPHV_Hepatitis_C_virus_genotype_7_E2_384-749_AlphaFold.pdb                                  17.02%    failed      2.71%
+  44  HPHV_Hepatitis_GB_virus_B_E2_350-669_AlphaFold.pdb                                          25.53%    passed     99.77%
+  45  HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E2_363-616_AlphaFold.pdb                       29.48%    passed     99.57%
+  46  HPHV_Jogalong_virus_P1-10_E2_279-581_AlphaFold.pdb                                          23.40%    passed     59.65%
+  47  HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E2_470-733_AlphaFold.pdb                  28.27%    passed     97.26%
+  48  HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E2_462-730_AlphaFold.pdb                  26.44%    passed     46.33%
+  49  HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E2_372-633_AlphaFold.pdb                     25.84%    passed     98.34%
+  50  HPHV_Mutant_Hepacivirus_clone_S83cc_E2_385-749_AlphaFold.pdb                                17.02%    passed     19.75%
+  51  HPHV_Mutant_Hepacivirus_clone_T9cc_E2_385-749_AlphaFold.pdb                                 17.02%    failed      0.18%
+  52  HPHV_Nanhai_ghost_shark_hepacivirus_1_E2_208-359_AlphaFold.pdb                              53.80%    passed     14.41%
+  53  HPHV_Nanhai_ghost_shark_hepacivirus_2_E2_500-643_AlphaFold.pdb                              56.23%    passed     46.81%
+  54  HPHV_Non-primate_hepacivirus_NZP1_E2_402-724_AlphaFold.pdb                                  17.93%    passed     37.47%
+  55  HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E2_408-727_AlphaFold.pdb                 18.24%    passed     71.89%
+  56  HPHV_Northern_treeshrew_hepacivirus_E2_369-627_AlphaFold.pdb                                31.00%    passed     96.59%
+  57  HPHV_Norway_rat_hepacivirus_1_E2_451-719_AlphaFold.pdb                                      27.05%    passed     85.34%
+  58  HPHV_Norway_rat_hepacivirus_2_E2_383-652_AlphaFold.pdb                                      23.40%    passed      9.79%
+  59  HPHV_Possum_hepacivrus_E2_342-627_AlphaFold.pdb                                             26.14%    passed     58.11%
+  60  HPHV_Recombinant_Hepacivirus_E2_388-746_AlphaFold.pdb                                       17.02%    failed      0.00%
+  61  HPHV_Rhizomys_pruinosus_hepacivirus_E2_363-635_AlphaFold.pdb                                24.32%    passed     96.58%
+  62  HPHV_Ringtail_hepacivirus_E2_356-639_AlphaFold.pdb                                          25.53%    passed     91.70%
+  63  HPHV_Rodent_hepacivirus_05VZ-14-118_E2_358-619_AlphaFold.pdb                                27.66%    passed     83.33%
+  64  HPHV_Rodent_hepacivirus_B349PAN2014_E2_352-625_AlphaFold.pdb                                25.23%    passed     89.23%
+  65  HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E2_375-710_AlphaFold.pdb                            25.53%    failed      0.00%
+  66  HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E2_368-700_AlphaFold.pdb                            26.44%    failed      0.00%
+  67  HPHV_Rodent_hepacivirus_CRT382COD2010_E2_439-714_AlphaFold.pdb                              25.84%    passed     43.41%
+  68  HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E2_377-715_AlphaFold.pdb                            26.14%    failed      0.00%
+  69  HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E2_380-712_AlphaFold.pdb                             27.05%    failed      0.00%
+  70  HPHV_Rodent_hepacivirus_CRT682COD2010_E2_390-643_AlphaFold.pdb                              32.83%    passed     90.31%
+  71  HPHV_Rodent_hepacivirus_E2_355-633_AlphaFold.pdb                                            24.01%    passed     71.10%
+  72  HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E2_385-715_AlphaFold.pdb                            28.57%    failed      0.00%
+  73  HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E2_439-705_AlphaFold.pdb                            28.57%    passed     47.15%
+  74  HPHV_Rodent_hepacivirus_RO22799BeAn812052_E2_357-619_AlphaFold.pdb                          28.57%    passed     98.21%
+  75  HPHV_Rodent_hepacivirus_TA085TZA2013_E2_410-681_AlphaFold.pdb                               27.05%    passed     97.45%
+  76  HPHV_Rodent_hepacivirus_TA100-ATZA2013_E2_369-696_AlphaFold.pdb                             26.75%    failed      0.00%
+  77  HPHV_Rodent_hepacivirus_TA142TZA2013_E2_360-691_AlphaFold.pdb                               27.36%    failed      0.03%
+  78  HPHV_Rodent_hepacivirus_TA498-ATZA2013_E2_405-745_AlphaFold.pdb                             25.53%    failed      0.00%
+  79  HPHV_Rodent_hepacivirus_TA498-CTZA2013_E2_438-709_AlphaFold.pdb                             27.05%    passed     77.55%
+  80  HPHV_Rodent_hepacivirus_TA531-ATZA2013_E2_380-715_AlphaFold.pdb                             27.05%    failed      0.00%
+  81  HPHV_Rodent_hepacivirus_TZ25757TZA2011_E2_368-646_AlphaFold.pdb                             24.32%    passed     93.40%
+  82  HPHV_Rodent_hepacivirus_rn-1_E2_451-719_AlphaFold.pdb                                       27.05%    passed     80.75%
+  83  HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E2_409-658_AlphaFold.pdb                              34.65%    failed      0.30%
+  84  HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E2_332-607_AlphaFold.pdb                           24.92%    passed     94.40%
+  85  HPHV_Sifaka_hepacivirus_MH824541_E2_405-654_AlphaFold.pdb                                   32.52%    passed     79.57%
+  86  HPHV_Sifaka_hepacivirus_MT371438_E2_397-657_AlphaFold.pdb                                   29.18%    passed     84.65%
+  87  HPHV_Sigmodontinae_hepacivirus_E2_368-633_AlphaFold.pdb                                     25.84%    passed     75.83%
+  88  HPHV_Viviparous_lizard_hepacivirus_E2_749-966_AlphaFold.pdb                                 36.17%    passed     38.19%
+  89  HPHV_Wenling_shark_virus_E2_495-708_AlphaFold.pdb                                           39.21%    passed     12.67%
+  90  HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E2_359-599_AlphaFold.pdb                       34.65%    passed     99.20%
+  91  HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E2_359-595_AlphaFold.pdb                          35.87%    passed     87.75%
+  92  HPHV_Western_African_lungfish_hepacivirus_E2_573-809_AlphaFold.pdb                          40.12%    failed      0.00%
+  93  HPHV_White_sucker_hepacivirus_E2_670-820_AlphaFold.pdb                                      54.41%    passed     92.74%
+  94  HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E2_419-671_AlphaFold.pdb                    31.61%    passed     66.96%
+  95  HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E2_410-677_AlphaFold.pdb                    27.05%    passed     70.41%
+  96  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E2_369-639_AlphaFold.pdb                       27.36%    passed     95.27%
+  97  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E2_363-626_AlphaFold.pdb                       27.66%    passed     85.58%
+  98  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E2_357-627_AlphaFold.pdb                       25.53%    passed     99.71%
+  99  HPHV_Xiamen_guitarfish_hepacivirus_E2_623-791_AlphaFold.pdb                                 48.94%    passed     82.52%
+ 100  HPHV_Xiamen_sepia_Stingray_hepacivirus_E2_716-847_AlphaFold.pdb                             62.01%    passed     66.87%
+ 101  HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E2_865-1097_AlphaFold.pdb                   37.99%    failed      0.00%
+ 102  HPPV_Bat_GB-like_virus_E2_219-535_AlphaFold.pdb                                             14.29%    passed     11.51%
+ 103  HPPV_Bat_pegivirus_PDB-1734_E2_348-709_AlphaFold.pdb                                         8.21%    passed     17.33%
+ 104  HPPV_Bat_pegivirus_PDB-24_E2_220-583_AlphaFold.pdb                                           6.69%    passed     72.93%
+ 105  HPPV_Bat_pegivirus_PDB-303_E2_221-539_AlphaFold.pdb                                         14.29%    passed     33.53%
+ 106  HPPV_Bat_pegivirus_PDB-34.1_E2_479-813_AlphaFold.pdb                                        12.77%    passed     14.03%
+ 107  HPPV_Bat_pegivirus_PDB-491.2_E2_289-656_AlphaFold.pdb                                        5.78%    passed     36.35%
+ 108  HPPV_Bat_pegivirus_PDB-694_E2_258-574_AlphaFold.pdb                                         14.29%    passed      8.21%
+ 109  HPPV_Bat_pegivirus_PDB-737B_E2_247-610_AlphaFold.pdb                                         6.08%    passed     23.81%
+ 110  HPPV_Bat_pegivirus_PDB-838_E2_294-654_AlphaFold.pdb                                          6.99%    passed     85.69%
+ 111  HPPV_Chimpanzee_GB_virus_C_E2_211-572_AlphaFold.pdb                                          6.08%    passed     86.52%
+ 112  HPPV_Dolphin_pegivirus_E2_219-562_AlphaFold.pdb                                             11.55%    passed     99.24%
+ 113  HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E2_388-745_AlphaFold.pdb             11.55%    failed      0.68%
+ 114  HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E2_403-759_AlphaFold.pdb          10.64%    passed     28.21%
+ 115  HPPV_Equine_Pegivirus_E2_261-534_AlphaFold.pdb                                              22.80%    failed      0.00%
+ 116  HPPV_Feline_pegivirus_E2_220-528_AlphaFold.pdb                                              15.20%    passed     60.33%
+ 117  HPPV_GB_virus_E2_255-581_AlphaFold.pdb                                                      12.77%    passed     98.52%
+ 118  HPPV_Goose_pegivirus_1_E2_339-580_AlphaFold.pdb                                             36.17%    passed     15.28%
+ 119  HPPV_Goose_pegivirus_2_E2_244-554_AlphaFold.pdb                                             14.29%    passed     96.82%
+ 120  HPPV_Hepatitis_GB_virus_A_E2_276-631_AlphaFold.pdb                                           6.99%    passed     47.53%
+ 121  HPPV_Hepatitis_G_virus_AB018667.1_E2_208-572_AlphaFold.pdb                                   6.08%    passed     66.68%
+ 122  HPPV_Hepatitis_G_virus_AB021287.1_E2_208-572_AlphaFold.pdb                                   6.08%    passed     72.63%
+ 123  HPPV_Hepatitis_G_virus_HGV-T55875_E2_239-603_AlphaFold.pdb                                   6.08%    passed     27.24%
+ 124  HPPV_Hepatitis_G_virus_U94695.1_E2_239-603_AlphaFold.pdb                                     6.08%    passed     73.24%
+ 125  HPPV_Hepatitis_G_virus_isolate_765_E2_276-640_AlphaFold.pdb                                  6.08%    passed     46.92%
+ 126  HPPV_Human_hepegivirus_E2_316-669_AlphaFold.pdb                                             12.46%    passed     58.66%
+ 127  HPPV_Leucosticte_brandti_pegivirus_XZN_E2_268-572_AlphaFold.pdb                             16.72%    passed     75.89%
+ 128  HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb                      10.03%    passed     60.28%
+ 129  HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb                      10.03%    passed     60.28%
+ 130  HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E2_258-601_AlphaFold.pdb                      12.77%    passed     63.55%
+ 131  HPPV_Marmoset_pegivirus_E2_201-559_AlphaFold.pdb                                             6.99%    passed      8.80%
+ 132  HPPV_Montifringilla_taczanowskii_pegivirus_E2_238-555_AlphaFold.pdb                         12.46%    passed     86.75%
+ 133  HPPV_Nabpantry_virus_9_E2_208-571_AlphaFold.pdb                                              6.08%    passed     95.63%
+ 134  HPPV_Passer_montanus_pegivirus_GXN_E2_302-574_AlphaFold.pdb                                 25.84%    passed     59.18%
+ 135  HPPV_Pegivirus_A_56330218_E2_208-572_AlphaFold.pdb                                           6.08%    passed     39.17%
+ 136  HPPV_Pegivirus_A_89859249_E2_254-617_AlphaFold.pdb                                           6.08%    passed      5.90%
+ 137  HPPV_Pegivirus_D_E2_207-521_AlphaFold.pdb                                                   13.98%    passed     14.82%
+ 138  HPPV_Pegivirus_G_E2_478-828_AlphaFold.pdb                                                    8.51%    passed     88.19%
+ 139  HPPV_Pegivirus_I_E2_213-556_AlphaFold.pdb                                                   11.25%    passed     92.24%
+ 140  HPPV_Pegivirus_K_E2_213-557_AlphaFold.pdb                                                   14.29%    passed     96.28%
+ 141  HPPV_Phaiomys_leucurus_pegivirus_E2_436-802_AlphaFold.pdb                                    7.29%    passed     31.68%
+ 142  HPPV_Rodent_pegivirus_05VZ-14-Rat070_E2_423-773_AlphaFold.pdb                               11.85%    passed     26.38%
+ 143  HPPV_Rodent_pegivirus_RPgV-IND079_E2_428-773_AlphaFold.pdb                                  13.37%    passed     20.78%
+ 144  HPPV_Rodent_pegivirus_isolate_CC61_E2_412-781_AlphaFold.pdb                                  7.90%    passed     10.18%
+ 145  HPPV_Simian_pegivirus_SPgVkrc_RC08_E2_209-569_AlphaFold.pdb                                  7.60%    passed     73.15%
+ 146  HPPV_Simian_pegivirus_VGA00020_E2_208-566_AlphaFold.pdb                                      8.51%    passed     96.51%
+ 147  HPPV_Simian_pegivirus_myb_M77_E2_209-569_AlphaFold.pdb                                       7.60%    passed     57.44%
+ 148  HPPV_Southwest_bike_trail_virus_E2_365-727_AlphaFold.pdb                                     6.38%    passed     42.02%
+ 149  HPPV_Ticpantry_virus_3_E2_289-654_AlphaFold.pdb                                              6.08%    passed     68.14%
+ 150  HPPV_Tree_shrew_pegivirus_E2_366-706_AlphaFold.pdb                                          15.50%    passed     27.49%
+ 151  HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E2_399-752_AlphaFold.pdb                          9.42%    passed     33.59%
+ 152  HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E2_415-767_AlphaFold.pdb                            9.73%    passed     37.06%
+ 153  HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E2_353-706_AlphaFold.pdb                        11.85%    passed     60.01%
+ 154  HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E2_349-700_AlphaFold.pdb                        12.16%    passed     13.74%
+ 155  HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E2_431-770_AlphaFold.pdb                      13.98%    passed     44.47%
+ 156  HPUN_Wenling_moray_eel_hepacivirus_E2_474-688_AlphaFold.pdb                                 43.77%    passed     75.32%
+ 157  PLPV_Atypical_porcine_pestivirus_E2_705-940_AlphaFold.pdb                                   35.56%    passed     73.24%
+ 158  PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E2_724-948_AlphaFold.pdb                             35.87%    failed      0.00%
+ 159  PLPV_Border_disease_virus_X818_E2_691-1063_AlphaFold.pdb                                     7.90%    passed     63.26%
+ 160  PLPV_Bovine_viral_diarrhea_virus_1_E2_693-1065_AlphaFold.pdb                                 7.90%    passed     52.47%
+ 161  PLPV_Bovine_viral_diarrhea_virus_2_E2_693-1063_AlphaFold.pdb                                 7.90%    passed     24.85%
+ 162  PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E2_692-1060_AlphaFold.pdb                   8.21%    passed     50.01%
+ 163  PLPV_Classical_swine_fever_virus_E2_690-1062_AlphaFold.pdb                                   7.90%    passed      9.41%
+ 164  PLPV_Dongyang_pangolin_virus_isolate_DYCS_E2_679-1040_AlphaFold.pdb                          9.42%    passed     54.21%
+ 165  PLPV_Frog_pestivirus_E2_1517-1614_AlphaFold.pdb                                             71.43%    failed      0.15%
+ 166  PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E2_528-896_AlphaFold.pdb                  10.03%    passed     24.69%
+ 167  PLPV_Linda_virus_strain_Austria1_E2_703-1075_AlphaFold.pdb                                   8.21%    passed     24.44%
+ 168  PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E2_836-1212_AlphaFold.pdb                    10.94%    failed      3.39%
+ 169  PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E2_706-1073_AlphaFold.pdb                           9.42%    passed     48.39%
+ 170  PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E2_681-1046_AlphaFold.pdb         9.12%    passed     11.83%
+ 171  PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E2_682-1049_AlphaFold.pdb         8.51%    passed     44.47%
+ 172  PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E2_683-1048_AlphaFold.pdb         8.81%    passed     22.68%
+ 173  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E2_710-1079_AlphaFold.pdb         8.51%    passed     34.67%
+ 174  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E2_712-1078_AlphaFold.pdb         8.51%    passed     38.57%
+ 175  PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E2_682-1048_AlphaFold.pdb         8.81%    passed     14.28%
+ 176  PLPV_Pestivirus_Burdur05-TR_E2_691-1062_AlphaFold.pdb                                        7.90%    passed     35.11%
+ 177  PLPV_Pestivirus_PG-2_E2_690-1062_AlphaFold.pdb                                               7.90%    passed     60.27%
+ 178  PLPV_Pestivirus_giraffe-1_H138_E2_689-1061_AlphaFold.pdb                                     7.90%    passed     20.97%
+ 179  PLPV_Pestivirus_reindeer-1_V60-Krefeld_E2_691-1063_AlphaFold.pdb                             7.90%    passed     39.21%
+ 180  PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E2_690-1061_AlphaFold.pdb                    7.90%    passed     48.74%
+ 181  PLPV_Pestivirus_strain_Aydin04-TR_E2_691-1062_AlphaFold.pdb                                  7.90%    passed     11.29%
+ 182  PLPV_Phocoena_pestivirus_isolate_NS170386_E2_539-915_AlphaFold.pdb                           7.60%    passed     15.13%
+ 183  PLPV_Porcine_pestivirus_isolate_Bungowannah_E2_695-1070_AlphaFold.pdb                        8.21%    passed     21.11%
+ 184  PLPV_Pronghorn_antelope_pestivirus_E2_688-1058_AlphaFold.pdb                                 9.12%    passed     18.65%
+ 185  PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E2_821-1193_AlphaFold.pdb                   11.85%    passed     47.22%
+ 186  PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E2_833-1209_AlphaFold.pdb                  10.94%    passed     25.00%
+ 187  PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E2_690-1062_AlphaFold.pdb         7.90%    passed     24.61%
+ 188  PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E2_700-1071_AlphaFold.pdb    8.51%    passed     17.65%
+ 189  PLPV_Zikole_virus_E2_710-948_AlphaFold.pdb                                                  33.43%    failed      0.05%
+WARNING: 7 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                       20.95%  27 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb is identical to HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.067 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 693526)...
+Reading model parameters from file 3DI
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 11 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+39 trees examined
+Threads: 1 / Time: 16.287 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -88346
+Threads: 2 / Time: 10.569 sec / Speedup: 1.541 / Efficiency: 77% / LogL: -88346
+Threads: 3 / Time: 8.557 sec / Speedup: 1.903 / Efficiency: 63% / LogL: -88346
+Threads: 4 / Time: 7.358 sec / Speedup: 2.214 / Efficiency: 55% / LogL: -88346
+Threads: 5 / Time: 6.946 sec / Speedup: 2.345 / Efficiency: 47% / LogL: -88346
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -59277.375
+Optimal log-likelihood: -58632.765
+Parameters optimization took 1 rounds (0.096 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.274295 secs using 399.3% CPU
+Computing ML distances took 0.274503 sec (of wall-clock time) 1.095546 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000450687 secs using 327.7% CPU
+Computing RapidNJ tree took 0.050665 sec (of wall-clock time) 0.081977 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -58722.884
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.952 second
+Computing log-likelihood of 98 initial trees ... 2.485 seconds
+Current best score: -58532.402
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -58426.302
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -58396.955
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -58386.909
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -58379.487
+Iteration 10 / LogL: -58397.395 / Time: 0h:1m:3s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -58378.339
+Iteration 20 / LogL: -58422.019 / Time: 0h:1m:9s
+Finish initializing candidate tree set (20)
+Current best tree score: -58378.339 / CPU time: 18.794
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -58367.914
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -58358.193
+Iteration 30 / LogL: -58411.700 / Time: 0h:1m:14s (0h:4m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -58347.755
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -58341.500
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -58340.101
+Iteration 40 / LogL: -58343.348 / Time: 0h:1m:19s (0h:3m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -58335.679
+Iteration 50 / LogL: -58345.277 / Time: 0h:1m:24s (0h:2m:45s left)
+Log-likelihood cutoff on original alignment: -58468.650
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -58335.455
+Iteration 60 / LogL: -58335.455 / Time: 0h:1m:29s (0h:2m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -58335.395
+Iteration 70 / LogL: -58358.387 / Time: 0h:1m:34s (0h:2m:4s left)
+Iteration 80 / LogL: -58343.989 / Time: 0h:1m:39s (0h:1m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -58332.678
+Iteration 90 / LogL: -58347.213 / Time: 0h:1m:44s (0h:1m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -58327.958
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 100: -58322.936
+Iteration 100 / LogL: -58322.936 / Time: 0h:1m:49s (0h:1m:50s left)
+Log-likelihood cutoff on original alignment: -58468.650
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 106: -58322.181
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -58317.579
+Iteration 110 / LogL: -58335.195 / Time: 0h:1m:55s (0h:1m:43s left)
+Iteration 120 / LogL: -58334.338 / Time: 0h:1m:59s (0h:1m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -58315.796
+Iteration 130 / LogL: -58335.958 / Time: 0h:2m:5s (0h:1m:35s left)
+Iteration 140 / LogL: -58318.892 / Time: 0h:2m:10s (0h:1m:23s left)
+Iteration 150 / LogL: -58362.989 / Time: 0h:2m:14s (0h:1m:11s left)
+Log-likelihood cutoff on original alignment: -58468.650
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 155: -58314.108
+Iteration 160 / LogL: -58349.715 / Time: 0h:2m:20s (0h:1m:23s left)
+Iteration 170 / LogL: -58316.021 / Time: 0h:2m:25s (0h:1m:13s left)
+Iteration 180 / LogL: -58364.680 / Time: 0h:2m:30s (0h:1m:3s left)
+Iteration 190 / LogL: -58336.815 / Time: 0h:2m:35s (0h:0m:53s left)
+Iteration 200 / LogL: -58320.242 / Time: 0h:2m:40s (0h:0m:44s left)
+Log-likelihood cutoff on original alignment: -58468.650
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -58321.018 / Time: 0h:2m:46s (0h:1m:11s left)
+Iteration 220 / LogL: -58346.243 / Time: 0h:2m:51s (0h:1m:2s left)
+Iteration 230 / LogL: -58326.137 / Time: 0h:2m:56s (0h:0m:53s left)
+Iteration 240 / LogL: -58346.042 / Time: 0h:3m:1s (0h:0m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 243: -58312.594
+Iteration 250 / LogL: -58323.335 / Time: 0h:3m:6s (0h:1m:9s left)
+Log-likelihood cutoff on original alignment: -58468.650
+Iteration 260 / LogL: -58322.558 / Time: 0h:3m:12s (0h:1m:1s left)
+Iteration 270 / LogL: -58331.456 / Time: 0h:3m:17s (0h:0m:53s left)
+Iteration 280 / LogL: -58319.989 / Time: 0h:3m:22s (0h:0m:45s left)
+Iteration 290 / LogL: -58314.291 / Time: 0h:3m:27s (0h:0m:38s left)
+Iteration 300 / LogL: -58329.412 / Time: 0h:3m:32s (0h:0m:30s left)
+Log-likelihood cutoff on original alignment: -58468.650
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 309: -58312.183
+Iteration 310 / LogL: -58335.968 / Time: 0h:3m:38s (0h:1m:9s left)
+Iteration 320 / LogL: -58325.130 / Time: 0h:3m:43s (0h:1m:2s left)
+Iteration 330 / LogL: -58330.205 / Time: 0h:3m:48s (0h:0m:54s left)
+Iteration 340 / LogL: -58315.234 / Time: 0h:3m:53s (0h:0m:47s left)
+Iteration 350 / LogL: -58351.148 / Time: 0h:3m:58s (0h:0m:40s left)
+Log-likelihood cutoff on original alignment: -58468.650
+Iteration 360 / LogL: -58313.100 / Time: 0h:4m:4s (0h:0m:33s left)
+Iteration 370 / LogL: -58324.352 / Time: 0h:4m:9s (0h:0m:26s left)
+Iteration 380 / LogL: -58360.316 / Time: 0h:4m:14s (0h:0m:19s left)
+Iteration 390 / LogL: -58322.707 / Time: 0h:4m:19s (0h:0m:12s left)
+Iteration 400 / LogL: -58314.286 / Time: 0h:4m:24s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -58468.650
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 410 / LogL: -58322.378 / Time: 0h:4m:30s (0h:0m:59s left)
+TREE SEARCH COMPLETED AFTER 410 ITERATIONS / Time: 0h:4m:30s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -58312.183
+Optimal log-likelihood: -58312.183
+Parameters optimization took 1 rounds (0.032 sec)
+BEST SCORE FOUND : -58312.183
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.355 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.splits.nex
+Total tree length: 47.323
+
+Total number of iterations: 410
+CPU time used for tree search: 821.486 sec (0h:13m:41s)
+Wall-clock time used for tree search: 219.671 sec (0h:3m:39s)
+Total CPU time used: 951.547 sec (0h:15m:51s)
+Total wall-clock time used: 270.893 sec (0h:4m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.splits.nex...
+189 taxa and 1277 splits.
+Consensus tree written to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.contree
+Reading input trees file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.contree
+Log-likelihood of consensus tree: -58312.459
+
+Analysis results written to: 
+  IQ-TREE report:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.iqtree
+  Maximum-likelihood tree:       /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.treefile
+  Likelihood distances:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.splits.nex
+  Consensus tree:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.contree
+  Screen log file:               /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_3di_famsa_trim35.log
+
+Date and Time: Tue Sep 17 13:34:16 2024
+INFO:    Using cached SIF image
+WARNING: Could not find any nv files on this host!
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    r25i13n07 (AVX512, FMA3, 188 GB RAM)
+Command: /usr/local/bin/iqtree2 -s refolded_fullglyco_E2_AA_famsa.fas -m TEST -bb 1000 -nt AUTO -pre /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa
+Seed:    274815 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 17 13:34:18 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file refolded_fullglyco_E2_AA_famsa.fas ... Fasta format detected
+Reading fasta file: done in 0.0043067 secs using 67.55% CPU
+Alignment most likely contains protein sequences
+Alignment has 189 sequences with 1042 columns, 987 distinct patterns
+615 parsimony-informative, 143 singleton sites, 284 constant sites
+                                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000105179 secs using 382.2% CPU
+   1  HPHV_Bald_eagle_hepacivirus_E2_364-657_AlphaFold.pdb                                        71.79%    failed      2.68%
+   2  HPHV_Bamboo_rat_hepacivirus_OM451124_E2_367-619_AlphaFold.pdb                               75.72%    passed     44.33%
+   3  HPHV_Bamboo_rat_hepacivirus_OM480528_E2_358-622_AlphaFold.pdb                               74.57%    passed     42.34%
+   4  HPHV_Bat_hepacivirus_BK013349_E2_357-614_AlphaFold.pdb                                      75.24%    passed     76.57%
+   5  HPHV_Bat_hepacivirus_TA166TZA2013_E2_328-576_AlphaFold.pdb                                  76.10%    passed     81.45%
+   6  HPHV_Catfish_hepacivirus_E2_552-803_AlphaFold.pdb                                           75.82%    passed     77.61%
+   7  HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E2_475-626_AlphaFold.pdb               85.41%    passed      7.34%
+   8  HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E2_495-722_AlphaFold.pdb                  78.12%    passed     48.96%
+   9  HPHV_Chinese_softshell_turtle_hepacivirus_E2_501-725_AlphaFold.pdb                          78.41%    passed     29.58%
+  10  HPHV_Crab_eating_macaque_hepacivirus_E2_395-642_AlphaFold.pdb                               76.20%    passed     96.30%
+  11  HPHV_Cyprichromis_hepacivirus_E2_337-528_AlphaFold.pdb                                      81.57%    passed      7.25%
+  12  HPHV_Duck_hepacivirus_HCL-1_E2_483-754_AlphaFold.pdb                                        73.90%    passed     19.88%
+  13  HPHV_Equine_hepacivirus_E2_392-724_AlphaFold.pdb                                            68.04%    passed     45.33%
+  14  HPHV_Gecko_hepacivirus_E2_504-775_AlphaFold.pdb                                             73.90%    passed     86.88%
+  15  HPHV_Gerbil_hepacivirus_E2_407-679_AlphaFold.pdb                                            73.80%    passed     42.99%
+  16  HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E2_984-1226_AlphaFold.pdb                    76.68%    passed     90.81%
+  17  HPHV_Guangxi_houndshark_hepacivirus_E2_538-759_AlphaFold.pdb                                78.69%    failed      1.45%
+  18  HPHV_Guereza_hepacivirus_E2_393-653_AlphaFold.pdb                                           74.95%    passed     98.06%
+  19  HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E2_409-675_AlphaFold.pdb                   74.38%    passed     83.45%
+  20  HPHV_Hepacivirus_F_E2_340-619_AlphaFold.pdb                                                 73.13%    passed     67.07%
+  21  HPHV_Hepacivirus_F_isolate_MgHV2_E2_334-613_AlphaFold.pdb                                   73.13%    passed     51.23%
+  22  HPHV_Hepacivirus_F_isolate_MgHV3_E2_334-613_AlphaFold.pdb                                   73.13%    passed     53.06%
+  23  HPHV_Hepacivirus_F_isolate_MgHV4_E2_334-613_AlphaFold.pdb                                   73.13%    passed     79.61%
+  24  HPHV_Hepacivirus_F_isolate_NA_E2_368-647_AlphaFold.pdb                                      73.13%    passed     39.70%
+  25  HPHV_Hepacivirus_I_E2_370-623_AlphaFold.pdb                                                 75.62%    passed      6.26%
+  26  HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E2_349-698_AlphaFold.pdb           66.41%    passed     44.66%
+  27  HPHV_Hepacivirus_K_E2_384-707_AlphaFold.pdb                                                 68.91%    passed      5.94%
+  28  HPHV_Hepacivirus_L_E2_365-629_AlphaFold.pdb                                                 74.57%    passed     84.07%
+  29  HPHV_Hepacivirus_M_E2_383-702_AlphaFold.pdb                                                 69.29%    passed     60.93%
+  30  HPHV_Hepacivirus_N_E2_348-612_AlphaFold.pdb                                                 74.57%    passed     31.69%
+  31  HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E2_358-611_AlphaFold.pdb                           75.62%    passed     77.32%
+  32  HPHV_Hepacivirus_P_E2_339-606_AlphaFold.pdb                                                 74.28%    passed     27.63%
+  33  HPHV_Hepacivirus_Q_strain_GDZQ-15_E2_431-644_AlphaFold.pdb                                  79.46%    passed     62.77%
+  34  HPHV_Hepacivirus_horseDH1HUN2013_E2_403-724_AlphaFold.pdb                                   69.10%    passed     30.32%
+  35  HPHV_Hepacivirus_sp._E2_584-699_AlphaFold.pdb                                               88.87%    passed     17.03%
+  36  HPHV_Hepacivirus_sp._clone_B32_E2_340-608_AlphaFold.pdb                                     74.18%    passed     90.34%
+  37  HPHV_Hepatitis_C_virus_genotype_1_E2_384-745_AlphaFold.pdb                                  65.26%    passed     92.19%
+  38  HPHV_Hepatitis_C_virus_genotype_2_E2_384-749_AlphaFold.pdb                                  64.88%    passed     73.75%
+  39  HPHV_Hepatitis_C_virus_genotype_3_E2_384-752_AlphaFold.pdb                                  64.59%    passed     98.50%
+  40  HPHV_Hepatitis_C_virus_genotype_4_E2_384-745_AlphaFold.pdb                                  65.26%    passed     60.18%
+  41  HPHV_Hepatitis_C_virus_genotype_5_E2_384-746_AlphaFold.pdb                                  65.16%    passed     73.95%
+  42  HPHV_Hepatitis_C_virus_genotype_6_E2_388-750_AlphaFold.pdb                                  65.16%    passed     98.57%
+  43  HPHV_Hepatitis_C_virus_genotype_7_E2_384-749_AlphaFold.pdb                                  64.88%    passed     87.75%
+  44  HPHV_Hepatitis_GB_virus_B_E2_350-669_AlphaFold.pdb                                          69.29%    passed     70.83%
+  45  HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E2_363-616_AlphaFold.pdb                       75.62%    passed     97.12%
+  46  HPHV_Jogalong_virus_P1-10_E2_279-581_AlphaFold.pdb                                          70.92%    failed      0.21%
+  47  HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E2_470-733_AlphaFold.pdb                  74.66%    passed      7.54%
+  48  HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E2_462-730_AlphaFold.pdb                  74.18%    passed      6.90%
+  49  HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E2_372-633_AlphaFold.pdb                     74.86%    passed     60.43%
+  50  HPHV_Mutant_Hepacivirus_clone_S83cc_E2_385-749_AlphaFold.pdb                                64.97%    passed     86.14%
+  51  HPHV_Mutant_Hepacivirus_clone_T9cc_E2_385-749_AlphaFold.pdb                                 64.97%    passed     76.78%
+  52  HPHV_Nanhai_ghost_shark_hepacivirus_1_E2_208-359_AlphaFold.pdb                              85.41%    passed     19.84%
+  53  HPHV_Nanhai_ghost_shark_hepacivirus_2_E2_500-643_AlphaFold.pdb                              86.18%    passed     81.25%
+  54  HPHV_Non-primate_hepacivirus_NZP1_E2_402-724_AlphaFold.pdb                                  69.00%    passed     72.30%
+  55  HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E2_408-727_AlphaFold.pdb                 69.29%    passed     64.37%
+  56  HPHV_Northern_treeshrew_hepacivirus_E2_369-627_AlphaFold.pdb                                75.14%    passed     52.61%
+  57  HPHV_Norway_rat_hepacivirus_1_E2_451-719_AlphaFold.pdb                                      74.18%    passed     87.84%
+  58  HPHV_Norway_rat_hepacivirus_2_E2_383-652_AlphaFold.pdb                                      74.09%    passed     91.68%
+  59  HPHV_Possum_hepacivrus_E2_342-627_AlphaFold.pdb                                             72.55%    passed     23.10%
+  60  HPHV_Recombinant_Hepacivirus_E2_388-746_AlphaFold.pdb                                       65.55%    passed     82.67%
+  61  HPHV_Rhizomys_pruinosus_hepacivirus_E2_363-635_AlphaFold.pdb                                73.80%    passed     23.69%
+  62  HPHV_Ringtail_hepacivirus_E2_356-639_AlphaFold.pdb                                          72.74%    passed     43.48%
+  63  HPHV_Rodent_hepacivirus_05VZ-14-118_E2_358-619_AlphaFold.pdb                                74.86%    passed     26.59%
+  64  HPHV_Rodent_hepacivirus_B349PAN2014_E2_352-625_AlphaFold.pdb                                73.70%    passed     82.30%
+  65  HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E2_375-710_AlphaFold.pdb                            67.75%    passed     44.75%
+  66  HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E2_368-700_AlphaFold.pdb                            68.04%    passed     56.11%
+  67  HPHV_Rodent_hepacivirus_CRT382COD2010_E2_439-714_AlphaFold.pdb                              73.51%    passed     81.99%
+  68  HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E2_377-715_AlphaFold.pdb                            67.47%    passed     58.65%
+  69  HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E2_380-712_AlphaFold.pdb                             68.04%    passed     63.15%
+  70  HPHV_Rodent_hepacivirus_CRT682COD2010_E2_390-643_AlphaFold.pdb                              75.62%    passed      6.32%
+  71  HPHV_Rodent_hepacivirus_E2_355-633_AlphaFold.pdb                                            73.22%    passed     68.32%
+  72  HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E2_385-715_AlphaFold.pdb                            68.23%    passed     36.11%
+  73  HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E2_439-705_AlphaFold.pdb                            74.38%    passed     55.84%
+  74  HPHV_Rodent_hepacivirus_RO22799BeAn812052_E2_357-619_AlphaFold.pdb                          74.76%    passed     93.04%
+  75  HPHV_Rodent_hepacivirus_TA085TZA2013_E2_410-681_AlphaFold.pdb                               73.90%    passed     66.48%
+  76  HPHV_Rodent_hepacivirus_TA100-ATZA2013_E2_369-696_AlphaFold.pdb                             68.52%    passed     71.28%
+  77  HPHV_Rodent_hepacivirus_TA142TZA2013_E2_360-691_AlphaFold.pdb                               68.14%    failed      3.23%
+  78  HPHV_Rodent_hepacivirus_TA498-ATZA2013_E2_405-745_AlphaFold.pdb                             67.27%    passed     34.37%
+  79  HPHV_Rodent_hepacivirus_TA498-CTZA2013_E2_438-709_AlphaFold.pdb                             73.90%    passed     52.46%
+  80  HPHV_Rodent_hepacivirus_TA531-ATZA2013_E2_380-715_AlphaFold.pdb                             67.75%    passed     44.39%
+  81  HPHV_Rodent_hepacivirus_TZ25757TZA2011_E2_368-646_AlphaFold.pdb                             73.22%    passed     17.32%
+  82  HPHV_Rodent_hepacivirus_rn-1_E2_451-719_AlphaFold.pdb                                       74.18%    passed     83.75%
+  83  HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E2_409-658_AlphaFold.pdb                              76.01%    passed     77.58%
+  84  HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E2_332-607_AlphaFold.pdb                           73.51%    passed     82.80%
+  85  HPHV_Sifaka_hepacivirus_MH824541_E2_405-654_AlphaFold.pdb                                   76.01%    passed     94.69%
+  86  HPHV_Sifaka_hepacivirus_MT371438_E2_397-657_AlphaFold.pdb                                   74.95%    passed     75.94%
+  87  HPHV_Sigmodontinae_hepacivirus_E2_368-633_AlphaFold.pdb                                     74.47%    passed     82.50%
+  88  HPHV_Viviparous_lizard_hepacivirus_E2_749-966_AlphaFold.pdb                                 79.08%    passed     56.50%
+  89  HPHV_Wenling_shark_virus_E2_495-708_AlphaFold.pdb                                           79.46%    passed     50.76%
+  90  HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E2_359-599_AlphaFold.pdb                       76.87%    passed     51.78%
+  91  HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E2_359-595_AlphaFold.pdb                          77.26%    passed     38.64%
+  92  HPHV_Western_African_lungfish_hepacivirus_E2_573-809_AlphaFold.pdb                          77.26%    passed     56.58%
+  93  HPHV_White_sucker_hepacivirus_E2_670-820_AlphaFold.pdb                                      85.51%    passed     18.25%
+  94  HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E2_419-671_AlphaFold.pdb                    75.72%    passed     34.62%
+  95  HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E2_410-677_AlphaFold.pdb                    74.28%    passed     23.06%
+  96  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E2_369-639_AlphaFold.pdb                       73.99%    passed     74.84%
+  97  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E2_363-626_AlphaFold.pdb                       74.66%    passed     93.71%
+  98  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E2_357-627_AlphaFold.pdb                       73.99%    passed     88.39%
+  99  HPHV_Xiamen_guitarfish_hepacivirus_E2_623-791_AlphaFold.pdb                                 83.78%    passed      5.97%
+ 100  HPHV_Xiamen_sepia_Stingray_hepacivirus_E2_716-847_AlphaFold.pdb                             87.33%    passed     16.48%
+ 101  HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E2_865-1097_AlphaFold.pdb                   77.64%    passed     73.65%
+ 102  HPPV_Bat_GB-like_virus_E2_219-535_AlphaFold.pdb                                             69.58%    passed     37.70%
+ 103  HPPV_Bat_pegivirus_PDB-1734_E2_348-709_AlphaFold.pdb                                        65.26%    passed     45.24%
+ 104  HPPV_Bat_pegivirus_PDB-24_E2_220-583_AlphaFold.pdb                                          65.07%    passed     68.37%
+ 105  HPPV_Bat_pegivirus_PDB-303_E2_221-539_AlphaFold.pdb                                         69.39%    passed      8.10%
+ 106  HPPV_Bat_pegivirus_PDB-34.1_E2_479-813_AlphaFold.pdb                                        67.85%    passed     46.06%
+ 107  HPPV_Bat_pegivirus_PDB-491.2_E2_289-656_AlphaFold.pdb                                       64.68%    passed     48.83%
+ 108  HPPV_Bat_pegivirus_PDB-694_E2_258-574_AlphaFold.pdb                                         69.58%    passed     38.73%
+ 109  HPPV_Bat_pegivirus_PDB-737B_E2_247-610_AlphaFold.pdb                                        65.07%    failed      3.67%
+ 110  HPPV_Bat_pegivirus_PDB-838_E2_294-654_AlphaFold.pdb                                         65.36%    passed      9.59%
+ 111  HPPV_Chimpanzee_GB_virus_C_E2_211-572_AlphaFold.pdb                                         65.26%    failed      0.18%
+ 112  HPPV_Dolphin_pegivirus_E2_219-562_AlphaFold.pdb                                             66.99%    passed      7.69%
+ 113  HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E2_388-745_AlphaFold.pdb             65.64%    passed     77.99%
+ 114  HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E2_403-759_AlphaFold.pdb          65.74%    passed     28.85%
+ 115  HPPV_Equine_Pegivirus_E2_261-534_AlphaFold.pdb                                              73.70%    failed      1.43%
+ 116  HPPV_Feline_pegivirus_E2_220-528_AlphaFold.pdb                                              70.35%    failed      0.08%
+ 117  HPPV_GB_virus_E2_255-581_AlphaFold.pdb                                                      68.62%    passed     46.20%
+ 118  HPPV_Goose_pegivirus_1_E2_339-580_AlphaFold.pdb                                             76.78%    passed     41.53%
+ 119  HPPV_Goose_pegivirus_2_E2_244-554_AlphaFold.pdb                                             70.15%    passed     36.77%
+ 120  HPPV_Hepatitis_GB_virus_A_E2_276-631_AlphaFold.pdb                                          65.83%    passed     16.02%
+ 121  HPPV_Hepatitis_G_virus_AB018667.1_E2_208-572_AlphaFold.pdb                                  64.97%    failed      1.25%
+ 122  HPPV_Hepatitis_G_virus_AB021287.1_E2_208-572_AlphaFold.pdb                                  64.97%    failed      3.07%
+ 123  HPPV_Hepatitis_G_virus_HGV-T55875_E2_239-603_AlphaFold.pdb                                  64.97%    passed     10.22%
+ 124  HPPV_Hepatitis_G_virus_U94695.1_E2_239-603_AlphaFold.pdb                                    64.97%    failed      4.40%
+ 125  HPPV_Hepatitis_G_virus_isolate_765_E2_276-640_AlphaFold.pdb                                 64.97%    passed     11.49%
+ 126  HPPV_Human_hepegivirus_E2_316-669_AlphaFold.pdb                                             66.03%    passed     23.02%
+ 127  HPPV_Leucosticte_brandti_pegivirus_XZN_E2_268-572_AlphaFold.pdb                             70.73%    passed     25.70%
+ 128  HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb                      66.12%    passed     40.46%
+ 129  HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb                      66.12%    passed     40.46%
+ 130  HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E2_258-601_AlphaFold.pdb                      66.99%    passed     72.64%
+ 131  HPPV_Marmoset_pegivirus_E2_201-559_AlphaFold.pdb                                            65.55%    failed      2.62%
+ 132  HPPV_Montifringilla_taczanowskii_pegivirus_E2_238-555_AlphaFold.pdb                         69.48%    failed      2.79%
+ 133  HPPV_Nabpantry_virus_9_E2_208-571_AlphaFold.pdb                                             65.07%    failed      1.78%
+ 134  HPPV_Passer_montanus_pegivirus_GXN_E2_302-574_AlphaFold.pdb                                 73.80%    passed     43.98%
+ 135  HPPV_Pegivirus_A_56330218_E2_208-572_AlphaFold.pdb                                          64.97%    failed      3.42%
+ 136  HPPV_Pegivirus_A_89859249_E2_254-617_AlphaFold.pdb                                          65.07%    passed      9.34%
+ 137  HPPV_Pegivirus_D_E2_207-521_AlphaFold.pdb                                                   69.77%    passed     37.53%
+ 138  HPPV_Pegivirus_G_E2_478-828_AlphaFold.pdb                                                   66.31%    passed     24.79%
+ 139  HPPV_Pegivirus_I_E2_213-556_AlphaFold.pdb                                                   66.99%    passed     15.74%
+ 140  HPPV_Pegivirus_K_E2_213-557_AlphaFold.pdb                                                   66.89%    passed     37.92%
+ 141  HPPV_Phaiomys_leucurus_pegivirus_E2_436-802_AlphaFold.pdb                                   64.78%    failed      1.65%
+ 142  HPPV_Rodent_pegivirus_05VZ-14-Rat070_E2_423-773_AlphaFold.pdb                               66.31%    passed     81.82%
+ 143  HPPV_Rodent_pegivirus_RPgV-IND079_E2_428-773_AlphaFold.pdb                                  66.79%    passed     64.63%
+ 144  HPPV_Rodent_pegivirus_isolate_CC61_E2_412-781_AlphaFold.pdb                                 64.49%    passed     35.55%
+ 145  HPPV_Simian_pegivirus_SPgVkrc_RC08_E2_209-569_AlphaFold.pdb                                 65.36%    failed      3.62%
+ 146  HPPV_Simian_pegivirus_VGA00020_E2_208-566_AlphaFold.pdb                                     65.55%    passed     26.27%
+ 147  HPPV_Simian_pegivirus_myb_M77_E2_209-569_AlphaFold.pdb                                      65.36%    passed      8.73%
+ 148  HPPV_Southwest_bike_trail_virus_E2_365-727_AlphaFold.pdb                                    65.16%    passed     70.91%
+ 149  HPPV_Ticpantry_virus_3_E2_289-654_AlphaFold.pdb                                             64.88%    passed      5.25%
+ 150  HPPV_Tree_shrew_pegivirus_E2_366-706_AlphaFold.pdb                                          67.27%    passed     77.70%
+ 151  HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E2_399-752_AlphaFold.pdb                         66.03%    failed      4.30%
+ 152  HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E2_415-767_AlphaFold.pdb                           66.12%    failed      4.89%
+ 153  HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E2_353-706_AlphaFold.pdb                        66.03%    passed     31.79%
+ 154  HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E2_349-700_AlphaFold.pdb                        66.22%    passed     30.54%
+ 155  HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E2_431-770_AlphaFold.pdb                      67.37%    passed     38.89%
+ 156  HPUN_Wenling_moray_eel_hepacivirus_E2_474-688_AlphaFold.pdb                                 79.37%    passed     23.84%
+ 157  PLPV_Atypical_porcine_pestivirus_E2_705-940_AlphaFold.pdb                                   77.35%    failed      0.02%
+ 158  PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E2_724-948_AlphaFold.pdb                             78.41%    failed      1.47%
+ 159  PLPV_Border_disease_virus_X818_E2_691-1063_AlphaFold.pdb                                    64.20%    failed      0.67%
+ 160  PLPV_Bovine_viral_diarrhea_virus_1_E2_693-1065_AlphaFold.pdb                                64.20%    failed      0.20%
+ 161  PLPV_Bovine_viral_diarrhea_virus_2_E2_693-1063_AlphaFold.pdb                                64.40%    failed      0.35%
+ 162  PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E2_692-1060_AlphaFold.pdb                  64.59%    failed      0.44%
+ 163  PLPV_Classical_swine_fever_virus_E2_690-1062_AlphaFold.pdb                                  64.20%    failed      2.18%
+ 164  PLPV_Dongyang_pangolin_virus_isolate_DYCS_E2_679-1040_AlphaFold.pdb                         65.26%    failed      0.00%
+ 165  PLPV_Frog_pestivirus_E2_1517-1614_AlphaFold.pdb                                             90.60%    passed     37.85%
+ 166  PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E2_528-896_AlphaFold.pdb                  64.59%    failed      3.46%
+ 167  PLPV_Linda_virus_strain_Austria1_E2_703-1075_AlphaFold.pdb                                  64.20%    passed      7.62%
+ 168  PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E2_836-1212_AlphaFold.pdb                    63.82%    failed      0.00%
+ 169  PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E2_706-1073_AlphaFold.pdb                          64.68%    failed      0.00%
+ 170  PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E2_681-1046_AlphaFold.pdb        64.88%    failed      0.00%
+ 171  PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E2_682-1049_AlphaFold.pdb        64.68%    failed      0.00%
+ 172  PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E2_683-1048_AlphaFold.pdb        64.88%    failed      0.00%
+ 173  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E2_710-1079_AlphaFold.pdb        64.49%    failed      0.00%
+ 174  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E2_712-1078_AlphaFold.pdb        64.78%    failed      0.00%
+ 175  PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E2_682-1048_AlphaFold.pdb        64.78%    failed      0.00%
+ 176  PLPV_Pestivirus_Burdur05-TR_E2_691-1062_AlphaFold.pdb                                       64.30%    failed      0.24%
+ 177  PLPV_Pestivirus_PG-2_E2_690-1062_AlphaFold.pdb                                              64.20%    failed      0.00%
+ 178  PLPV_Pestivirus_giraffe-1_H138_E2_689-1061_AlphaFold.pdb                                    64.20%    failed      0.00%
+ 179  PLPV_Pestivirus_reindeer-1_V60-Krefeld_E2_691-1063_AlphaFold.pdb                            64.20%    failed      1.88%
+ 180  PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E2_690-1061_AlphaFold.pdb                   64.30%    failed      1.94%
+ 181  PLPV_Pestivirus_strain_Aydin04-TR_E2_691-1062_AlphaFold.pdb                                 64.30%    failed      0.15%
+ 182  PLPV_Phocoena_pestivirus_isolate_NS170386_E2_539-915_AlphaFold.pdb                          63.82%    failed      0.00%
+ 183  PLPV_Porcine_pestivirus_isolate_Bungowannah_E2_695-1070_AlphaFold.pdb                       63.92%    failed      0.54%
+ 184  PLPV_Pronghorn_antelope_pestivirus_E2_688-1058_AlphaFold.pdb                                64.40%    failed      2.91%
+ 185  PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E2_821-1193_AlphaFold.pdb                   64.20%    failed      0.00%
+ 186  PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E2_833-1209_AlphaFold.pdb                  63.82%    failed      0.00%
+ 187  PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E2_690-1062_AlphaFold.pdb        64.20%    failed      1.65%
+ 188  PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E2_700-1071_AlphaFold.pdb   64.30%    failed      0.48%
+ 189  PLPV_Zikole_virus_E2_710-948_AlphaFold.pdb                                                  77.06%    failed      0.10%
+WARNING: 189 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                       70.50%  50 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb is identical to HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.146 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 19.199 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -145201
+Threads: 2 / Time: 10.302 sec / Speedup: 1.864 / Efficiency: 93% / LogL: -145201
+Threads: 3 / Time: 7.512 sec / Speedup: 2.556 / Efficiency: 85% / LogL: -145201
+Threads: 4 / Time: 5.947 sec / Speedup: 3.228 / Efficiency: 81% / LogL: -145201
+Threads: 5 / Time: 5.064 sec / Speedup: 3.791 / Efficiency: 76% / LogL: -145201
+Threads: 6 / Time: 4.294 sec / Speedup: 4.471 / Efficiency: 75% / LogL: -145201
+Threads: 7 / Time: 3.793 sec / Speedup: 5.062 / Efficiency: 72% / LogL: -145201
+Threads: 8 / Time: 3.445 sec / Speedup: 5.573 / Efficiency: 70% / LogL: -145201
+Threads: 9 / Time: 3.285 sec / Speedup: 5.844 / Efficiency: 65% / LogL: -145201
+Threads: 10 / Time: 3.097 sec / Speedup: 6.200 / Efficiency: 62% / LogL: -145201
+Threads: 11 / Time: 2.884 sec / Speedup: 6.658 / Efficiency: 61% / LogL: -145201
+Threads: 12 / Time: 2.800 sec / Speedup: 6.857 / Efficiency: 57% / LogL: -145201
+Threads: 13 / Time: 2.835 sec / Speedup: 6.771 / Efficiency: 52% / LogL: -145201
+Threads: 14 / Time: 2.773 sec / Speedup: 6.924 / Efficiency: 49% / LogL: -145201
+BEST NUMBER OF THREADS: 11
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -88972.275
+2. Current log-likelihood: -88971.235
+Optimal log-likelihood: -88970.719
+Proportion of invariable sites: 0.001
+Gamma shape alpha: 1.666
+Parameters optimization took 2 rounds (0.430 sec)
+Time for fast ML tree search: 3.564 seconds
+
+NOTE: ModelFinder requires 121 MB RAM!
+ModelFinder will test up to 224 protein models (sample size: 1042 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            91024.022    375 182798.043   183221.467   184653.880
+  2  LG+I          91018.230    376 182788.460   183214.781   184649.245
+  3  LG+G4         88970.963    376 178693.925   179120.247   180554.710
+  4  LG+I+G4       88971.024    377 178696.047   179125.282   180561.782
+  7  LG+F+G4       88526.230    395 177842.459   178326.732   179797.274
+  8  LG+F+I+G4     88526.261    396 177844.523   178332.002   179804.286
+ 11  WAG+G4        88381.506    376 177515.011   177941.333   179375.797
+ 12  WAG+I+G4      88381.505    377 177517.011   177946.246   179382.745
+ 15  WAG+F+G4      87923.303    395 176636.606   177120.878   178591.420
+ 16  WAG+F+I+G4    87923.285    396 176638.569   177126.048   178598.333
+ 19  JTT+G4        89279.614    376 179311.228   179737.550   181172.013
+ 20  JTT+I+G4      89279.619    377 179313.238   179742.473   181178.972
+ 23  JTT+F+G4      89060.804    395 178911.609   179395.881   180866.423
+ 24  JTT+F+I+G4    89060.797    396 178913.594   179401.073   180873.357
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 27  Q.pfam+G4     88886.854    376 178525.707   178952.029   180386.493
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 28  Q.pfam+I+G4   88886.850    377 178527.701   178956.936   180393.435
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 31  Q.pfam+F+G4   88606.136    395 178002.271   178486.544   179957.085
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 32  Q.pfam+F+I+G4 88606.134    396 178004.268   178491.747   179964.031
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 35  Q.bird+G4     91432.916    376 183617.833   184044.155   185478.618
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 36  Q.bird+I+G4   91432.911    377 183619.823   184049.058   185485.557
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 39  Q.bird+F+G4   91321.662    395 183433.325   183917.597   185388.139
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 40  Q.bird+F+I+G4 91321.660    396 183435.320   183922.799   185395.083
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 43  Q.mammal+G4   90708.333    376 182168.665   182594.987   184029.450
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 44  Q.mammal+I+G4 90708.285    377 182170.571   182599.806   184036.305
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 47  Q.mammal+F+G4 90527.808    395 181845.615   182329.888   183800.430
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 48  Q.mammal+F+I+G4 90527.802    396 181847.603   182335.082   183807.366
+ 51  Q.insect+G4   89949.999    376 180651.999   181078.321   182512.784
+ 52  Q.insect+I+G4 89949.995    377 180653.989   181083.224   182519.724
+ 55  Q.insect+F+G4 89256.806    395 179303.611   179787.884   181258.426
+ 56  Q.insect+F+I+G4 89256.795    396 179305.589   179793.068   181265.353
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 59  Q.plant+G4    90762.985    376 182277.970   182704.292   184138.756
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 60  Q.plant+I+G4  90762.988    377 182279.976   182709.211   184145.710
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 63  Q.plant+F+G4  90294.749    395 181379.498   181863.770   183334.312
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 64  Q.plant+F+I+G4 90294.746    396 181381.492   181868.971   183341.255
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 67  Q.yeast+G4    90329.708    376 181411.417   181837.739   183272.202
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 68  Q.yeast+I+G4  90329.703    377 181413.406   181842.641   183279.140
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 71  Q.yeast+F+G4  89256.893    395 179303.786   179788.059   181258.601
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 72  Q.yeast+F+I+G4 89256.887    396 179305.775   179793.254   181265.538
+ 75  JTTDCMut+G4   89264.366    376 179280.731   179707.053   181141.516
+ 76  JTTDCMut+I+G4 89264.370    377 179282.741   179711.976   181148.475
+ 79  JTTDCMut+F+G4 89036.447    395 178862.893   179347.166   180817.708
+ 80  JTTDCMut+F+I+G4 89036.448    396 178864.896   179352.375   180824.659
+ 83  DCMut+G4      89995.350    376 180742.701   181169.023   182603.486
+ 84  DCMut+I+G4    89995.361    377 180744.721   181173.956   182610.456
+ 87  DCMut+F+G4    88960.549    395 178711.098   179195.371   180665.913
+ 88  DCMut+F+I+G4  88960.551    396 178713.103   179200.582   180672.866
+ 91  VT+G4         88492.269    376 177736.538   178162.860   179597.324
+ 92  VT+I+G4       88492.260    377 177738.521   178167.755   179604.255
+ 95  VT+F+G4       88125.585    395 177041.169   177525.442   178995.984
+ 96  VT+F+I+G4     88125.590    396 177043.180   177530.659   179002.943
+ 99  PMB+G4        88119.085    376 176990.170   177416.492   178850.955
+100  PMB+I+G4      88119.083    377 176992.167   177421.402   178857.901
+103  PMB+F+G4      87936.308    395 176662.615   177146.888   178617.430
+104  PMB+F+I+G4    87936.306    396 176664.612   177152.091   178624.376
+107  Blosum62+G4   88417.073    376 177586.146   178012.468   179446.931
+108  Blosum62+I+G4 88417.070    377 177588.139   178017.374   179453.873
+111  Blosum62+F+G4 87933.150    395 176656.300   177140.573   178611.115
+112  Blosum62+F+I+G4 87933.149    396 176658.298   177145.777   178618.061
+115  Dayhoff+G4    90002.026    376 180756.052   181182.374   182616.837
+116  Dayhoff+I+G4  90002.044    377 180758.088   181187.323   182623.823
+119  Dayhoff+F+G4  88965.879    395 178721.758   179206.030   180676.572
+120  Dayhoff+F+I+G4 88965.881    396 178723.762   179211.241   180683.525
+123  mtREV+G4      93606.224    376 187964.448   188390.770   189825.234
+124  mtREV+I+G4    93606.211    377 187966.422   188395.657   189832.156
+127  mtREV+F+G4    90397.289    395 181584.579   182068.851   183539.393
+128  mtREV+F+I+G4  90397.284    396 181586.569   182074.048   183546.332
+131  mtART+G4      95945.072    376 192642.143   193068.465   194502.929
+132  mtART+I+G4    95945.191    377 192644.382   193073.617   194510.116
+135  mtART+F+G4    92260.142    395 185310.285   185794.557   187265.099
+136  mtART+F+I+G4  92260.165    396 185312.329   185799.808   187272.092
+139  mtZOA+G4      93402.113    376 187556.227   187982.548   189417.012
+140  mtZOA+I+G4    93402.094    377 187558.189   187987.423   189423.923
+143  mtZOA+F+G4    90849.110    395 182488.220   182972.493   184443.035
+144  mtZOA+F+I+G4  90849.103    396 182490.205   182977.684   184449.968
+147  mtMet+G4      94077.703    376 188907.406   189333.728   190768.191
+148  mtMet+I+G4    94077.686    377 188909.372   189338.607   190775.106
+151  mtMet+F+G4    90655.189    395 182100.377   182584.650   184055.192
+152  mtMet+F+I+G4  90655.186    396 182102.372   182589.851   184062.135
+155  mtVer+G4      94828.131    376 190408.263   190834.585   192269.048
+156  mtVer+I+G4    94828.140    377 190410.279   190839.514   192276.014
+159  mtVer+F+G4    91938.222    395 184666.443   185150.716   186621.258
+160  mtVer+F+I+G4  91938.215    396 184668.431   185155.910   186628.194
+163  mtInv+G4      94493.067    376 189738.134   190164.456   191598.919
+164  mtInv+I+G4    94493.086    377 189740.172   190169.407   191605.906
+167  mtInv+F+G4    89912.012    395 180614.025   181098.297   182568.839
+168  mtInv+F+I+G4  89912.000    396 180616.000   181103.479   182575.763
+171  mtMAM+G4      96372.684    376 193497.368   193923.689   195358.153
+172  mtMAM+I+G4    96372.694    377 193499.388   193928.623   195365.122
+175  mtMAM+F+G4    92845.752    395 186481.504   186965.776   188436.318
+176  mtMAM+F+I+G4  92845.675    396 186483.349   186970.828   188443.112
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+179  FLAVI+G4      92745.684    376 186243.367   186669.689   188104.153
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+180  FLAVI+I+G4    92745.679    377 186245.358   186674.592   188111.092
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+183  FLAVI+F+G4    92260.546    395 185311.091   185795.364   187265.906
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+184  FLAVI+F+I+G4  92260.539    396 185313.079   185800.558   187272.842
+187  HIVb+G4       91196.423    376 183144.846   183571.168   185005.631
+188  HIVb+I+G4     91196.380    377 183146.760   183575.995   185012.494
+191  HIVb+F+G4     90957.777    395 182705.554   183189.826   184660.368
+192  HIVb+F+I+G4   90957.764    396 182707.527   183195.006   184667.291
+195  HIVw+G4       94255.095    376 189262.190   189688.512   191122.975
+196  HIVw+I+G4     94255.094    377 189264.189   189693.424   191129.923
+199  HIVw+F+G4     92477.848    395 185745.697   186229.969   187700.511
+200  HIVw+F+I+G4   92477.856    396 185747.712   186235.191   187707.475
+203  FLU+G4        90060.127    376 180872.254   181298.575   182733.039
+204  FLU+I+G4      90060.125    377 180874.249   181303.484   182739.984
+207  FLU+F+G4      88969.851    395 178729.701   179213.974   180684.516
+208  FLU+F+I+G4    88969.850    396 178731.699   179219.178   180691.462
+211  rtREV+G4      89266.331    376 179284.662   179710.983   181145.447
+212  rtREV+I+G4    89266.320    377 179286.640   179715.875   181152.374
+215  rtREV+F+G4    88802.878    395 178395.755   178880.028   180350.570
+216  rtREV+F+I+G4  88802.864    396 178397.728   178885.208   180357.492
+219  cpREV+G4      89565.365    376 179882.729   180309.051   181743.515
+220  cpREV+I+G4    89565.373    377 179884.747   180313.982   181750.481
+223  cpREV+F+G4    89102.776    395 178995.551   179479.824   180950.366
+224  cpREV+F+I+G4  89102.769    396 178997.538   179485.017   180957.301
+Akaike Information Criterion:           WAG+F+G4
+Corrected Akaike Information Criterion: WAG+F+G4
+Bayesian Information Criterion:         WAG+F+G4
+Best-fit model: WAG+F+G4 chosen according to BIC
+
+All model information printed to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.model.gz
+CPU time for ModelFinder: 1648.717 seconds (0h:27m:28s)
+Wall-clock time for ModelFinder: 193.570 seconds (0h:3m:13s)
+Generating 1000 samples for ultrafast bootstrap (seed: 274815)...
+
+NOTE: 121 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -87969.890
+2. Current log-likelihood: -87935.611
+3. Current log-likelihood: -87924.785
+4. Current log-likelihood: -87923.406
+Optimal log-likelihood: -87923.297
+Gamma shape alpha: 2.194
+Parameters optimization took 4 rounds (1.422 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.842313 secs using 1096% CPU
+Computing ML distances took 0.842630 sec (of wall-clock time) 9.235260 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000731373 secs using 745% CPU
+Computing RapidNJ tree took 0.171709 sec (of wall-clock time) 0.890912 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -88362.050
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 10.807 second
+Computing log-likelihood of 98 initial trees ... 9.189 seconds
+Current best score: -87923.297
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -87914.837
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -87891.898
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -87867.355
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -87860.904
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -87859.329
+Iteration 10 / LogL: -87909.277 / Time: 0h:4m:4s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -87854.044
+Iteration 20 / LogL: -87876.144 / Time: 0h:4m:32s
+Finish initializing candidate tree set (20)
+Current best tree score: -87854.044 / CPU time: 76.057
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -87853.201
+Iteration 30 / LogL: -87878.590 / Time: 0h:5m:0s (0h:6m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -87848.457
+Iteration 40 / LogL: -87857.580 / Time: 0h:5m:25s (0h:5m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -87844.735
+Iteration 50 / LogL: -88151.802 / Time: 0h:5m:56s (0h:5m:13s left)
+Log-likelihood cutoff on original alignment: -87938.891
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -87842.752
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -87841.960
+Iteration 60 / LogL: -87865.886 / Time: 0h:6m:19s (0h:5m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -87840.162
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -87839.577
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -87838.837
+Iteration 70 / LogL: -87847.090 / Time: 0h:6m:42s (0h:4m:47s left)
+Iteration 80 / LogL: -87839.506 / Time: 0h:7m:3s (0h:4m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 88: -87836.398
+Iteration 90 / LogL: -87841.778 / Time: 0h:7m:26s (0h:4m:38s left)
+Iteration 100 / LogL: -87903.111 / Time: 0h:7m:48s (0h:4m:3s left)
+Log-likelihood cutoff on original alignment: -87924.664
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -87836.060
+Iteration 110 / LogL: -87840.115 / Time: 0h:8m:11s (0h:4m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 111: -87834.786
+Iteration 120 / LogL: -87840.708 / Time: 0h:8m:32s (0h:4m:4s left)
+Iteration 130 / LogL: -87842.449 / Time: 0h:8m:54s (0h:3m:34s left)
+Iteration 140 / LogL: -87839.850 / Time: 0h:9m:18s (0h:3m:6s left)
+Iteration 150 / LogL: -87853.772 / Time: 0h:9m:39s (0h:2m:38s left)
+Log-likelihood cutoff on original alignment: -87924.664
+Iteration 160 / LogL: -87849.332 / Time: 0h:10m:1s (0h:2m:10s left)
+Iteration 170 / LogL: -87843.024 / Time: 0h:10m:24s (0h:1m:44s left)
+Iteration 180 / LogL: -87862.449 / Time: 0h:10m:46s (0h:1m:18s left)
+Iteration 190 / LogL: -87844.533 / Time: 0h:11m:8s (0h:0m:52s left)
+Iteration 200 / LogL: -87838.079 / Time: 0h:11m:28s (0h:0m:27s left)
+Log-likelihood cutoff on original alignment: -87924.664
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 210 / LogL: -87933.519 / Time: 0h:11m:49s (0h:3m:42s left)
+TREE SEARCH COMPLETED AFTER 212 ITERATIONS / Time: 0h:11m:53s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -87834.786
+2. Current log-likelihood: -87834.689
+3. Current log-likelihood: -87834.573
+4. Current log-likelihood: -87834.476
+5. Current log-likelihood: -87834.391
+6. Current log-likelihood: -87834.313
+7. Current log-likelihood: -87834.241
+8. Current log-likelihood: -87834.172
+9. Current log-likelihood: -87834.107
+10. Current log-likelihood: -87834.044
+11. Current log-likelihood: -87833.991
+Optimal log-likelihood: -87833.989
+Gamma shape alpha: 2.186
+Parameters optimization took 11 rounds (2.772 sec)
+BEST SCORE FOUND : -87833.989
+Creating bootstrap support values...
+Split supports printed to NEXUS file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.splits.nex
+Total tree length: 159.633
+
+Total number of iterations: 212
+CPU time used for tree search: 5508.577 sec (1h:31m:48s)
+Wall-clock time used for tree search: 516.562 sec (0h:8m:36s)
+Total CPU time used: 7222.633 sec (2h:0m:22s)
+Total wall-clock time used: 716.643 sec (0h:11m:56s)
+
+Computing bootstrap consensus tree...
+Reading input file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.splits.nex...
+189 taxa and 1092 splits.
+Consensus tree written to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.contree
+Reading input trees file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.contree
+Log-likelihood of consensus tree: -87834.378
+
+Analysis results written to: 
+  IQ-TREE report:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.iqtree
+  Maximum-likelihood tree:       /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.treefile
+  Likelihood distances:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.splits.nex
+  Consensus tree:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.contree
+  Screen log file:               /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa.log
+
+Date and Time: Tue Sep 17 13:46:16 2024
+INFO:    Using cached SIF image
+WARNING: Could not find any nv files on this host!
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    r25i13n07 (AVX512, FMA3, 188 GB RAM)
+Command: /usr/local/bin/iqtree2 -s refolded_fullglyco_E2_AA_famsa_3ditrim35.fas -m TEST -bb 1000 -nt AUTO -pre /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35
+Seed:    196273 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 17 13:46:18 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file refolded_fullglyco_E2_AA_famsa_3ditrim35.fas ... Fasta format detected
+Reading fasta file: done in 0.00210766 secs
+Alignment most likely contains protein sequences
+Alignment has 189 sequences with 329 columns, 329 distinct patterns
+329 parsimony-informative, 0 singleton sites, 0 constant sites
+                                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.59681e-05 secs using 236.3% CPU
+   1  HPHV_Bald_eagle_hepacivirus_E2_364-657_AlphaFold.pdb                                        22.49%    failed      1.35%
+   2  HPHV_Bamboo_rat_hepacivirus_OM451124_E2_367-619_AlphaFold.pdb                               30.40%    passed     74.65%
+   3  HPHV_Bamboo_rat_hepacivirus_OM480528_E2_358-622_AlphaFold.pdb                               26.75%    passed     74.29%
+   4  HPHV_Bat_hepacivirus_BK013349_E2_357-614_AlphaFold.pdb                                      28.57%    passed     76.15%
+   5  HPHV_Bat_hepacivirus_TA166TZA2013_E2_328-576_AlphaFold.pdb                                  27.96%    passed     79.61%
+   6  HPHV_Catfish_hepacivirus_E2_552-803_AlphaFold.pdb                                           31.31%    passed     58.64%
+   7  HPHV_Chaetodon_aureofaciatus_hepacivirus_isolate_F25_E2_475-626_AlphaFold.pdb               58.66%    passed      6.98%
+   8  HPHV_Chinese_broad-headed_pond_turtle_hepacivirus_E2_495-722_AlphaFold.pdb                  32.83%    passed     56.59%
+   9  HPHV_Chinese_softshell_turtle_hepacivirus_E2_501-725_AlphaFold.pdb                          34.65%    passed     27.18%
+  10  HPHV_Crab_eating_macaque_hepacivirus_E2_395-642_AlphaFold.pdb                               31.31%    passed     90.54%
+  11  HPHV_Cyprichromis_hepacivirus_E2_337-528_AlphaFold.pdb                                      46.20%    passed      7.14%
+  12  HPHV_Duck_hepacivirus_HCL-1_E2_483-754_AlphaFold.pdb                                        24.92%    passed     20.05%
+  13  HPHV_Equine_hepacivirus_E2_392-724_AlphaFold.pdb                                            18.24%    passed     89.00%
+  14  HPHV_Gecko_hepacivirus_E2_504-775_AlphaFold.pdb                                             22.19%    passed     89.20%
+  15  HPHV_Gerbil_hepacivirus_E2_407-679_AlphaFold.pdb                                            25.53%    passed     70.38%
+  16  HPHV_Guangxi_chinese_leopard_gecko_hepacivirus_E2_984-1226_AlphaFold.pdb                    29.48%    passed     91.10%
+  17  HPHV_Guangxi_houndshark_hepacivirus_E2_538-759_AlphaFold.pdb                                37.69%    failed      0.21%
+  18  HPHV_Guereza_hepacivirus_E2_393-653_AlphaFold.pdb                                           29.18%    passed     98.70%
+  19  HPHV_Hainan_oriental_leaf-toed_gecko_hepacivirus_E2_409-675_AlphaFold.pdb                   25.53%    passed     87.61%
+  20  HPHV_Hepacivirus_F_E2_340-619_AlphaFold.pdb                                                 23.10%    passed     74.22%
+  21  HPHV_Hepacivirus_F_isolate_MgHV2_E2_334-613_AlphaFold.pdb                                   23.10%    passed     68.26%
+  22  HPHV_Hepacivirus_F_isolate_MgHV3_E2_334-613_AlphaFold.pdb                                   23.10%    passed     67.45%
+  23  HPHV_Hepacivirus_F_isolate_MgHV4_E2_334-613_AlphaFold.pdb                                   23.10%    passed     85.12%
+  24  HPHV_Hepacivirus_F_isolate_NA_E2_368-647_AlphaFold.pdb                                      23.10%    passed     62.54%
+  25  HPHV_Hepacivirus_I_E2_370-623_AlphaFold.pdb                                                 27.96%    passed      7.60%
+  26  HPHV_Hepacivirus_J_isolate_Hepacivirus_RMU10-3382GER2010_E2_349-698_AlphaFold.pdb           24.32%    passed     34.07%
+  27  HPHV_Hepacivirus_K_E2_384-707_AlphaFold.pdb                                                 20.36%    passed     15.76%
+  28  HPHV_Hepacivirus_L_E2_365-629_AlphaFold.pdb                                                 26.14%    passed     89.32%
+  29  HPHV_Hepacivirus_M_E2_383-702_AlphaFold.pdb                                                 21.28%    passed     44.06%
+  30  HPHV_Hepacivirus_N_E2_348-612_AlphaFold.pdb                                                 26.75%    passed     19.30%
+  31  HPHV_Hepacivirus_N_isolate_IME_BovHep_01_E2_358-611_AlphaFold.pdb                           27.96%    passed     68.43%
+  32  HPHV_Hepacivirus_P_E2_339-606_AlphaFold.pdb                                                 27.96%    passed     51.14%
+  33  HPHV_Hepacivirus_Q_strain_GDZQ-15_E2_431-644_AlphaFold.pdb                                  35.87%    passed     45.93%
+  34  HPHV_Hepacivirus_horseDH1HUN2013_E2_403-724_AlphaFold.pdb                                   18.24%    passed     39.68%
+  35  HPHV_Hepacivirus_sp._E2_584-699_AlphaFold.pdb                                               65.05%    passed     20.28%
+  36  HPHV_Hepacivirus_sp._clone_B32_E2_340-608_AlphaFold.pdb                                     27.66%    passed     88.91%
+  37  HPHV_Hepatitis_C_virus_genotype_1_E2_384-745_AlphaFold.pdb                                  17.33%    passed     99.99%
+  38  HPHV_Hepatitis_C_virus_genotype_2_E2_384-749_AlphaFold.pdb                                  17.02%    passed     98.21%
+  39  HPHV_Hepatitis_C_virus_genotype_3_E2_384-752_AlphaFold.pdb                                  16.72%    passed     94.03%
+  40  HPHV_Hepatitis_C_virus_genotype_4_E2_384-745_AlphaFold.pdb                                  17.33%    passed     99.60%
+  41  HPHV_Hepatitis_C_virus_genotype_5_E2_384-746_AlphaFold.pdb                                  17.02%    passed     98.78%
+  42  HPHV_Hepatitis_C_virus_genotype_6_E2_388-750_AlphaFold.pdb                                  17.02%    passed     99.82%
+  43  HPHV_Hepatitis_C_virus_genotype_7_E2_384-749_AlphaFold.pdb                                  17.02%    passed     92.89%
+  44  HPHV_Hepatitis_GB_virus_B_E2_350-669_AlphaFold.pdb                                          25.53%    passed     86.72%
+  45  HPHV_Jingmen_Rhinolophus_sinicus_hepacivirus_E2_363-616_AlphaFold.pdb                       29.48%    passed     96.58%
+  46  HPHV_Jogalong_virus_P1-10_E2_279-581_AlphaFold.pdb                                          23.40%    failed      0.02%
+  47  HPHV_Longquan_Niviventer_fulvescens_hepacivirus_1_E2_470-733_AlphaFold.pdb                  28.27%    passed     21.35%
+  48  HPHV_Longquan_Niviventer_niviventer_hepacivirus_1_E2_462-730_AlphaFold.pdb                  26.44%    passed      8.63%
+  49  HPHV_Longquan_Rhinolophus_pusillus_hepacivirus_E2_372-633_AlphaFold.pdb                     25.84%    passed     73.50%
+  50  HPHV_Mutant_Hepacivirus_clone_S83cc_E2_385-749_AlphaFold.pdb                                17.02%    passed     99.79%
+  51  HPHV_Mutant_Hepacivirus_clone_T9cc_E2_385-749_AlphaFold.pdb                                 17.02%    passed     98.69%
+  52  HPHV_Nanhai_ghost_shark_hepacivirus_1_E2_208-359_AlphaFold.pdb                              53.80%    passed     18.61%
+  53  HPHV_Nanhai_ghost_shark_hepacivirus_2_E2_500-643_AlphaFold.pdb                              56.23%    passed     79.29%
+  54  HPHV_Non-primate_hepacivirus_NZP1_E2_402-724_AlphaFold.pdb                                  17.93%    passed     91.76%
+  55  HPHV_Non-primate_hepacivirus_strain_CU_isolate_III_E2_408-727_AlphaFold.pdb                 18.24%    passed     93.78%
+  56  HPHV_Northern_treeshrew_hepacivirus_E2_369-627_AlphaFold.pdb                                31.00%    passed     40.26%
+  57  HPHV_Norway_rat_hepacivirus_1_E2_451-719_AlphaFold.pdb                                      27.05%    passed     82.22%
+  58  HPHV_Norway_rat_hepacivirus_2_E2_383-652_AlphaFold.pdb                                      23.40%    passed     97.70%
+  59  HPHV_Possum_hepacivrus_E2_342-627_AlphaFold.pdb                                             26.14%    passed     37.69%
+  60  HPHV_Recombinant_Hepacivirus_E2_388-746_AlphaFold.pdb                                       17.02%    passed     96.89%
+  61  HPHV_Rhizomys_pruinosus_hepacivirus_E2_363-635_AlphaFold.pdb                                24.32%    passed     42.85%
+  62  HPHV_Ringtail_hepacivirus_E2_356-639_AlphaFold.pdb                                          25.53%    passed     47.70%
+  63  HPHV_Rodent_hepacivirus_05VZ-14-118_E2_358-619_AlphaFold.pdb                                27.66%    passed     50.51%
+  64  HPHV_Rodent_hepacivirus_B349PAN2014_E2_352-625_AlphaFold.pdb                                25.23%    passed     89.30%
+  65  HPHV_Rodent_hepacivirus_CRT125-BCOD2010_E2_375-710_AlphaFold.pdb                            25.53%    passed     79.85%
+  66  HPHV_Rodent_hepacivirus_CRT352-BCOD2010_E2_368-700_AlphaFold.pdb                            26.44%    passed     90.78%
+  67  HPHV_Rodent_hepacivirus_CRT382COD2010_E2_439-714_AlphaFold.pdb                              25.84%    passed     83.31%
+  68  HPHV_Rodent_hepacivirus_CRT490-BCOD2010_E2_377-715_AlphaFold.pdb                            26.14%    passed     96.97%
+  69  HPHV_Rodent_hepacivirus_CRT64-ACOD2010_E2_380-712_AlphaFold.pdb                             27.05%    passed     94.53%
+  70  HPHV_Rodent_hepacivirus_CRT682COD2010_E2_390-643_AlphaFold.pdb                              32.83%    passed     11.57%
+  71  HPHV_Rodent_hepacivirus_E2_355-633_AlphaFold.pdb                                            24.01%    passed     86.51%
+  72  HPHV_Rodent_hepacivirus_MOZ329-AMOZ2011_E2_385-715_AlphaFold.pdb                            28.57%    passed     84.26%
+  73  HPHV_Rodent_hepacivirus_MOZ329-CMOZ2011_E2_439-705_AlphaFold.pdb                            28.57%    passed     69.04%
+  74  HPHV_Rodent_hepacivirus_RO22799BeAn812052_E2_357-619_AlphaFold.pdb                          28.57%    passed     88.89%
+  75  HPHV_Rodent_hepacivirus_TA085TZA2013_E2_410-681_AlphaFold.pdb                               27.05%    passed     77.62%
+  76  HPHV_Rodent_hepacivirus_TA100-ATZA2013_E2_369-696_AlphaFold.pdb                             26.75%    passed     97.03%
+  77  HPHV_Rodent_hepacivirus_TA142TZA2013_E2_360-691_AlphaFold.pdb                               27.36%    passed     26.57%
+  78  HPHV_Rodent_hepacivirus_TA498-ATZA2013_E2_405-745_AlphaFold.pdb                             25.53%    passed     85.91%
+  79  HPHV_Rodent_hepacivirus_TA498-CTZA2013_E2_438-709_AlphaFold.pdb                             27.05%    passed     47.21%
+  80  HPHV_Rodent_hepacivirus_TA531-ATZA2013_E2_380-715_AlphaFold.pdb                             27.05%    passed     87.67%
+  81  HPHV_Rodent_hepacivirus_TZ25757TZA2011_E2_368-646_AlphaFold.pdb                             24.32%    passed     23.03%
+  82  HPHV_Rodent_hepacivirus_rn-1_E2_451-719_AlphaFold.pdb                                       27.05%    passed     78.62%
+  83  HPHV_Rodent_hepacvirus_RtAs-HCVIM2014_E2_409-658_AlphaFold.pdb                              34.65%    passed     68.37%
+  84  HPHV_Rodent_hepacvirus_RtMc-HCVTibet2014_E2_332-607_AlphaFold.pdb                           24.92%    passed     92.68%
+  85  HPHV_Sifaka_hepacivirus_MH824541_E2_405-654_AlphaFold.pdb                                   32.52%    passed     96.31%
+  86  HPHV_Sifaka_hepacivirus_MT371438_E2_397-657_AlphaFold.pdb                                   29.18%    passed     91.50%
+  87  HPHV_Sigmodontinae_hepacivirus_E2_368-633_AlphaFold.pdb                                     25.84%    passed     75.55%
+  88  HPHV_Viviparous_lizard_hepacivirus_E2_749-966_AlphaFold.pdb                                 36.17%    passed     52.40%
+  89  HPHV_Wenling_shark_virus_E2_495-708_AlphaFold.pdb                                           39.21%    passed     36.10%
+  90  HPHV_Wenzhou_Apodemus_agrarius_hepacivirus_1_E2_359-599_AlphaFold.pdb                       34.65%    passed     49.83%
+  91  HPHV_Wenzhou_Suncus_murinus_hepacivirus_1_E2_359-595_AlphaFold.pdb                          35.87%    passed     40.35%
+  92  HPHV_Western_African_lungfish_hepacivirus_E2_573-809_AlphaFold.pdb                          40.12%    passed     71.93%
+  93  HPHV_White_sucker_hepacivirus_E2_670-820_AlphaFold.pdb                                      54.41%    passed      8.76%
+  94  HPHV_Wufeng_Niviventer_fulvescens_hepacivirus_1_E2_419-671_AlphaFold.pdb                    31.61%    passed     40.90%
+  95  HPHV_Wufeng_Niviventer_niviventer_hepacivirus_1_E2_410-677_AlphaFold.pdb                    27.05%    passed     34.07%
+  96  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_1_E2_369-639_AlphaFold.pdb                       27.36%    passed     68.46%
+  97  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_2_E2_363-626_AlphaFold.pdb                       27.66%    passed     92.99%
+  98  HPHV_Wufeng_Typhlomys_cinereus_hepacivirus_3_E2_357-627_AlphaFold.pdb                       25.53%    passed     95.72%
+  99  HPHV_Xiamen_guitarfish_hepacivirus_E2_623-791_AlphaFold.pdb                                 48.94%    passed      8.25%
+ 100  HPHV_Xiamen_sepia_Stingray_hepacivirus_E2_716-847_AlphaFold.pdb                             62.01%    passed      9.46%
+ 101  HPHV_Yili_teratoscincus_roborowskii_hepacivirus_E2_865-1097_AlphaFold.pdb                   37.99%    passed     67.59%
+ 102  HPPV_Bat_GB-like_virus_E2_219-535_AlphaFold.pdb                                             14.29%    passed     46.88%
+ 103  HPPV_Bat_pegivirus_PDB-1734_E2_348-709_AlphaFold.pdb                                         8.21%    passed     22.24%
+ 104  HPPV_Bat_pegivirus_PDB-24_E2_220-583_AlphaFold.pdb                                           6.69%    passed     83.79%
+ 105  HPPV_Bat_pegivirus_PDB-303_E2_221-539_AlphaFold.pdb                                         14.29%    passed     16.21%
+ 106  HPPV_Bat_pegivirus_PDB-34.1_E2_479-813_AlphaFold.pdb                                        12.77%    passed     72.31%
+ 107  HPPV_Bat_pegivirus_PDB-491.2_E2_289-656_AlphaFold.pdb                                        5.78%    passed     19.21%
+ 108  HPPV_Bat_pegivirus_PDB-694_E2_258-574_AlphaFold.pdb                                         14.29%    passed     58.74%
+ 109  HPPV_Bat_pegivirus_PDB-737B_E2_247-610_AlphaFold.pdb                                         6.08%    failed      3.44%
+ 110  HPPV_Bat_pegivirus_PDB-838_E2_294-654_AlphaFold.pdb                                          6.99%    passed      5.39%
+ 111  HPPV_Chimpanzee_GB_virus_C_E2_211-572_AlphaFold.pdb                                          6.08%    failed      3.23%
+ 112  HPPV_Dolphin_pegivirus_E2_219-562_AlphaFold.pdb                                             11.55%    failed      1.82%
+ 113  HPPV_Dremomys_pernyi_pegivirus_isolate_SC_C7-54.2_2022_E2_388-745_AlphaFold.pdb             11.55%    passed     55.00%
+ 114  HPPV_Eospalax_rufescens_pegivirus_isolate_SC_C3-19.2_2021_E2_403-759_AlphaFold.pdb          10.64%    passed     26.43%
+ 115  HPPV_Equine_Pegivirus_E2_261-534_AlphaFold.pdb                                              22.80%    failed      3.47%
+ 116  HPPV_Feline_pegivirus_E2_220-528_AlphaFold.pdb                                              15.20%    failed      0.30%
+ 117  HPPV_GB_virus_E2_255-581_AlphaFold.pdb                                                      12.77%    passed     88.59%
+ 118  HPPV_Goose_pegivirus_1_E2_339-580_AlphaFold.pdb                                             36.17%    passed     25.65%
+ 119  HPPV_Goose_pegivirus_2_E2_244-554_AlphaFold.pdb                                             14.29%    passed     35.55%
+ 120  HPPV_Hepatitis_GB_virus_A_E2_276-631_AlphaFold.pdb                                           6.99%    passed     39.30%
+ 121  HPPV_Hepatitis_G_virus_AB018667.1_E2_208-572_AlphaFold.pdb                                   6.08%    failed      4.90%
+ 122  HPPV_Hepatitis_G_virus_AB021287.1_E2_208-572_AlphaFold.pdb                                   6.08%    passed      6.09%
+ 123  HPPV_Hepatitis_G_virus_HGV-T55875_E2_239-603_AlphaFold.pdb                                   6.08%    passed     14.29%
+ 124  HPPV_Hepatitis_G_virus_U94695.1_E2_239-603_AlphaFold.pdb                                     6.08%    passed     18.03%
+ 125  HPPV_Hepatitis_G_virus_isolate_765_E2_276-640_AlphaFold.pdb                                  6.08%    passed     19.45%
+ 126  HPPV_Human_hepegivirus_E2_316-669_AlphaFold.pdb                                             12.46%    passed     32.31%
+ 127  HPPV_Leucosticte_brandti_pegivirus_XZN_E2_268-572_AlphaFold.pdb                             16.72%    passed     15.13%
+ 128  HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb                      10.03%    passed     27.92%
+ 129  HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb                      10.03%    passed     27.92%
+ 130  HPPV_Longquan_Rhinolophus_pearsonii_pegivirus_E2_258-601_AlphaFold.pdb                      12.77%    passed     46.10%
+ 131  HPPV_Marmoset_pegivirus_E2_201-559_AlphaFold.pdb                                             6.99%    passed      5.45%
+ 132  HPPV_Montifringilla_taczanowskii_pegivirus_E2_238-555_AlphaFold.pdb                         12.46%    failed      2.53%
+ 133  HPPV_Nabpantry_virus_9_E2_208-571_AlphaFold.pdb                                              6.08%    passed      7.78%
+ 134  HPPV_Passer_montanus_pegivirus_GXN_E2_302-574_AlphaFold.pdb                                 25.84%    passed     49.12%
+ 135  HPPV_Pegivirus_A_56330218_E2_208-572_AlphaFold.pdb                                           6.08%    passed     11.82%
+ 136  HPPV_Pegivirus_A_89859249_E2_254-617_AlphaFold.pdb                                           6.08%    passed     14.29%
+ 137  HPPV_Pegivirus_D_E2_207-521_AlphaFold.pdb                                                   13.98%    passed     11.80%
+ 138  HPPV_Pegivirus_G_E2_478-828_AlphaFold.pdb                                                    8.51%    passed     28.43%
+ 139  HPPV_Pegivirus_I_E2_213-556_AlphaFold.pdb                                                   11.25%    passed     12.32%
+ 140  HPPV_Pegivirus_K_E2_213-557_AlphaFold.pdb                                                   14.29%    passed     68.20%
+ 141  HPPV_Phaiomys_leucurus_pegivirus_E2_436-802_AlphaFold.pdb                                    7.29%    failed      2.25%
+ 142  HPPV_Rodent_pegivirus_05VZ-14-Rat070_E2_423-773_AlphaFold.pdb                               11.85%    passed     65.93%
+ 143  HPPV_Rodent_pegivirus_RPgV-IND079_E2_428-773_AlphaFold.pdb                                  13.37%    passed     41.33%
+ 144  HPPV_Rodent_pegivirus_isolate_CC61_E2_412-781_AlphaFold.pdb                                  7.90%    passed     27.44%
+ 145  HPPV_Simian_pegivirus_SPgVkrc_RC08_E2_209-569_AlphaFold.pdb                                  7.60%    passed     17.83%
+ 146  HPPV_Simian_pegivirus_VGA00020_E2_208-566_AlphaFold.pdb                                      8.51%    passed     69.49%
+ 147  HPPV_Simian_pegivirus_myb_M77_E2_209-569_AlphaFold.pdb                                       7.60%    passed     18.69%
+ 148  HPPV_Southwest_bike_trail_virus_E2_365-727_AlphaFold.pdb                                     6.38%    passed     90.31%
+ 149  HPPV_Ticpantry_virus_3_E2_289-654_AlphaFold.pdb                                              6.08%    passed     12.28%
+ 150  HPPV_Tree_shrew_pegivirus_E2_366-706_AlphaFold.pdb                                          15.50%    passed     60.08%
+ 151  HPPV_Wenzhou_Rattus_norvegicus_pegivirus_1_E2_399-752_AlphaFold.pdb                          9.42%    failed      2.48%
+ 152  HPPV_Wenzhou_Rattus_tanezumi_pegivirus_1_E2_415-767_AlphaFold.pdb                            9.73%    failed      2.12%
+ 153  HPPV_Wufeng_Blarinella_griselda_pegivirus_1_E2_353-706_AlphaFold.pdb                        11.85%    passed     25.62%
+ 154  HPPV_Wufeng_Crocidura_attenuata_pegivirus_1_E2_349-700_AlphaFold.pdb                        12.16%    passed     19.92%
+ 155  HPPV_Wufeng_Niviventer_fulvescens_pegivirus_1_E2_431-770_AlphaFold.pdb                      13.98%    passed     38.77%
+ 156  HPUN_Wenling_moray_eel_hepacivirus_E2_474-688_AlphaFold.pdb                                 43.77%    passed     23.78%
+ 157  PLPV_Atypical_porcine_pestivirus_E2_705-940_AlphaFold.pdb                                   35.56%    failed      0.00%
+ 158  PLPV_Bat_pestivirus_BtSk-PestV-1GX2017_E2_724-948_AlphaFold.pdb                             35.87%    failed      0.49%
+ 159  PLPV_Border_disease_virus_X818_E2_691-1063_AlphaFold.pdb                                     7.90%    failed      0.47%
+ 160  PLPV_Bovine_viral_diarrhea_virus_1_E2_693-1065_AlphaFold.pdb                                 7.90%    failed      0.10%
+ 161  PLPV_Bovine_viral_diarrhea_virus_2_E2_693-1063_AlphaFold.pdb                                 7.90%    failed      0.34%
+ 162  PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen_E2_692-1060_AlphaFold.pdb                   8.21%    failed      4.36%
+ 163  PLPV_Classical_swine_fever_virus_E2_690-1062_AlphaFold.pdb                                   7.90%    failed      2.81%
+ 164  PLPV_Dongyang_pangolin_virus_isolate_DYCS_E2_679-1040_AlphaFold.pdb                          9.42%    failed      0.00%
+ 165  PLPV_Frog_pestivirus_E2_1517-1614_AlphaFold.pdb                                             71.43%    passed     34.66%
+ 166  PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1_E2_528-896_AlphaFold.pdb                  10.03%    passed      7.01%
+ 167  PLPV_Linda_virus_strain_Austria1_E2_703-1075_AlphaFold.pdb                                   8.21%    passed     10.93%
+ 168  PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23_E2_836-1212_AlphaFold.pdb                    10.94%    failed      0.00%
+ 169  PLPV_Pangolin_pestivirus_1_isolate_ZJ-F1_E2_706-1073_AlphaFold.pdb                           9.42%    failed      0.16%
+ 170  PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018_E2_681-1046_AlphaFold.pdb         9.12%    failed      0.00%
+ 171  PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018_E2_682-1049_AlphaFold.pdb         8.51%    failed      0.00%
+ 172  PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018_E2_683-1048_AlphaFold.pdb         8.81%    failed      0.00%
+ 173  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018_E2_710-1079_AlphaFold.pdb         8.51%    failed      0.00%
+ 174  PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018_E2_712-1078_AlphaFold.pdb         8.51%    failed      0.00%
+ 175  PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018_E2_682-1048_AlphaFold.pdb         8.81%    failed      0.00%
+ 176  PLPV_Pestivirus_Burdur05-TR_E2_691-1062_AlphaFold.pdb                                        7.90%    failed      0.17%
+ 177  PLPV_Pestivirus_PG-2_E2_690-1062_AlphaFold.pdb                                               7.90%    failed      0.00%
+ 178  PLPV_Pestivirus_giraffe-1_H138_E2_689-1061_AlphaFold.pdb                                     7.90%    failed      0.00%
+ 179  PLPV_Pestivirus_reindeer-1_V60-Krefeld_E2_691-1063_AlphaFold.pdb                             7.90%    failed      1.00%
+ 180  PLPV_Pestivirus_sp._isolate_ovineIt338710-32017_E2_690-1061_AlphaFold.pdb                    7.90%    failed      0.24%
+ 181  PLPV_Pestivirus_strain_Aydin04-TR_E2_691-1062_AlphaFold.pdb                                  7.90%    failed      0.34%
+ 182  PLPV_Phocoena_pestivirus_isolate_NS170386_E2_539-915_AlphaFold.pdb                           7.60%    failed      0.00%
+ 183  PLPV_Porcine_pestivirus_isolate_Bungowannah_E2_695-1070_AlphaFold.pdb                        8.21%    failed      0.54%
+ 184  PLPV_Pronghorn_antelope_pestivirus_E2_688-1058_AlphaFold.pdb                                 9.12%    failed      2.36%
+ 185  PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014_E2_821-1193_AlphaFold.pdb                   11.85%    failed      0.00%
+ 186  PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014_E2_833-1209_AlphaFold.pdb                  10.94%    failed      0.01%
+ 187  PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG_E2_690-1062_AlphaFold.pdb         7.90%    failed      1.12%
+ 188  PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr_E2_700-1071_AlphaFold.pdb    8.51%    failed      1.34%
+ 189  PLPV_Zikole_virus_E2_710-948_AlphaFold.pdb                                                  33.43%    failed      0.12%
+WARNING: 7 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                       20.95%  43 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HPPV_Longquan_Niviventer_niviventer_pegivirus_E2_426-778_AlphaFold.pdb is identical to HPPV_Longquan_Niviventer_fulvescens_pegivirus_E2_426-778_AlphaFold.pdb but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.098 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+10 trees examined
+Threads: 1 / Time: 16.403 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -122797
+Threads: 2 / Time: 9.396 sec / Speedup: 1.746 / Efficiency: 87% / LogL: -122797
+Threads: 3 / Time: 7.083 sec / Speedup: 2.316 / Efficiency: 77% / LogL: -122797
+Threads: 4 / Time: 5.751 sec / Speedup: 2.852 / Efficiency: 71% / LogL: -122797
+Threads: 5 / Time: 5.005 sec / Speedup: 3.277 / Efficiency: 66% / LogL: -122797
+Threads: 6 / Time: 4.419 sec / Speedup: 3.712 / Efficiency: 62% / LogL: -122797
+Threads: 7 / Time: 4.074 sec / Speedup: 4.026 / Efficiency: 58% / LogL: -122797
+Threads: 8 / Time: 3.913 sec / Speedup: 4.192 / Efficiency: 52% / LogL: -122797
+Threads: 9 / Time: 3.866 sec / Speedup: 4.243 / Efficiency: 47% / LogL: -122797
+BEST NUMBER OF THREADS: 7
+
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -73119.639
+Optimal log-likelihood: -73119.601
+Gamma shape alpha: 1.900
+Parameters optimization took 1 rounds (0.119 sec)
+Time for fast ML tree search: 2.243 seconds
+
+NOTE: ModelFinder requires 42 MB RAM!
+ModelFinder will test up to 112 protein models (sample size: 329 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            74863.850    375 150477.699   432477.699   151901.221
+  2  LG+G4         73119.605    376 146991.211   430495.211   148418.529
+  4  LG+F+G4       72790.262    395 146370.523   459210.523   147869.966
+  6  WAG+G4        72646.362    376 146044.723   429548.723   147472.041
+  8  WAG+F+G4      72259.746    395 145309.493   458149.493   146808.936
+ 10  JTT+G4        73468.655    376 147689.310   431193.310   149116.628
+ 12  JTT+F+G4      73317.590    395 147425.179   460265.179   148924.622
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 14  Q.pfam+G4     73070.295    376 146892.590   430396.590   148319.908
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 16  Q.pfam+F+G4   72871.551    395 146533.102   459373.102   148032.545
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 18  Q.bird+G4     75349.415    376 151450.831   434954.831   152878.149
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 20  Q.bird+F+G4   75306.999    395 151403.998   464243.998   152903.441
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 22  Q.mammal+G4   74704.478    376 150160.956   433664.956   151588.274
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 24  Q.mammal+F+G4 74608.565    395 150007.129   462847.129   151506.572
+ 26  Q.insect+G4   73939.890    376 148631.779   432135.779   150059.097
+ 28  Q.insect+F+G4 73470.919    395 147731.838   460571.838   149231.281
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 30  Q.plant+G4    74734.458    376 150220.916   433724.916   151648.233
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 32  Q.plant+F+G4  74392.376    395 149574.753   462414.753   151074.195
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 34  Q.yeast+G4    74268.325    376 149288.650   432792.650   150715.967
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 36  Q.yeast+F+G4  73463.574    395 147717.147   460557.147   149216.590
+ 38  JTTDCMut+G4   73455.205    376 147662.410   431166.410   149089.728
+ 40  JTTDCMut+F+G4 73295.515    395 147381.030   460221.030   148880.473
+ 42  DCMut+G4      74071.870    376 148895.740   432399.740   150323.058
+ 44  DCMut+F+G4    73181.606    395 147153.213   459993.213   148652.655
+ 46  VT+G4         72741.393    376 146234.786   429738.786   147662.104
+ 48  VT+F+G4       72463.761    395 145717.523   458557.523   147216.966
+ 50  PMB+G4        72398.231    376 145548.463   429052.463   146975.781
+ 52  PMB+F+G4      72276.373    395 145342.747   458182.747   146842.190
+ 54  Blosum62+G4   72636.221    376 146024.441   429528.441   147451.759
+ 56  Blosum62+F+G4 72276.865    395 145343.730   458183.730   146843.172
+ 58  Dayhoff+G4    74077.855    376 148907.710   432411.710   150335.028
+ 60  Dayhoff+F+G4  73186.404    395 147162.807   460002.807   148662.250
+ 62  mtREV+G4      76989.312    376 154730.625   438234.625   156157.942
+ 64  mtREV+F+G4    74453.888    395 149697.776   462537.776   151197.219
+ 66  mtART+G4      78985.436    376 158722.871   442226.871   160150.189
+ 68  mtART+F+G4    76108.232    395 153006.465   465846.465   154505.907
+ 70  mtZOA+G4      76851.043    376 154454.087   437958.087   155881.404
+ 72  mtZOA+F+G4    74885.970    395 150561.939   463401.939   152061.382
+ 74  mtMet+G4      77344.763    376 155441.526   438945.526   156868.844
+ 76  mtMet+F+G4    74698.077    395 150186.154   463026.154   151685.596
+ 78  mtVer+G4      78036.736    376 156825.472   440329.472   158252.790
+ 80  mtVer+F+G4    75798.255    395 152386.510   465226.510   153885.952
+ 82  mtInv+G4      77622.416    376 155996.832   439500.832   157424.150
+ 84  mtInv+F+G4    74058.874    395 148907.749   461747.749   150407.192
+ 86  mtMAM+G4      79404.491    376 159560.982   443064.982   160988.300
+ 88  mtMAM+F+G4    76583.167    395 153956.334   466796.334   155455.777
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 90  FLAVI+G4      76437.814    376 153627.628   437131.628   155054.946
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 92  FLAVI+F+G4    76090.447    395 152970.894   465810.894   154470.337
+ 94  HIVb+G4       75114.740    376 150981.479   434485.479   152408.797
+ 96  HIVb+F+G4     74988.908    395 150767.815   463607.815   152267.258
+ 98  HIVw+G4       77752.406    376 156256.812   439760.812   157684.130
+100  HIVw+F+G4     76326.089    395 153442.178   466282.178   154941.621
+102  FLU+G4        74089.546    376 148931.091   432435.091   150358.409
+104  FLU+F+G4      73155.620    395 147101.240   459941.240   148600.683
+106  rtREV+G4      73336.908    376 147425.815   430929.815   148853.133
+108  rtREV+F+G4    73020.594    395 146831.188   459671.188   148330.631
+110  cpREV+G4      73705.385    376 148162.771   431666.771   149590.088
+112  cpREV+F+G4    73367.422    395 147524.845   460364.845   149024.288
+Akaike Information Criterion:           WAG+F+G4
+Corrected Akaike Information Criterion: PMB+G4
+Bayesian Information Criterion:         WAG+F+G4
+Best-fit model: WAG+F+G4 chosen according to BIC
+
+All model information printed to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.model.gz
+CPU time for ModelFinder: 475.316 seconds (0h:7m:55s)
+Wall-clock time for ModelFinder: 96.286 seconds (0h:1m:36s)
+Generating 1000 samples for ultrafast bootstrap (seed: 196273)...
+
+NOTE: 42 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -72296.544
+2. Current log-likelihood: -72265.492
+3. Current log-likelihood: -72260.039
+4. Current log-likelihood: -72259.680
+Optimal log-likelihood: -72259.635
+Gamma shape alpha: 2.472
+Parameters optimization took 4 rounds (0.707 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.19817 secs using 698% CPU
+Computing ML distances took 1.198447 sec (of wall-clock time) 8.363590 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000514627 secs using 509.7% CPU
+Computing RapidNJ tree took 0.091110 sec (of wall-clock time) 0.252102 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -72598.704
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.305 second
+Computing log-likelihood of 98 initial trees ... 4.877 seconds
+Current best score: -72259.635
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72247.222
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -72240.771
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -72232.889
+Iteration 10 / LogL: -72249.066 / Time: 0h:2m:4s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -72226.413
+Iteration 20 / LogL: -72259.349 / Time: 0h:2m:20s
+Finish initializing candidate tree set (20)
+Current best tree score: -72226.413 / CPU time: 41.998
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -72224.565
+Iteration 30 / LogL: -72224.565 / Time: 0h:2m:35s (0h:3m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -72221.325
+Iteration 40 / LogL: -72233.193 / Time: 0h:2m:49s (0h:2m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -72220.009
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -72218.186
+Iteration 50 / LogL: -72240.236 / Time: 0h:3m:3s (0h:2m:50s left)
+Log-likelihood cutoff on original alignment: -72311.650
+Iteration 60 / LogL: -72269.550 / Time: 0h:3m:17s (0h:2m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -72216.064
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -72214.667
+Iteration 70 / LogL: -72214.667 / Time: 0h:3m:31s (0h:2m:47s left)
+Iteration 80 / LogL: -72237.039 / Time: 0h:3m:45s (0h:2m:27s left)
+Iteration 90 / LogL: -72223.789 / Time: 0h:4m:0s (0h:2m:9s left)
+Iteration 100 / LogL: -72251.811 / Time: 0h:4m:14s (0h:1m:51s left)
+Log-likelihood cutoff on original alignment: -72311.650
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 102: -72213.099
+Iteration 110 / LogL: -72231.581 / Time: 0h:4m:28s (0h:2m:25s left)
+Iteration 120 / LogL: -72346.732 / Time: 0h:4m:41s (0h:2m:7s left)
+Iteration 130 / LogL: -72226.428 / Time: 0h:4m:54s (0h:1m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 135: -72212.500
+Iteration 140 / LogL: -72220.650 / Time: 0h:5m:8s (0h:2m:25s left)
+Iteration 150 / LogL: -72222.692 / Time: 0h:5m:21s (0h:2m:8s left)
+Log-likelihood cutoff on original alignment: -72276.272
+Iteration 160 / LogL: -72219.695 / Time: 0h:5m:34s (0h:1m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 164: -72211.082
+Iteration 170 / LogL: -72213.541 / Time: 0h:5m:47s (0h:2m:19s left)
+Iteration 180 / LogL: -72215.671 / Time: 0h:6m:2s (0h:2m:4s left)
+Iteration 190 / LogL: -72609.061 / Time: 0h:6m:16s (0h:1m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 194: -72210.841
+Iteration 200 / LogL: -72214.535 / Time: 0h:6m:29s (0h:2m:18s left)
+Log-likelihood cutoff on original alignment: -72276.272
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 210 / LogL: -72251.824 / Time: 0h:6m:43s (0h:2m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 211: -72208.356
+Iteration 220 / LogL: -72212.482 / Time: 0h:6m:57s (0h:2m:13s left)
+Iteration 230 / LogL: -72212.914 / Time: 0h:7m:8s (0h:1m:57s left)
+Iteration 240 / LogL: -72223.907 / Time: 0h:7m:20s (0h:1m:42s left)
+Iteration 250 / LogL: -72210.265 / Time: 0h:7m:31s (0h:1m:26s left)
+Log-likelihood cutoff on original alignment: -72276.272
+Iteration 260 / LogL: -72231.696 / Time: 0h:7m:44s (0h:1m:12s left)
+Iteration 270 / LogL: -72230.073 / Time: 0h:7m:55s (0h:0m:57s left)
+Iteration 280 / LogL: -72221.477 / Time: 0h:8m:7s (0h:0m:43s left)
+Iteration 290 / LogL: -72216.699 / Time: 0h:8m:18s (0h:0m:29s left)
+Iteration 300 / LogL: -72281.419 / Time: 0h:8m:30s (0h:0m:15s left)
+Log-likelihood cutoff on original alignment: -72276.272
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -72211.107 / Time: 0h:8m:42s (0h:2m:4s left)
+Iteration 320 / LogL: -72218.042 / Time: 0h:8m:54s (0h:1m:50s left)
+Iteration 330 / LogL: -72259.640 / Time: 0h:9m:7s (0h:1m:36s left)
+Iteration 340 / LogL: -72246.255 / Time: 0h:9m:19s (0h:1m:22s left)
+Iteration 350 / LogL: -72307.144 / Time: 0h:9m:31s (0h:1m:8s left)
+Log-likelihood cutoff on original alignment: -72276.241
+Iteration 360 / LogL: -72338.541 / Time: 0h:9m:42s (0h:0m:54s left)
+Iteration 370 / LogL: -72222.597 / Time: 0h:9m:54s (0h:0m:40s left)
+Iteration 380 / LogL: -72220.092 / Time: 0h:10m:6s (0h:0m:26s left)
+Iteration 390 / LogL: -72315.818 / Time: 0h:10m:17s (0h:0m:13s left)
+Iteration 400 / LogL: -72211.450 / Time: 0h:10m:29s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -72276.241
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -72232.040 / Time: 0h:10m:42s (0h:2m:0s left)
+Iteration 420 / LogL: -72229.540 / Time: 0h:10m:53s (0h:1m:46s left)
+Iteration 430 / LogL: -72220.061 / Time: 0h:11m:4s (0h:1m:32s left)
+Iteration 440 / LogL: -72433.011 / Time: 0h:11m:17s (0h:1m:19s left)
+Iteration 450 / LogL: -72228.553 / Time: 0h:11m:30s (0h:1m:6s left)
+Log-likelihood cutoff on original alignment: -72276.241
+Iteration 460 / LogL: -72211.457 / Time: 0h:11m:43s (0h:0m:52s left)
+Iteration 470 / LogL: -72319.590 / Time: 0h:11m:54s (0h:0m:39s left)
+Iteration 480 / LogL: -72217.935 / Time: 0h:12m:6s (0h:0m:26s left)
+Iteration 490 / LogL: -72212.219 / Time: 0h:12m:18s (0h:0m:13s left)
+Iteration 500 / LogL: -72221.465 / Time: 0h:12m:30s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -72276.241
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 500 ITERATIONS / Time: 0h:12m:30s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72208.356
+2. Current log-likelihood: -72208.326
+3. Current log-likelihood: -72208.305
+Optimal log-likelihood: -72208.291
+Gamma shape alpha: 2.468
+Parameters optimization took 3 rounds (0.328 sec)
+BEST SCORE FOUND : -72208.291
+Creating bootstrap support values...
+Split supports printed to NEXUS file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.splits.nex
+Total tree length: 138.467
+
+Total number of iterations: 500
+CPU time used for tree search: 4414.971 sec (1h:13m:34s)
+Wall-clock time used for tree search: 651.602 sec (0h:10m:51s)
+Total CPU time used: 4910.872 sec (1h:21m:50s)
+Total wall-clock time used: 751.307 sec (0h:12m:31s)
+
+Computing bootstrap consensus tree...
+Reading input file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.splits.nex...
+189 taxa and 1192 splits.
+Consensus tree written to /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.contree
+Reading input trees file /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.contree
+Log-likelihood of consensus tree: -72209.725
+
+Analysis results written to: 
+  IQ-TREE report:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.iqtree
+  Maximum-likelihood tree:       /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.treefile
+  Likelihood distances:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.splits.nex
+  Consensus tree:                /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.contree
+  Screen log file:               /data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E2_famsa_iqtree/refolded_fullglyco_E2_AA_famsa_3ditrim35.log
+
+Date and Time: Tue Sep 17 13:58:50 2024
+END 13:58:50 up 34 days, 23:00,  0 users,  load average: 16.60, 16.60, 17.36
+
+************
+*** DONE ***
+************
+
