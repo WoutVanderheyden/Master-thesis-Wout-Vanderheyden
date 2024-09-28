@@ -31,3 +31,15 @@ WARNING - ID: A/Kentucky/3/2006|EPI_ISL_21271 -  less then 1500 nucleotides (or 
 WARNING - ID: A/Idaho/ID-2008/2003|EPI_ISL_17946 -  less then 1500 nucleotides (or equivalent for proteins): 987
 INFO - Processing complete.
 ```
+
+# Finding the codon of the "X" AA
+Python script that helps finding the codon. 
+
+```bash
+python scripts/find_missing_x.py 
+```
+
+```txt
+Codon for 'X' at position 152: trt
+Corresponding Amino Acid: X
+```
