@@ -37,7 +37,7 @@ Python script that helps finding the codon.
 Input files: protein_file.fa  nucleotide_file.fa
 
 ```bash
-python scripts/find_missing_x.py 
+python scripts/find_missing_x.py path_to_protein_fasta path_to_nucleotide_fasta
 ```
 
 ```txt
