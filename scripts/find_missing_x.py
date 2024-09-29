@@ -1,5 +1,6 @@
 from Bio import SeqIO
 from Bio.Seq import Seq
+import argparse
 
 def find_missing_aa(protein_file, nucleotide_file):
     # Load the protein and nucleotide sequences
@@ -28,5 +29,11 @@ def find_missing_aa(protein_file, nucleotide_file):
     else:
         print("No 'X' found in the protein sequence.")
 
-# Change names to your file names.
-find_missing_aa("protein_file.fa", "nucleotide_file.fa")
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Find codon for 'X' in protein sequence")
+    parser.add_argument("protein_file", help="Path to the input protein FASTA file")
+    parser.add_argument("nucleotide_file", help="Path to the input nucleotide FASTA file")
+    
+    args = parser.parse_args()
+    
+    find_missing_aa(args.protein_file, args.nucleotide_file)

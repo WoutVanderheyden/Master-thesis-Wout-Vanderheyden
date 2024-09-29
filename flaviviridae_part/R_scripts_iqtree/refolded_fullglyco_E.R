@@ -4,8 +4,8 @@
 library(ape)
 
 #list.files()
-tree_3di = read.tree("/data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_3di_famsa.treefile")
-tree_AA = read.tree("/data/leuven/358/vsc35887/master_thesis/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa.treefile")
+tree_3di = read.tree("/vsc-hard-mounts/leuven-data/358/vsc35887/master_thesis/Master-thesis-Wout-Vanderheyden/flaviviridae_part/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_3di_famsa.treefile")
+tree_AA = read.tree("/vsc-hard-mounts/leuven-data/358/vsc35887/master_thesis/Master-thesis-Wout-Vanderheyden/flaviviridae_part/iqtree_output/refolded_fullglyco_E_famsa_iqtree/refolded_fullglyco_E_AA_famsa.treefile")
 
 rf_distance <- dist.topo(tree_3di, tree_AA)
 print(rf_distance) #306 splits that differ
