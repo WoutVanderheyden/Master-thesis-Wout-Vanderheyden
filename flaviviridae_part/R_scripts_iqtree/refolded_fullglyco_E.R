@@ -24,8 +24,8 @@ print(result)
 ####### Now I want and try to compare my tree with the Author's tree ########
 #############################################################################
 
-tree_3di_author = read.tree("/vsc-hard-mounts/leuven-data/358/vsc35887/master_thesis/data_flaviviridae/glycoprotein_structural_alignments_and_trees/3di/fn_3di_trees/refolded_fullglyco_E_3di_famsa.fas.treefile")
-tree_AA_author = read.tree("/vsc-hard-mounts/leuven-data/358/vsc35887/master_thesis/data_flaviviridae/glycoprotein_structural_alignments_and_trees/3di/fn_3di_trees/refolded_fullglyco_E_AA_famsa.fas.treefile")
+tree_3di_author = read.tree("/vsc-hard-mounts/leuven-data/358/vsc35887/master_thesis/Master-thesis-Wout-Vanderheyden/flaviviridae_part/data_flaviviridae/glycoprotein_structural_alignments_and_trees/3di/fn_3di_trees/refolded_fullglyco_E_3di_famsa.fas.treefile")
+tree_AA_author = read.tree("/vsc-hard-mounts/leuven-data/358/vsc35887/master_thesis/Master-thesis-Wout-Vanderheyden/flaviviridae_part/data_flaviviridae/glycoprotein_structural_alignments_and_trees/3di/fn_3di_trees/refolded_fullglyco_E_AA_famsa.fas.treefile")
 
 
 #####  COMPARE THE 3DI TREES ######
@@ -57,3 +57,9 @@ print(result)
 # Both trees are unrooted.
 # Both trees are not ultrametric.
 # 187 splits in common.
+
+
+##############################################################
+##### NOW LETS TRY AND MAKE A TANGLEGRAM #####################
+##############################################################
+
