@@ -57,9 +57,3 @@ print(result)
 # Both trees are unrooted.
 # Both trees are not ultrametric.
 # 187 splits in common.
-
-
-##############################################################
-##### NOW LETS TRY AND MAKE A TANGLEGRAM #####################
-##############################################################
-
