@@ -1,0 +1,358 @@
+Coordinate File Usage Summary
+===========================
+
+Sequence ID: B/Algeria/G486/2010|EPI_ISL_79601
+Source file: fold_b_algeria_g486_2010_epi_isl_79601_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Bangkok/163/1990|EPI_ISL_6819
+Source file: fold_b_bangkok_163_1990_epi_isl_6819_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-573
+
+Sequence ID: B/Barcelona/00143/2008|EPI_ISL_100274
+Source file: fold_b_barcelona_00143_2008_epi_isl_100274_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 1-559
+
+Sequence ID: B/Brisbane/1/2008|EPI_ISL_23200
+Source file: fold_b_brisbane_1_2008_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Brisbane/3/2007|EPI_ISL_19933
+Source file: fold_b_brisbane_3_2007_epi_isl_19933_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 15-573
+
+Sequence ID: B/Brisbane/9/2008|EPI_ISL_23837
+Source file: fold_b_brisbane_9_2008_epi_isl_23837_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Catalonia/S4125/2011|EPI_ISL_99637
+Source file: fold_b_catalonia_s4125_2011_epi_isl_99637_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Catalonia/S4251/2011|EPI_ISL_101397
+Source file: fold_b_catalonia_s4251_2011_epi_isl_101397_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Chantaburi/218/2003|EPI_ISL_7109
+Source file: fold_b_chantaburi_218_2003_epi_isl_7109_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Chelyabinsk/306/2007|EPI_ISL_20540
+Source file: fold_b_chelyabinsk_306_2007_epi_isl_20540_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Chongqing/Yuzhong18/2007|EPI_ISL_20479
+Source file: fold_b_chongqing_yuzhong18_2007_epi_isl_20479_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Colorado/04/2004|EPI_ISL_6590
+Source file: fold_b_colorado_04_2004_epi_isl_6590_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Dakar/05/2011|EPI_ISL_106886
+Source file: fold_b_dakar_05_2011_epi_isl_106886_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Dakar/08/2011|EPI_ISL_106887
+Source file: fold_b_dakar_08_2011_epi_isl_106887_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/England/110/2010|EPI_ISL_98924
+Source file: fold_b_england_110_2010_epi_isl_98924_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/England/145/2008
+Source file: fold_b_england_145_2008_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/England/170/2010|EPI_ISL_90660
+Source file: fold_b_england_170_2010_epi_isl_90660_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/England/512/2010|EPI_ISL_90662
+Source file: fold_b_england_512_2010_epi_isl_90662_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Estonia/55669/2011
+Source file: fold_b_estonia_55669_2011_epi_isl_90663_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Finland/33/2010|EPI_ISL_86993
+Source file: fold_b_finland_33_2010_epi_isl_86993_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Finland/39/2010|EPI_ISL_86994
+Source file: fold_b_finland_39_2010_epi_isl_86994_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Florida/4/2006|EPI_ISL_22808
+Source file: fold_b_florida_4_2006_epi_isl_22808_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Florida/7/2004|EPI_ISL_22805
+Source file: fold_b_florida_7_2004_epi_isl_22805_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Ghana/FS_11_1827/2011|EPI_ISL_103130
+Source file: fold_b_ghana_fs_11_1827_2011_epi_isl_103130_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Ghana/FS_11_1994/2011|EPI_ISL_103131
+Source file: fold_b_ghana_fs_11_1994_2011_epi_isl_103131_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Ghana/FS_11_1995/2011|EPI_ISL_103132
+Source file: fold_b_ghana_fs_11_1995_2011_epi_isl_103132_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Harbin/7/1994|EPI_ISL_30252
+Source file: fold_b_harbin_7_1994_epi_isl_30252_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Hong_Kong/1127/2011
+Source file: fold_b_hong_kong_1127_2011_epi_isl_103119_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Hong_Kong/1832/2010|EPI_ISL_79612
+Source file: fold_b_hong_kong_1832_2010_epi_isl_79612_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Hong_Kong/1895/2010|EPI_ISL_79613
+Source file: fold_b_hong_kong_1895_2010_epi_isl_79613_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Hong_Kong/2188/2010|EPI_ISL_86995
+Source file: fold_b_hong_kong_2188_2010_epi_isl_86995_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Jiangsu/10/2003
+Source file: fold_b_jiangsu_10_2003_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Hong_Kong/2190/2010|EPI_ISL_86996
+Source file: fold_b_hong_kong_2190_2010_epi_isl_86996_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Hong_Kong/22/1989|EPI_ISL_6613
+Source file: fold_b_hong_kong_22_1989_epi_isl_6613_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-573
+
+Sequence ID: B/Indiana/01/2008|EPI_ISL_23947
+Source file: fold_b_indiana_01_2008_epi_isl_23947_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Israel/20/2011|EPI_ISL_103323
+Source file: fold_b_israel_20_2011_epi_isl_103323_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 1-559
+
+Sequence ID: B/Jeju/2787/2007|EPI_ISL_20505
+Source file: fold_b_jeju_2787_2007_epi_isl_20505_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Johannesburg/1197/2007|EPI_ISL_20652
+Source file: fold_b_johannesburg_1197_2007_epi_isl_20652_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/JOHANNESBURG/23/2010|EPI_ISL_83772
+Source file: fold_b_johannesburg_23_2010_epi_isl_83772_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Johannesburg/40/2010|EPI_ISL_81367
+Source file: fold_b_johannesburg_40_2010_epi_isl_81367_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Johannesburg/69/2001|EPI_ISL_6812
+Source file: fold_b_johannesburg_69_2001_epi_isl_6812_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Johannesburg/90/2007|EPI_ISL_100319
+Source file: fold_b_johannesburg_90_2007_epi_isl_100319_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 1-559
+
+Sequence ID: B/Lyon/1283/2007|EPI_ISL_21543
+Source file: fold_b_lyon_1283_2007_epi_isl_21543_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Mie/01/1993|EPI_ISL_6618
+Source file: fold_b_mie_01_1993_epi_isl_6618_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Niedersachsen/1/2010|EPI_ISL_85704
+Source file: fold_b_niedersachsen_1_2010_epi_isl_85704_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Niedersachsen/2/2010|EPI_ISL_87005
+Source file: fold_b_niedersachsen_2_2010_epi_isl_87005_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Nordrhein_Westfalen/1/2010|EPI_ISL_87006
+Source file: fold_b_nordrhein_westfalen_1_2010_epi_isl_87006_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Novosibirsk/02/2007|EPI_ISL_20439
+Source file: fold_b_novosibirsk_02_2007_epi_isl_20439_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Panama/45/90|EPI_ISL_20945
+Source file: fold_b_panama_45_90_epi_isl_20945_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-573
+
+Sequence ID: B/Paris/1850/2010|EPI_ISL_87007
+Source file: fold_b_paris_1850_2010_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Paris/1870/2011|EPI_ISL_103134
+Source file: fold_b_paris_1870_2011_epi_isl_103134_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Paris/1900/2011|EPI_ISL_103135
+Source file: fold_b_paris_1900_2011_epi_isl_103135_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Perth/204/2008|EPI_ISL_23845
+Source file: fold_b_perth_204_2008_epi_isl_23845_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Perth/6/2008|EPI_ISL_23839
+Source file: fold_b_perth_6_2008_epi_isl_23839_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Sakai/36/2011|EPI_ISL_104040
+Source file: fold_b_sakai_36_2011_epi_isl_104040_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Sendai_H/114/2007|EPI_ISL_20649
+Source file: fold_b_sendai_h_114_2007_epi_isl_20649_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Serbia/1894/2011|EPI_ISL_93728
+Source file: fold_b_serbia_1894_2011_epi_isl_93728_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Shizuoka/15/2001|EPI_ISL_20974
+Source file: fold_b_shizuoka_15_2001_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Soligorsk/140/2007|EPI_ISL_20513
+Source file: fold_b_soligorsk_140_2007_epi_isl_20513_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Stockholm/4/2009|EPI_ISL_70636
+Source file: fold_b_stockholm_4_2009_epi_isl_70636_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Stockholm/6/2010|EPI_ISL_85688
+Source file: fold_b_stockholm_6_2010_epi_isl_85688_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/St_Petersburg/94/2008|EPI_ISL_23329
+Source file: fold_b_st_petersburg_94_2008_epi_isl_23329_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Tehran/5246/2010|EPI_ISL_85709
+Source file: fold_b_tehran_5246_2010_epi_isl_85709_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Texas/06/2011|EPI_ISL_94756
+Source file: fold_b_texas_06_2011_epi_isl_94756_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Turkey/17/2011|EPI_ISL_106875
+Source file: fold_b_turkey_17_2011_epi_isl_106875_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Valladolid/18/2008|EPI_ISL_60847
+Source file: fold_b_valladolid_18_2008_epi_isl_60847_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Yamagata/16/88|EPI_ISL_20958
+Source file: fold_b_yamagata_16_88_epi_isl_20958_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-573
+
+Sequence ID: B/Yamanashi/166/98|EPI_ISL_20976
+Source file: fold_b_yamanashi_166_98_epi_isl_20976_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Yopougon/GR852/2011|EPI_ISL_103133
+Source file: fold_b_yopougon_gr852_2011_epi_isl_103133_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/Yopougon/GR882/2011|EPI_ISL_103117
+Source file: fold_b_yopougon_gr882_2011_epi_isl_103117_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+
+Sequence ID: B/YopougonGR926/2011|EPI_ISL_103118
+Source file: fold_b_yopougongr926_2011_epi_isl_103118_model_0_chain_A.csv
+Total coordinates used: 558
+Residue range: 16-574
+

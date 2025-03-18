@@ -1,0 +1,113 @@
+Coordinate File Usage Summary
+===========================
+
+Sequence ID: A/Brazil/11/1978/0
+Source file: fold_a_brazil_11_1978_0_model_0_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Brazil/11/1978/1
+Source file: fold_a_brazil_11_1978_1_model_1_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Brazil/11/1978/2
+Source file: fold_a_brazil_11_1978_2_model_2_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Brazil/11/1978/3
+Source file: fold_a_brazil_11_1978_3_model_3_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Brazil/11/1978/4
+Source file: fold_a_brazil_11_1978_4_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Brisbane/59/2007/0
+Source file: fold_a_brisbane_59_2007_0_model_0_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/Brisbane/59/2007/1
+Source file: fold_a_brisbane_59_2007_1_model_1_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/Brisbane/59/2007/2
+Source file: fold_a_brisbane_59_2007_2_model_2_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/Brisbane/59/2007/3
+Source file: fold_a_brisbane_59_2007_3_model_3_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/Brisbane/59/2007/4
+Source file: fold_a_brisbane_59_2007_4_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/California/45/1978/0|EPI_ISL_8078
+Source file: fold_a_california_45_1978_0_model_0_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/California/45/1978/1|EPI_ISL_8078
+Source file: fold_a_california_45_1978_1_model_1_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/California/45/1978/2|EPI_ISL_8078
+Source file: fold_a_california_45_1978_2_model_2_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/California/45/1978/3|EPI_ISL_8078
+Source file: fold_a_california_45_1978_3_model_3_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Chile/1/1983
+Source file: fold_a_chile_1_1983_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Denmark/22/2005|EPI_ISL_15603
+Source file: fold_a_denmark_22_2005_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/Denmark/3/2005|EPI_ISL_15929
+Source file: fold_a_denmark_3_2005_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/Denmark/56/2003
+Source file: fold_a_denmark_56_2003_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/California/45/1978/4|EPI_ISL_8078
+Source file: fold_a_california_45_1978_4_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-554
+
+Sequence ID: A/Egypt/10/2007|EPI_ISL_106505
+Source file: fold_a_egypt_10_2007_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 1-536
+
+Sequence ID: A/Denmark/86/2003
+Source file: fold_a_denmark_86_2003_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 18-553
+
+Sequence ID: A/Finland/4/2007|EPI_ISL_18611
+Source file: fold_a_finland_4_2007_model_4_chain_A.csv
+Total coordinates used: 536
+Residue range: 1-536
+

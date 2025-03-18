@@ -1,0 +1,213 @@
+Coordinate File Usage Summary
+===========================
+
+Sequence ID: a/beijing/262/1995
+Source file: fold_a_beijing_262_1995_second_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/brazil/11/1978
+Source file: fold_a_brazil_11_1978_fullcds_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/brisbane/59/2007
+Source file: fold_a_brisbane_59_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/california/45/1978
+Source file: fold_a_california_45_1978_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/chile/1/1983
+Source file: fold_a_chile_1_1983_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/denmark/22/2005
+Source file: fold_a_denmark_22_2005_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/denmark/3/2005
+Source file: fold_a_denmark_3_2005_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/denmark/56/2003
+Source file: fold_a_denmark_56_2003_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/denmark/86/2003
+Source file: fold_a_denmark_86_2003_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/egypt/10/2007
+Source file: fold_a_egypt_10_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 1-534
+
+Sequence ID: a/finland/4/2007
+Source file: fold_a_finland_4_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 1-534
+
+Sequence ID: a/fukushima/141/2006
+Source file: fold_a_fukushima_141_2006_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/hongkong/18106/2009
+Source file: fold_a_hongkong_18106_2009_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 1-534
+
+Sequence ID: a/hongkong/1870/2008
+Source file: fold_a_hongkong_1870_2008_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/hongkong/1988/2009
+Source file: fold_a_hongkong_1988_2009_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/hongkong/2387/2007
+Source file: fold_a_hongkong_2387_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/hongkong/2613/2007
+Source file: fold_a_hongkong_2613_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/hongkong/33597/2009
+Source file: fold_a_hongkong_33597_2009_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/hongkong/948/2006
+Source file: fold_a_hongkong_948_2006_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 11-544
+
+Sequence ID: a/india/6263/1980
+Source file: fold_a_india_6263_1980_longest_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/lackland/7/1978
+Source file: fold_a_lackland_7_1978_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/moscow/2/2009
+Source file: fold_a_moscow_2_2009_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/netherlands/345/2007
+Source file: fold_a_netherlands_345_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 1-534
+
+Sequence ID: a/newcaledonia/20/1999
+Source file: fold_a_newcaledonia_20_1999_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/pennsylvania/1/2007
+Source file: fold_a_pennsylvania_1_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 1-534
+
+Sequence ID: a/perth/200/2008
+Source file: fold_a_perth_200_2008_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/peru/1169/2007
+Source file: fold_a_peru_1169_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/rheinlandpfalz/34/2003
+Source file: fold_a_rheinlandpfalz_34_2003_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/shenzhen/227/1995
+Source file: fold_a_shenzhen_227_1995_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/siena/10/1989
+Source file: fold_a_siena_10_1989_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/siena/9/1989
+Source file: fold_a_siena_9_1989_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/singapore/6/1986
+Source file: fold_a_singapore_6_1986_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/taiwan/1/1986
+Source file: fold_a_taiwan_1_1986_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/solomonislands/3/2006
+Source file: fold_a_solomonislands_3_2006_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/southdakota/6/2007
+Source file: fold_a_southdakota_6_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/stpetersburg/10/2007
+Source file: fold_a_stpetersburg_10_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 1-534
+
+Sequence ID: a/stpetersburg/12/2008
+Source file: fold_a_stpetersburg_12_2008_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/texas/36/1991
+Source file: fold_a_texas_36_1991_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/ulaanbaatar/2212/2007
+Source file: fold_a_ulaanbaatar_2212_2007_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+
+Sequence ID: a/ussr/90/1977
+Source file: fold_a_ussr_90_1977_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/ussr/92/1977
+Source file: fold_a_ussr_92_1977_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-552
+
+Sequence ID: a/wisconsin/13/2009
+Source file: fold_a_wisconsin_13_2009_model_0_chain_A.csv
+Total coordinates used: 534
+Residue range: 18-551
+

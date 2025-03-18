@@ -1,0 +1,203 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    tier2-p-login-1 (AVX512, FMA3, 377 GB RAM)
+Command: iqtree -s output.fasta -m LG+G -bb 1000 -alrt 1000 -nt 4 -quiet -redo
+Seed:    52487 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Mar  7 14:59:58 2025
+Kernel:  AVX+FMA - 4 threads (36 CPU cores detected)
+
+Reading alignment file output.fasta ... Fasta format detected
+Reading fasta file: done in 0.000789881 secs using 96.34% CPU
+Alignment most likely contains protein sequences
+Alignment has 68 sequences with 585 columns, 97 distinct patterns
+31 parsimony-informative, 37 singleton sites, 517 constant sites
+                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.40803e-05 secs using 49.83% CPU
+   1  b/singapore/21/2009               0.00%    passed    100.00%
+   2  b/stockholm/3/2010                0.00%    passed    100.00%
+   3  b/stockholm/5/2010                0.00%    passed    100.00%
+   4  b/hong_kong/121/2007              0.00%    passed    100.00%
+   5  b/brazil/2937/2008                0.00%    passed    100.00%
+   6  b/hawaii/33/2004                  0.00%    passed    100.00%
+   7  b/florida/16/2008                 0.00%    passed    100.00%
+   8  b/taiwan/11/2010                  0.00%    passed    100.00%
+   9  b/yamaguchi/01/2010               0.00%    passed    100.00%
+  10  b/agadir/156/2011                 0.00%    passed    100.00%
+  11  b/odessa/394/2007                 0.00%    passed    100.00%
+  12  b/astrakhan/88/2007               0.00%    passed    100.00%
+  13  b/voronezh/20/2011                0.00%    passed    100.00%
+  14  b/hong_kong/514/2009              0.00%    passed    100.00%
+  15  b/missouri/01/2009                0.00%    passed    100.00%
+  16  b/cambodia/30/2011                0.00%    passed    100.00%
+  17  b/malta/636714/2011               0.00%    passed    100.00%
+  18  b/dominican_republic/5486/2011    0.00%    passed    100.00%
+  19  b/santiago/6025/2011              0.00%    passed    100.00%
+  20  b/nevada/03/2011                  0.00%    passed    100.00%
+  21  b/hong_kong/90/2008               0.00%    passed    100.00%
+  22  b/hubei-songzi/51/2008            0.00%    passed    100.00%
+  23  b/switzerland/5632623/2011        0.00%    passed    100.00%
+  24  b/denmark/16/2011                 0.00%    passed    100.00%
+  25  b/denmark/22/2011                 0.00%    passed    100.00%
+  26  b/denmark/23/2011                 0.00%    passed    100.00%
+  27  b/denmark/24/2011                 0.00%    passed    100.00%
+  28  b/yunnan-mengzi/1491/2008         0.00%    passed    100.00%
+  29  b/beijing/1/87                    0.00%    passed    100.00%
+  30  b/pennsylvania/05/2007            0.00%    passed    100.00%
+  31  b/uruguay/12/2008                 0.00%    passed    100.00%
+  32  b/stockholm/2/2010                0.00%    passed    100.00%
+  33  b/osaka/16/2007                   0.00%    passed    100.00%
+  34  b/stockholm/1/2010                0.00%    passed    100.00%
+  35  b/shanghai-jingan/1392/2011       0.00%    passed    100.00%
+  36  b/stockholm/8/2009                0.00%    passed    100.00%
+  37  b/brisbane/60/2008                0.00%    passed    100.00%
+  38  b/victoria/304/2006               0.00%    passed    100.00%
+  39  b/brisbane/33/2008                0.00%    passed    100.00%
+  40  b/paris/1762/2009                 0.00%    passed    100.00%
+  41  b/stockholm/7/2010                0.00%    passed    100.00%
+  42  b/hawaii/13/2004                  0.00%    passed    100.00%
+  43  b/johannesburg/18/2007            0.00%    passed    100.00%
+  44  b/hiroshima/320/2007              0.00%    passed    100.00%
+  45  b/slovakia/1731/2010              0.00%    passed    100.00%
+  46  b/tehran/5277/2010                0.00%    passed    100.00%
+  47  b/hong_kong/1153/2011             0.00%    passed    100.00%
+  48  b/hong_kong/1129/2011             0.00%    passed    100.00%
+  49  b/milano/36/2010                  0.00%    passed    100.00%
+  50  b/norway/2429/2011                0.00%    passed    100.00%
+  51  b/milano/34/2010                  0.00%    passed    100.00%
+  52  b/norway/2368/2011                0.00%    passed    100.00%
+  53  b/aix-en-provence/1795/11         0.00%    passed    100.00%
+  54  b/victoria/02/1987                0.00%    passed    100.00%
+  55  b/hong_kong/22/2001               0.00%    passed    100.00%
+  56  b/khabarovsk/26/2007              0.00%    passed    100.00%
+  57  b/illinois/13/2005                0.00%    passed    100.00%
+  58  b/hong_kong/1434/2002             0.00%    passed    100.00%
+  59  b/odessa/3886/2010                0.00%    passed    100.00%
+  60  b/ohio/01/2005                    0.00%    passed    100.00%
+  61  b/hong_kong/1351/02               0.00%    passed    100.00%
+  62  b/moscow/1/2010                   0.00%    passed    100.00%
+  63  b/stockholm/10/2010               0.00%    passed    100.00%
+  64  b/norway/459/2010                 0.00%    passed    100.00%
+  65  b/malaysia/2506/2004              1.37%    passed    100.00%
+  66  b/texas/37/1988                   0.00%    passed    100.00%
+  67  b/hong_kong/330/2001              0.00%    passed    100.00%
+  68  b/egypt/80/2007                   2.56%    passed    100.00%
+****  TOTAL                             0.06%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: b/yunnan-mengzi/1491/2008 is identical to b/odessa/394/2007 but kept for subsequent analysis
+NOTE: b/stockholm/2/2010 is identical to b/voronezh/20/2011 but kept for subsequent analysis
+NOTE: b/nevada/03/2011 is identical to b/malta/636714/2011 but kept for subsequent analysis
+NOTE: b/hiroshima/320/2007 is identical to b/osaka/16/2007 but kept for subsequent analysis
+NOTE: 12 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: b/khabarovsk/26/2007 (identical to b/odessa/394/2007) is ignored but added at the end
+NOTE: b/slovakia/1731/2010 (identical to b/voronezh/20/2011) is ignored but added at the end
+NOTE: b/odessa/3886/2010 (identical to b/voronezh/20/2011) is ignored but added at the end
+NOTE: b/switzerland/5632623/2011 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/stockholm/1/2010 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/stockholm/7/2010 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/tehran/5277/2010 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/milano/36/2010 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/norway/2429/2011 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/norway/2368/2011 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/stockholm/10/2010 (identical to b/malta/636714/2011) is ignored but added at the end
+NOTE: b/norway/459/2010 (identical to b/malta/636714/2011) is ignored but added at the end
+Alignment was printed to output.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to output.fasta.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+0.030 seconds, parsimony score: 113 (based on 68 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 52487)...
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2618.433
+2. Current log-likelihood: -2596.662
+3. Current log-likelihood: -2596.521
+Optimal log-likelihood: -2596.521
+Gamma shape alpha: 0.020
+Parameters optimization took 3 rounds (0.138 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.109228 secs using 397.3% CPU
+Computing ML distances took 0.109292 sec (of wall-clock time) 0.434140 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000143051 secs using 411.7% CPU
+Computing RapidNJ tree took 0.002447 sec (of wall-clock time) 0.009177 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2584.144
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.120 second
+Computing log-likelihood of 98 initial trees ... 1.062 seconds
+Current best score: -2580.346
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2580.224
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2578.878
+BETTER TREE FOUND at iteration 8: -2578.877
+Iteration 10 / LogL: -2578.878 / Time: 0h:0m:3s
+BETTER TREE FOUND at iteration 20: -2578.876
+Iteration 20 / LogL: -2578.876 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -2578.876 / CPU time: 5.374
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2578.882 / Time: 0h:0m:9s (0h:0m:28s left)
+Iteration 40 / LogL: -2578.881 / Time: 0h:0m:12s (0h:0m:25s left)
+Iteration 50 / LogL: -2600.023 / Time: 0h:0m:15s (0h:0m:21s left)
+Log-likelihood cutoff on original alignment: -2623.861
+Iteration 60 / LogL: -2578.884 / Time: 0h:0m:18s (0h:0m:18s left)
+Iteration 70 / LogL: -2594.078 / Time: 0h:0m:22s (0h:0m:16s left)
+Iteration 80 / LogL: -2578.878 / Time: 0h:0m:25s (0h:0m:12s left)
+Iteration 90 / LogL: -2595.736 / Time: 0h:0m:28s (0h:0m:9s left)
+Iteration 100 / LogL: -2586.718 / Time: 0h:0m:31s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -2623.861
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -2578.882 / Time: 0h:0m:34s (0h:0m:28s left)
+Iteration 120 / LogL: -2593.031 / Time: 0h:0m:38s (0h:0m:25s left)
+TREE SEARCH COMPLETED AFTER 121 ITERATIONS / Time: 0h:0m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2578.876
+Optimal log-likelihood: -2578.876
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.040 sec)
+BEST SCORE FOUND : -2578.876
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.191 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file output.fasta.splits.nex
+Total tree length: 0.209
+
+Total number of iterations: 121
+CPU time used for tree search: 149.990 sec (0h:2m:29s)
+Wall-clock time used for tree search: 38.177 sec (0h:0m:38s)
+Total CPU time used: 152.817 sec (0h:2m:32s)
+Total wall-clock time used: 38.906 sec (0h:0m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file output.fasta.splits.nex...
+56 taxa and 1383 splits.
+Consensus tree written to output.fasta.contree
+Reading input trees file output.fasta.contree
+Log-likelihood of consensus tree: -2581.405
+
+Analysis results written to: 
+  IQ-TREE report:                output.fasta.iqtree
+  Maximum-likelihood tree:       output.fasta.treefile
+  Likelihood distances:          output.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          output.fasta.splits.nex
+  Consensus tree:                output.fasta.contree
+  Screen log file:               output.fasta.log
+
+Date and Time: Fri Mar  7 15:00:37 2025
